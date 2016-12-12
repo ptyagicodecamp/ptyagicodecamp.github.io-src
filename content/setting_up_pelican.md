@@ -117,9 +117,32 @@ git push -u origin master
 You can visit your blog at https://username.github.io
 
 
+### Script to publish and push to github repo automatically:
+I created `publish-n-push.sh` script to automate generating html contents and pushing everything to github:
+```
+echo "publising changes..."
+make html && make publish
+echo "pushing code to source repo..."
+git add .
+git commit -m "$1"
+git push origin master
+echo "pushing generated website to github"
+cd output
+git add .
+git commit -m "$1"
+git push origin master
+cd ..
+```
+
+Using this script: 
+```
+cd githubpages
+./publish-n-push.sh "commit-message"
+```
+
 ### References
 * Here's wonderful tutorial about [Markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/) 
-
+* I refered [this](https://fedoramagazine.org/make-github-pages-blog-with-pelican/) tutorial as a reference.
 
 
 

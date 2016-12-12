@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "publising changes..."
-make publish && make html
+make html && make publish
 echo "pushing code to source repo..."
 git add .
 git commit -m "$1"
