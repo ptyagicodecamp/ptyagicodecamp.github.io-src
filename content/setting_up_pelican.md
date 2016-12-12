@@ -117,7 +117,8 @@ git push -u origin master
 You can visit your blog at https://username.github.io
 
 
-
+### References
+* Here's wonderful tutorial about [Markdown syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax/) 
 
 
 
