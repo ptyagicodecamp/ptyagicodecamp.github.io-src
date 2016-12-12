@@ -112,7 +112,9 @@ git commit -m “first commit”
 git push -u origin master
 ```
 
+### Visting your Brand new Blog
 
+You can visit your blog at https://username.github.io
 
 
 
