@@ -1,7 +1,9 @@
 #!/bin/bash
 
-echo "publising changes..."
-make html && make publish
+echo "generating contents and starting server..."
+make html && make serve &
+echo "publishing..."
+make publish
 echo "pushing code to source repo..."
 git add .
 git commit -m "$1"
