@@ -1,5 +1,5 @@
 Title: My take on Pelican and Github pages from a beginner's perspective
-Date: 2010-12-08 10:20
+Date: 2016-12-08 10:20
 Authors: ptyagi
 Category: Python, Pelican, Github
 Tags: pelican, publishing
