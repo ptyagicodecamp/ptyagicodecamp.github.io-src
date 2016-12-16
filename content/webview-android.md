@@ -3,7 +3,7 @@ Date: 2016-12-16 3:06PM
 Authors: ptyagi
 Category: Android, WebView, library
 Tags: android, webview, library
-Summary: This post is about Opensource WebViewHelper library at [Github]{https://github.com/ptyagicodecamp/webview-android} 
+Summary: This post is about Opensource WebViewHelper library at [Github](https://github.com/ptyagicodecamp/webview-android) 
 
 
 ### A little about WebView widgets:
@@ -26,7 +26,9 @@ compile 'org.ptyagicodecamp:webview-android:0.0.1'
 ```
 
 ### How to use `WebViewHelper` class ?
-1. Initializing: You would need to pass reference to `WebView` widget into `WebViewHelper` like this:
+
+##### Initializing #####
+You would need to pass reference to `WebView` widget into `WebViewHelper` like this:
 ```
 WebViewHelper webViewApi;
 ....
@@ -42,7 +44,7 @@ WebViewHelper webViewApi;
     }
 ```
 
-2. Use it !
+##### Using library #####
 ```
 public void loadUrl(View view) {
         webView.loadUrl("https://ptyagicodecamp.github.io/");
@@ -64,7 +66,7 @@ public void loadUrl(View view) {
     }
 ```
 
-Source code is available [here]{https://github.com/ptyagicodecamp/webview-android}
+Source code is available [here](https://github.com/ptyagicodecamp/webview-android)
 
 
 
