@@ -1,4 +1,9 @@
-# WebViewHelper Utility
+Title: WebViewHelper Utility library
+Date: 2016-12-16 3:06PM
+Authors: ptyagi
+Category: Android, WebView, library
+Tags: android, webview, library
+Summary: This post is about Opensource WebViewHelper library at [Github]{https://github.com/ptyagicodecamp/webview-android} 
 
 
 ## A little about WebView widgets:
@@ -13,6 +18,11 @@ Downside of newer implementation starting Android 5.0: Since System WebView impl
 1. Any links embedded in a WebView widget will open in a WebView in Android 5.0 and over. 
 2. On Android 4.4 and below, links embedded in a WebView will open in a Web Browser rather than in a WebView widget
 3. By default, javascript is disabled in WebView widget. It can be turned on by `getSettings().setJavaScriptEnabled(true)`. I’ve created convenience class `WebViewHelper` around `android.webkit.WebView` class features.
+
+## Using from Android Studio:
+```
+compile 'org.ptyagicodecamp:webview-android:0.0.1'
+```
 
 ## How to use `WebViewHelper` class ?
 1. Initializing: You would need to pass reference to `WebView` widget into `WebViewHelper` like this:
