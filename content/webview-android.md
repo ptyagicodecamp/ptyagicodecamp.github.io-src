@@ -22,7 +22,7 @@ Downside of newer implementation starting Android 5.0: Since System WebView impl
 ### Using from Android Studio:
 Add following in your project's `build.gradle` under `dependencies` block.
 ```
-compile 'org.ptyagicodecamp:webview-android:0.0.1'
+compile 'org.ptyagicodecamp:webview-android:0.0.2'
 ```
 
 ### How to use `WebViewHelper` class ?
