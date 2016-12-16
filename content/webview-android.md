@@ -1,4 +1,4 @@
-Title: WebViewHelper Utility library
+Title: WebViewHelper library
 Date: 2016-12-16 3:06PM
 Authors: ptyagi
 Category: Android, WebView, library
