@@ -1,8 +1,8 @@
 Title: My take on Pelican and Github pages from a beginner's perspective
 Date: 2016-12-08 10:20
 Authors: ptyagi
-Category: Python
-Tags: pelican 
+Category: Development
+Tags: pelican, github, githubpages, python, web, dev
 Summary: This post is about my experience setting up githup pages using Pelican from scratch assuming no prior experience in Python webframeworks.
 
 
