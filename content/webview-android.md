@@ -1,7 +1,7 @@
 Title: WebViewHelper library
 Date: 2016-12-16 3:06PM
 Authors: ptyagi
-Category: Dev, Android, Library, OpenSource
+Category: Android, Library, OpenSource
 Tags: android, webview, library
 Summary: This post is about Opensource WebViewHelper library at [Github](https://github.com/ptyagicodecamp/webview-android) 
 
