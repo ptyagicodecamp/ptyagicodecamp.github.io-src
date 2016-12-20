@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/aboutwilson"
 
 AUTHOR = u'Priyanka Tyagi'
-SITENAME = u'techLog'
+SITENAME = u'CodeCamp Playground'
 SITEURL = ''
 
 PATH = 'content'
