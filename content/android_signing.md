@@ -26,7 +26,7 @@ DEBUG_KEYSTORE_PASSWORD=*****
 Note: There is no quotes around file path, passwords and alias.
 
 
-### Defning Signing config in `build.gradle` ###
+### Defining Signing config in `build.gradle` ###
 ```
 signingConfigs {
         debug {
