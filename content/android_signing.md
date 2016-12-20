@@ -8,7 +8,7 @@ Summary: This post shows how build.gradle can be configured to sign Android APKs
 ### Declaring Signing credentials ###
 Never put your signing apk credentials in github or any public sharable place. Always put them in a non-committable file. I'll be using <path-to-.gradle-dir>/.gradle/.gradle.properties to store signing creds.
 
-##### Declaring release apk crendentials ####
+#### Declaring release apk credentials ####
 ```
 RELEASE_KEYSTORE_FILE={path to your release keystore}
 RELEASE_KEYSTORE_PASSWORD=*****
