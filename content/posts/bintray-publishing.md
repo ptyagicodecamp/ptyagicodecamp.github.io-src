@@ -12,7 +12,7 @@ publishing an OpenSource Android library, I'm using [WebViewOverlay widget libra
 for example. After uploading to JCenter artifact repo, `WebViewOverlay` widget can be dropped-in to your
 project like this:
 ```
-compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
+compile 'org.ptyagicodecamp:WebViewOverlay:1.0.2'
 ```
 
 ##  Uploading Android library (in aar format) to Bintray

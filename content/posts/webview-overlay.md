@@ -19,7 +19,7 @@ This article describes how WebViewOverlay Widget can be integrated to your Andro
 Integrating WebViewOverlay widget in your app is as simple as adding following line in your project's
 `build.gradle`:
 ```
-compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
+compile 'org.ptyagicodecamp:WebViewOverlay:1.0.2'
 ```
 
 ## WebViewOverlay Widget
