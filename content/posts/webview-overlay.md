@@ -1,18 +1,30 @@
-Title: WebViewOverlay widget library
-Date: 2017-01-08 5:52PM
+Title: Android WebViewOverlay Widget
+Date: 2017-01-09 11:16AM
 Authors: ptyagi
 Category: Development
-Tags: Android, WebView, Library, OpenSource, Dev
-Summary: This post is about OpenSource WebViewOverlay library at [Github](https://github.com/ptyagicodecamp/webview-overlay)
+Tags: Android, WebView, WebViewOverlay, Library, OpenSource, Dev
+Summary: WebViewOverlay Widget is an OpenSourced Android library that provides a drop-in solution
+for loading a URL in an Overlay WebView in full screen mode.
 
 ## Motivation
-I created a widget that can load a WebView widget in a closable overlay/modal. I wanted to re-use
-this new, shiny widget in my other projects as well to provide me easy way to load a WebView in a
-full-screen modal rather keep writing the same piece of code again and over again.
-So, decided to upload WebViewOverlay library to JCenter.
+I needed a widget that can load a url in WebView in a full-screen closable overlay/modal.
+I wanted to re-use this new, shiny widget in my other projects as well. So, I decided to upload
+WebViewOverlay library in a central artifact repository. I chose JCenter because its one of the
+largest artifact repository for Java and Android libraries and has good integration with Android Studio IDE.
+If you're interested in learning how did I publish Android libary to JCenter,
+then [this post](https://ptyagicodecamp.github.io/how-did-i-publish-library-to-jcenter-from-android-studio.html)
+will be helpful for you.
+
+## Introduction
+This article describes how WebViewOverlay Widget can be integrated to your Android App in few minutes.
+Integrating WebViewOverlay widget in your app is as simple as adding following line in your project's
+`build.gradle`:
+```
+compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
+```
 
 ## WebViewOverlay Widget
-WebViewOverlay widget loads a WebView widget in a full-screen pop-up. It has option to close it by
+WebViewOverlay widget loads a WebView widget in a full screen pop-up or modal. It has option to close it by
 clicking on top-right corner 'x'
 
 ## API
@@ -66,3 +78,6 @@ public void openWebViewOverlayWithTitle(View view) {
     webViewOverlay.loadWebViewOverlay(url, null, "WebViewOverlay Demo");
 }
 ```
+
+
+If you're interested in checking out source code, then its available [here at Github](https://github.com/ptyagicodecamp/webview-overlay)

@@ -1,37 +1,49 @@
-Title: How did I publish library to JCenter from Android Studio
+Title: How did I publish Android Library to JCenter from Android Studio
 Date: 2017-01-07 5:27PM
 Authors: ptyagi
 Category: Development
-Tags: bintray, publishing, webview, library, open-source, dev
-Summary: This post is about publishing an Android Opensource library to JCenter.
+Tags: Bintray, Publishing, JCenter, Library, OpenSource, Dev
+Summary: This article walks through the process of publishing an OpenSourced Android library to JCenter.
 
 ## Introduction
-I created a widget that can load a WebView widget in a closable overlay/modal. I wanted to re-use this new, shiny widget in my other projects as well to provide me easy way to load a WebView in a full-screen modal rather keep writing the same piece of code again and over again. So, decided to upload WebViewOverlay library to JCenter.
-JCenter is a Maven Repository or file server hosted by [Bintray](https://bintray.com/) for Android libraries. It’s a default repository for Android Studio.
+JCenter is a Maven Repository or file server hosted by [Bintray](https://bintray.com/) for
+Android libraries. It’s a default repository for Android Studio. To demonstrate the process of
+publishing an OpenSource Android library, I'm using [WebViewOverlay widget library](https://ptyagicodecamp.github.io/webviewoverlay-widget-library.html)
+for example. After uploading to JCenter artifact repo, `WebViewOverlay` widget can be dropped-in to your
+project like this:
+```
+compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
+```
 
 ##  Uploading Android library (in aar format) to Bintray
-* Create log-in at https://bintray.com/. Scroll down to register for an open-source project.
+* Create log-in at [Bintray](https://bintray.com/). Scroll down to register for an open-source project.
+
 * Create a new repo:
   ![Create Repo]({attach}../images/create_repo.png)
+
 
 * Fill-in all required information and click "create repo". It'll redirect to "package" screen.
   ![Repo Created]({attach}../images/repo_created.png)
 
+
 * Click on “Create Package”. Fill in your package name and click on "Add New Package":
 ![Add New Package]({attach}../images/add_new_package.png)
+
 
 * It'll take you to enter package details. Fill-in details and click on "Create Package" at the bottom.
 ![Create Package]({attach}../images/create_package.png)
 
 And you’re Done with registering your Maven repository on Bintray !
 
-***Note***: Link your Github account from Bintray, if you want to upload library from Android Studio/build.gradle.
-You can do this by going into your repository on Bintray and selecting “Import from Github” option. It’ll guide you through with rest of the steps.
+***Note***: Link your Github account from Bintray, if you want to upload library from `build.gradle` (Android Studio).
+You can do this by going into your repository on Bintray and selecting "Import from Github” option.
+It’ll guide you through with rest of the steps.
 
 ### Setting up Android Studio Project
 * Create a new project in Android Studio.
 * Module `WebViewOverlay` contains all the library code and module `app` has sample app to demonstrate the usage of library.
 Make sure that you name module same as of artifact name configured at Bintray. `WebViewOverlay` in this example.
+Refer to `WebViewOverlay` at [Github for source code](https://github.com/ptyagicodecamp/webview-overlay).
 * Setup Android Studio project to be able to publish library to `jcenter()` Maven repo, and
 add Bintray plugin to project’s `build.gradle`. Root level `build.gradle` will look like this:
 ```
@@ -69,7 +81,7 @@ ext {
     bintrayRepo = 'WebViewOverlay'
     bintrayName = 'WebViewOverlay'
 
-    publishedGroupId = 'org.pcc'
+    publishedGroupId = 'org.ptyagicodecamp'
     libraryName = 'WebViewOverlay'
     artifact = 'WebViewOverlay'
 
@@ -89,6 +101,7 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 ```
+Refer to [this `build.gradle`](https://github.com/ptyagicodecamp/webview-overlay/blob/master/WebViewOverlay/build.gradle)
 
 * You would need to add these scripts in order to publish libraries to Bintray:
 ```
@@ -130,6 +143,6 @@ compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
 
 
 ### Refrences:
-I followed this tutorial to get me setup at Bintray: https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en
+I followed [this tutorial](https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en) to get me setup at Bintray.
 
 
