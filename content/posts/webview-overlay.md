@@ -3,8 +3,7 @@ Date: 2017-01-09 11:16AM
 Authors: ptyagi
 Category: Development
 Tags: Android, WebView, WebViewOverlay, Library, OpenSource, Dev
-Summary: WebViewOverlay Widget is an OpenSourced Android library that provides a drop-in solution
-for loading a URL in an Overlay WebView in full screen mode.
+Summary: WebViewOverlay Widget is an OpenSourced Android library that provides a drop-in solution for loading a URL in an Overlay WebView in full screen mode.
 
 ## Motivation
 I needed a widget that can load a url in WebView in a full-screen closable overlay/modal.

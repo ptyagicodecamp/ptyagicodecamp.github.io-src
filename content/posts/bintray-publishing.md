@@ -141,8 +141,7 @@ compile 'org.ptyagicodecamp:WebViewOverlay:1.0.0'
 ```
 
 
-
-### Refrences:
+### References:
 I followed [this tutorial](https://inthecheesefactory.com/blog/how-to-upload-library-to-jcenter-maven-central-as-dependency/en) to get me setup at Bintray.
 
 
