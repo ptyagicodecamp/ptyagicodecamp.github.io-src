@@ -7,9 +7,7 @@ Summary: This post shows how to integrate sub menu items for FAB (Floating Actio
 
 
 ### Final Outcome ###
-Our target to integrate FAB into an existing Android App. `Settings`
-icon is used as FAB. Clicking on it will open its sub menus: Save, Edit and Photo.
-Clicking on `X` will close sub menus and `Settings` icon will re-appear.
+Our target to integrate FAB into an existing Android App and creating submenus. Settings icon is used as FAB. Clicking on it will open its submenus: Save, Edit and Photo. Clicking on X will close submenus and Settings icon will re-appear.
 
 This is how main screen will look after FAB integrated into it.
 
