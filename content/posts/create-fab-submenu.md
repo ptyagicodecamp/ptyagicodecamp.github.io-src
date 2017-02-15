@@ -13,7 +13,7 @@ Clicking on `X` will close sub menus and `Settings` icon will re-appear.
 
 This is how main screen will look after FAB integrated into it.
 
-![](./images/device-settings-close.png =400x300)
+![](./images/device-settings-close.png)
 
 
 Clicking on `Settings` icon will open sub menus:
