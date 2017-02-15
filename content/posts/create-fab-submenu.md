@@ -1,5 +1,4 @@
-Title: Creating Sub Menu items for FAB (Floating Action Button)
-
+Title: Creating Sub MenuItems for FAB (Floating Action Button)
 Date: 2017-2-15 11:24AM
 Authors: ptyagi
 Category: Development
@@ -7,55 +6,63 @@ Tags: ANDROID, FAB, DEV, UI
 Summary: This post shows how to integrate sub menu items for FAB (Floating Action Button) in an existing Android app.
 
 
-##### Final Outcome #####
+### Final Outcome ###
 Our target to integrate FAB into an existing Android App. `Settings`
 icon is used as FAB. Clicking on it will open its sub menus: Save, Edit and Photo.
 Clicking on `X` will close sub menus and `Settings` icon will re-appear.
 
 This is how main screen will look after FAB integrated into it.
 
-![](./images/device-settings-close.png)
+![](./images/device-settings-close.png =400x300)
+
 
 Clicking on `Settings` icon will open sub menus:
 
-<img src="./images/device-settings-open.png" alt="open_fab" style="width: 100px; height: 150px"/>
+![](./images/device-settings-open.png)
 
-##### Create Android Studio Project #####
-1. Create New Project in Android Studio:
+### Create Android Studio Project ###
+***Step#1:*** Create New Project in Android Studio:
 
-<img src="./images/create_project-1.png" alt="create_project-1" style="width: 100px; height: 150px"/>
+![](./images/create_project-1.png)
 
-2. Choose Blank Activity:
-<img src="./images/create_project-2.png" alt="create_project-2" style="width: 100px; height: 150px"/>
+***Step#2:*** Choose Blank Activity:
+![](./images/create_project-2.png)
 
-3. This how your project would look like :
-<img src="./images/create_project-3.png" alt="create_project-3" style="width: 100px; height: 150px"/>
+***Step#3:*** This how your project would look like :
+![](./images/create_project-3.png)
 
 
-##### Preparation #####
-1. Create Icons to be used as sub menu items and main FAB.
-I used Android Studio’s built-in tool to generate Vector Assets. You can access this tool right clicking on `app` module → Click `New` → Click on `Vector Assets`
+### Preparation ###
+***Step#1:***  Assets:
+I need few assets to be used as FAB submenu icons.
+I used Android Studio’s built-in tool to generate Vector Assets.
+You can access this tool right clicking on `app` module → Click `New` → Click on `Vector Assets`
 
 ![](./images/create-vector-asset-1.png)
 ![](./images/create-vector-asset-2.png)
 ![](./images/create-vector-asset-3.png)
 
 
-2. I’ll be using cardView component. Here’s how you can add it as a dependency in your `build.gradle`:
+***Step#2:***  Configuration:
+I’ll be using cardView component to display description for sub menu items.
+Here’s how you can add it as a dependency in your `build.gradle`:
 `compile 'com.android.support:cardview-v7:25.1.0'`
 
 ![](./images/cardview-dep-gradle.png)
 
-##### XML Layout #####
-1. Create a new layout file to contains sub menu items for FAB.
+#### XML Layout ###
+***Step#1:*** Create a new layout file to contains FAB and its sub menu items.
 
 ![](./images/create-submenu-layout-1.png)
+
 ![](./images/create-submenu-layout-2.png)
 
 I named it as `layout_fab_submenu.xml`. It’s a `FrameLayout`.
+
 I chose FrameLayout because I wanted a screen floating atop of existing screen and
 a holder for all FAB menu items. Don’t forget to set the top margin to `android:layout_marginTop="?attr/actionBarSize"
 ` to avoid Actionbar overlapping.
+
 ```
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -74,7 +81,9 @@ a holder for all FAB menu items. Don’t forget to set the top margin to `androi
 </FrameLayout>
 ```
 
-2. Now, I want to create one `LinearLayout` for each ***FAB***. Since I want all of the FAB items
+***Step#2:*** Layout for FAB SubMenu items
+
+Now, I want to create one `LinearLayout` for each ***FAB***. Since I want all of the FAB items
 to be at bottom right corner of screen, so I will use `android:layout_gravity=bottom|end`.
 Every sub menu will have its own `LinearLayout` like following. Each `LinearLayout` has one `CardView`
 to hold `TextView` for explaining FAB's purpose and one `android.support.design.widget.FloatingActionButton` next to it.
@@ -122,7 +131,9 @@ to hold `TextView` for explaining FAB's purpose and one `android.support.design.
     </LinearLayout>
 ```
 
-##### Lets check out the Code #####
+
+### Lets check out More Code ###
+
 In order to support FAB opening and closing, you would need to write two methods. One is to make sub menus
 visible, and other is to hide sub menus and only show main FAB which is `Settings` icon is our case.
 When `Settings` FAB expands, it turns into 'X' to give option to be able to close expanded sub menus.
@@ -199,5 +210,6 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-#### Congratulations! ####
+
+### Congratulations! ###
 Yay ! You got FAB integrated along with sub menu in less than 5 minutes. Its time to celebrate :)
