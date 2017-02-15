@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.mtesitoo",
-    "sha256_cert_fingerprints":
-    ["E0:F8:9D:DC:DE:D7:CF:66:A9:98:9B:A5:F6:3E:F2:A9:B5:83:65:C3:3E:09:02:F3:4A:F4:05:03:D0:F8:7E:A7"]
-  }
-}]
