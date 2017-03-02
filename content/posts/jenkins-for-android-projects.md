@@ -1,14 +1,16 @@
-Title: Automating Android App publishing to Play Store using Jenkins
+Title: Automating Android App publishing to Play Store  using Jenkins
 Date: 2017-2-23 12:02PM
 Authors: ptyagi
 Category: Development
 Tags: Android, Jenkins, DevOps
-Summary: This post shows how to automate Android App publishing to Play Store using Jenkins
+Summary: This post shows how to automate Android App publishing to Play Store using Jenkins on Mac OSX 10.12.3 and Jenkins 2.46.
 
 
-### Installation ###
+### Introduction ###
+This article describes the journey I took from setting up Jenkins to automate publishing Android APKs to Google Play Publishing portal and useful notes that I collected along the way. I set up Jenkins-2.46 on Mac OSX 10.12.3.
+
 #### Download Package ####
-Download “.pkg” file [here](http://mirrors.jenkins.io/osx/latest)
+You can download “.pkg” file from [here](http://mirrors.jenkins.io/osx/latest)
 
 #### Complete Installation ####
 Follow the instructions to complete installation.
@@ -75,8 +77,8 @@ Note 2: Jenkins will need its own installation of Android sdk. Don't forget to m
 ![Alt upload-apk-1](../images/jenkins/upload-apk-1.png)
 
 2. Fill-in the path or pattern to APK created locally. In my case, its `**/*-release.apk`. Also, add languages supprted and add roll-out percentage if its being pushed in production channel. I'm publishing to `alpha` channel.
-![Alt upload-apk-2](../images/jenkins/upload-apk-2.png)
+![Alt upload-apk-2](../images/jenkins/upload-apk-2.png =600x)
 
 And you're done !
 
-For more details about configuring uploading job refer to [this link](https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+Publisher+Plugin). 
+For more details about configuring uploading job refer to [this link](https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+Publisher+Plugin).
