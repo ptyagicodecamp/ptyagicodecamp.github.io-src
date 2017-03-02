@@ -6,14 +6,13 @@ Tags: android, gradle, signing, apk, dev
 Summary: This post shows how build.gradle can be configured to sign Android APKs automatically without manual interventions.
 
 ### Declaring Signing credentials ###
-Never put your signing apk credentials in github or any public sharable place. Always put them in a non-committable file. I'll be using <path-to-.gradle-dir>/.gradle/.gradle.properties to store signing creds.
+Never put your signing apk credentials in github or any public sharable place. Always put them in a non-committable file. I'll be using local gradle installations's `gradle.properties` to store signing creds. It sits at root level of your project. Alternately, you can also use <path-to-.gradle-dir>/.gradle/.gradle.properties.
 
 #### Declaring release apk credentials ####
 ```
 RELEASE_KEYSTORE_FILE={path to your release keystore}
 RELEASE_KEYSTORE_PASSWORD=*****
 RELEASE_KEYSTORE_ALIAS=*****
-RELEASE_KEYSTORE_PASSWORD=*****
 ```
 
 #### Declaring debug apk credentials ####
@@ -21,10 +20,21 @@ RELEASE_KEYSTORE_PASSWORD=*****
 DEBUG_KEYSTORE_FILE={path to your debug keystore}
 DEBUG_KEYSTORE_PASSWORD=*****
 DEBUG_KEYSTORE_ALIAS=*****
-DEBUG_KEYSTORE_PASSWORD=*****
 ```
 Note: There is no quotes around file path, passwords and alias.
 
+### Loading variables from gradle.properties into build.gradle ###
+```
+Properties properties = new Properties()
+properties.load(project.rootProject.file('gradle.properties').newDataInputStream())
+def RELEASE_KEYSTORE_FILE = properties.getProperty('RELEASE_KEYSTORE_FILE')
+def RELEASE_KEYSTORE_PASSWORD = properties.getProperty('RELEASE_KEYSTORE_PASSWORD')
+def RELEASE_KEYSTORE_ALIAS = properties.getProperty('RELEASE_KEYSTORE_ALIAS')
+
+def DEBUG_KEYSTORE_FILE = properties.getProperty('DEBUG_KEYSTORE_FILE')
+def DEBUG_KEYSTORE_PASSWORD = properties.getProperty('DEBUG_KEYSTORE_PASSWORD')
+def DEBUG_KEYSTORE_ALIAS = properties.getProperty('DEBUG_KEYSTORE_ALIAS')
+```
 
 ### Defining Signing config in `build.gradle` ###
 ```
@@ -97,5 +107,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-} 
+}
 ```
