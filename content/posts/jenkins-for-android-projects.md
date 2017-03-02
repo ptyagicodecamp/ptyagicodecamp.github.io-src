@@ -77,7 +77,7 @@ Note 2: Jenkins will need its own installation of Android sdk. Don't forget to m
 ![Alt upload-apk-1](../images/jenkins/upload-apk-1.png)
 
 2. Fill-in the path or pattern to APK created locally. In my case, its `**/*-release.apk`. Also, add languages supprted and add roll-out percentage if its being pushed in production channel. I'm publishing to `alpha` channel.
-![Alt upload-apk-2](../images/jenkins/upload-apk-2.png =600x)
+![Alt upload-apk-2](../images/jenkins/upload-apk-2.png)
 
 And you're done !
 
