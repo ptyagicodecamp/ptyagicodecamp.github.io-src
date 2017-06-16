@@ -82,3 +82,6 @@ Note 2: Jenkins will need its own installation of Android sdk. Don't forget to m
 And you're done !
 
 For more details about configuring uploading job refer to [this link](https://wiki.jenkins-ci.org/display/JENKINS/Google+Play+Android+Publisher+Plugin).
+
+Extra Credits:
+[EnvInject Plugin](https://wiki.jenkins-ci.org/display/JENKINS/EnvInject+Plugin) can be used to supply APK signing password to Jenkins job. Checkout [this](https://stackoverflow.com/questions/27234506/android-build-release-apk-on-jenkins-without-storing-my-password-in-plain-text?answertab=votes#tab-top) StackOverflow answer on how to set it up.
