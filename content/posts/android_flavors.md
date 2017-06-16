@@ -1,4 +1,4 @@
-Title: How did I set up multiple flavors for an Android App under 5 minutes
+<!-- Title: How did I set up multiple flavors for an Android App under 5 minutes
 Date: 2017-06-04 7:28AM
 Authors: ptyagi
 Category: Development
@@ -18,4 +18,4 @@ The combination of Build Type and Flavor is known as Build Variant.
 
 
 ***References:
-http://www.androidauthority.com/building-multiple-flavors-android-app-706436/
+http://www.androidauthority.com/building-multiple-flavors-android-app-706436/ -->
