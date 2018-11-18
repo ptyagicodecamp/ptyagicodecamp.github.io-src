@@ -7,7 +7,7 @@ THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/mg"
 
 AUTHOR = u'Priyanka Tyagi'
 SITENAME = u'techLog'
-SITEURL = ''
+SITEURL = 'https://ptyagicodecamp.github.io/'
 
 PATH = 'content'
 
@@ -19,8 +19,8 @@ DEFAULT_LANG = u'en'
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = 'feeds/all.atom.xml'
-AUTHOR_FEED_RSS = 'feeds/%s.rss.xml'
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),

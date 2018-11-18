@@ -13,12 +13,12 @@ from pelicanconf import *
 SITEURL = 'https://ptyagicodecamp.github.io'
 RELATIVE_URLS = True
 
-#FEED_ALL_ATOM = 'feeds/all.atom.xml'
-#CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = "https://disqus.com/by/ptyagicodecamp/"
+#GOOGLE_ANALYTICS = "UA-54296314-10"
