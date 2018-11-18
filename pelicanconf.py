@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 # THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/aboutwilson"
-THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/pelican-striped-html5up"
+THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/bulrush"
 
 AUTHOR = u'Priyanka Tyagi'
 SITENAME = u'techLog'
