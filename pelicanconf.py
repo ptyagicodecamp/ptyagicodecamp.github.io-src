@@ -9,7 +9,7 @@ AUTHOR = u'Priyanka Tyagi'
 SITENAME = u'techLog'
 SITEURL = 'https://ptyagicodecamp.github.io/'
 SITESUBTITLE ='Explore | Android | Software Engineering'
-SITETAG = "Software Engineering tech logger."
+SITETAG = "Android tech logger."
 # Extra stylesheets, for bootstrap overrides or additional styling.
 STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css",)
 
