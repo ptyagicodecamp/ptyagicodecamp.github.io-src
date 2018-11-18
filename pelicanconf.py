@@ -28,10 +28,9 @@ SOCIAL = (('Google+', 'https://plus.google.com/u/0/114534305132859234440',
          'fa fa-linkedin-square fa-fw fa-lg'),
         ('GitHub', 'https://github.com/ptyagicodecamp',
          'fa fa-github-square fa-fw fa-lg'),
-        ),
         ('Medium', 'https://medium.com/@ptyagicodecamp',
          'fa fa-bitbucket-square fa-fw fa-lg')
-
+	)
 
 
 
