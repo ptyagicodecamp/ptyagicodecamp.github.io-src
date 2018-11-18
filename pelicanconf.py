@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 # THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/aboutwilson"
-THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/mg"
+THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/twenty-html5up"
 
 AUTHOR = u'Priyanka Tyagi'
 SITENAME = u'techLog'
@@ -29,8 +29,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
  #        ('You can modify those links in your config file', '#'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
+          ('About Me', 'https://about.me/priyankatyagi'),)
 
 DEFAULT_PAGINATION = 10
 
