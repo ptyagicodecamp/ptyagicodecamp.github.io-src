@@ -6,6 +6,7 @@ make html && make publish
 echo "pushing code to source repo..."
 git add .
 git commit -m "$1"
+git pull origin master
 git push origin master
 echo "pushing generated website to github"
 cd output
