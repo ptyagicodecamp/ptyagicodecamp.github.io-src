@@ -30,7 +30,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
-          ('About Me', 'https://about.me/priyankatyagi'),)
+          ('About Me', 'https://about.me/priyankatyagi'))
 
 DEFAULT_PAGINATION = 10
 
