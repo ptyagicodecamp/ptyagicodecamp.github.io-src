@@ -20,17 +20,19 @@ CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
 # Default sidebar template. Omit this setting for single column mode without sidebar.
 SIDEBAR = "sidebar.html"
 
-SOCIAL = (('Google+', 'http://plus.google.com/userid',
+SOCIAL = (('Google+', 'https://plus.google.com/u/0/114534305132859234440',
          'fa fa-google-plus-square fa-fw fa-lg'),
-        ('Twitter', 'https://twitter.com/username',
+        ('Twitter', 'https://twitter.com/ptyagi13',
          'fa fa-twitter-square fa-fw fa-lg'),
-        ('LinkedIn', 'http://linkedin-url',
+        ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi',
          'fa fa-linkedin-square fa-fw fa-lg'),
-        ('BitBucket', 'http://bitbucket.org/username',
-         'fa fa-bitbucket-square fa-fw fa-lg'),
-        ('GitHub', 'http://github.com/username',
+        ('GitHub', 'https://github.com/ptyagicodecamp',
          'fa fa-github-square fa-fw fa-lg'),
-        )
+        ),
+        ('Medium', 'https://medium.com/@ptyagicodecamp',
+         'fa fa-bitbucket-square fa-fw fa-lg')
+
+
 
 
 PATH = 'content'
@@ -45,18 +47,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-# Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),)
- #        ('Jinja2', 'http://jinja.pocoo.org/'),)
- #        ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
-	  ('Github', 'https://github.com/ptyagicodecamp'),
-	  ('Medium', 'https://medium.com/@ptyagicodecamp'),
-          ('About Me', 'https://about.me/priyankatyagi'))
 
 DEFAULT_PAGINATION = 10
 
