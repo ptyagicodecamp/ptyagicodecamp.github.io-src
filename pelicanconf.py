@@ -8,8 +8,8 @@ THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/voidy-bootstrap"
 AUTHOR = u'Priyanka Tyagi'
 SITENAME = u'techLog'
 SITEURL = 'https://ptyagicodecamp.github.io/'
-SITESUBTITLE ='Sub-title that goes underneath site name in jumbotron.'
-SITETAG = "Text that's displayed in the title on the home page."
+SITESUBTITLE ='Explore | Android | Software Engineering'
+SITETAG = "Software Engineering tech logger."
 # Extra stylesheets, for bootstrap overrides or additional styling.
 STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css",)
 
@@ -19,17 +19,19 @@ CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
 
 # Default sidebar template. Omit this setting for single column mode without sidebar.
 SIDEBAR = "sidebar.html"
+CUSTOM_FOOTER = "custom/footer.html"
 
-SOCIAL = (('Google+', 'https://plus.google.com/u/0/114534305132859234440',
-         'fa fa-google-plus-square fa-fw fa-lg'),
-        ('Twitter', 'https://twitter.com/ptyagi13',
-         'fa fa-twitter-square fa-fw fa-lg'),
+SOCIAL = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi',
          'fa fa-linkedin-square fa-fw fa-lg'),
         ('GitHub', 'https://github.com/ptyagicodecamp',
          'fa fa-github-square fa-fw fa-lg'),
         ('Medium', 'https://medium.com/@ptyagicodecamp',
-         'fa fa-bitbucket-square fa-fw fa-lg')
+         'fa fa-bitbucket-square fa-fw fa-lg'),
+	('Google+', 'https://plus.google.com/u/0/114534305132859234440',
+         'fa fa-google-plus-square fa-fw fa-lg'),
+        ('Twitter', 'https://twitter.com/ptyagi13',
+         'fa fa-twitter-square fa-fw fa-lg'),
 	)
 
 
