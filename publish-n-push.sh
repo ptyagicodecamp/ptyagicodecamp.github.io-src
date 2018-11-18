@@ -2,7 +2,7 @@
 
 #source ~/virtualenvs/pelican/bin/activate
 echo "generating contents and publishing..."
-make html && make publish
+#make html && make publish
 echo "pushing code to source repo..."
 git add .
 git commit -m "$1"
