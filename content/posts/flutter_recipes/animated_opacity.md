@@ -18,7 +18,7 @@ Interface is super simple and will look like this:
 
 Blue Rectangle animates when button is pressed: 
 
-![Alt Blue Rectangle animates when button is pressed]({attach}../../media/flutter/animatedOpacity/step1.png)
+![Alt Blue Rectangle animates when button is pressed]({attach}../../media/flutter/animatedOpacity/step1.webp)
 
 Checkout AnimatedOpacity animation: 
 ![Alt Checkout AnimatedOpacity animation]({attach}../../media/flutter/animatedOpacity/animated_opacity.webm)
@@ -177,7 +177,7 @@ class _AnimatedOpacityRecipeState extends State<AnimatedOpacityRecipe> {
 }
 ```
 ***Source code repo:*** 
-Recipe source code is available [here](animated_opacity.dart)
+Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/master/flutter_animated_opacity)
 
 
 ### References: ###
