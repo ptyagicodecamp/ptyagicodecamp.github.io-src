@@ -18,7 +18,7 @@ Interface is super simple and will look like this:
 
 Blue Rectangle animates when button is pressed: 
 
-![Alt Blue Rectangle animates when button is pressed]({attach}../../media/flutter/animatedOpacity/step1.webp)
+![Alt Blue Rectangle animates when button is pressed]({attach}../../media/flutter/animatedOpacity/step1.webp =200x400)
 
 Checkout AnimatedOpacity animation: 
 ![Alt Checkout AnimatedOpacity animation]({attach}../../media/flutter/animatedOpacity/animated_opacity.webm)
