@@ -170,7 +170,98 @@ OutlineButton(
 </pre></div>
 
 
-<p><strong><em>Source code:</em></strong> Recipe source code is available <a href="animated_opacity.dart">here</a></p>
+<h4>Complete example code</h4>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="s1">&#39;package:flutter/material.dart&#39;</span><span class="p">;</span>
+
+<span class="o">//</span><span class="n">starting</span> <span class="n">the</span> <span class="n">app</span>
+<span class="n">void</span> <span class="n">main</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="n">runApp</span><span class="p">(</span><span class="n">MyApp</span><span class="p">());</span>
+
+<span class="k">class</span> <span class="nc">MyApp</span> <span class="n">extends</span> <span class="n">StatelessWidget</span> <span class="p">{</span>
+  <span class="o">//</span> <span class="n">This</span> <span class="n">widget</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">root</span> <span class="n">of</span> <span class="n">your</span> <span class="n">application</span><span class="o">.</span>
+  <span class="nd">@override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">MaterialApp</span><span class="p">(</span>
+      <span class="n">title</span><span class="p">:</span> <span class="s1">&#39;Flutter Cookbook&#39;</span><span class="p">,</span>
+      <span class="n">theme</span><span class="p">:</span> <span class="n">ThemeData</span><span class="p">(</span>
+        <span class="o">//</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">the</span> <span class="n">theme</span> <span class="n">of</span> <span class="n">your</span> <span class="n">application</span><span class="o">.</span>
+        <span class="n">primarySwatch</span><span class="p">:</span> <span class="n">Colors</span><span class="o">.</span><span class="n">green</span><span class="p">,</span>
+      <span class="p">),</span>
+      <span class="n">home</span><span class="p">:</span> <span class="n">AnimatedOpacityRecipe</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="s1">&#39;AnimatedOpacity Demo&#39;</span><span class="p">),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">AnimatedOpacityRecipe</span> <span class="n">extends</span> <span class="n">StatefulWidget</span> <span class="p">{</span>
+  <span class="n">final</span> <span class="n">String</span> <span class="n">title</span><span class="p">;</span>
+
+  <span class="n">AnimatedOpacityRecipe</span><span class="p">({</span><span class="n">Key</span> <span class="n">key</span><span class="p">,</span> <span class="n">this</span><span class="o">.</span><span class="n">title</span><span class="p">})</span> <span class="p">:</span> <span class="nb">super</span><span class="p">(</span><span class="n">key</span><span class="p">:</span> <span class="n">key</span><span class="p">);</span>
+  <span class="nd">@override</span>
+  <span class="n">State</span><span class="o">&lt;</span><span class="n">StatefulWidget</span><span class="o">&gt;</span> <span class="n">createState</span><span class="p">()</span> <span class="o">=&gt;</span> <span class="n">_AnimatedOpacityRecipeState</span><span class="p">();</span>
+<span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">_AnimatedOpacityRecipeState</span> <span class="n">extends</span> <span class="n">State</span><span class="o">&lt;</span><span class="n">AnimatedOpacityRecipe</span><span class="o">&gt;</span> <span class="p">{</span>
+  <span class="nb">bool</span> <span class="n">_visible</span> <span class="o">=</span> <span class="n">true</span><span class="p">;</span>
+
+  <span class="n">Widget</span> <span class="n">_blueRectangle</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">Container</span><span class="p">(</span>
+      <span class="n">width</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="n">height</span><span class="p">:</span> <span class="mi">150</span><span class="p">,</span>
+      <span class="n">color</span><span class="p">:</span> <span class="n">Colors</span><span class="o">.</span><span class="n">blue</span><span class="p">,</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="n">Widget</span> <span class="n">animatedOpacityWidget</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">AnimatedOpacity</span><span class="p">(</span>
+      <span class="n">duration</span><span class="p">:</span> <span class="n">Duration</span><span class="p">(</span><span class="n">milliseconds</span><span class="p">:</span> <span class="mi">900</span><span class="p">),</span>
+      <span class="n">opacity</span><span class="p">:</span> <span class="n">_visible</span> <span class="err">?</span> <span class="mi">1</span> <span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="n">child</span><span class="p">:</span> <span class="n">_blueRectangle</span><span class="p">(),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+  <span class="nd">@override</span>
+  <span class="n">Widget</span> <span class="n">build</span><span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">Scaffold</span><span class="p">(</span>
+      <span class="n">appBar</span><span class="p">:</span> <span class="n">AppBar</span><span class="p">(</span>
+        <span class="n">title</span><span class="p">:</span><span class="n">Text</span><span class="p">(</span><span class="n">widget</span><span class="o">.</span><span class="n">title</span><span class="p">),</span>
+      <span class="p">),</span>
+      <span class="n">body</span><span class="p">:</span> <span class="n">buildDemoComponent</span><span class="p">(</span><span class="n">context</span><span class="p">),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="n">Widget</span> <span class="n">buildDemoComponent</span><span class="p">(</span><span class="n">BuildContext</span> <span class="n">context</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">Material</span><span class="p">(</span>
+      <span class="n">child</span><span class="p">:</span> <span class="n">Padding</span><span class="p">(</span>
+        <span class="n">padding</span><span class="p">:</span> <span class="n">EdgeInsets</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="mf">8.0</span><span class="p">),</span>
+        <span class="n">child</span><span class="p">:</span> <span class="n">Column</span><span class="p">(</span>
+          <span class="n">mainAxisAlignment</span><span class="p">:</span> <span class="n">MainAxisAlignment</span><span class="o">.</span><span class="n">center</span><span class="p">,</span>
+          <span class="n">children</span><span class="p">:</span> <span class="o">&lt;</span><span class="n">Widget</span><span class="o">&gt;</span><span class="p">[</span>
+            <span class="n">Padding</span><span class="p">(</span>
+              <span class="n">child</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span>
+                  <span class="s1">&#39;Press button to see blue rectangle fade out and in&#39;</span>
+              <span class="p">),</span>
+              <span class="n">padding</span><span class="p">:</span> <span class="n">EdgeInsets</span><span class="o">.</span><span class="n">all</span><span class="p">(</span><span class="mf">20.0</span><span class="p">),</span>
+            <span class="p">),</span>
+            <span class="n">animatedOpacityWidget</span><span class="p">(),</span>
+            <span class="n">OutlineButton</span><span class="p">(</span>
+              <span class="n">shape</span><span class="p">:</span> <span class="n">new</span> <span class="n">RoundedRectangleBorder</span><span class="p">(</span>
+                <span class="n">borderRadius</span><span class="p">:</span> <span class="n">new</span> <span class="n">BorderRadius</span><span class="o">.</span><span class="n">circular</span><span class="p">(</span><span class="mf">8.0</span><span class="p">),</span>
+              <span class="p">),</span>
+              <span class="n">child</span><span class="p">:</span> <span class="n">Text</span><span class="p">(</span><span class="s2">&quot;Press to Animate&quot;</span><span class="p">),</span>
+              <span class="n">onPressed</span><span class="p">:</span> <span class="p">()</span> <span class="p">{</span>
+                <span class="o">//</span><span class="n">Toggles</span> <span class="n">visibility</span> <span class="n">of</span> <span class="n">the</span> <span class="n">rectangle</span>
+                <span class="n">setState</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="n">_visible</span> <span class="o">=</span> <span class="err">!</span><span class="n">_visible</span><span class="p">);</span>
+              <span class="p">},</span>
+            <span class="p">)</span>
+          <span class="p">],</span>
+        <span class="p">),</span>
+      <span class="p">),</span>
+    <span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p><strong><em>Source code repo:</em></strong> 
+Recipe source code is available <a href="animated_opacity.dart">here</a></p>
 <h3>References:</h3>
 <ol>
 <li>https://flutter.io/docs/cookbook/animation/opacity-animation.html</li>
