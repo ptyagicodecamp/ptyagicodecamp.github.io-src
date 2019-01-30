@@ -13,7 +13,7 @@ AnimatedOpacity widget is used to achieve a smooth transition from one UI elemen
 
 ***Focus Widget:*** AnimatedOpacity
 
-***Goal:*** Fade in and out a blue rectangle on click of button. 
+***Goal:*** Fade in and out a blue rectangle on a click of button. 
 Interface is super simple and will look like this:
 
 Blue Rectangle animates when button is pressed:
@@ -39,7 +39,7 @@ We need three things to accomplish our goal of animating a blue rectangle.
 `State` object's [`setState`](https://docs.flutter.io/flutter/widgets/State/setState.html) method helps to rebuild widget reflecting the updated state of the app data.
 
 ```
-class _AnimatedOpacityRecipe extends StatefulWidget {
+class AnimatedOpacityRecipe extends StatefulWidget {
   @override
   State<StatefulWidget> createState() => _AnimatedOpacityRecipeState();
 }
@@ -48,7 +48,7 @@ class _AnimatedOpacityRecipe extends StatefulWidget {
 The State object will have the flag about the rectangle widget's visibility state say `_visible`.
 `_visible` to `true` means that rectangle is visible or vice versa.
 ```
-class _AnimatedOpacityRecipeState extends State<_AnimatedOpacityRecipe> {
+class _AnimatedOpacityRecipeState extends State<AnimatedOpacityRecipe> {
   bool _visible = true;
   
 } 
