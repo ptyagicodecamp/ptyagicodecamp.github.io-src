@@ -16,9 +16,13 @@ AnimatedOpacity widget is used to achieve a smooth transition from one UI elemen
 ***Goal:*** Fade in and out a blue rectangle on click of button. 
 Interface is super simple and will look like this:
 
-![Blue Rectangle animates when button is pressed](../../media/flutter/animatedOpacity/step1.png)
+Blue Rectangle animates when button is pressed: 
 
-***[Checkout AnimatedOpacity animation](../../media/flutter/animatedOpacity/animated_opacity.webm)***
+![Alt Blue Rectangle animates when button is pressed]({attach}../../media/flutter/animatedOpacity/step1.png)
+
+Checkout AnimatedOpacity animation: 
+![Alt Checkout AnimatedOpacity animation]({attach}../../media/flutter/animatedOpacity/animated_opacity.webm)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lKO8YTq_QcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's go! ###
 
