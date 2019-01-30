@@ -7,7 +7,7 @@ THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/voidy-bootstrap"
 
 AUTHOR = u'Priyanka Tyagi'
 SITENAME = u'techLog'
-SITEURL = 'https://ptyagicodecamp.github.io/'
+SITEURL = 'https://ptyagicodecamp.github.io'
 SITESUBTITLE ='Explore | Android | Software Engineering'
 SITETAG = "Android tech logger."
 # Extra stylesheets, for bootstrap overrides or additional styling.
@@ -38,7 +38,7 @@ SOCIAL = (
 
 PATH = 'content'
 
-TIMEZONE = 'America/Mazatlan'
+TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = u'en'
 
