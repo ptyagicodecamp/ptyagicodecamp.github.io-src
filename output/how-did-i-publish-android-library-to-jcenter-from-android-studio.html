@@ -21,15 +21,16 @@
             crossorigin="anonymous">
 
 
-      <link rel="stylesheet" href="./theme/css/pygment.css" />
-      <link rel="stylesheet" href="./theme/css/voidybootstrap.css" />
+      <link rel="stylesheet" href="https://ptyagicodecamp.github.io/theme/css/pygment.css" />
+      <link rel="stylesheet" href="https://ptyagicodecamp.github.io/theme/css/voidybootstrap.css" />
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" integrity="sha384-FFgGfda92tXC8nCNOxrCQ3R8x1TNkMFqDZVQdDaaJiiVbjkPBXIJBx0o7ETjy8Bh" crossorigin="anonymous"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="shortcut icon" href="https://ptyagicodecamp.github.io/favicon.ico" />
+        <link href="https://ptyagicodecamp.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="techLog Atom Feed" />
   </head>
 
   <body>
@@ -44,7 +45,7 @@
 		  <span class="icon-bar"></span>
 		  <span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="./" rel="home">
+		<a class="navbar-brand" href="https://ptyagicodecamp.github.io/" rel="home">
           <i class="fa fa-home fa-fw fa-lg"> </i> </a>
        </div>
 
@@ -52,9 +53,12 @@
         <ul class="nav navbar-nav">
             <li class="divider"></li>
             <li class="">
-              <a href="./archives.html">Archives</a>
+              <a href="https://ptyagicodecamp.github.io/archives.html">Archives</a>
             </li>
           <li class="divider"></li>
+            <li><a href="https://ptyagicodecamp.github.io/feeds/all.atom.xml" 
+                   type="application/atom+xml" rel="alternate">
+                <i class="fa fa-rss fa-fw fa-lg"></i> </a></li>
         </ul> <!-- /nav -->
       </div> <!-- /navbar-collapse -->
 	  </div> <!-- /container -->
@@ -62,7 +66,7 @@
 
 	<div class="jumbotron" id="overview">
 	  <div class="container">
-		<h1><a href="./">techLog</a></h1>
+		<h1><a href="https://ptyagicodecamp.github.io/">techLog</a></h1>
 		<p class="lead">Explore | Android | Software Engineering</p>
 	  </div>
 	</div>
@@ -75,15 +79,15 @@
 <abbr class="article-header-date">
   Sat 07 January 2017
 </abbr> <h1>
-  <a href="./how-did-i-publish-android-library-to-jcenter-from-android-studio.html" rel="bookmark"
+  <a href="https://ptyagicodecamp.github.io/how-did-i-publish-android-library-to-jcenter-from-android-studio.html" rel="bookmark"
      title="Permalink to How did I publish Android Library to JCenter from Android Studio">
     How did I publish Android Library to JCenter from Android Studio
   </a>
 </h1><div class="article-header-info">
   <p>
-      Posted by <a href="./author/ptyagi.html">ptyagi</a>
+      Posted by <a href="https://ptyagicodecamp.github.io/author/ptyagi.html">ptyagi</a>
     in 
-    <a href="./category/development.html">
+    <a href="https://ptyagicodecamp.github.io/category/development.html">
       Development</a>
     &nbsp;&nbsp;
   </p>
@@ -106,19 +110,19 @@ project like this:</p>
 </li>
 <li>
 <p>Create a new repo:
-  <img alt="Create Repo" src="./create_repo.png"></p>
+  <img alt="Create Repo" src="https://ptyagicodecamp.github.io/create_repo.png"></p>
 </li>
 <li>
 <p>Fill-in all required information and click "create repo". It'll redirect to "package" screen.
-  <img alt="Repo Created" src="./repo_created.png"></p>
+  <img alt="Repo Created" src="https://ptyagicodecamp.github.io/repo_created.png"></p>
 </li>
 <li>
 <p>Click on “Create Package”. Fill in your package name and click on "Add New Package":
-<img alt="Add New Package" src="./add_new_package.png"></p>
+<img alt="Add New Package" src="https://ptyagicodecamp.github.io/add_new_package.png"></p>
 </li>
 <li>
 <p>It'll take you to enter package details. Fill-in details and click on "Create Package" at the bottom.
-<img alt="Create Package" src="./create_package.png"></p>
+<img alt="Create Package" src="https://ptyagicodecamp.github.io/create_package.png"></p>
 </li>
 </ul>
 <p>And you’re Done with registering your Maven repository on Bintray !</p>
@@ -217,11 +221,11 @@ gradlew bintrayUpload
 <ul>
 <li>
 <p>Your package needs to be linked to JCenter to be able to be resolved.
-<img alt="Add to JCenter" src="./add_to_jcenter.png"></p>
+<img alt="Add to JCenter" src="https://ptyagicodecamp.github.io/add_to_jcenter.png"></p>
 </li>
 <li>
 <p>It'll take couple of hours to get request approved. Once approved, you'll see you package like this:
-<img alt="Linked To JCenter" src="./linked_to_jcenter.png"></p>
+<img alt="Linked To JCenter" src="https://ptyagicodecamp.github.io/linked_to_jcenter.png"></p>
 </li>
 </ul>
 <p><strong><em>Note</em></strong>: You will have to wait for couple of hours before it'll be synced on JCenter.
@@ -238,12 +242,12 @@ You can check if its available by going to "http://jcenter.bintray.com/<path/to/
   
 <div class="article-tag-list">
 <span class="label label-default">Tags</span>
-	<a href="./tag/bintray.html"><i class="fa fa-tag"></i>Bintray</a>&nbsp;
-	<a href="./tag/publishing.html"><i class="fa fa-tag"></i>Publishing</a>&nbsp;
-	<a href="./tag/jcenter.html"><i class="fa fa-tag"></i>JCenter</a>&nbsp;
-	<a href="./tag/library.html"><i class="fa fa-tag"></i>Library</a>&nbsp;
-	<a href="./tag/opensource.html"><i class="fa fa-tag"></i>OpenSource</a>&nbsp;
-	<a href="./tag/dev.html"><i class="fa fa-tag"></i>Dev</a>&nbsp;
+	<a href="https://ptyagicodecamp.github.io/tag/bintray.html"><i class="fa fa-tag"></i>Bintray</a>&nbsp;
+	<a href="https://ptyagicodecamp.github.io/tag/publishing.html"><i class="fa fa-tag"></i>Publishing</a>&nbsp;
+	<a href="https://ptyagicodecamp.github.io/tag/jcenter.html"><i class="fa fa-tag"></i>JCenter</a>&nbsp;
+	<a href="https://ptyagicodecamp.github.io/tag/library.html"><i class="fa fa-tag"></i>Library</a>&nbsp;
+	<a href="https://ptyagicodecamp.github.io/tag/opensource.html"><i class="fa fa-tag"></i>OpenSource</a>&nbsp;
+	<a href="https://ptyagicodecamp.github.io/tag/dev.html"><i class="fa fa-tag"></i>Dev</a>&nbsp;
 </div>  <hr />
   <div class="well well-sm">  <!-- Social media sharing buttons -->
 
@@ -254,7 +258,7 @@ You can check if its available by going to "http://jcenter.bintray.com/<path/to/
 
     <!-- Facebook -->
     <div class="fb-like" 
-        data-href="./how-did-i-publish-android-library-to-jcenter-from-android-studio.html" 
+        data-href="https://ptyagicodecamp.github.io/how-did-i-publish-android-library-to-jcenter-from-android-studio.html" 
         data-layout="button_count" 
         data-action="like" data-show-faces="true" 
         data-share="true">
@@ -297,9 +301,9 @@ You can check if its available by going to "http://jcenter.bintray.com/<path/to/
 <div class="col-xs-6 col-md-12">
 <h4><i class="fa fa-folder fa-fw fa-lg"></i> Categories</h4>
 <ul class="list-unstyled category-links">
-  <li><a href="./category/development.html" >
+  <li><a href="https://ptyagicodecamp.github.io/category/development.html" >
     <i class="fa fa-folder-open fa-fw fa-lg"></i> Development</a></li>
-  <li><a href="./category/development-flutter-cross-platform.html" >
+  <li><a href="https://ptyagicodecamp.github.io/category/development-flutter-cross-platform.html" >
     <i class="fa fa-folder-open fa-fw fa-lg"></i> Development, Flutter, Cross-platform</a></li>
 </ul>
 </div>
@@ -307,6 +311,12 @@ You can check if its available by going to "http://jcenter.bintray.com/<path/to/
 </div> <!-- /row -->
 
 
+<h4><i class="fa fa-rss fa-fw fa-lg"></i> Feeds</h4>
+<ul class="list-unstyled">
+    <li><a href="https://ptyagicodecamp.github.io/feeds/all.atom.xml" 
+		   type="application/atom+xml" rel="alternate">
+		<i class="fa fa-rss-square fa-fw fa-lg"></i> Atom Feed</a></li>
+</ul>
 
 <hr />
 
