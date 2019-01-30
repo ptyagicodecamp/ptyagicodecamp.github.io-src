@@ -5,12 +5,12 @@ echo "generating contents and publishing..."
 make html && make publish
 echo "pushing code to source repo..."
 git add .
-git commit -m "$1"
+git commit -m "publishing new content"
 git push origin master
 echo "pushing generated website to github"
 cd output
 git add .
-git commit -m "$1"
+git commit -m "publishing output html"
 git push origin master
 cd ..
 echo "updating submodule"
