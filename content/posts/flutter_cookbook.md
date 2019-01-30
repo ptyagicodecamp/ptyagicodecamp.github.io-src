@@ -14,4 +14,4 @@ This article contains pointers to code samples for flutter components / widgets.
 Components covered:
 ### Animation
 * [AnimatedOpacity](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html): Making a rectangle fade in and out
-* [Hero Animation](lib/animation/animation_hero.md): Navigating from one page to another using Hero animation.
+* [Hero Animation](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html): Navigating from one page to another using Hero animation.
