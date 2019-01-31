@@ -24,8 +24,8 @@ Hero(
 ***Goal:*** Animate and enlarge list item icon using `Hero` widget. 
 Tapping on a list item icon, opens up the item in another page with enlarged icon.
 
-![List item icon](../../media/flutter/animationHero/1.png) 
-![Detail page icon](../../media/flutter/animationHero/2.png)
+![List item icon]({attach}../../media/flutter/animationHero/1.png) 
+![Detail page icon]({attach}../../media/flutter/animationHero/2.png)
 
 
 Checkout Hero animation: 
