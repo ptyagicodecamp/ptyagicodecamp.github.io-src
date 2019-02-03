@@ -9,6 +9,7 @@ Summary: AnimatedOpacity widget is used to achieve a smooth transition from one 
 
 AnimatedOpacity widget is used to achieve a smooth transition from one UI element to another.
 
+***Target Audience:*** Beginner
 ***Recipe:*** Achieve a smooth animation when transitioning from one UI element to another.
 
 ***Focus Widget:*** AnimatedOpacity

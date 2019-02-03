@@ -10,7 +10,7 @@ Summary: Navigating from one page to another using Hero animation.
 Hero animation is a useful transition when items are listed with small icons. Tapping on 
 icons can open in another page with enlarged icon widget.
 
-
+***Target Audience:*** Beginner
 ***Recipe:*** Hero animation to transition a list icon into an enlarged view on another detail page.
 
 ***Focus Widget:*** Hero Widget
