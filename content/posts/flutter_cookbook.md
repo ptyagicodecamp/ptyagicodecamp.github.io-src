@@ -15,3 +15,6 @@ Components covered:
 ### Animation
 * [AnimatedOpacity](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html): Making a rectangle fade in and out
 * [Hero Animation](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html): Navigating from one page to another using Hero animation.
+
+### Design
+* [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.

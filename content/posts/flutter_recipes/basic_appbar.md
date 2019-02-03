@@ -12,6 +12,7 @@ a phonebook style app. The AppBar will have a phonebook icon, a title saying 'Co
 AppBar's always on area as well as in overflow area.
 
 ***Target Audience:*** Beginner
+
 ***Recipe:*** Implement a basic appBar with a title, actions, and an overflow dropdown menu.
 
 ***Focus Widget:*** AppBar
