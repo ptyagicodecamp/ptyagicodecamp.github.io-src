@@ -1,5 +1,5 @@
 Title: Flutter code recipe for AnimatedOpacity widget
-Date: 2018-1-30 11:33PM
+Date: 2019-1-30 11:33PM
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: AnimatedOpacity, flutter, code-recipes, android, android Studio, iOS

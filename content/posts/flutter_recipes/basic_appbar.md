@@ -1,5 +1,5 @@
 Title: Flutter code recipe for AppBar widget
-Date: 2018-02-02 11:33PM
+Date: 2019-02-02 11:33PM
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: AppBar, flutter, code-recipes, android, android Studio, iOS
@@ -45,7 +45,7 @@ return Scaffold(
     );
 ```
 
-Step #4. Add AppBar's title
+Step #3. Add AppBar's title
 ```
 return Scaffold(
       appBar: AppBar(
@@ -56,7 +56,7 @@ return Scaffold(
     );
 ```
 
-Step #5. Add `IconButton` action item to send message.
+Step #4. Add `IconButton` action item to send message.
 ```
 return Scaffold(
       appBar: AppBar(
@@ -73,7 +73,7 @@ return Scaffold(
     );
 ```
 
-Step #6. Add overflow action item using `PopupMenuButton`
+Step #5. Add overflow action item using `PopupMenuButton`
 ```
 return Scaffold(
       appBar: AppBar(
@@ -97,7 +97,7 @@ return Scaffold(
     );
 ```
 
-Step #7. Handle action item clicks
+Step #6. Handle action item clicks
 ```
 void clicked(BuildContext context, menu) {
     final scaffold = Scaffold.of(context);
