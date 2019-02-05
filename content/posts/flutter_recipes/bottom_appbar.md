@@ -14,7 +14,7 @@ an overflow menu action item.
 
 ***Target Audience:*** Beginner
 
-***Recipe:*** Implement a BottomNavigationBar with menu, search and overflow action items.
+***Recipe:*** Implement a BottomNavigationBar using BottomAppBar with menu, search and overflow action items.
 
 ***Focus Widget:*** BottomAppBar
 

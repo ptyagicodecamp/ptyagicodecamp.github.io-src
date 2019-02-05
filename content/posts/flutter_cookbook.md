@@ -18,4 +18,4 @@ Components covered:
 
 ### Design
 * [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.
-* 
+* [BottomAppBar](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html): Implement a BottomNavigationBar with menu, search and overflow action items.
