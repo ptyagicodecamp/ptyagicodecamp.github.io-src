@@ -24,6 +24,9 @@ will display a message using [Fluttertoast](https://pub.dartlang.org/packages/fl
 
 ![List item icon]({attach}../../media/flutter/bottom_appbar/bottom_appbar.png)
 
+Checkout in action:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qID2Wut7rEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Lets's go! ###
 
 Step #1. Since we'll be using `fluttertoast` for showing status messages, first we'll be adding 
