@@ -22,7 +22,7 @@ an overflow menu action item.
 a dummy search action icon and overflow action items menu. Clicking on each menu action 
 will display a message using [Fluttertoast](https://pub.dartlang.org/packages/fluttertoast)
 
-![List item icon]({attach}../../media/flutter/TODO.png)
+![List item icon]({attach}../../media/flutter/bottom_appbar/bottom_appbar.png)
 
 ### Lets's go! ###
 
