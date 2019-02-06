@@ -28,6 +28,8 @@ Recipe source code is available [TODO](https://github.com/ptyagicodecamp/flutter
 
 ### References: ###
 1. [Search Delegate](https://docs.flutter.io/flutter/material/SearchDelegate-class.html)
+2. [Flutter Gallery](https://github.com/flutter/flutter/blob/master/examples/flutter_gallery/lib/demo/material/search_demo.dart)
+
 
 _Liked the article ?
 Couldn't find a topic of your interest ? Please leave comments below about topics you would like me to write.
