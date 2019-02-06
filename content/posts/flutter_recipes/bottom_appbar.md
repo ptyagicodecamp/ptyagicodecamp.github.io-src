@@ -294,6 +294,6 @@ Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter
 2. [BottomAppBar](https://docs.flutter.io/flutter/material/BottomAppBar-class.html)
 3. [ModalBottomSheet](https://flutterdoc.com/bottom-sheets-in-flutter-ec05c90453e7)
 
-__Liked the article ?
+_Liked the article ?
 Couldn't find a topic of your interest ? Please leave comments below about topics you would like me to write !
-[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)__
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_

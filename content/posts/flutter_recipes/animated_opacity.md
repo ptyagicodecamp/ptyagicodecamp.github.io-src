@@ -184,6 +184,6 @@ Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter
 2. https://docs.flutter.io/flutter/widgets/Opacity-class.html
 
 
-__Liked the article ?
+_Liked the article ?
 Couldn't find a topic of your interest ? Please leave comments below about topics you would like me to write !
-[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)__
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
