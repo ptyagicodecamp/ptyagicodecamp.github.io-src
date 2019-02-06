@@ -27,7 +27,8 @@ populate the list of words.
 ![Sorted Wordlist]({attach}../../media/flutter/search_appbar/wordlist.png)
 ![Search in Wordlist]({attach}../../media/flutter/search_appbar/wordlist_search.png)
 
-//TODO: Youtube video in action
+Checkout in action:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GuP1Voc4pTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's go! ###
 
