@@ -295,5 +295,5 @@ Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter
 3. [ModalBottomSheet](https://flutterdoc.com/bottom-sheets-in-flutter-ec05c90453e7)
 
 _Liked the article ?
-Couldn't find a topic of your interest ? Please leave comments below about topics you would like me to write !
+Couldn't find a topic of your interest ? Please leave comments or [email me](ptyagicodecamp@gmail.com) about topics you would like me to write !
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
