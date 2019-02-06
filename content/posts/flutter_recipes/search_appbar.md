@@ -32,9 +32,9 @@ Checkout in action:
 
 ### Lets's go! ###
 
-Step #0: Create "Flutter Application" project in Android Studio.
+**Step #0:** Create "Flutter Application" project in Android Studio.
 
-Step #1. Get dependencies. First thing to add `english_words` dependency in
+**Step #1.** Get dependencies. First thing to add `english_words` dependency in
 `pubspec.yaml` to be able to populate English words in our recipe app's word list.
 ```
 dependencies:
@@ -44,13 +44,13 @@ dependencies:
   english_words: ^3.1.3
 ```
 
-Step #2. Display Word list 
+**Step #2.** Display Word list 
 To display English word list as list in app, first thing is to import the dependency in `main.dart` file:
 ```
 import 'package:english_words/english_words.dart' as words;
 ```
 
-Step #3. Initialize word list in `SearchAppBarRecipeState` class.
+**Step #3.** Initialize word list in `SearchAppBarRecipeState` class.
 Now, in the `_SearchAppBarRecipeState` class, fetch the list of words like below. Make sure
 that you've a list data structure to hold word list. I'm using `kWords` for this purpose.
 ```
@@ -69,7 +69,7 @@ class _SearchAppBarRecipeState extends State<SeachAppBarRecipe> {
 }
 ```
 
-Step #4. Sorting word list.
+**Step #4.** Sorting word list.
 You'll notice at this point that data is un-sorted at this point. 
 Let's make it alphabetically sorted as below:
 ```
@@ -88,7 +88,7 @@ class _SearchAppBarRecipeState extends State<SeachAppBarRecipe> {
 }
 ```
 
-Step #5. Setup `SearchDelegate` to implement Search AppBar.
+**Step #5.** Setup `SearchDelegate` to implement Search AppBar.
 Search delegate is where all the magic happens. It holds two list of words. One list is of
 the general word list passed during initialization. Another list `_history` contains the list of history words.
 You can pre-populate `_history` list to give a baseline for history search items. This list will be shown when
@@ -112,7 +112,7 @@ class _SearchAppBarDelegate extends SearchDelegate<String> {
 }
 ``` 
 
-Step #6. After setting up words list options in delegate, now its time to pick up an icon that will be placed at the
+**Step #6.** After setting up words list options in delegate, now its time to pick up an icon that will be placed at the
 left side of search bar. Mostly, this icon menu is meant for navigating back to previous screen.
 ```
 class _SearchAppBarDelegate extends SearchDelegate<String> {
@@ -141,7 +141,7 @@ class _SearchAppBarDelegate extends SearchDelegate<String> {
 
 Alright we got the icon for search bar ! What next ? 
 
-Step #7. Now it's time to implement `buildResults` method to show searched item. This is where search query `this.query` will
+**Step #7.** Now it's time to implement `buildResults` method to show searched item. This is where search query `this.query` will
 display searched item. For sake of simplicity, I'll be adding two widgets only.
 First widget is `Text` and will display message '===Your Word Choice==='. Second widget is
 `GestureDetector` which has it's another `Text` widget as its `child`. Tapping on the `Text` widget will
@@ -184,7 +184,7 @@ class _SearchAppBarDelegate extends SearchDelegate<String> {
 }
 ```
 
-Step #8. Next, it's time for implementing `buildSuggestions` method of SearchDelegate class. 
+**Step #8.** Next, it's time for implementing `buildSuggestions` method of SearchDelegate class. 
 So, what does building suggestions mean ? This is the list of suggestions for words that you'll see
 when typing your search query in search bar. There're two parts of this. 
 First, we've to pass the list of words that could be displayed as suggestions. 
