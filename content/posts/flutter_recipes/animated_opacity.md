@@ -182,3 +182,8 @@ Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter
 ### References: ###
 1. https://flutter.io/docs/cookbook/animation/opacity-animation.html
 2. https://docs.flutter.io/flutter/widgets/Opacity-class.html
+
+
+_Liked the article ?
+Couldn't find a topic of your interest ? Please leave comments below about topics you would like me to write.
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)
