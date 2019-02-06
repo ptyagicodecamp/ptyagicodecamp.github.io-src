@@ -1,4 +1,4 @@
-Title: Implementing Search action in AppBar.
+Title: Implementing Search action in AppBar
 Date: 2019-02-06
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
