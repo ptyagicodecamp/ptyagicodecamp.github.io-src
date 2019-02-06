@@ -186,4 +186,4 @@ Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter
 
 __Liked the article ?
 Couldn't find a topic of your interest ? Please leave comments below about topics you would like me to write !
-[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)__
