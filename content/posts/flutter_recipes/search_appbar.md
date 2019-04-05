@@ -1,8 +1,8 @@
 Title: Implementing Search action in AppBar
 Date: 2019-02-06
 Authors: ptyagi
-Category: Development, Flutter, Cross-platform
-Tags: SearchDelegate, SearchAppBar, flutter, code-recipes, android, android Studio, iOS
+Category: Flutter
+Tags: SearchDelegate, SearchAppBar, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
 Summary: Implementing Search action in AppBar using Flutter for Android and iOS mobile apps.
 
 ## Search in AppBar

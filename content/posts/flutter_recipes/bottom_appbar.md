@@ -1,8 +1,8 @@
 Title: BottomNavigationBar with menu, search and overflow action items
 Date: 2019-02-05
 Authors: ptyagi
-Category: Development, Flutter, Cross-platform
-Tags: Bottom AppBar, flutter, code-recipes, android, android Studio, iOS
+Category: Flutter
+Tags: Bottom AppBar, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
 Summary: Implement a BottomNavigationBar with menu, search and overflow action items.
 
 ##BottomNavigationBar

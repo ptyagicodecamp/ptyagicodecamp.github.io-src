@@ -1,8 +1,8 @@
 Title: Flutter code recipe for Hero animation
 Date: 2019-1-30 11:33PM
 Authors: ptyagi
-Category: Development, Flutter, Cross-platform
-Tags: hero-animation, flutter, code-recipes, android, android Studio, iOS
+Category: Flutter
+Tags: hero-animation, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
 Summary: Navigating from one page to another using Hero animation.
 
 ## Animation Hero

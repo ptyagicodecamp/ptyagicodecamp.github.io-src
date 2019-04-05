@@ -1,8 +1,8 @@
 Title: Flutter code recipe for AnimatedOpacity widget
 Date: 2019-1-30 11:33PM
 Authors: ptyagi
-Category: Development, Flutter, Cross-platform
-Tags: AnimatedOpacity, flutter, code-recipes, android, android Studio, iOS
+Category: Flutter
+Tags: AnimatedOpacity, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
 Summary: AnimatedOpacity widget is used to achieve a smooth transition from one UI element to another.
 
 ## AnimatedOpacity

@@ -1,8 +1,8 @@
 Title: Flutter code recipe for AppBar widget
 Date: 2019-02-02 11:33PM
 Authors: ptyagi
-Category: Development, Flutter, Cross-platform
-Tags: AppBar, flutter, code-recipes, android, android Studio, iOS
+Category: Flutter
+Tags: AppBar, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
 Summary: Implement a basic appBar with a title, actions, and an overflow dropdown menu.
 
 ##AppBar
