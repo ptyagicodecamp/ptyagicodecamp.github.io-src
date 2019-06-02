@@ -84,11 +84,11 @@ GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-6359982310050489',
     'page_level_ads': True,
     'ads': {
-        'aside': '3613978005',
-        'main_menu': '',
-        'index_top': '',
-        'index_bottom': '5847768414',
-        'article_top': '',
-        'article_bottom': '8282360068',
+        'aside': '8977779775',
+        'main_menu': '8977779775',
+        'index_top': '8977779775',
+        'index_bottom': '8977779775',
+        'article_top': '6546879945',
+        'article_bottom': '6546879945',
     }
 }
