@@ -66,7 +66,7 @@ MENUITEMS = (('Archives', '/archives.html'),
 #     'slug': 'by-sa'
 # }
 
-COPYRIGHT_YEAR = datetime.now().year + 'Priyanka Tyagi'
+COPYRIGHT_YEAR = datetime.now().year . 'Priyanka Tyagi'
 DEFAULT_PAGINATION = 10
 
 #DISQUS_SITENAME = "ptyagicodecamp"
