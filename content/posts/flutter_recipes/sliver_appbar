@@ -6,8 +6,8 @@ Tags: SliverAppBar, cross-platform, flutter, code-recipes, android, android Stud
 Summary: SliverAppBar has flexible height and can auto-hides itself
 
 ## SliverAppBar
-SliverAppBar has flexible height and can auto-hides itself. The Sliver app bar is a material app bar that can scroll. 
-When it scrolls, it gives an effect of auto-hide. 
+SliverAppBar has flexible height and can auto-hides itself. The Sliver app bar is a material app bar that can scroll.
+When it scrolls, it gives an effect of auto-hide.
 It integrates with [CustomScrollView](https://docs.flutter.io/flutter/widgets/CustomScrollView-class.html)
 to provide support for flexible height in AppBar.
 
@@ -19,7 +19,6 @@ to provide support for flexible height in AppBar.
 
 ***Goal:*** TODO
 
-![List item icon]({attach}../../media/flutter/TODO.png)
 
 ### Lets's go! ###
 

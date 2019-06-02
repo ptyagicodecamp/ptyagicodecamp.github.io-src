@@ -11,13 +11,13 @@ Summary: This recipe will be an image picker app in Flutter.
 
 ***Focus Widget:*** image_picker
 
-***Goal:*** 
-1. Single Image Picker: 
+***Goal:***
+1. Single Image Picker:
     - Select a picture from gallery and display in app.
     - To be able to take picture using camera and display in app
 2. Multi Image Picker
 
-![List item icon]({attach}../../media/flutter/TODO.png)
+
 
 ### Lets's go! ###
 

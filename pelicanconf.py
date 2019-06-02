@@ -1,55 +1,80 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
 
-# THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/aboutwilson"
-THEME = "/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/voidy-bootstrap"
+from datetime import datetime
 
-AUTHOR = u'Priyanka Tyagi'
-SITENAME = u'techLog'
-SITEURL = 'https://ptyagicodecamp.github.io'
-SITESUBTITLE ='Explore | Android | Software Engineering'
-SITETAG = "Android tech logger."
-# Extra stylesheets, for bootstrap overrides or additional styling.
-STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css",)
+AUTHOR = 'Alexandre Vicenzi'
+SITEURL = 'http://localhost:8000'
+SITENAME = 'Flex'
+SITETITLE = 'Flex'
+SITESUBTITLE = 'The minimalist Pelican theme'
+SITEDESCRIPTION = 'Flex - The minimalist Pelican theme.'
+# SITELOGO = ''
+# FAVICON = '/images/favicon.ico'
+BROWSER_COLOR = '#333333'
+PYGMENTS_STYLE = 'monokai'
 
-# Put taglist at end of articles, and use the default sharing button implementation.
-CUSTOM_ARTICLE_FOOTERS = ("taglist.html", "sharing.html", )
-CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
+ROBOTS = 'index, follow'
 
-# Default sidebar template. Omit this setting for single column mode without sidebar.
-SIDEBAR = "sidebar.html"
-CUSTOM_FOOTER = "custom/footer.html"
-
-SOCIAL = (
-        ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi',
-         'fa fa-linkedin-square fa-fw fa-lg'),
-        ('GitHub', 'https://github.com/ptyagicodecamp',
-         'fa fa-github-square fa-fw fa-lg'),
-        ('Medium', 'https://medium.com/@ptyagicodecamp',
-         'fa fa-bitbucket-square fa-fw fa-lg'),
-	('Google+', 'https://plus.google.com/u/0/114534305132859234440',
-         'fa fa-google-plus-square fa-fw fa-lg'),
-        ('Twitter', 'https://twitter.com/ptyagi13',
-         'fa fa-twitter-square fa-fw fa-lg'),
-	)
-
-
-
+THEME = '/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/Flex'
 PATH = 'content'
+OUTPUT_PATH = 'blog/'
+TIMEZONE = 'America/New_York'
 
-TIMEZONE = 'America/Los_Angeles'
+I18N_TEMPLATES_LANG = 'en'
+DEFAULT_LANG = 'en'
+OG_LOCALE = 'en_US'
+LOCALE = 'en_US'
 
-DEFAULT_LANG = u'en'
+DATE_FORMATS = {
+    'en': '%B %d, %Y',
+}
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+USE_FOLDER_AS_CATEGORY = False
+MAIN_MENU = True
+HOME_HIDE_TAGS = True
+
+SOCIAL = (
+    ('github', 'https://github.com/alexandrevicenzi/Flex'),
+    ('rss', '/blog/feeds/all.atom.xml'),
+)
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
+
+COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+DISQUS_SITENAME = "flex-pelican"
+ADD_THIS_ID = 'ra-55adbb025d4f7e55'
+
+STATIC_PATHS = ['images', 'extra']
+
+CUSTOM_CSS = 'static/custom.css'
+
+USE_LESS = True
+
+GOOGLE_ADSENSE = {
+    'ca_id': 'ca-pub-6625957038449899',
+    'page_level_ads': True,
+    'ads': {
+        'aside': '8752710348',
+        'main_menu': '',
+        'index_top': '',
+        'index_bottom': '1124188687',
+        'article_top': '',
+        'article_bottom': '4843941849',
+    }
+}

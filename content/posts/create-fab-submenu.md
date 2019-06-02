@@ -11,23 +11,23 @@ Our target to integrate FAB into an existing Android App and creating submenus. 
 
 This is how main screen will look after FAB integrated into it.
 
-![](./images/device-settings-close.png)
+![close](./images/device-settings-close.png)
 
 
 Clicking on `Settings` icon will open sub menus:
 
-![](./images/device-settings-open.png)
+![open](./images/device-settings-open.png)
 
 ### Create Android Studio Project ###
 ***Step#1:*** Create New Project in Android Studio:
 
-![](./images/create_project-1.png)
+![create](./images/create_project-1.png)
 
 ***Step#2:*** Choose Blank Activity:
-![](./images/create_project-2.png)
+![create](./images/create_project-2.png)
 
 ***Step#3:*** This how your project would look like :
-![](./images/create_project-3.png)
+![create](./images/create_project-3.png)
 
 
 ### Preparation ###
@@ -36,9 +36,9 @@ I need few assets to be used as FAB submenu icons.
 I used Android Studio’s built-in tool to generate Vector Assets.
 You can access this tool right clicking on `app` module → Click `New` → Click on `Vector Assets`
 
-![](./images/create-vector-asset-1.png)
-![](./images/create-vector-asset-2.png)
-![](./images/create-vector-asset-3.png)
+![asset](./images/create-vector-asset-1.png)
+![asset](./images/create-vector-asset-2.png)
+![asset](./images/create-vector-asset-3.png)
 
 
 ***Step#2:***  Configuration:
