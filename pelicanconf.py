@@ -71,18 +71,16 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
-DISQUS_SITENAME = "https://ptyagicodecamp.github.io/"
+DISQUS_SITENAME = "techlog"
 ADD_THIS_ID = 'ra-5cf387135c8761da'
 
 STATIC_PATHS = ['images', 'media']
 
 CUSTOM_CSS = 'static/custom.css'
 
-USE_LESS = False
+USE_LESS = True
 
 GITHUB_CORNER_URL = 'https://github.com/ptyagicodecamp'
-
-GOOGLE_ANALYTICS = 'UA-133714063-1'
 
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-1446757973183590',
