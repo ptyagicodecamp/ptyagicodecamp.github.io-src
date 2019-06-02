@@ -45,7 +45,6 @@ LINKS = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
         ('GitHub', 'https://github.com/ptyagicodecamp'),
         ('Medium', 'https://medium.com/@ptyagicodecamp'),
-	    ('Google+', 'https://plus.google.com/u/0/114534305132859234440'),
         ('Twitter', 'https://twitter.com/ptyagi13'),
 	)
 
@@ -53,7 +52,6 @@ SOCIAL = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
         ('GitHub', 'https://github.com/ptyagicodecamp'),
         ('Medium', 'https://medium.com/@ptyagicodecamp'),
-	    ('Google+', 'https://plus.google.com/u/0/114534305132859234440'),
         ('Twitter', 'https://twitter.com/ptyagi13'),
         #('rss', '/blog/feeds/all.atom.xml'),
 	)
