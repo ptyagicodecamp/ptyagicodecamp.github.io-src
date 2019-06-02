@@ -60,13 +60,13 @@ MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
-# CC_LICENSE = {
-#     'name': 'Creative Commons Attribution-ShareAlike',
-#     'version': '4.0',
-#     'slug': 'by-sa'
-# }
+CC_LICENSE = {
+    'name': 'Creative Commons Attribution-ShareAlike',
+    'version': '4.0',
+    'slug': 'by-sa'
+}
 
-COPYRIGHT_YEAR = datetime.now().year . 'Priyanka Tyagi'
+COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
 #DISQUS_SITENAME = "ptyagicodecamp"
