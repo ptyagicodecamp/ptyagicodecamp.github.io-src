@@ -40,7 +40,7 @@ USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = False
 
-SOCIAL = (
+LINKS = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
         ('GitHub', 'https://github.com/ptyagicodecamp'),
         ('Medium', 'https://medium.com/@ptyagicodecamp'),
