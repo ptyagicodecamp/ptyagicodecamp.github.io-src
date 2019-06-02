@@ -78,7 +78,9 @@ STATIC_PATHS = ['images', 'media']
 
 CUSTOM_CSS = 'static/custom.css'
 
-USE_LESS = True
+USE_LESS = False
+
+GITHUB_CORNER_URL = 'https://github.com/ptyagicodecamp'
 
 GOOGLE_ANALYTICS = 'UA-133714063-1'
 
