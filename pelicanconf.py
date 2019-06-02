@@ -9,7 +9,7 @@ SITEURL = 'https://ptyagicodecamp.github.io'
 SITESUBTITLE ='Explore | Android | Software Engineering'
 SITEDESCRIPTION = "Mobile engineering tech logger."
 
-SITELOGO = '/images/favicon.ico'
+SITELOGO = 'https://ptyagicodecamp.github.io/images/favicon.ico'
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'monokai'
@@ -41,6 +41,15 @@ MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
 LINKS = (
+        ('Support', 'https://www.paypal.me/pritya'),
+        ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
+        ('GitHub', 'https://github.com/ptyagicodecamp'),
+        ('Medium', 'https://medium.com/@ptyagicodecamp'),
+	    ('Google+', 'https://plus.google.com/u/0/114534305132859234440'),
+        ('Twitter', 'https://twitter.com/ptyagi13'),
+	)
+
+SOCIAL = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
         ('GitHub', 'https://github.com/ptyagicodecamp'),
         ('Medium', 'https://medium.com/@ptyagicodecamp'),
