@@ -22,5 +22,6 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "ptyagicodecamp"
+#DISQUS_SITENAME = "ptyagicodecamp"
+ADD_THIS_ID = 'ra-5cf387135c8761da'
 GOOGLE_ANALYTICS = "UA-133714063-1"
