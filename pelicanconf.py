@@ -61,9 +61,9 @@ MENUITEMS = (('Archives', '/archives.html'),
              ('Tags', '/tags.html'),)
 
 CC_LICENSE = {
-    'name': 'Creative Commons Attribution-ShareAlike',
-    'version': '4.0',
-    'slug': 'by-sa'
+    'name': 'Priyanka Tyagi',
+    # 'version': '4.0',
+    # 'slug': 'by-sa'
 }
 
 COPYRIGHT_YEAR = datetime.now().year
