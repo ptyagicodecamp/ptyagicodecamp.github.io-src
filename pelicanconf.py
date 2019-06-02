@@ -38,7 +38,7 @@ AUTHOR_FEED_RSS = None
 
 USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
-HOME_HIDE_TAGS = True
+HOME_HIDE_TAGS = False
 
 SOCIAL = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
