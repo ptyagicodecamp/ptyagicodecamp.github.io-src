@@ -2,21 +2,22 @@
 
 from datetime import datetime
 
-AUTHOR = 'Alexandre Vicenzi'
-SITEURL = 'http://localhost:8000'
-SITENAME = 'Flex'
-SITETITLE = 'Flex'
-SITESUBTITLE = 'The minimalist Pelican theme'
-SITEDESCRIPTION = 'Flex - The minimalist Pelican theme.'
-# SITELOGO = ''
-# FAVICON = '/images/favicon.ico'
+AUTHOR = 'Priyanka Tyagi'
+SITENAME = 'techLog'
+SITETITLE = 'techLog'
+SITEURL = 'https://ptyagicodecamp.github.io'
+SITESUBTITLE ='Explore | Android | Software Engineering'
+SITEDESCRIPTION = "Mobile engineering tech logger."
+
+SITELOGO = '/images/favicon.ico'
+FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'monokai'
 
 ROBOTS = 'index, follow'
 
 THEME = '/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/Flex'
-PATH = 'content'
+PATH = 'content/'
 OUTPUT_PATH = 'blog/'
 TIMEZONE = 'America/New_York'
 
@@ -30,7 +31,7 @@ DATE_FORMATS = {
 }
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
@@ -40,9 +41,13 @@ MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
 SOCIAL = (
-    ('github', 'https://github.com/alexandrevicenzi/Flex'),
-    ('rss', '/blog/feeds/all.atom.xml'),
-)
+        ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
+        ('GitHub', 'https://github.com/ptyagicodecamp'),
+        ('Medium', 'https://medium.com/@ptyagicodecamp'),
+	    ('Google+', 'https://plus.google.com/u/0/114534305132859234440'),
+        ('Twitter', 'https://twitter.com/ptyagi13'),
+        ('rss', '/blog/feeds/all.atom.xml'),
+	)
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
@@ -60,7 +65,7 @@ DEFAULT_PAGINATION = 10
 DISQUS_SITENAME = "flex-pelican"
 ADD_THIS_ID = 'ra-55adbb025d4f7e55'
 
-STATIC_PATHS = ['images', 'extra']
+STATIC_PATHS = ['images', 'posts']
 
 CUSTOM_CSS = 'static/custom.css'
 
