@@ -72,7 +72,7 @@ CUSTOM_CSS = 'static/custom.css'
 USE_LESS = True
 
 GOOGLE_ADSENSE = {
-    'ca_id': 'ca-pub-6625957038449899',
+    'ca_id': 'ca-pub-1446757973183590',
     'page_level_ads': True,
     'ads': {
         'aside': '8752710348',
