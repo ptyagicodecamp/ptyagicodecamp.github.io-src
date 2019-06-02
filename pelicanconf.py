@@ -18,7 +18,7 @@ ROBOTS = 'index, follow'
 
 THEME = '/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/Flex'
 PATH = 'content/'
-OUTPUT_PATH = 'content/'
+OUTPUT_PATH = 'blog/'
 TIMEZONE = 'America/New_York'
 
 I18N_TEMPLATES_LANG = 'en'
