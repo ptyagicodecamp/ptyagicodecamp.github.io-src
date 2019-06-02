@@ -81,7 +81,7 @@ USE_LESS = True
 GITHUB_CORNER_URL = 'https://github.com/ptyagicodecamp'
 
 GOOGLE_ADSENSE = {
-    'ca_id': 'ca-pub-1446757973183590',
+    'ca_id': 'ca-pub-6359982310050489',
     'page_level_ads': True,
     'ads': {
         'aside': '3613978005',
