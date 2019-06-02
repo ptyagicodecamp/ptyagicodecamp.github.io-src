@@ -46,7 +46,7 @@ SOCIAL = (
         ('Medium', 'https://medium.com/@ptyagicodecamp'),
 	    ('Google+', 'https://plus.google.com/u/0/114534305132859234440'),
         ('Twitter', 'https://twitter.com/ptyagi13'),
-        ('rss', '/blog/feeds/all.atom.xml'),
+        #('rss', '/blog/feeds/all.atom.xml'),
 	)
 
 MENUITEMS = (('Archives', '/archives.html'),
