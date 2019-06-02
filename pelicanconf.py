@@ -38,7 +38,7 @@ AUTHOR_FEED_RSS = None
 
 USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
-HOME_HIDE_TAGS = False
+HOME_HIDE_TAGS = True
 
 LINKS = (
         ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
@@ -70,6 +70,8 @@ STATIC_PATHS = ['images', 'media']
 CUSTOM_CSS = 'static/custom.css'
 
 USE_LESS = True
+
+GOOGLE_ANALYTICS = 'UA-133714063-1'
 
 GOOGLE_ADSENSE = {
     'ca_id': 'ca-pub-1446757973183590',
