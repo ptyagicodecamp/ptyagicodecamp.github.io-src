@@ -22,5 +22,5 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "techlog"
+DISQUS_SITENAME = "ptyagicodecamp"
 GOOGLE_ANALYTICS = "UA-133714063-1"
