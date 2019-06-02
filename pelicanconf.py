@@ -9,7 +9,7 @@ SITEURL = 'https://ptyagicodecamp.github.io'
 SITESUBTITLE ='Explore | Android | Software Engineering'
 SITEDESCRIPTION = "Mobile engineering tech logger."
 
-SITELOGO = 'https://ptyagicodecamp.github.io/images/favicon.ico'
+SITELOGO = 'https://ptyagicodecamp.github.io/images/profile.jpg'
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'monokai'
