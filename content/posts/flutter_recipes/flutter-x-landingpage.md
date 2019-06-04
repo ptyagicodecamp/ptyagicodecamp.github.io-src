@@ -74,7 +74,7 @@ At this point, we're done with setting up Flutter project to start building web 
 
 ![Flutter Web Setup]({attach}../../images/flutter/flutter_web_setup.jpg)
 
-***Step1***
+***Step1:***
 Clean up the pre-generated code by Flutter. Make `MyHomePage` `Stateless` widget. Remove the title passed into `MyHomePage`. Update the title of the app to `Flutter to fly !`.
 This is how your `main.dart` should look like:
 ```
@@ -108,7 +108,7 @@ class MyHomePage extends StatelessWidget {
 
 Now, lets add header and body for the landing page. Header will have site's logo and navigation links. Body will have background image, text box to submit emails to subscribe to mailing list for any content updates.
 
-First, add a linear gradient on the whole page using two different shades of white (I created a class `MyColors.dar` to hold all my custom colors).
+First, add a linear gradient on the whole page using two different shades of white (I created a class `MyColors.dart` to hold all my custom colors).
 ```
 @override
   Widget build(BuildContext context) {
@@ -276,13 +276,13 @@ This is how header looks at this point:
 
 We're done with header for now. Let's move to body section in Step2.
 
-***Step2***
+***Step2:***
 Body section has three components to it.
 1. Background image showing flutter art work.
 2. Welcome text.
 3. Mailing list subscription: Text box to let user enter their email addresses to subscribe to the newsletter.
 
-*Adding Background image*
+**Adding Background image:**
 All images goes inside `web/assets` directory. Background image is added aligned to right side of the page.
 ```
 //Adds background Image
@@ -297,7 +297,7 @@ Widget addBackground() {
 
 Let's work on welcome text title.
 
-*Adding Welcome Text*
+**Adding Welcome Text:**
 I've added welcome text at this point, and it looks like below:
 ![Flutter Web Setup]({attach}../../images/flutter/ftf_body1.jpg)
 
@@ -355,7 +355,7 @@ Widget addWelcomeText() {
 
 Let's work on the third part of the body section: users inputting their email addresses in text box to subscribe to site.
 
-*Mailing list subscription*
+**Mailing list subscription:**
 There're two parts to this component. One is text box for user to enter email addresses. Let's call this widget `EmailBox`. Another is button to click on to subscribe. I'm naming this widget as `SubscribeButton`
 
 Here's how EmailBox code looks like:
