@@ -7,18 +7,18 @@ Summary: This post is about how to design landing page for a hypothetical mobile
 
 ###Introduction
 This post is about how to design landing page for a hypothetical mobile and web app for Flutter resources say "Flutter-to-Fly !". This post will have two sections to it:
-1. Designing and implementing the landing page for Android/iOS platform.
-2. Since Flutter's web implementation is in tech preview as of now, so I'll show how web version of the same landing page can be implemented for Web.
+* Designing and implementing the landing page for Android/iOS platform.
+* Since Flutter's web implementation is in tech preview as of now, so I'll show how web version of the same landing page can be implemented for Web.
 
 #### Part-1: Flutter-to-fly landing page for Web
 Note: As of now (June 3rd, 2019), there's no actually one code base solution exists for cross-platform Flutter. Web app's code uses specific web libraries. Plug-ins used in flutter native apps can't be used in web apps. Its recommended to create a git branch to host web app code for now until web comes out of tech-preview and experimentation.
 
-***Setup:****
-- Create a Flutter Project in Android Studio.
-- Create a git branch `web`
-- Copy `pubspec.yaml` to `pubspec.yaml.native` for backing up native platform settings. We would need this for native project in another branch say `master`. I would keep native code in default branch `master`.
+**Setup:***
+* Create a Flutter Project in Android Studio.
+* Create a git branch `web`
+* Copy `pubspec.yaml` to `pubspec.yaml.native` for backing up native platform settings. We would need this for native project in another branch say `master`. I would keep native code in default branch `master`.
 
-***Configure `pubspec.yaml`:***
+**Configuring `pubspec.yaml`:**
 Adapt `pubspec.yaml` for Web as described in [this link](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md). This is how `pubspec.yaml` for web app will look like:
 
 ```
@@ -52,10 +52,10 @@ dependency_overrides:
       url: https://github.com/flutter/flutter_web
       path: packages/flutter_web_test
 ```
-***Create `web` directory***
+**Create `web` directory:**
 Create a `web` directory to host the entry point for the web app at root level (same level as `lib` directory). `web/index.html` and `web/main.dart` needs to be added as mentioned [here](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md#webindexhtml-and-webmaindart)
 
-***Building web app***
+**Building web app:**
 Navigate to current working directory and get all dependencies.
 ```
 cd landingpage
@@ -74,7 +74,7 @@ At this point, we're done with setting up Flutter project to start building web 
 
 ![Flutter Web Setup]({attach}../../images/flutter/flutter_web_setup.jpg)
 
-***Step1:***
+####Step1: Getting ready & Page Header####
 Clean up the pre-generated code by Flutter. Make `MyHomePage` `Stateless` widget. Remove the title passed into `MyHomePage`. Update the title of the app to `Flutter to fly !`.
 This is how your `main.dart` should look like:
 ```
@@ -144,7 +144,7 @@ class MyHomePage extends StatelessWidget {
 ```
 `SingleChildScrollView` will contain header and body of the page. I've created two classes: `Header` and `Body` to help us with header and body section/widgets.
 
-*Header Widget*
+**Header Widget**
 Header section/widget contains logo and site's title at left side, and navigation links and login button at right side.
 I'll use `Padding` widget to contain header section's logo and links.
 ![Header logo]({attach}../../images/flutter/ftf_logo.jpg)
@@ -179,7 +179,7 @@ Widget buildLogo() {
 }
 ```
 
-*LogIn Button*
+**LogIn Button**
 ![Header logo]({attach}../../images/flutter/ftf_login.jpg)
 ```
 //Builds and decorates login button
@@ -222,7 +222,7 @@ Widget buildLoginButton() {
   );
 }
 ```
-*Header Navigation Links*
+**Header Navigation Links:**
 Now add header navigation links just before the login button created above to finish header section.
 
 Get the list of links to be shown in the header:
@@ -276,11 +276,11 @@ This is how header looks at this point:
 
 We're done with header for now. Let's move to body section in Step2.
 
-***Step2:***
+####Step2: Page Body:####
 Body section has three components to it.
-1. Background image showing flutter art work.
-2. Welcome text.
-3. Mailing list subscription: Text box to let user enter their email addresses to subscribe to the newsletter.
+* Background image showing flutter art work.
+* Welcome text.
+* Mailing list subscription: Text box to let user enter their email addresses to subscribe to the newsletter.
 
 **Adding Background image:**
 All images goes inside `web/assets` directory. Background image is added aligned to right side of the page.
