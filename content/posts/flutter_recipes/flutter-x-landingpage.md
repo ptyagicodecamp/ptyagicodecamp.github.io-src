@@ -8,14 +8,15 @@ Summary: This post is about how to design landing page for a hypothetical mobile
 ###Introduction
 This post is about how to design landing page for a hypothetical mobile and web app for Flutter resources say "Flutter-to-Fly !". This post will have two sections to it:
 
-1. Designing and implementing the landing page for Android/iOS platform.
+1. Flutter-to-fly landing page for Web (`web` branch of source code).
 
-2. Since Flutter's web implementation is in tech preview as of now, so I'll show how web version of the same landing page can be implemented for Web.
+2. Flutter-to-fly landing page for Native Android and iOS platforms (`native` branch of source code).
 
 #### Part-1: Flutter-to-fly landing page for Web
 Note: As of now (June 3rd, 2019), there's no actually one code base solution exists for cross-platform Flutter. Web app's code uses specific web libraries. Plug-ins used in flutter native apps can't be used in web apps. Its recommended to create a git branch to host web app code for now until web comes out of tech-preview and experimentation.
 
-**Setup:***
+**Setup:**
+
 1. Create a Flutter Project in Android Studio.
 
 2. Create a git branch `web`
