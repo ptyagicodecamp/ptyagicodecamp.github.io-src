@@ -1,4 +1,4 @@
-Title: Designing Flutter prototype for Landing Page
+Title: Designing Cross platform Flutter prototype for Landing Page
 Date: 06/03/2019
 Authors: ptyagi
 Category: Flutter
