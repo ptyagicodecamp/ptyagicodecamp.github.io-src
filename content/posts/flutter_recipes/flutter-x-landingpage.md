@@ -179,8 +179,8 @@ Widget buildLogo() {
 }
 ```
 
-**LogIn Button**
-![Header logo]({attach}../../images/flutter/ftf_login.jpg)
+**LogIn Button:**
+
 ```
 //Builds and decorates login button
 Widget buildLoginButton() {
@@ -222,6 +222,8 @@ Widget buildLoginButton() {
   );
 }
 ```
+![Header logo]({attach}../../images/flutter/ftf_login.jpg)
+
 **Header Navigation Links:**
 Now add header navigation links just before the login button created above to finish header section.
 
