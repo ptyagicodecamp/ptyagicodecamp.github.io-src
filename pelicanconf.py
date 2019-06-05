@@ -86,7 +86,7 @@ GOOGLE_ADSENSE = {
     'ads': {
         'aside': '8977779775',
         'main_menu': '8977779775',
-        'index_top': '8977779775',
+        'index_top': '', #8977779775
         'index_bottom': '8977779775',
         'article_top': '6546879945',
         'article_bottom': '6546879945',
