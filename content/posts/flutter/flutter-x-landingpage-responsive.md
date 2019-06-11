@@ -321,6 +321,11 @@ class Header {
 So, this concludes making landing page responsive for all screen form factors.
 
 #### Running in Native environment ####
+You may want to make few changes to adapt to native code. I've native source code available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-responsive)
+
+* `Image.network` needs to be replaced with `Image.asset`.
+* `flutter_web` imports need to be replaced with it's native variant `flutter`.
+
 Responsive page at Native platform looks like below in Android:
 
 ![Responsive navigation for smaller screen for Android]({attach}../../images/flutter/native_responsive_final.jpg)
