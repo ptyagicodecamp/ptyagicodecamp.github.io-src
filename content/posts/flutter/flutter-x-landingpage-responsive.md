@@ -297,15 +297,19 @@ At this point, we've made body of the landing page responsive. Now let's make he
 #### Adapting landing page's Header ####
 In large screens, there's enough room to show all navigation links. However, as far as smaller screens are concerned, there's not enough space to show all links next to each other. For smaller screens, it makes sense to show a menu icon. Clicking on menu icon can bring up all the links. Implementing menu icon interaction is out of the scope of this article.
 ```
-//Builds navigation links at the right top of landing page
-Widget buildHeaderLinks(BuildContext context) {
-  if (!ResponsiveWidget.isSmallScreen(context))
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      children: getLinksListing()..add(buildLoginButton()),
-    );
-  else
-    return Image.network("assets/menu.png", width: 25, height: 25);
+class Header {
+  ...
+  //Builds navigation links at the right top of landing page
+  Widget buildHeaderLinks(BuildContext context) {
+    if (!ResponsiveWidget.isSmallScreen(context))
+      return Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: getLinksListing()..add(buildLoginButton()),
+      );
+    else
+      return Image.network("assets/menu.png", width: 25, height: 25);
+  }
+  ...
 }
 ```
 
