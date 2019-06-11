@@ -12,7 +12,7 @@ _Web landing page:_
 ![Web landing page comparison]({attach}../../images/flutter/responsive_web_comp.jpg)
 
 
-_Native landing page:_
+_Native landing screen:_
 
 ![Native landing page comparison]({attach}../../images/flutter/responsive_native_comp.jpg)
 
@@ -220,6 +220,7 @@ Second, you might notice that "Subscribe" button still have overflow text like s
 
 Let's fix the overflow text issue with `SubscribeButton`.
 There're three places, where we need to adjust the size rendering to fit on smaller screens.
+
 * Make the font of the text "Subscribe" on button adaptive to the screen at run time.
 ```
 Text(
@@ -313,7 +314,7 @@ class Header {
 }
 ```
 
-**Note:** `Image.network` needs to be replaced with `Image.asset` for Native implementation. 
+**Note:** `Image.network` needs to be replaced with `Image.asset` for Native implementation.
 
 ![Responsive navigation for smaller screen for Web]({attach}../../images/flutter/web_responsive_3.jpg)
 
