@@ -1,4 +1,4 @@
-Title: Making of Responsive Flutter Landing Page for Web & Native app
+Title: Making Cross-platform Flutter Landing Page Responsive
 Date: 06/10/2019
 Authors: ptyagi
 Category: Flutter
