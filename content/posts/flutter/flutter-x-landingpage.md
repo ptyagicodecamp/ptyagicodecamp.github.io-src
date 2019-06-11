@@ -481,7 +481,7 @@ The final landing page looks like this:
 
 
 Next post: I'll be writing about making this page responsive in my next post.
-**[EDIT-Part2: Making page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
+**[EDIT: Making page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
 
 
 ### Part-2: Flutter-to-fly landing page for Native platform
@@ -491,7 +491,8 @@ As I mentioned before that you would need to replace `flutter_web` to `flutter` 
 Note: You may need to refresh packages in native environment. Don't forget to update the assets in appropriate location for Flutter native.
 
 I've created branch named `native` to play around in Android and iOS platforms. At this point, I see few dimensions issues there since layout is designed for large screen point of view. In next post, I'll explain how we can make it responsive on different form factors.
-**[EDIT-Part2: Making page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
+
+**[EDIT: Making page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
 
 Until then keep Fluttering !
 
