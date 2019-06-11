@@ -5,8 +5,20 @@ Category: Flutter
 Tags: Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, Responsive
 Summary: This post is continuation of [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html).
 
+**Goal:** Our goal is to make Flutter page responsive for Web and Native apps.
+
+_Web landing page:_
+
+![Web landing page comparison]({attach}../../images/flutter/responsive_web_comp.jpg)
+
+
+_Native landing page:_
+
+![Native landing page comparison]({attach}../../images/flutter/responsive_native_comp.jpg)
+
 ###Introduction
 This post is continuation of [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html). In this article, I'll show you how to make landing page responsive (meaning adapting to given screen size).
+
 In previous post, we learned how to design and implement a cross-platform (Web, Android and iOS). It looked great on large screen like desktop/laptop. However, it's widgets overflown when web landing page was resized to smaller screen like below:
 
 ![Overflow widgets for Web]({attach}../../images/flutter/web_overflow_screen.jpg)
