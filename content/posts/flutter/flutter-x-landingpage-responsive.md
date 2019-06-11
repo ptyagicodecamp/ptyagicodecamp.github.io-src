@@ -1,4 +1,4 @@
-Title: Making of Responsive Flutter Landing Page for Web & Native
+Title: Making of Responsive Flutter Landing Page for Web & Native app
 Date: 06/10/2019
 Authors: ptyagi
 Category: Flutter
