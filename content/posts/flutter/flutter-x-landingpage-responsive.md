@@ -28,12 +28,12 @@ On native environment for a phone screen, it looked like this:
 ![Overflow widgets for native]({attach}../../images/flutter/overflow_screen.jpg)
 
 In this post, I'll be showing how to :
+
 * Implement a StatelessWidget `ResponsiveWidget` to support dynamic screen sizes.
+
 * Adapt landing page's body to large vs smaller screens.
+
 * Adapt landing page's header to show menu icon at smaller screens.
-
-
-Checkout the companion video tutorial : TODO
 
 #### ResponsiveWidget utility class ####
 Let's implement a StatelessWidget `ResponsiveWidget` that uses [LayoutBuilder](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html). LayoutBuilder is a widget which builds a widget tree that can depend on the parent widget's size. This class is responsible for detecting the screen size, and put them in one of the three buckets: Large, Medium and Small. It has utility static functions/methods to check the screen sizes.
