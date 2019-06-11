@@ -41,28 +41,32 @@ Let's implement a StatelessWidget `ResponsiveWidget` that uses [LayoutBuilder](h
 I'll be using [`MediaQuery`](https://api.flutter.dev/flutter/widgets/MediaQuery-class.html) to access the size of the screen. This is how I'll be checking the size of the screens by using width of the screen in pixels.
 
 ```
-//Large screen is any screen whose width is more than 1200 pixels
-static bool isLargeScreen(BuildContext context) {
-  return MediaQuery.of(context).size.width > 1200;
+class ResponsiveWidget {
+  ...
+  //Large screen is any screen whose width is more than 1200 pixels
+  static bool isLargeScreen(BuildContext context) {
+    return MediaQuery.of(context).size.width > 1200;
+  }
+
+  //Small screen is any screen whose width is less than 800 pixels
+  static bool isSmallScreen(BuildContext context) {
+    return MediaQuery.of(context).size.width < 800;
+  }
+
+  //Medium screen is any screen whose width is less than 1200 pixels,
+  //and more than 800 pixels
+  static bool isMediumScreen(BuildContext context) {
+    return MediaQuery.of(context).size.width > 800 &&
+    MediaQuery.of(context).size.width < 1200;
+  }  
 }
-
-//Small screen is any screen whose width is less than 800 pixels
-static bool isSmallScreen(BuildContext context) {
-  return MediaQuery.of(context).size.width < 800;
-}
-
-//Medium screen is any screen whose width is less than 1200 pixels,
-//and more than 800 pixels
-static bool isMediumScreen(BuildContext context) {
-  return MediaQuery.of(context).size.width > 800 &&
-  MediaQuery.of(context).size.width < 1200;
-}  
-
 ```
 
 In the following section, I'll be building body of the landing page. In my [previous post](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html), I had only one design for landing page's body which is targeted to desktop size screens or say larger screens with width more than 1200 pixels. The widgets will give overflow signal when screen size is resized to smaller screen. To solve this problem, ideally you can design separate three designs for each of the screen buckets: Large, Medium and Small. In `ResponsiveWidget`'s `build` function, appropriate implementation will be picked like below:
 ```
-final Widget largeScreen;
+class ResponsiveWidget {
+  ...
+  final Widget largeScreen;
   final Widget mediumScreen;
   final Widget smallScreen;
 
@@ -85,6 +89,7 @@ final Widget largeScreen;
       }
     });
   }
+}
 ```
 
 #### Adapting landing page's Body ####
