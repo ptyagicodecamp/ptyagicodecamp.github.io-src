@@ -23,11 +23,11 @@ Checkout the companion videos:
 
 **Part-1:**
 
-<iframe width="560" height="315" src="https://youtu.be/bFpJA_RDDXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bFpJA_RDDXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Part-2:**
 
-<iframe width="560" height="315" src="https://youtu.be/krr7mKEUfE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/krr7mKEUfE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 In previous post, we learned how to design and implement a cross-platform (Web, Android and iOS). It looked great on large screen like desktop/laptop. However, it's widgets overflown when web landing page was resized to smaller screen like below:
