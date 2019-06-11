@@ -490,8 +490,6 @@ Note: You may need to refresh packages in native environment. Don't forget to up
 
 I've created branch named `native` to play around in Android and iOS platforms. At this point, I see few dimensions issues there since layout is designed for large screen point of view. In next post, I'll explain how we can make it responsive on different form factors.
 
-**[Next Article: Make landing page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
-
 Until then keep Fluttering !
 
 ***Source code repo:***
@@ -499,6 +497,7 @@ Source code for [web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tr
 
 Source code for [Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native)
 
+**[Next Article: Make landing page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
 
 ### References/Credits: ###
 1. [Migration to Web](https://github.com/flutter/flutter_web/blob/master/docs/migration_guide.md)
