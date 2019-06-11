@@ -330,6 +330,16 @@ Responsive page at Native platform looks like below in Android:
 
 ![Responsive navigation for smaller screen for Android]({attach}../../images/flutter/native_responsive_final.jpg)
 
+Checkout the companion videos:
+
+**Part-1:**
+
+%[https://youtu.be/bFpJA_RDDXQ]
+
+**Part-2:**
+
+%[https://youtu.be/krr7mKEUfE0]
+
 Keep Fluttering !
 
 ***Source code repo:***
