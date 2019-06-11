@@ -486,7 +486,7 @@ Next post: I'll be writing about making this page responsive in my next post.
 ### Part-2: Flutter-to-fly landing page for Native platform
 I want to show you how this code can be converted into native, and can be built and run on Android and iOS platforms.
 First we need to create a separate branch and adapt its `pubspec.yaml` for native Flutter. Remember that you can use any plug-ins in native code, but not in web variation at this point. So, it makes sense to create web app first and then adapt it at native platform.
-As I mentioned before that you'll need to replace `flutter_web` to `flutter` packages.
+As I mentioned before that you would need to replace `flutter_web` to `flutter` packages.
 Note: You may need to refresh packages in native environment. Don't forget to update the assets in appropriate location for Flutter native.
 
 I've created branch named `native` to play around in Android and iOS platforms. At this point, I see few dimensions issues there since layout is designed for large screen point of view. In next post, I'll explain how we can make it responsive on different form factors.
