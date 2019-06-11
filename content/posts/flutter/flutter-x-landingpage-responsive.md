@@ -334,11 +334,12 @@ Checkout the companion videos:
 
 **Part-1:**
 
-%[https://youtu.be/bFpJA_RDDXQ]
+<iframe width="560" height="315" src="https://youtu.be/bFpJA_RDDXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Part-2:**
 
-%[https://youtu.be/krr7mKEUfE0]
+<iframe width="560" height="315" src="https://youtu.be/krr7mKEUfE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Keep Fluttering !
 
