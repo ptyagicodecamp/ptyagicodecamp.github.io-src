@@ -313,6 +313,8 @@ class Header {
 }
 ```
 
+**Note:** `Image.network` needs to be replaced with `Image.asset` for Native implementation. 
+
 ![Responsive navigation for smaller screen for Web]({attach}../../images/flutter/web_responsive_3.jpg)
 
 So, this concludes making landing page responsive for all screen form factors.
