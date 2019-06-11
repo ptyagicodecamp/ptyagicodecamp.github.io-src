@@ -19,6 +19,17 @@ _Native landing screen:_
 ###Introduction
 This post is continuation of [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html). In this article, I'll show you how to make landing page responsive (meaning adapting to given screen size).
 
+Checkout the companion videos:
+
+**Part-1:**
+
+<iframe width="560" height="315" src="https://youtu.be/bFpJA_RDDXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Part-2:**
+
+<iframe width="560" height="315" src="https://youtu.be/krr7mKEUfE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 In previous post, we learned how to design and implement a cross-platform (Web, Android and iOS). It looked great on large screen like desktop/laptop. However, it's widgets overflown when web landing page was resized to smaller screen like below:
 
 ![Overflow widgets for Web]({attach}../../images/flutter/web_overflow_screen.jpg)
@@ -329,16 +340,6 @@ You may want to make few changes to adapt to native code. I've native source cod
 Responsive page at Native platform looks like below in Android:
 
 ![Responsive navigation for smaller screen for Android]({attach}../../images/flutter/native_responsive_final.jpg)
-
-Checkout the companion videos:
-
-**Part-1:**
-
-<iframe width="560" height="315" src="https://youtu.be/bFpJA_RDDXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Part-2:**
-
-<iframe width="560" height="315" src="https://youtu.be/krr7mKEUfE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Keep Fluttering !
