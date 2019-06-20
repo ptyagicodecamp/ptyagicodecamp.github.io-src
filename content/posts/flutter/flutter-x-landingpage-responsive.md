@@ -1,5 +1,5 @@
 Title: Making Cross-platform Flutter Landing Page Responsive
-Date: 06/10/2019
+Date: 06/11/2019
 Authors: ptyagi
 Category: Flutter
 Tags: Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, Responsive
