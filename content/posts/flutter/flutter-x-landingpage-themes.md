@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
 
 You'll notice same textTheme for Blue and Purple theme. For GreenTheme, you'll see italic navigational links in the header section. Below are the screen shots for all themes at this stage. Note that all buttons are themed similarly as per their main theme color.
 
-_Theme #1 BlueTheme:_ Using blue color for all buttons.
+**_Theme #1 BlueTheme:_** Using blue color for all buttons.
 
 ![Theme #1]({attach}../../images/flutter/ftf_theme_part1_blue.jpg)
 
