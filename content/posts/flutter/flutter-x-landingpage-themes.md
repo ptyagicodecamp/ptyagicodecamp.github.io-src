@@ -32,9 +32,9 @@ This article is third in [Designing Cross platform Flutter prototype for Landing
 
 * Local Themes: This is responsible for making changes to one part of the app rather touching any other part of the app. Local themes are implemented using `Theme` widget and passing specific [`ThemeData`](https://api.flutter.dev/flutter/material/ThemeData-class.html) instance to it.
 
-Let's get started by defining global theme say `AppTheme` for our landing page. Later on, I'll show you how a particular widget's (say SubscribeButton) theming could be changed using `Theme` widget.
+Let's get started by defining global theme say `AppThemeBlue` for our landing page. Later on, I'll show you how a particular widget's (say SubscribeButton) theming could be changed using `Theme` widget.
 
-This article covers three aspects/parts of Flutter Themes:
+This article covers three aspects of Flutter Themes:
 
 * **Part #1:** How to create and use Global App themes
 * **Part #2:** How to create and use local themes for a widget
