@@ -492,10 +492,11 @@ I've created branch named `native` to play around in Android and iOS platforms. 
 
 Until then keep Fluttering !
 
-***Source code repo:***
-Source code for [web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/step2)
+### Source code repo:###
 
-Source code for [Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native)
+* [Source code for web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/step2)
+* [Source code for Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native)
+* [Youtube playlist for Designing Flutter Landing page](https://www.youtube.com/playlist?list=PL9hJBK4eqz6NQiumJc6Iwt7r6eLk8ZZP3)
 
 **[Next Article: Make landing page responsive](https://ptyagicodecamp.github.io/making-of-responsive-flutter-landing-page-for-web-native-app.html)**
 

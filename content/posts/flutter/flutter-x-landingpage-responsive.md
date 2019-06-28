@@ -344,10 +344,11 @@ Responsive page at Native platform looks like below in Android:
 
 Keep Fluttering !
 
-***Source code repo:***
-Source code for [web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-responsive)
+###Source code repo:###
 
-Source code for [Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-responsive)
+* Source code for [web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-responsive)
+* Source code for [Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-responsive)
+* [Youtube playlist for Designing Flutter Landing page](https://www.youtube.com/playlist?list=PL9hJBK4eqz6NQiumJc6Iwt7r6eLk8ZZP3)
 
 
 Happy cooking with Flutter :)

@@ -323,7 +323,6 @@ Keep Fluttering !
 * [Part #2 Source Code (Web)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part2)
 * [Final Source Code (Web)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
 * [Final Source Code (Native)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
-
 * [Youtube playlist for Designing Flutter Landing page](https://www.youtube.com/playlist?list=PL9hJBK4eqz6NQiumJc6Iwt7r6eLk8ZZP3)
 
 ### References/Credits: ###
