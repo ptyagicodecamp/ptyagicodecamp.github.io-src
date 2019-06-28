@@ -179,11 +179,11 @@ _***Theme #1 BlueTheme:***_ Using blue color for all buttons.
 
 ![Theme #1]({attach}../../images/flutter/ftf_theme_part1_blue.jpg)
 
-_Theme #2 PurpleTheme:_ Using purple color for all buttons.
+_***Theme #2 PurpleTheme:***_ Using purple color for all buttons.
 
 ![Theme #2]({attach}../../images/flutter/ftf_theme_part1_purple.jpg)
 
-_Theme #3 GreenTheme:_ Using green color for all buttons. Header navigational links are styled italic.
+_***Theme #3 GreenTheme:***_ Using green color for all buttons. Header navigational links are styled italic.
 
 ![Theme #3]({attach}../../images/flutter/ftf_theme_part1_green.jpg)
 
