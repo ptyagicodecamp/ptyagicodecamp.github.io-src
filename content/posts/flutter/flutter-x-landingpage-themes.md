@@ -296,6 +296,8 @@ Keep Fluttering !
 
 ### References/Credits: ###
 * [Official Flutter Doc](https://flutter.dev/docs/cookbook/design/themes)
+* [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
+* [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html)
 
 Happy cooking with Flutter :)
 
