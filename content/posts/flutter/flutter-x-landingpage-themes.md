@@ -180,7 +180,7 @@ class MyApp extends StatelessWidget {
 
 You'll notice same textTheme for Blue and Purple theme. For GreenTheme, you'll see italic navigational links in the header section. Below are the screen shots for all themes at this stage. Note that all buttons are themed similarly as per their main theme color.
 
-***_Theme #1 BlueTheme:_*** Using blue color for all buttons.
+_***Theme #1 BlueTheme:***_ Using blue color for all buttons.
 
 ![Theme #1]({attach}../../images/flutter/ftf_theme_part1_blue.jpg)
 
@@ -271,9 +271,16 @@ That's pretty much to it ! Here's screen shot of the web version:
 
 
 **Custom fonts on Native (Android, iOS) :**
-Let's make custom fonts work for native landing page:
-
-Coming soon
+Let's make custom fonts work for native landing page. We would need to make two changes:
+* Don't forget to update native version of flutter dependencies as described in my another article about [running flutter landing page cross-platform on web and native](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html).
+* Copy over fonts file 'IndieFlower.ttf' inside fonts directory as `fonts/IndieFlower.ttf` directory.
+* Update fonts related configuration in `pubspec.yaml`:
+```
+fonts:
+  - family: Indie Flower
+    fonts:
+      - asset: fonts/IndieFlower.ttf
+```
 
 
 Keep Fluttering !
@@ -282,7 +289,7 @@ Keep Fluttering !
 * [Part #1 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part1)
 * [Part #2 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part2)
 * [Final Source Code - Web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
-* [Final Source Code - Native]()
+* [Final Source Code - Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
 
 
 ### References/Credits: ###
