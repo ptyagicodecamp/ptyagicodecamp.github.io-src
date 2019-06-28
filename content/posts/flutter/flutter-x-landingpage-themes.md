@@ -269,6 +269,8 @@ That's pretty much to it ! Here's screen shot of the web version:
 
 ###Custom fonts on Native (Android, iOS) :###
 
+![Android]({attach}../../images/flutter/ftf_themes_native.jpg)
+
 Let's make custom fonts work for native landing page. We would need to make two changes:
 
 * Don't forget to update native version of flutter dependencies as described in my another article about [running flutter landing page cross-platform on web and native](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html).
@@ -290,8 +292,6 @@ fonts:
 
 ![Android]({attach}../../images/flutter/ftf_theme_final_native_ios.jpg)
 
-
-![Android]({attach}../../images/flutter/ftf_themes_native.jpg)
 
 Keep Fluttering !
 
