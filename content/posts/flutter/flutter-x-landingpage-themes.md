@@ -10,25 +10,25 @@ This article is in continuation of [Making Cross-platform Flutter Landing Page R
 
 Checkout the companion video:
 
-**Part-1 (Themes Introduction):**
+**Part-1. (Themes Introduction):**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LuGI9VEQuYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Part-1a (Global Theme):**
+**Part-1a. (Global Theme):**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u8rzSDPps3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Part-2 (Local Theme):**
+**Part-2. (Local Theme):**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bPwpEvZzI_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Part-3 (Custom Fonts-Web):**
+**Part-3. (Custom Fonts-Web):**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MYQvaDIBOrY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Part-3 (Custom Fonts-Native Demo):**
+**Part-3a. (Custom Fonts-Native Demo):**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LIwhK7WwMw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Goal:** Our goal is to create themes for Cross-platform Flutter landing page (Web and Native apps).
 
@@ -324,6 +324,7 @@ Keep Fluttering !
 * [Final Source Code (Web)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
 * [Final Source Code (Native)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
 
+* [Youtube playlist for Designing Flutter Landing page](https://www.youtube.com/playlist?list=PL9hJBK4eqz6NQiumJc6Iwt7r6eLk8ZZP3)
 
 ### References/Credits: ###
 
