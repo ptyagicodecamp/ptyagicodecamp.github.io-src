@@ -1,4 +1,4 @@
-Title: Using Themes for Flutter Landing Page (Web, Android, iOS)
+Title: Using Flutter Themes for Landing Page (Web, Android, iOS)
 Date: 06/27/2019
 Authors: ptyagi
 Category: Flutter
@@ -7,13 +7,6 @@ Summary: This post is continuation of [Making Cross-platform Flutter Landing Pag
 
 ###Background###
 This post is continuation of [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html). In previous post, we learned how to make a cross-platform (Web, Android and iOS) landing page responsive for various form-factors. In this post, we'll see how can we change look and feel or Theme of landing page quickly, just by modifying small piece of code.
-
-Checkout the companion video:
-
-**Part-1:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 **Goal:** Our goal is to create themes for Cross-platform Flutter landing page (Web and Native apps).
 
