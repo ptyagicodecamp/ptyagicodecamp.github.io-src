@@ -6,19 +6,19 @@ Tags: Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, Web, 
 Summary: This post is in continuation of [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html).
 
 ###Background###
-This post is continuation of [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html). In previous post, we learned how to make a cross-platform (Web, Android and iOS) landing page responsive for various form-factors. In this post, we'll see how can we change look and feel or theme of the landing page quickly, just by modifying small piece of code.
+This article is in continuation of [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html). In previous post, we learned how to make a cross-platform (Web, Android and iOS) landing page responsive for various form-factors. In this post, we'll see how can we change look and feel or theme of the landing page quickly, just by modifying small piece of code.
 
 **Goal:** Our goal is to create themes for Cross-platform Flutter landing page (Web and Native apps).
 
-***Theme#1: BlueTheme*** Uses custom font [Indie Flower](https://fonts.google.com/specimen/Indie+Flower) and blue color for header section. "Subscribe" button demonstrates local widget theming.
+**Theme#1: BlueTheme** Uses custom font [Indie Flower](https://fonts.google.com/specimen/Indie+Flower) and blue color for header section. "Subscribe" button demonstrates local widget theming.
 
 ![Theme #1]({attach}../../images/flutter/ftf_theme_final_blue.jpg)
 
-***Theme#2: PurpleTheme*** Uses purple color for header section. No default font or text styling specified. "Subscribe" button demonstrates local widget theming.
+**Theme#2: PurpleTheme** Uses purple color for header section. No default font or text styling specified. "Subscribe" button demonstrates local widget theming.
 
 ![Theme #2]({attach}../../images/flutter/ftf_theme_final_purple.jpg)
 
-***Theme#3: GreenTheme*** Uses green color for header section. No default font specified. Header navigational links are styled italic. "Subscribe" button demonstrates local widget theming.
+**Theme#3: GreenTheme** Uses green color for header section. No default font specified. Header navigational links are styled italic. "Subscribe" button demonstrates local widget theming.
 
 ![Theme #3]({attach}../../images/flutter/ftf_theme_final_green.jpg)
 
@@ -287,10 +287,11 @@ Screen shot of final landing page at iOS platform:
 Keep Fluttering !
 
 ***Source code repo:***
-* [Part #1 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part1)
-* [Part #2 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part2)
-* [Final Source Code - Web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
-* [Final Source Code - Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
+
+*[Part #1 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part1)
+*[Part #2 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part2)
+*[Final Source Code - Web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
+*[Final Source Code - Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
 
 
 ### References/Credits: ###
