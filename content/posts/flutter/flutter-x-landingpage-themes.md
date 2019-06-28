@@ -60,7 +60,7 @@ static ThemeData AppThemeBlue(BuildContext context) {
   );
 }
 ```
-Let's defined Green and Purple themes like below. All we've to do is to pick our favorite hues of those colors for `primaryColor`, `secondaryHeaderColor` and `accentColor` attributes.
+Let's define Green and Purple themes like below. All we've to do is to pick our favorite hues of those colors for `primaryColor`, `secondaryHeaderColor` and `accentColor` attributes.
 
 Green theme implementation:
 ```
@@ -230,7 +230,7 @@ This is how SubscribeButton would look like for all themes:
 Let's move on to be able to use custom fonts in your landing page. First, you may want to download (or get it from your designer) custom font of your choice from your favorite platform. I'm using Google fonts website to download custom font for this example. I want to use [Indie Flower Font](https://fonts.google.com/specimen/Indie+Flower) for my BlueTheme only.
 Configuring custom fonts in Flutter Web is slightly different than Flutter Native apps.
 
-**Custom fonts for Web :**
+####Custom fonts for Web :####
 Let's explore Flutter Web first:
 * I've downloaded `IndieFlower.ttf` from [Google Fonts Website](https://fonts.google.com/specimen/Indie+Flower).
 * Copy `IndieFlower.ttf` file into `web/assets` directory.
@@ -265,7 +265,7 @@ That's pretty much to it ! Here's screen shot of the web version:
 ![Custom Font-Web]({attach}../../images/flutter/ftf_theme_final_blue.jpg)
 
 
-**Custom fonts on Native (Android, iOS) :**
+###Custom fonts on Native (Android, iOS) :###
 Let's make custom fonts work for native landing page. We would need to make two changes:
 * Don't forget to update native version of flutter dependencies as described in my another article about [running flutter landing page cross-platform on web and native](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html).
 * Copy over fonts file 'IndieFlower.ttf' inside fonts directory as `fonts/IndieFlower.ttf` directory.
