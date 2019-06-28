@@ -280,14 +280,17 @@ fonts:
       - asset: fonts/IndieFlower.ttf
 ```
 
-Screen shot of final landing page at Android platform:
+**Screenshot of final landing page at Android platform:**
 
 ![Android]({attach}../../images/flutter/ftf_theme_final_native_a.jpg)
 
 
-Screen shot of final landing page at iOS platform:
+**Screenshot of final landing page at iOS platform:**
 
 ![Android]({attach}../../images/flutter/ftf_theme_final_native_ios.jpg)
+
+
+![Android]({attach}../../images/flutter/ftf_themes_native.jpg)
 
 Keep Fluttering !
 
