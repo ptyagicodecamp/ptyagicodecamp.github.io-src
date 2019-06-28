@@ -8,6 +8,28 @@ Summary: This post is in continuation of [Making Cross-platform Flutter Landing 
 ###Background###
 This article is in continuation of [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html). In previous post, we learned how to make a cross-platform (Web, Android and iOS) landing page responsive for various form-factors. In this post, we'll see how can we change look and feel or theme of the landing page quickly, just by modifying small piece of code.
 
+Checkout the companion video:
+
+**Part-1 (Themes Introduction):**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LuGI9VEQuYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Part-1a (Global Theme):**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u8rzSDPps3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Part-2 (Local Theme):**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bPwpEvZzI_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Part-3 (Custom Fonts-Web):**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Part-3 (Custom Fonts-Native Demo):**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Goal:** Our goal is to create themes for Cross-platform Flutter landing page (Web and Native apps).
 
 **Theme#1: BlueTheme** Uses custom font [Indie Flower](https://fonts.google.com/specimen/Indie+Flower) and blue color for header section. "Subscribe" button demonstrates local widget theming.
@@ -304,6 +326,7 @@ Keep Fluttering !
 
 
 ### References/Credits: ###
+
 * [Official Flutter Doc](https://flutter.dev/docs/cookbook/design/themes)
 * [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
 * [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html)
