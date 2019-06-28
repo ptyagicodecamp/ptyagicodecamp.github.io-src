@@ -231,7 +231,9 @@ Let's move on to be able to use custom fonts in your landing page. First, you ma
 Configuring custom fonts in Flutter Web is slightly different than Flutter Native apps.
 
 ####Custom fonts for Web :####
+
 Let's explore Flutter Web first:
+
 * I've downloaded `IndieFlower.ttf` from [Google Fonts Website](https://fonts.google.com/specimen/Indie+Flower).
 * Copy `IndieFlower.ttf` file into `web/assets` directory.
 * Create `FontManifest.json` file inside `web/assets` directory with following contents:
@@ -266,6 +268,7 @@ That's pretty much to it ! Here's screen shot of the web version:
 
 
 ###Custom fonts on Native (Android, iOS) :###
+
 Let's make custom fonts work for native landing page. We would need to make two changes:
 * Don't forget to update native version of flutter dependencies as described in my another article about [running flutter landing page cross-platform on web and native](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html).
 * Copy over fonts file 'IndieFlower.ttf' inside fonts directory as `fonts/IndieFlower.ttf` directory.
