@@ -286,12 +286,12 @@ Screen shot of final landing page at iOS platform:
 
 Keep Fluttering !
 
-***Source code repo:***
+### Source code repo: ###
 
-*[Part #1 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part1)
-*[Part #2 Source Code](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part2)
-*[Final Source Code - Web](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
-*[Final Source Code - Native](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
+* [Part #1 Source Code (Web)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part1)
+* [Part #2 Source Code (Web)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-part2)
+* [Final Source Code (Web)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/web-themes-final)
+* [Final Source Code (Native)](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/native-themes-final)
 
 
 ### References/Credits: ###
