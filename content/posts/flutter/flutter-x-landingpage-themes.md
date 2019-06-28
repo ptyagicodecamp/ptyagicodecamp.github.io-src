@@ -24,10 +24,12 @@ This article is in continuation of [Making Cross-platform Flutter Landing Page R
 
 
 ###Introduction
-This article is third part of the [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html). In this article, I'll show you how to create and use [Flutter Themes](https://flutter.dev/docs/cookbook/design/themes) for landing page.
+This article is third in [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html) series. In this article, I'll show you how to create and use [Flutter Themes](https://flutter.dev/docs/cookbook/design/themes) for landing page.
 
-There are two ways to implement Themes in Flutter:
+####Two ways to implement Themes in Flutter:####
+
 * Global Theme: This type of theme affects whole app. Global themes are implemented using [`ThemeData`](https://api.flutter.dev/flutter/material/ThemeData-class.html)
+
 * Local Themes: This is responsible for making changes to one part of the app rather touching any other part of the app. Local themes are implemented using `Theme` widget and passing specific [`ThemeData`](https://api.flutter.dev/flutter/material/ThemeData-class.html) instance to it.
 
 Let's get started by defining global theme say `AppTheme` for our landing page. Later on, I'll show you how a particular widget's (say SubscribeButton) theming could be changed using `Theme` widget.
