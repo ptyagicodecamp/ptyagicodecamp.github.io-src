@@ -5,19 +5,22 @@ Category: Flutter
 Tags: Material Icons, Hummingbird, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: At this point, Flutter Web (aka Hummingbird) doesn't render Material Icons for Web. In this post, we'll see how Material Icons can be rendered for WebApps developed using Flutter.
 
-***Target Audience:*** Beginner
+**Target Audience:** Beginner
 
-***Recipe:*** Material Icons for Flutter Web (Hummingbird).
+**Recipe:** Material Icons for Flutter Web (Hummingbird).
 
-***Focus Widget:*** Material Icons
+**Focus Widget:** Material Icons
 
-***Goal:*** Fix MaterialIcon rendering for Flutter WebApps.
+**Goal:** Fix MaterialIcon rendering for Flutter WebApps.
 
 Material Icons Default rendering in Flutter WebApp:
+
 ![Material Icons Default rendering]({attach}../../images/flutter/web_materialicon_1.jpg)
 
-Fixed Material Icons rendering for Flutter WebApp:
+Material Icons rendering correctly for Flutter WebApp:
+
 ![Fixed Material Icons rendering]({attach}../../images/flutter/web_materialicon_2.jpg)
+
 
 ### Lets's go! ###
 
@@ -55,7 +58,8 @@ return new MaterialApp(
     );
 ```
 
-***Source code repo:***
+
+**Source code repo:**
 Source code is [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/popupmenubutton-web/flutter_widgets)
 
 
