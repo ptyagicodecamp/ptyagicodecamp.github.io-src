@@ -1,0 +1,60 @@
+Title: Load image from Firebase Storage in Flutter App
+Date: 07/04/2019
+Authors: ptyagi
+Category: Flutter
+Tags: Firebase Storage, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Summary: Load image from Firebase Storage in Flutter App.
+
+***Target Audience:*** Beginner
+
+***Recipe:*** Loading image from Firebase Storage
+
+***Goal:*** Update Landing page's body image from Firebase Storage
+
+### Lets's go! ###
+
+Step #1. Setup
+Make sure you've a configured Firebase project.
+Upload an image manually to Firebase Storage to update on landing page.
+
+This is how Firebase dashboard would look like after setting up Firebase project.
+
+![Firebase storage image download url]({attach}../../images/flutter/firebase_storage_1.jpg)
+
+Upload a new image into Firebase Storage manually, and copy it's downloadable URL:
+![Firebase storage image download url]({attach}../../images/flutter/firebase_storage_2.jpg)
+
+At the moment, we've home page image in `assets` folder in source code,
+and we're displaying it like below:
+```
+Center(
+  child: Image.asset(
+  "assets/flutter_image.jpg",
+  scale: 1,
+  ),
+),
+```
+
+You can get
+
+One way to load image is simply by using the download url like below:
+```
+Center(
+  child: Image.network("https://firebasestorage.googleapis.com/v0/b/fir-recipes-b5611.appspot.com/o/images%2Fflutter_banner.png?alt=media&token=f4e81497-ca05-47f7-b5a8-a4f6bbe2239e"),
+),
+```
+####Complete example code ####
+TODO
+
+***Source code repo:***
+Recipe source code is available [TODO](https://github.com/ptyagicodecamp/flutter_cookbook/tree/master/flutter_animated_opacity)
+
+
+### References: ###
+1. [This SO post inspired me to write about this topic](https://stackoverflow.com/questions/50196913/how-to-change-navigation-animation-using-flutter)
+
+Happy cooking with Flutter :)
+
+_Liked the article ?
+Couldn't find a topic of your interest ? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_

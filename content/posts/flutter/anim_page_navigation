@@ -1,13 +1,13 @@
-Title: TODO
-Date: TODO
+Title: Flutter Page Navigation Animation
+Date: 07/03/2019
 Authors: ptyagi
 Category: Flutter
-Tags: TODO, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Tags: Animation, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: TODO
 
 ***Target Audience:*** Beginner
 
-***Recipe:*** TODO.
+***Recipe:*** Animating page navigation in Flutter app
 
 ***Focus Widget:*** TODO
 
@@ -27,12 +27,10 @@ Recipe source code is available [TODO](https://github.com/ptyagicodecamp/flutter
 
 
 ### References: ###
-1. TODO
+1. [This SO post inspired me to write about this topic](https://stackoverflow.com/questions/50196913/how-to-change-navigation-animation-using-flutter)
 
 Happy cooking with Flutter :)
 
 _Liked the article ?
 Couldn't find a topic of your interest ? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
-
-Follow me at [twitter](https://twitter.com/ptyagi13)
