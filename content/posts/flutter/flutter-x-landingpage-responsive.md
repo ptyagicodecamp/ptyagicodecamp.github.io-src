@@ -1,8 +1,8 @@
-Title: Making Cross-platform Flutter Landing Page Responsive
+Title: Making Cross-platform Flutter Landing Page Responsive (Web-Hummingbird, Android, iOS)
 Date: 06/11/2019
 Authors: ptyagi
 Category: Flutter
-Tags: Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, Responsive
+Tags: Hummingbird, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, Responsive
 Summary: This post is in continuation of [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html).
 
 **Goal:** Our goal is to make Flutter page responsive for Web and Native apps.

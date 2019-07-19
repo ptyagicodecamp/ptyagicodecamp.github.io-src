@@ -1,4 +1,4 @@
-Title: Using Flutter Themes for Cross-platform Landing Page (Web, Android, iOS)
+Title: Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)
 Date: 06/27/2019
 Authors: ptyagi
 Category: Flutter
