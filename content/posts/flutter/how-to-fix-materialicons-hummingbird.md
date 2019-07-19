@@ -69,6 +69,7 @@ Source code is [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/po
 
 ### References: ###
 1. [This Github issue](https://github.com/flutter/flutter/issues/32540)
+2. [Material Icons](https://github.com/google/material-design-icons/raw/master/iconfont/MaterialIcons-Regular.ttf)
 
 Happy cooking with Flutter :)
 
