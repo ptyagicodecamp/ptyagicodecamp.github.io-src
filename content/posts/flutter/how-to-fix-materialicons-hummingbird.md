@@ -15,6 +15,7 @@ Summary: At this point, Flutter Web (aka Hummingbird) doesn't render Material Ic
 
 ![Goal]({attach}../../images/flutter/web_material_icon.jpg)
 
+[Watch full video here](https://youtu.be/bgLiVIIu3bA)
 
 **[Before]** Default Material Icons rendering in Flutter WebApp:
 
