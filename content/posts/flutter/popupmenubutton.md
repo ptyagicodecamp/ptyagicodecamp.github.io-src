@@ -18,6 +18,8 @@ Summary: In this article, I'll show you implementing "Settings" menu using Popup
 
 ![PopupMenuButton]({attach}../../images/flutter/popupmenubutton_1.jpg)
 
+**Checkout the companion video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ferHTZ6cym4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this recipe, I'll show you how to use PopupMenuButton widget as Stateless and Stateful widgets, and when to use one over another.
 
