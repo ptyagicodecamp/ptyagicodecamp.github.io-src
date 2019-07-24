@@ -1,5 +1,5 @@
 Title: TODO
-Date: TODO
+Date: 07/18/2019
 Authors: ptyagi
 Category: Flutter
 Tags: TODO, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
@@ -13,11 +13,14 @@ Summary: TODO
 
 ***Goal:*** TODO
 
-
+**Checkout the companion video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bgLiVIIu3bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's go! ###
 
 Step #1. TODO
+
+![Sorted Wordlist]({attach}../../media/flutter/search_appbar/wordlist.png)
 
 ####Complete example code ####
 TODO
