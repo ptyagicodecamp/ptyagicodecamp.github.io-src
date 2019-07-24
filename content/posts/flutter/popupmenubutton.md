@@ -7,7 +7,7 @@ Summary: In this article, I'll show you implementing "Settings" menu using Popup
 
 **Target Audience:** Beginner
 
-**Recipe:** Implementing "Settings" menu using PopupMenuButton widget in Stateless vs Stateless manner.
+**Recipe:** Implementing "Settings" menu using PopupMenuButton widget in Stateless vs Stateful manner.
 
 **Focus Widget:** [PopupMenuButton Widget](https://api.flutter.dev/flutter/material/PopupMenuButton-class.html)
 
