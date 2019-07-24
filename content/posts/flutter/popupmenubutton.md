@@ -32,6 +32,7 @@ First page inherits `Stateless` widget. Selecting different options from Setting
 Second page inherits `Stateful` widget. Choosing an option from Settings menu will update the selection in body's Text widget of the same screen.
 
 Let's go ahead and implement four menu items ('Home', 'Github', 'Videos' and 'Jobs') for "Settings" menu. In case you're not aware what Settings menu is referred in the Material design world: it's the three vertical dots in top-right corner of 'AppBar'. This page is simple.
+
 It has three main widgets:
 - AppBar: AppBar contains Settings vertical dotted icon.
 - PopupMenuButton: Settings menu uses this widget to list all options.
