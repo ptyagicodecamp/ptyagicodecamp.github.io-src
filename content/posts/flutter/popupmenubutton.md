@@ -92,20 +92,22 @@ As I've mentioned above, choosing an option can be acknowledged that an option h
 
 To make better sense for menu item selection. Let's open those links in a WebView.
 ```
-onSelected: (value) {
-              //print the selected option
-              print(value);
+onSelected:
+(value)
+{
+    //print the selected option
+    print(value);
 
-              //Update the current choice.
-              //However, this choice won't be updated in body section since it's a Stateless widget.
-              choice = displayString(value);
+    //Update the current choice.
+    //However, this choice won't be updated in body section since it's a Stateless widget.choice = displayString(value);
 
-              Navigator.pushNamed(context, WEBVIEW,
-                  arguments: WebViewArguments(
-                      title: displayString(value), url: linkUrl(value)));
-            }
+    Navigator.pushNamed(context,
+      WEBVIEW,
+      arguments: WebViewArguments(
+            title: displayString(value), url: linkUrl(value)));
+}
 ```
-`WEBVIEW` tells system how to find WebView page. Checkout the `[router.dart](https://github.com/ptyagicodecamp/flutter_cookbook/blob/popupmenubutton/flutter_widgets/lib/router.dart)` to get better understanding of navigation and routing.
+`WEBVIEW` tells system how to find WebView page. Checkout the [router.dart](https://github.com/ptyagicodecamp/flutter_cookbook/blob/popupmenubutton/flutter_widgets/lib/router.dart) to get better understanding of navigation and routing.
 
 **_Note:_** To open WebView for iOS, you would need to add key `io.flutter.embedded_views_preview` and value `YES` in `Info.plist`.
 
