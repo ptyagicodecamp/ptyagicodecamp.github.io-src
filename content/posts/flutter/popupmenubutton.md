@@ -17,11 +17,11 @@ Summary: In this article, I'll show you implementing "Settings" menu using Popup
 
 ![PopupMenuButton]({attach}../../images/flutter/popupmenubutton_1.jpg)
 
-**Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this recipe, I'll show you how to use PopupMenuButton widget as Stateless and Stateful widgets, and when to use one over another.
-As we know that Stateless widgets are passed in to values/properties when they're initiated, and don't change thereafter. They are immutable and can't change their properties dynamically. For example, when a screen or page is created as a Stateless widget, it can't update properties or state of its children widgets. For instance, when you're implementing a counter, and expect a button to update the number of times it's tapped on page's body (Text) widget, you may want to use Stateful widget rather a Stateless widget.
+
+As we know that Stateless widgets are passed in to values/properties when they're initiated, and don't change thereafter. They are immutable and can't change their properties dynamically. For example, when a screen or page is created as a Stateless widget, it can't update properties or state of its children widgets.
+For instance, when you're implementing a counter, and expect a button to update the number of times it's tapped on page's body (Text) widget, you may want to use Stateful widget rather a Stateless widget.
 A good example of Stateless widget is [`RaisedButton`](https://api.flutter.dev/flutter/material/RaisedButton-class.html). Certain properties are passed into RaisedButton when initializing, which remains unchanged during the lifecycle of the widget like color, size etc.
 
 For demonstration purposes, I'll create two pages with Settings menu in AppBar. This Settings menu will have few pre-defined menu-items.
@@ -42,9 +42,11 @@ Expected behavior is that whenever a choice is selected in Settings menu, it get
 Choosing an option from Settings menu will open the selected link in WebView.
 
 **Choosing "Github" option from menu:**
+
 ![PopupMenuButton (Stateless)]({attach}../../images/flutter/popupmenubutton_2.jpg)
 
 **Github link opened in WebView:**
+
 ![PopupMenuButton (Stateless)]({attach}../../images/flutter/popupmenubutton_4.jpg)
 
 This is how page for Stateless variation of PopupMenuButton would look like:
