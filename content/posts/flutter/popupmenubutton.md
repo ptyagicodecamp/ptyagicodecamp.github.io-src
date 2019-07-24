@@ -22,7 +22,9 @@ Summary: In this article, I'll show you implementing "Settings" menu using Popup
 In this recipe, I'll show you how to use PopupMenuButton widget as Stateless and Stateful widgets, and when to use one over another.
 
 As we know that Stateless widgets are passed in to values/properties when they're initiated, and don't change thereafter. They are immutable and can't change their properties dynamically. For example, when a screen or page is created as a Stateless widget, it can't update properties or state of its children widgets.
+
 For instance, when you're implementing a counter, and expect a button to update the number of times it's tapped on page's body (Text) widget, you may want to use Stateful widget rather a Stateless widget.
+
 A good example of Stateless widget is [`RaisedButton`](https://api.flutter.dev/flutter/material/RaisedButton-class.html). Certain properties are passed into RaisedButton when initializing, which remains unchanged during the lifecycle of the widget like color, size etc.
 
 For demonstration purposes, I'll create two pages with Settings menu in AppBar. This Settings menu will have few pre-defined menu-items.
@@ -34,9 +36,10 @@ Second page inherits `Stateful` widget. Choosing an option from Settings menu wi
 Let's go ahead and implement four menu items ('Home', 'Github', 'Videos' and 'Jobs') for "Settings" menu. In case you're not aware what Settings menu is referred in the Material design world: it's the three vertical dots in top-right corner of 'AppBar'. This page is simple.
 
 It has three main widgets:
-- AppBar: AppBar contains Settings vertical dotted icon.
-- PopupMenuButton: Settings menu uses this widget to list all options.
-- Body: Current choice is updated in body part in Text widget.
+
+* AppBar: AppBar contains Settings vertical dotted icon.
+* PopupMenuButton: Settings menu uses this widget to list all options.
+* Body: Current choice is updated in body part in Text widget.
 
 Expected behavior is that whenever a choice is selected in Settings menu, it gets printed page's body area. If "Github" option is selected, then "Github" should be printed in body. We'll also print this chosen selection on console/terminal to make sure that control is coming at the right place.
 
