@@ -5,13 +5,14 @@ Category: Flutter
 Tags: PopupMenuButton, Navigation, WebView, Cross-platform, Flutter, Hummingbird, Code-recipes, Android, Android Studio, iOS, development
 Summary: In this article, I'll show you implementing "Settings" menu using PopupMenuButton Widget as Stateless vs Stateful widget in Flutter for Android, iOS and Web (Hummingbird).
 
-***Target Audience:*** Beginner
+**Target Audience:** Beginner
 
-***Recipe:*** Implementing "Settings" menu using PopupMenuButton widget in Stateless vs Stateless manner.
+**Recipe:** Implementing "Settings" menu using PopupMenuButton widget in Stateless vs Stateless manner.
 
-***Focus Widget:*** [PopupMenuButton Widget](https://api.flutter.dev/flutter/material/PopupMenuButton-class.html)
+**Focus Widget:** [PopupMenuButton Widget](https://api.flutter.dev/flutter/material/PopupMenuButton-class.html)
 
-***Goal:***
+**Goal:**
+
 1. Understanding the difference between Stateful vs Stateless PopupMenuButton widget implementations.
 2. "Settings" menu using PopupMenuButton to display four menu items : 'Home', 'Github', 'Videos' and 'Jobs'.
 
@@ -175,12 +176,15 @@ Notice the `setState()` method. All Stateful widgets implement `createState()` a
 In nutshell, you may want to use `Stateful` widgets when you want parts of the screen or children widgets to update their values/properties.
 `Stateless` widgets are immutable. They can be used in cases where properties of widgets don't need to be updated frequently, and/or to implement page navigation as we did in above example for navigating to WebView pages for chosen menu item url.
 
-***Source code repo:***
+
+**Source code repo:**
+
 1. Native Apps (Android / iOS) recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/popupmenubutton/flutter_widgets)
 2. Web Apps (Hummingbird) recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/popupmenubutton-web/flutter_widgets)
 
 
 ### References: ###
+
 1. [PopupMenuButton Widget](https://api.flutter.dev/flutter/material/PopupMenuButton-class.html)
 2. [WebView for Flutter](https://pub.dev/packages/webview_flutter)
 
