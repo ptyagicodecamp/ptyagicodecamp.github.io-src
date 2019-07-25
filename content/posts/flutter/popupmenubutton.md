@@ -16,7 +16,14 @@ Summary: In this article, I'll show you implementing "Settings" menu using Popup
 1. Understanding the difference between Stateful vs Stateless PopupMenuButton widget implementations.
 2. "Settings" menu using PopupMenuButton to display four menu items : 'Home', 'Github', 'Videos' and 'Jobs'.
 
-![PopupMenuButton]({attach}../../images/flutter/popupmenubutton_1.jpg)
+**PopupMenuButton (Stateless) workflow:**
+
+![PopupMenuButton (Stateless)]({attach}../../images/flutter/popupmenubutton_stateless.jpg)
+
+
+**PopupMenuButton (Stateful) workflow:**
+
+![PopupMenuButton]({attach}../../images/flutter/popupmenubutton_stateful.jpg)
 
 **Checkout the companion video tutorial:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ferHTZ6cym4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
