@@ -1,8 +1,8 @@
-Title: Using ColorTween in Flutter app (Android, iOS and Web)
+Title: Using ColorTween in Flutter app
 Date: 08/06/2019
 Authors: ptyagi
 Category: Flutter
-Tags: ColorTween, Animations, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Tags: ColorTween, Animations, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development, Hummingbird
 Summary: This recipe demonstrates using [ColorTween](https://api.flutter.dev/flutter/animation/ColorTween-class.html) animation class to achieve transition from one color to another.
 
 **Target Audience:** Beginner
@@ -11,18 +11,11 @@ Summary: This recipe demonstrates using [ColorTween](https://api.flutter.dev/flu
 
 **Focus Widget:** [ColorTween](https://api.flutter.dev/flutter/animation/ColorTween-class.html)
 
-**Goal:** Animating from one color to another for following three platforms:
+**Goal:** Animating from one color to another for a quiz card's background based on the correct answer. We'll implement a card with picture of an animal in it, along with two choices to select from: 'Carnivorous' or 'Herbivorous'. When correct option is picked, background color of card will transition from grey to blue color in order to indicate correct selection otherwise background stays grey or turns grey from blue.
 
-* Android
-* iOS
-* Web
+<div style="width:100%;height:100%;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/MCitgRspdAVS9l7geK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
 
-We'll implement a card with picture of an animal in it, along with two choices to select from: 'Carnivorous' or 'Herbivorous'. When correct option is picked, background color of card will transition from grey to blue color to indicate correct selection otherwise background stays grey or turns grey from blue.
 
-![Color Tween]({attach}../../media/flutter/color_tween.gif)
-
-**Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bgLiVIIu3bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### ColorTween for Native platforms (Android & iOS) ###
 
@@ -85,7 +78,7 @@ UI's body has main three parts:
 
 ![Color Tween]({attach}../../images/flutter/color_tween1.jpg)
 
-**Step #2-a. Quiz Card UI anatomy:***
+**Step #2-a. Quiz Card UI anatomy:**
 ```
 @override
 Widget build(BuildContext context) {
@@ -268,7 +261,9 @@ dispose() {
 }
 ```
 
-### ColorTween for Web ###
+### What about Flutter Web ? ###
+
+**Note:** As of today Aug 7th, 2019- There's [an issue](https://github.com/flutter/flutter/issues/37761) in running Flutter Web App after upgrading to the latest version of Flutter SDK.
 
 Let's achieve the same animations on Web platform. Please refer to my [this article](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page-web-hummingbird-android-ios.html), if you're new to Flutter-Web / Hummingbird and need help with setting up web project.
 In short, we would need to create an another branch say `animations-web` to host all web related code since web libraries are not pushed to same repository as of native platform. You'll need to fetch libraries directly from their Github repo.
@@ -303,10 +298,10 @@ flutter packages pub global run webdev serve
 
 ### References: ###
 1. [ColorTween](https://api.flutter.dev/flutter/animation/ColorTween-class.html)
-2. [`AnimationController`](https://api.flutter.dev/flutter/animation/AnimationController-class.html)
-3. [`Animation`](https://api.flutter.dev/flutter/animation/Animation-class.html)
-4. [`SingleTickerProviderStateMixin`](https://api.flutter.dev/flutter/widgets/SingleTickerProviderStateMixin-mixin.html)
-5. [`Positioned Widget`](https://api.flutter.dev/flutter/widgets/Positioned-class.html)
+2. [AnimationController](https://api.flutter.dev/flutter/animation/AnimationController-class.html)
+3. [Animation](https://api.flutter.dev/flutter/animation/Animation-class.html)
+4. [SingleTickerProviderStateMixin](https://api.flutter.dev/flutter/widgets/SingleTickerProviderStateMixin-mixin.html)
+5. [Positioned Widget](https://api.flutter.dev/flutter/widgets/Positioned-class.html)
 6. [FlatButton](https://api.flutter.dev/flutter/material/FlatButton-class.html)
 
 
