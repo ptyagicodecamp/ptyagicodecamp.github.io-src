@@ -17,6 +17,10 @@ Summary: This recipe demonstrates using [ColorTween](https://api.flutter.dev/flu
 
 
 
+**Checkout the companion video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KgJGJJTQhM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ### ColorTween for Native platforms (Android & iOS) ###
 
 **Step #1. Data (`items.dart`)**
