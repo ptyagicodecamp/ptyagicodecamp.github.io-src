@@ -283,15 +283,33 @@ import 'package:flutter_web/material.dart';
 
 * `pubspec.yaml`: I keep a backup for native and web `pubspec.yaml` config as `pubspec.yaml.web` and `pubspec.yaml.native` in both branches. Copy correct file's content into current `pubspec.yaml`.
 
-* Building project in web branch `animations-web`:
+* Building project in web branch `animations-web`. Make sure that you're in `stable` channel:
 ```
+flutter channel stable
+
 flutter clean
+
+flutter pub upgrade
 
 flutter pub get
 
 flutter packages pub global run webdev serve
 
 ```
+
+**Note:** You may notice that image doesn't render using `AssetImage`. I use `Image.network()` to render images in web version like below:
+```
+Container(
+  width: screenSize.width / 1.2,
+  height: screenSize.height / 2.2,
+  child: Image.network(cardItems[0].image),
+),
+```
+
+Here's screenshot of the web version:
+
+![Color Tween]({attach}../../images/flutter/color_tween_web.jpg)
+
 
 **Source code repo:**
 
