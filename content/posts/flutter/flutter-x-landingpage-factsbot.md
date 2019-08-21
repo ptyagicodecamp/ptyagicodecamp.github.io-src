@@ -26,7 +26,7 @@ To adapt our existing landing page app to this new conversational style, we'll b
 
 
 
-### 1. Setting up DialogFlow ###
+### Setting up DialogFlow ###
 
 * Create an account at [DialogFlow](https://dialogflow.com/). It's free to create account.
 
@@ -36,59 +36,60 @@ To adapt our existing landing page app to this new conversational style, we'll b
 
 ![DialogFlow #2]({attach}../../images/flutter/dialogflow_intro2.jpg)
 
-3. Assign a google cloud project. Navigate to [Google Cloud Console](https://console.cloud.google.com) to create a new project, if you don't have a project yet. I'll choosing my existing google cloud project named - "flutter-to-fly".
+* Assign a google cloud project. Navigate to [Google Cloud Console](https://console.cloud.google.com) to create a new project, if you don't have a project yet. I'll choosing my existing google cloud project named - "flutter-to-fly".
 
 ![DialogFlow #3]({attach}../../images/flutter/dialogflow_intro3.jpg)
 
-4. Create/Choose Intent. I'll be using default welcome intent for this tutorial. This is the very first intent presented to user at the beginning of conversation.
+* Create/Choose Intent. I'll be using default welcome intent for this tutorial. This is the very first intent presented to user at the beginning of conversation.
 
 ![DialogFlow #4]({attach}../../images/flutter/dialogflow_intro4.jpg)
 
-5. Train intent. Add training phrases at this step. Training phrases will include words or sentence(s) which you think user could use to invoke conversation. I'm using word "flutter" in various combinations. As far as user has "flutter" keyword in their sentence, they'll be presented a fact about flutter. Click "Save" when you're done adding all possible keywords/phrases. It'll start agent training.
+* Train intent. Add training phrases at this step. Training phrases will include words or sentence(s) which you think user could use to invoke conversation. I'm using word "flutter" in various combinations. As far as user has "flutter" keyword in their sentence, they'll be presented a fact about flutter. Click "Save" when you're done adding all possible keywords/phrases. It'll start agent training.
 
 ![DialogFlow Training #1]({attach}../../images/flutter/dialogflow_training1.jpg)
 
-6. Add Responses. I'll be adding simple text responses for this tutorial. Response text is the output for the phrases tried out by user. If a match is found for user input text, one of the text response will be returned to user. In our case, as far as user says "flutter" in its query, a Flutter fact will be returned.
+* Add Responses. I'll be adding simple text responses for this tutorial. Response text is the output for the phrases tried out by user. If a match is found for user input text, one of the text response will be returned to user. In our case, as far as user says "flutter" in its query, a Flutter fact will be returned.
 
 ![DialogFlow Training #2]({attach}../../images/flutter/dialogflow_training3.jpg)
 
-7. You can try out responses at the right panel either by typing or speaking out phrases in order to test the fulfillment.
+* You can try out responses at the right panel either by typing or speaking out phrases in order to test the fulfillment.
 
 ![DialogFlow Training #2]({attach}../../images/flutter/dialogflow_training2.jpg)
 
 DialogFlow agent is trained and ready to return text responses for default intent !
 
-#### #2. App's Integration with DialogFlow ####
+### App's Integration with DialogFlow ###
 
 Now, we want to integrate our newly trained DialogFlow intent into "Flutter Facts" feature of our app.
 
-1. Head over to [Google Cloud Console](https://console.cloud.google.com).
+* Head over to [Google Cloud Console](https://console.cloud.google.com).
+
 - Choose Google Cloud project.
 - Select "API & Services"
 - Click on credentials.
 
 ![GC Credentials #1]({attach}../../images/flutter/df_gc_creds1.jpg)
 
-2. Click on "Create credentials" drop down menu, and choose "Service account key" option.
+* Click on "Create credentials" drop down menu, and choose "Service account key" option.
 
 ![GC Credentials #2]({attach}../../images/flutter/df_gc_creds2.jpg)
 
-3. Select "DialogFlow integrations" option in Service account drop-down. Choose recommended "JSON" format for key type.
+* Select "DialogFlow integrations" option in Service account drop-down. Choose recommended "JSON" format for key type.
 
 ![GC Credentials #3]({attach}../../images/flutter/df_gc_creds3.jpg)
 
-4. Download you private key to your machine. Keep this safe somewhere private to you. DO NOT commit this key into version control system.
+* Download you private key to your machine. Keep this safe somewhere private to you. DO NOT commit this key into version control system.
 
 ![GC Credentials #4]({attach}../../images/flutter/df_gc_creds4.jpg)
 
 
 **Note:** Save your credentials file at a safe location. DO NOT check-in this file in version control system like Github, BitBucket etc.
 
-5. Copy credentials file `flutter-to-fly-creds.json` in to `assets` directory. I prefer to make [symlink](https://www.shellhacks.com/symlink-create-symbolic-link-linux/) for this file inside `assets` folder to save me from accidentally checking it in Github.
+* Copy credentials file `flutter-to-fly-creds.json` in to `assets` directory. I prefer to make [symlink](https://www.shellhacks.com/symlink-create-symbolic-link-linux/) for this file inside `assets` folder to save me from accidentally checking it in Github.
 
 ![GC Credentials #5]({attach}../../images/flutter/df_gc_creds5.jpg)
 
-6. `pubspec.yaml` dependencies for DialogFlow plug-in:
+* `pubspec.yaml` dependencies for DialogFlow plug-in:
 ```
 dependencies:
   flutter_dialogflow: ^0.1.2
@@ -96,7 +97,8 @@ dependencies:
 
 At this point your Flutter app is ready to send requests to DialogFlow APIs.
 
-#### #3. Adding Chat like Icon at Landing Page ####
+### Adding Chat like Icon at Landing Page ###
+
 Let's add a chat like icon to invoke conversation with DialogFlow. Clicking on this chat icon will open a new page with an input box for user to enter their query. For every query entered by user will fetch a flutter fact from DialogFlow.
 
 In this section, I'll be adding a chat icon in the bottomRight corner of the landing page like below:
@@ -163,7 +165,7 @@ You'll notice that I imported `router.dart` as first thing, and then set `onGene
 
 User and FlutterFacts bot interaction is implemented in `FlutterFactsDialogFlow()` class. Let's checkout the details in next section.
 
-#### #4. Developing "FlutterFactsDialogFlow" interface ####
+### Developing "FlutterFactsDialogFlow" interface ###
 
 In this section, I'll be building a simple chat window looking interface to interact with 'FlutterFactsBot'. Interface will have following components in addition to `AppBar`:
 
