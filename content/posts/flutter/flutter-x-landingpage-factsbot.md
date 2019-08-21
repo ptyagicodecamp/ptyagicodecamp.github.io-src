@@ -25,6 +25,7 @@ To adapt our existing landing page app to this new conversational style, we'll b
 4. Developing "FlutterFactsDialogFlow" interface
 
 
+![DialogFlow-Flutter]({attach}../../images/flutter/df_mainpage.jpg)
 
 ### Setting up DialogFlow ###
 
