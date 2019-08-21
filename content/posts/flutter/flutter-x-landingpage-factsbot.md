@@ -15,7 +15,7 @@ You can refer to previous articles here:
 3. [Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/using-flutter-themes-for-cross-platform-landing-page-web-hummingbird-android-ios.html)
 
 ###Introduction###
-In this article, I'll show you how can we integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. We'll keep it to a fun app for demonstration purposes. We'll add a chat icon on our landing page. Clicking on this chat icon, will take user to a chat like screen. Whenever user type sentence or word consisting "Flutter" in it, our "Flutter Facts Bot" will present user a fact about Flutter :) Simple !
+In this article, I'll show you how we can integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. We'll keep it to a fun app for demonstration purposes. We'll add a chat icon on our landing page. Clicking on this chat icon, will take user to a chat like screen. Whenever user type sentence or word consisting "Flutter" in it, our "Flutter Facts Bot" will present user a fact about Flutter :) Simple !
 
 To adapt our existing landing page app to this new conversational style, we'll be taking following steps:
 
@@ -26,13 +26,13 @@ To adapt our existing landing page app to this new conversational style, we'll b
 
 
 
-#### #1. Setting up DialogFlow ####
+### 1. Setting up DialogFlow ###
 
-1. Create an account at [DialogFlow](https://dialogflow.com/). It's free to create account.
+* Create an account at [DialogFlow](https://dialogflow.com/). It's free to create account.
 
 ![DialogFlow #1]({attach}../../images/flutter/dialogflow_intro1.jpg)
 
-2. Create agent by clicking on "Create Agent" button as shown in image below:
+* Create agent by clicking on "Create Agent" button as shown in image below:
 
 ![DialogFlow #2]({attach}../../images/flutter/dialogflow_intro2.jpg)
 
