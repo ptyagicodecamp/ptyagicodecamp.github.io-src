@@ -1,35 +1,32 @@
 Title: Implementing Flutter FactsBot using DialogFlow
-Date: 06/27/2019
+Date: 08/20/2019
 Authors: ptyagi
 Category: Flutter
 Tags: DialogFlow, Flutter, Code-recipes, Android, Android Studio, iOS
-Summary: This is 5th article in [Designing Cross platform Flutter prototype for Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page-web-hummingbird-android-ios.html) series. In this article, I'll show you how can we integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience.
+Summary: In this article, we'll learn to integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience.
 
 ###Background###
-This is 5th article in [Designing Cross platform Flutter prototype for Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page-web-hummingbird-android-ios.html) series.
+In this article, we'll learn to integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. I'll use the sample app that we built earlier in my previous article [Designing Cross platform Flutter prototype for Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page-web-hummingbird-android-ios.html). We'll be integrating DialogFlow conversational API in native Flutter App.
+
 You can refer to previous articles here:
+
 1. [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html)
 2. [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
 3. [Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/using-flutter-themes-for-cross-platform-landing-page-web-hummingbird-android-ios.html)
-4. Menus
-5. Flutter Facts Bot using DialogFlow
 
 ###Introduction###
-In this article, I'll show you how can we integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. We'll keep it to a fun app for demonstration purposes only. We'll add a chat icon on our landing page. Clicking on this chat icon, will take user to a chat like screen. Whenever user type sentence or word consisting "Flutter" in it, our "Flutter Facts Bot" will present user a fact about Flutter :) Simple !
+In this article, I'll show you how can we integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. We'll keep it to a fun app for demonstration purposes. We'll add a chat icon on our landing page. Clicking on this chat icon, will take user to a chat like screen. Whenever user type sentence or word consisting "Flutter" in it, our "Flutter Facts Bot" will present user a fact about Flutter :) Simple !
 
 To adapt our existing landing page app to this new conversational style, we'll be taking following steps:
 
 1. Setting up DialogFlow
 2. App's Integration with DialogFlow
-3. Adding Chat Icon at Landing Page
+3. Adding Chat like Icon at Landing Page
 4. Developing "FlutterFactsDialogFlow" interface
 
-**Checkout the companion video:**
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-#### Setting up DialogFlow ####
+#### #1. Setting up DialogFlow ####
 
 1. Create an account at [DialogFlow](https://dialogflow.com/). It's free to create account.
 
@@ -61,7 +58,7 @@ To adapt our existing landing page app to this new conversational style, we'll b
 
 DialogFlow agent is trained and ready to return text responses for default intent !
 
-#### App's Integration with DialogFlow ####
+#### #2. App's Integration with DialogFlow ####
 
 Now, we want to integrate our newly trained DialogFlow intent into "Flutter Facts" feature of our app.
 
@@ -99,7 +96,7 @@ dependencies:
 
 At this point your Flutter app is ready to send requests to DialogFlow APIs.
 
-#### Adding Chat like Icon at Landing Page ####
+#### #3. Adding Chat like Icon at Landing Page ####
 Let's add a chat like icon to invoke conversation with DialogFlow. Clicking on this chat icon will open a new page with an input box for user to enter their query. For every query entered by user will fetch a flutter fact from DialogFlow.
 
 In this section, I'll be adding a chat icon in the bottomRight corner of the landing page like below:
@@ -166,9 +163,10 @@ You'll notice that I imported `router.dart` as first thing, and then set `onGene
 
 User and FlutterFacts bot interaction is implemented in `FlutterFactsDialogFlow()` class. Let's checkout the details in next section.
 
-#### Developing "FlutterFactsDialogFlow" interface ####
+#### #4. Developing "FlutterFactsDialogFlow" interface ####
 
 In this section, I'll be building a simple chat window looking interface to interact with 'FlutterFactsBot'. Interface will have following components in addition to `AppBar`:
+
 - User input box at the bottom
 - Top part to show interaction log between user and 'FlutterFactsBot'
 - User and 'FlutterFactsBot' icons
