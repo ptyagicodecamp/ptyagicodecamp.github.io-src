@@ -411,9 +411,11 @@ Keep Fluttering !
 
 
 ### References/Credits: ###
-
 * [Webhooks fulfillment](https://cloud.google.com/dialogflow/docs/fulfillment-overview)
 * [DialogFlow](https://dialogflow.com/)
+* [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html)
+* [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
+* [Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/using-flutter-themes-for-cross-platform-landing-page-web-hummingbird-android-ios.html)
 
 Happy cooking with Flutter :)
 
