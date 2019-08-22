@@ -14,6 +14,11 @@ You can refer to previous articles here:
 2. [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
 3. [Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/using-flutter-themes-for-cross-platform-landing-page-web-hummingbird-android-ios.html)
 
+**Checkout the companion video:**
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/89XIlULDQKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ###Introduction###
 In this article, I'll show you how we can integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. We'll keep it to a fun app for demonstration purposes. We'll add a chat icon on our landing page. Clicking on this chat icon, will take user to a chat like screen. Whenever user type sentence or word consisting "Flutter" in it, our "Flutter Facts Bot" will present user a fact about Flutter :) Simple !
 
