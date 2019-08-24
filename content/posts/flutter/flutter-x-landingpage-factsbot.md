@@ -196,7 +196,7 @@ When user clicks on the chat icon, it'll launch `FlutterFactsDialogFlow` page, w
 Page has two parts: `appBar` & `body`. AppBar has title for the page whereas body part has three widgets inside a `Column` widget. `Flexible` widget contains a `ListView` to show `_messages` list in reverse order. `Divider` widget is used to give a visual separation between interaction log and text box `_queryInputWidget` to input user's query.
 
 ```
-lass FlutterFactsDialogFlow extends StatefulWidget {
+class FlutterFactsDialogFlow extends StatefulWidget {
   FlutterFactsDialogFlow({Key key, this.title}) : super(key: key);
 
   final String title;
