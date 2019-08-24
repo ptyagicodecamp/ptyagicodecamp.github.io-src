@@ -16,7 +16,6 @@ You can refer to previous articles here:
 
 **Checkout the companion video:**
 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/89XIlULDQKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ###Introduction###
