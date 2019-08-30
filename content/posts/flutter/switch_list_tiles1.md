@@ -17,23 +17,29 @@ Summary: In this code recipe, we'll implement a custom switch widget to accept p
 
 ![Privacy policy #1]({attach}../../images/flutter/recipe_switch_privacy.jpg)
 
+
 Screenshot of Privacy policy loaded in WebView:
+
 ![Privacy policy #1]({attach}../../images/flutter/recipe_switch_privacy2.jpg)
 
+
 Screenshot of updated text label after accepting privacy policy:
+
 ![Privacy policy #1]({attach}../../images/flutter/recipe_switch_privacy3.jpg)
 
-**Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Implementing Custom Switch Widget : `HyperlinkedLabelSwitch`###
 
 We'll be creating custom switch widget with clickable text label and switch.
 Screenshot of custom widget in 'off' mode (Privacy privacy is not accepted):
+
 ![Privacy policy #4]({attach}../../images/flutter/recipe_switch_privacy4.jpg)
 
 Screenshot of custom widget in 'on' mode (Privacy privacy accepted):
+
 ![Privacy policy #4]({attach}../../images/flutter/recipe_switch_privacy5.jpg)
+
 
 Step #1. Create a class `HyperlinkedLabelSwitch` extending `StatelessWidget`. This widget has following members:
 
