@@ -69,4 +69,15 @@ Implementing Login and Register functionality in Flutter apps using Firebase Aut
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/login)
 
-* Youtube video is available [here]()
+* Youtube video is available [here](https://youtu.be/Sr1dn3j5tz0)
+
+
+## Integrate Dialogflow in FlutterApp ##
+
+Implementing Flutter FactsBot using DialogFlow
+
+* Read article about Implementing Flutter FactsBot using DialogFlow [here]( https://ptyagicodecamp.github.io/implementing-flutter-factsbot-using-dialogflow.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/flutter-facts-native)
+
+* Youtube video is available [here](https://youtu.be/89XIlULDQKg)
