@@ -12,7 +12,9 @@ Summary: In this code recipe, we'll implement a custom switch widget to accept p
 **Focus Widget:** [Switch Widget](https://api.flutter.dev/flutter/material/Switch-class.html)
 
 **Goal:** In our demo app, we'll implement a custom stateless widget `HyperlinkedLabelSwitch`. It'll contain two main visual parts:
+
 1. Label 'Privacy Policy' aligned to start. Clicking / tapping on this label will open url in a [`WebView`](https://pub.dev/packages/webview_flutter). I'll be using a Google Doc for sample privacy policy accessible via a hyperlink.
+
 2. Toggle switch aligned to the end of the screen. On switch means privacy policies are accepted. This accepted status is updated as 'Privacy Policy (Accepted)' in left label. Toggling this switch to "off" update text label back to 'Privacy Policy'.
 
 ![Privacy policy #1]({attach}../../images/flutter/recipe_switch_privacy.jpg)
