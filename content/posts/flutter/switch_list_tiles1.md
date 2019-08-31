@@ -1,5 +1,5 @@
 Title: Custom switch widget for accepting Privacy Policy in Flutter Apps
-Date: 08/22/2019
+Date: 08/30/2019
 Authors: ptyagi
 Category: Flutter
 Tags: Switch, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
@@ -27,6 +27,9 @@ Screenshot of updated text label after accepting privacy policy:
 
 ![Privacy policy #1]({attach}../../images/flutter/recipe_switch_privacy3.jpg)
 
+
+**Checkout the companion video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NXRbj9EfPEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### Implementing Custom Switch Widget : `HyperlinkedLabelSwitch`###
