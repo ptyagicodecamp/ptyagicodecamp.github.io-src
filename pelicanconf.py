@@ -6,7 +6,7 @@ AUTHOR = 'Priyanka Tyagi'
 SITENAME = 'techLog'
 SITETITLE = 'techLog'
 SITEURL = 'https://ptyagicodecamp.github.io'
-SITESUBTITLE ='Explore | Android | Software Engineering'
+SITESUBTITLE ='Explore | Android | Flutter | Software Engineering'
 SITEDESCRIPTION = "Mobile engineering tech logger."
 
 SITELOGO = 'https://ptyagicodecamp.github.io/images/profile.jpg'
