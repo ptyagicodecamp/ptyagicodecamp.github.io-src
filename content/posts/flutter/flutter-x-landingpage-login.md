@@ -255,6 +255,18 @@ A `UserProfilePage` displays very basic information about the logged-in user. Ri
 
 ![UserProfile-page]({attach}../../images/flutter/login_ftf4.jpg)
 
+###A note on iOS Firebase integration###
+You may run into trouble building your code for iOS complaining about Firebase imports as shown in screenshot below:
+
+![ios-firebase]({attach}../../images/flutter/ios_firebase_issue.jpg)
+
+**Solution:**
+I found [this StackOverflow post](https://stackoverflow.com/questions/41709912/error-could-not-build-objective-c-module-firebase) useful to debug and fix this issue:
+
+![ios-firebase-fix]({attach}../../images/flutter/ios_firebase_issue.jpg)
+
+
+
 ###Conclusion###
 We learned how to implement Firebase authentication in Flutter Web / Hummingbird for 'Login' button in our demo web app. We overviewed dependencies, and ChangeNotifier responsible for authentication, registering and creating user, and creating a user record in FireStore. Please refer to code below for Web and Native (Android & iOS) implementations.
 
