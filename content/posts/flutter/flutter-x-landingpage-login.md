@@ -1,5 +1,5 @@
 Title: Implementing Login in Flutter Web (Hummingbird)
-Date: 09/06/2019
+Date: 09/11/2019
 Authors: ptyagi
 Category: Flutter
 Tags: FirebaseAuth, Flutter, Code-recipes, Android, Android Studio, iOS
