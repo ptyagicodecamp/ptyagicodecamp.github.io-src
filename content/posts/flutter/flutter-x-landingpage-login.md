@@ -263,7 +263,7 @@ You may run into trouble building your code for iOS complaining about Firebase i
 **Solution:**
 I found [this StackOverflow post](https://stackoverflow.com/questions/41709912/error-could-not-build-objective-c-module-firebase) useful to debug and fix this issue:
 
-![ios-firebase-fix]({attach}../../images/flutter/ios_firebase_issue.jpg)
+![ios-firebase-fix]({attach}../../images/flutter/ios_firebase_issue_fix.jpg)
 
 
 
