@@ -5,6 +5,8 @@ Category: Flutter
 Tags: Provider, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: Implementing switching from light to dark theme and vice versa using [Provider plugin](https://pub.dev/packages/provider) for dependency injection and state management.
 
+![x-platform-themes]({attach}../../images/flutter/x-provider-themes.jpg)
+
 **Target Audience:** Beginner
 
 **Recipe:** Toggle Flutter themes from one type to another using Provider dependency injection and state management package.
