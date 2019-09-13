@@ -1,4 +1,4 @@
-Title: Flutter themes using Provider
+Title: Implement Flutter themes using Provider
 Date: 09/12/2019
 Authors: ptyagi
 Category: Flutter
@@ -15,7 +15,14 @@ Summary: Implementing switching from light to dark theme and vice versa using [P
 
 ![switching-themes-animation-Android]({attach}../../media/flutter/themes_inaction.mp4)
 
-![switching-themes-animation-ios]({attach}../../images/flutter/ios-themes-switch.gif)
+**Light Theme:**
+
+![light-theme]({attach}../../images/flutter/ios-themes2.jpg)
+
+
+**Light Theme:**
+
+![dark-theme]({attach}../../images/flutter/ios-themes3.jpg)
 
 
 
