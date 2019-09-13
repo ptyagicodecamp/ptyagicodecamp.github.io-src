@@ -24,6 +24,8 @@ Summary: Implementing switching from light to dark theme and vice versa using [P
 
 ![dark-theme]({attach}../../images/flutter/ios_themes3.jpg)
 
+**Checkout the companion video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eJZMJFSQbgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### What is Provider ###
