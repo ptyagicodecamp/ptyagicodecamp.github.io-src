@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 09/10/2019
+Date: 09/13/2019
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
