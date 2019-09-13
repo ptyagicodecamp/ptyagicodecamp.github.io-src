@@ -16,10 +16,23 @@ Components covered:
 * [AnimatedOpacity](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html): Making a rectangle fade in and out
 * [Hero Animation](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html): Navigating from one page to another using Hero animation.
 
+---
+--
 ### Design
 * [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.
 * [BottomAppBar](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html): Implement a BottomNavigationBar with menu, search and overflow action items.
 * [Search AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html): Implementing Search action in AppBar.
+
+## Implement Flutter themes using Provider ##
+Implementing switching from light to dark theme and vice versa using [Provider plugin](https://pub.dev/packages/provider) for dependency injection and state management.
+
+* Read article [here](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/themes)
+
+* Youtube video is available [here](https://youtu.be/eJZMJFSQbgs)
+
+---
 
 ## Material icons for Flutter Web (Hummingbird) ##
 In this video, I've explained how to fix material icons for Flutter Web (Hummingbird).
@@ -81,3 +94,16 @@ Implementing Flutter FactsBot using DialogFlow
 * Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/flutter-facts-native)
 
 * Youtube video is available [here](https://youtu.be/89XIlULDQKg)
+
+---
+##Implementing Login in Flutter Web (Hummingbird)
+
+* Read article here: Implementing Login in Flutter Web (Hummingbird) [here](https://ptyagicodecamp.github.io/implementing-login-in-flutter-web-hummingbird.html)
+
+* Watch Android & iOS LogIn implementation [here](https://youtu.be/Sr1dn3j5tz0)
+
+* [Setup Firebase Project](https://firebase.google.com/docs/storage/web/start)
+
+* Hummingbird / Flutter Web implementation's source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/login-web)
+
+* Android & iOS implementation's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/login)
