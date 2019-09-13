@@ -13,14 +13,12 @@ Summary: Implementing switching from light to dark theme and vice versa using [P
 
 **Goal:** Implementing themes using Provider plugin. Implement a simple UI with an image, text and a button to switch themes. Page's default theme is light. Clicking on "Switch Theme" button will apply dark theme to page, and vice versa.
 
-![switching-themes-animation-Android]({attach}../../media/flutter/themes_inaction.mp4)
-
 **Light Theme:**
 
 ![light-theme]({attach}../../images/flutter/ios_themes2.jpg)
 
 
-**Light Theme:**
+**Dark Theme:**
 
 ![dark-theme]({attach}../../images/flutter/ios_themes3.jpg)
 
