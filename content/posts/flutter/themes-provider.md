@@ -17,12 +17,12 @@ Summary: Implementing switching from light to dark theme and vice versa using [P
 
 **Light Theme:**
 
-![light-theme]({attach}../../images/flutter/ios-themes2.jpg)
+![light-theme]({attach}../../images/flutter/ios_themes2.jpg)
 
 
 **Light Theme:**
 
-![dark-theme]({attach}../../images/flutter/ios-themes3.jpg)
+![dark-theme]({attach}../../images/flutter/ios_themes3.jpg)
 
 
 
