@@ -46,6 +46,7 @@ LINKS = (
         ('GitHub', 'https://github.com/ptyagicodecamp'),
         ('Medium', 'https://medium.com/@ptyagicodecamp'),
         ('Twitter', 'https://twitter.com/ptyagi13'),
+        ('YouTube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber')
 	)
 
 SOCIAL = (
