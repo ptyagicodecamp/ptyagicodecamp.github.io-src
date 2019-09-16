@@ -112,7 +112,12 @@ _Output:_
 _Output:_
 
 ---
-Happy cooking with Flutter :)
+Happy coding :)
+
+### Useful Links
+
+1. [Kotlin Playground](https://play.kotlinlang.org)
+2. [DartPad](https://dartpad.dartlang.org/)
 
 _Liked the article ?
 Couldn't find a topic of your interest ? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
