@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 09/13/2019
+Date: 09/17/2019
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -21,6 +21,16 @@ Components covered:
 * [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.
 * [BottomAppBar](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html): Implement a BottomNavigationBar with menu, search and overflow action items.
 * [Search AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html): Implementing Search action in AppBar.
+---
+
+## Using ColorFiltered widget in Flutter Apps ##
+Using ColorFiltered widget to update quiz card feedback screen's background color.
+
+* Read article [here](https://ptyagicodecamp.github.io/using-colorfiltered-widget-in-flutter-apps.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/quizzie)
+
+* Youtube video is available [here](https://youtu.be/PhLPbBDVtbI)
 ---
 
 ## Implement Flutter themes using Provider ##
@@ -107,3 +117,8 @@ Implementing Flutter FactsBot using DialogFlow
 * Hummingbird / Flutter Web implementation's source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/login-web)
 
 * Android & iOS implementation's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/login)
+
+Follow me at twitter: @ptyagi13
+Medium: @ptyagicodecamp
+
+#flutter, #flutter-themes, #flutter-widgets,#cross-platform, #android, #ios, #mobile,#flutter-development,#flutter-channel, #flutter-samples,#flutter-code,#material
