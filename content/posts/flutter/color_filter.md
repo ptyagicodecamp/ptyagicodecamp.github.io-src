@@ -19,6 +19,7 @@ Summary: Using ColorFiltered widget to update quiz card feedback screen's backgr
 
 
 **Android QuizPage:**
+
 ![android-colorFiltered]({attach}../../images/flutter/color-filter-android.jpg)
 
 ---
