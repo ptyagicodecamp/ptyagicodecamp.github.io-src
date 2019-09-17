@@ -19,7 +19,8 @@ Summary: ColorTween
 
 
 **Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bgLiVIIu3bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PhLPbBDVtbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Lets's go! ###
 [ColorFilter Widget](https://api.flutter.dev/flutter/dart-ui/ColorFilter-class.html) is added to [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1). This widget allows to generate dynamic and vibrant shades depending on the chosen blend modes, a part of `dart.ui` in Flutter framework's `painting.dart` file. I'm using `BlendMode.hue` mode to mix red and green colors with `QuizPage`'s `Colors.lightBlueAccent` color.
