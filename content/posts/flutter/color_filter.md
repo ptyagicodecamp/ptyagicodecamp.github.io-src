@@ -42,7 +42,7 @@ There are two ways that you can try out sample code in this recipe.
 
 2. Running as part of code recipe app: Should you choose this option, you can see other code recipes listed in home page.
 
---
+---
 
 ### Code Structure ###
 
@@ -141,7 +141,10 @@ class QuizOptions extends StatefulWidget {
 
 Managing state takes place in `_QuizOptionsState` class. All options are wrapped in `ListView`. Using `enum` for `Options` make it easier to use in code.
 ```
+enum Options { fruit, veggie, none }
 ```
+
+`_QuizOptionsState:`
 
 ```
 class _QuizOptionsState extends State<QuizOptions> {
