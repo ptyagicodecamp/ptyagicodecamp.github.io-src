@@ -13,6 +13,8 @@ Summary: Using ColorFiltered widget to update quiz card feedback screen's backgr
 
 **Goal:** Update BottomSheet feedback widget's background color to reflect status of the correct or wrong answer to quiz question. A shade of red color is generated using color filter for wrong selection and green shade is for right answer.
 
+**NOTE:** At the moment, ColorFiltered widget crashes on Chrome. Please refer to [this issue](https://github.com/flutter/flutter/issues/40649#issuecomment-532155610) at Flutter Github.
+
 **iOS QuizPage:**
 
 ![ios-colorFiltered]({attach}../../images/flutter/color-filter-ios.jpg)
