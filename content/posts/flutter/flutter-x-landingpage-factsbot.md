@@ -5,6 +5,7 @@ Category: Flutter
 Tags: DialogFlow, Flutter, Code-recipes, Android, Android Studio, iOS
 Summary: In this article, we'll learn to integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience.
 
+
 ###Background###
 In this article, we'll learn to integrate [DialogFlow](https://dialogflow.com/) in a Flutter app for enriched conversational experience. I'll use the sample app that we built earlier in my previous article [Designing Cross platform Flutter prototype for Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page-web-hummingbird-android-ios.html). We'll be integrating DialogFlow conversational API in native Flutter App.
 

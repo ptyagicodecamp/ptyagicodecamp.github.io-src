@@ -11,16 +11,19 @@ Summary: Using ColorFiltered widget to update quiz card feedback screen's backgr
 
 **Focus Widget:** [ColorFiltered Widget](https://api.flutter.dev/flutter/widgets/ColorFiltered-class.html)
 
-**Goal:** Update BottomSheet feedback widget's background color to reflect status of the correct or wrong answer to quiz question. A shade of red color is generated using ColorFilter for wrong selection and green shade is for right answer.
+**Goal:** Update BottomSheet feedback widget's background color to reflect status of the correct or wrong answer to quiz question. A shade of red color is generated using color filter for wrong selection and green shade is for right answer.
 
 ![ios-colorFiltered]({attach}../../images/flutter/color-filter-ios.jpg)
 
 ![android-colorFiltered]({attach}../../images/flutter/color-filter-android.jpg)
 
+---
 
 **Checkout the companion video tutorial:**
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PhLPbBDVtbI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
 
 ### Lets's go! ###
 [ColorFilter Widget](https://api.flutter.dev/flutter/dart-ui/ColorFilter-class.html) is added to [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1). This widget allows to generate dynamic and vibrant shades depending on the chosen blend modes, a part of `dart.ui` in Flutter framework's `painting.dart` file. I'm using `BlendMode.hue` mode to mix red and green colors with `QuizPage`'s `Colors.lightBlueAccent` color.
@@ -34,6 +37,7 @@ There are two ways that you can try out sample code in this recipe.
 
 2. Running as part of code recipe app: Should you choose this option, you can see other code recipes listed in home page.
 
+--
 
 ### Code Structure ###
 
@@ -246,9 +250,12 @@ class FeedbackWidget extends StatelessWidget {
 
 And, you're done !
 
+---
+
 **Source code repo:**
 Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/quizzie)
 
+---
 
 ### References: ###
 
