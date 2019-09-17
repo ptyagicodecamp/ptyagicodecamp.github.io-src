@@ -3,7 +3,7 @@ Date: 09/17/2019
 Authors: ptyagi
 Category: Flutter
 Tags: ColorFiltered, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
-Summary: ColorTween
+Summary: Using ColorFiltered widget to update quiz card feedback screen's background color
 
 **Target Audience:** Beginner
 

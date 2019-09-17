@@ -189,7 +189,7 @@ This is how user and FlutterFactsBot interaction log would like:
 
 Let's dive in coding the interface now!
 
-**Show me the code**
+**Show me the code:**
 
 When user clicks on the chat icon, it'll launch `FlutterFactsDialogFlow` page, which is `StatefulWidget`. This widget will have a list of fact messages `_messages` to display the interaction log of conversation between user and FlutterFactsBot. This list will be displayed in reverse order, that means most recent messages will be at the bottom.
 
