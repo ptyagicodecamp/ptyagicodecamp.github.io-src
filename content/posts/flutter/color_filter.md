@@ -42,7 +42,9 @@ There are two ways that you can try out sample code in this recipe.
 
 2. Running as part of code recipe app: Should you choose this option, you can see other code recipes listed in home page.
 
+
 ---
+
 
 ### Code Structure ###
 
