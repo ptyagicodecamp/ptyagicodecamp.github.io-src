@@ -21,6 +21,7 @@ Components covered:
 * [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.
 * [BottomAppBar](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html): Implement a BottomNavigationBar with menu, search and overflow action items.
 * [Search AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html): Implementing Search action in AppBar.
+
 ---
 
 ## Using ColorFiltered widget in Flutter Apps ##
@@ -31,6 +32,7 @@ Using ColorFiltered widget to update quiz card feedback screen's background colo
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/quizzie)
 
 * Youtube video is available [here](https://youtu.be/PhLPbBDVtbI)
+
 ---
 
 ## Implement Flutter themes using Provider ##
@@ -41,6 +43,7 @@ Implementing switching from light to dark theme and vice versa using [Provider p
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/themes)
 
 * Youtube video is available [here](https://youtu.be/eJZMJFSQbgs)
+
 ---
 
 ## Material icons for Flutter Web (Hummingbird) ##
@@ -49,6 +52,7 @@ In this video, I've explained how to fix material icons for Flutter Web (Humming
 * Read article [here](https://ptyagicodecamp.github.io/how-to-fix-material-icons-for-flutter-web-hummingbird.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/popupmenubutton-web/flutter_widgets)
+
 ---
 
 ## Using ColorTween in Flutter app ##
@@ -62,6 +66,7 @@ In this video, I've explained how to fix material icons for Flutter Web (Humming
 * Web (Hummingbird) recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/animations-web/flutter_widgets)
 
 * Youtube video is available [here](https://youtu.be/6O1dini5Buc)
+
 ---
 
 ## Understanding PopupMenuButton Widget ##
@@ -73,6 +78,7 @@ In this video, I've explained how to fix material icons for Flutter Web (Humming
 * Source code [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/popupmenubutton/flutter_widgets).
 
 * Youtube video is available [here](https://youtu.be/ferHTZ6cym4)
+
 ---
 
 ## Implementing toggle Switch for in-app Privacy Policy ##
@@ -84,6 +90,7 @@ In this video, I've explained how to fix material icons for Flutter Web (Humming
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/swtch)
 
 * Youtube video is available [here](https://youtu.be/NXRbj9EfPEY)
+
 ---
 
 ## Implementing Login and Register in Flutter Apps ##
@@ -93,6 +100,7 @@ Implementing Login and Register functionality in Flutter apps using Firebase Aut
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/login)
 
 * Youtube video is available [here](https://youtu.be/Sr1dn3j5tz0)
+
 ---
 
 ## Integrate Dialogflow in FlutterApp ##
@@ -104,6 +112,7 @@ Implementing Flutter FactsBot using DialogFlow
 * Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/flutter-facts-native)
 
 * Youtube video is available [here](https://youtu.be/89XIlULDQKg)
+
 ---
 
 ##Implementing Login in Flutter Web (Hummingbird)
@@ -118,7 +127,8 @@ Implementing Flutter FactsBot using DialogFlow
 
 * Android & iOS implementation's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/login)
 
+
+---
+
 Follow me at twitter: @ptyagi13
 Medium: @ptyagicodecamp
-
-#flutter, #flutter-themes, #flutter-widgets,#cross-platform, #android, #ios, #mobile,#flutter-development,#flutter-channel, #flutter-samples,#flutter-code,#material
