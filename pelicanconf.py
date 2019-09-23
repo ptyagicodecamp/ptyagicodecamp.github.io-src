@@ -43,11 +43,11 @@ HOME_HIDE_TAGS = True
 
 LINKS = (
         ('Support', 'https://www.paypal.me/pritya'),
-        ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
-        ('GitHub', 'https://github.com/ptyagicodecamp'),
-        ('Medium', 'https://medium.com/@ptyagicodecamp'),
-        ('Twitter', 'https://twitter.com/ptyagi13'),
-        ('YouTube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber')
+        # ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
+        # ('GitHub', 'https://github.com/ptyagicodecamp'),
+        # ('Medium', 'https://medium.com/@ptyagicodecamp'),
+        # ('Twitter', 'https://twitter.com/ptyagi13'),
+        # ('YouTube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber')
 	)
 
 SOCIAL = (
