@@ -56,6 +56,7 @@ SOCIAL = (
         ('medium', 'https://medium.com/@ptyagicodecamp'),
         ('twitter', 'https://twitter.com/ptyagi13'),
         ('youtube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber'),
+        ('codementor', 'https://www.codementor.io/ptyagicodecamp')
         #('rss', '/blog/feeds/all.atom.xml'),
 	)
 
