@@ -50,10 +50,10 @@ LINKS = (
 	)
 
 SOCIAL = (
-        ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
-        ('GitHub', 'https://github.com/ptyagicodecamp'),
-        ('Medium', 'https://medium.com/@ptyagicodecamp'),
-        ('Twitter', 'https://twitter.com/ptyagi13'),
+        ('linkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
+        ('gitHub', 'https://github.com/ptyagicodecamp'),
+        ('medium', 'https://medium.com/@ptyagicodecamp'),
+        ('twitter', 'https://twitter.com/ptyagi13'),
         #('rss', '/blog/feeds/all.atom.xml'),
 	)
 
