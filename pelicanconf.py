@@ -70,7 +70,7 @@ CC_LICENSE = {
 COPYRIGHT_YEAR = datetime.now().year
 DEFAULT_PAGINATION = 10
 
-DISQUS_SITENAME = "https-ptyagicodecamp-github-io.disqus.com"
+DISQUS_SITENAME = "https-ptyagicodecamp-github-io"
 ADD_THIS_ID = 'ra-5cf387135c8761da'
 
 STATIC_PATHS = ['images', 'media']
