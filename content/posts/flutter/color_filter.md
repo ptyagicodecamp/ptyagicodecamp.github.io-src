@@ -224,7 +224,7 @@ Widget buildBottomSheet(BuildContext context) {
 }
 ```
 
-`FeedbackWidget` is a StatelessWidget. It shows feedback text message in a `Container` widget, with a `BoxDecoration` color as `Colors.lightBlueAccent`. When
+`FeedbackWidget` is a StatelessWidget. It shows feedback text message in a `Container` widget, with a `BoxDecoration` color as `Colors.lightBlueAccent`. 
 ```
 class FeedbackWidget extends StatelessWidget {
   const FeedbackWidget({
