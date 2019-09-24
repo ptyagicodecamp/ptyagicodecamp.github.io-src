@@ -36,6 +36,12 @@ flutter run -d chrome
 ```
 **NOTE:** In case you run into [White screen issue](https://github.com/flutter/flutter/issues/40876#issuecomment-533506158), you may want to change your Flutter channel to `flutter channel dev`.
 
+### Running X-platform apps from Android Studio ###
+
+Starting from Flutter 1.9, you can run apps on Android, iOS, and Chrome right from Android Studio:
+
+![plugins]({attach}../../images/flutter/as_running.jpg)
+
 
 ### Deploying Web App ###
 
@@ -56,8 +62,8 @@ You can organize your code base for `plugins` as below as recommended by Flutter
 
 Above image shows two plugins:
 
-1. `url_launcher`: Managing launching URLs based on target platform.
-2. `firetop`: Manages firebase related functionality for mobile and web platforms. We'll dive deeper into this plugin in next section.
+1. `url_launcher`: Managing launching URLs based on target platform. Refer to complete source code [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/master-x/landingpage/lib/plugins/url_launcher)
+2. `firetop`: Manages firebase related functionality for mobile and web platforms. We'll dive deeper into this plugin in next section. Refer to complete source code [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/master-x/landingpage/lib/plugins/firetop).
 
 **pubspec.yaml:**
 
