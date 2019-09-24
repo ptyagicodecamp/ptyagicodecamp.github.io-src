@@ -6,14 +6,22 @@ Tags: Flutter1.9, Flutter, Code-recipes, Android, Android Studio, iOS, Web, Mobi
 Summary: In this article, I'll show you how [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1) make developing cross-platform Flutter applications simple while maximizing code reuse.
 
 ###Background###
-I've been experimenting with Flutter Web (aka Hummingbird earlier) since it was announced in [Google IO 2019](https://medium.com/flutter/bringing-flutter-to-the-web-904de05f0df0). I remember submitting [pull request](https://github.com/flutter/samples/pull/78) to add instructions for running Flutter sample web apps. Since then I liked the challenge of exploring fast paced and ever changing Flutter Web. I wrote couple of articles to design and implement a landing page in Flutter which can work seamlessly on all three platforms: Android, iOS and Web. I kept on improving upon this landing page to include login using Firebase, FactsBot, themes, and so on.
+I've been experimenting with Flutter Web (aka Hummingbird earlier) since it was announced in [Google IO 2019](https://medium.com/flutter/bringing-flutter-to-the-web-904de05f0df0).
+
+I remember submitting [pull request](https://github.com/flutter/samples/pull/78) to add instructions for running Flutter sample web apps. Since then I liked the challenge of exploring fast paced and ever changing Flutter Web.
+
+I wrote couple of articles to design and implement a landing page in Flutter which can work seamlessly on all three platforms: Android, iOS and Web. I kept on improving upon this landing page to include login using Firebase, FactsBot, themes, and so on.
 
 Please refer to previous related articles below:
 
 1. [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html)
+
 2. [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
+
 3. [Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/using-flutter-themes-for-cross-platform-landing-page-web-hummingbird-android-ios.html)
+
 4. [Implementing Flutter FactsBot using DialogFlow](https://ptyagicodecamp.github.io/implementing-flutter-factsbot-using-dialogflow.html)
+
 5. [Implementing Login in Flutter Web (Hummingbird)](https://ptyagicodecamp.github.io/implementing-login-in-flutter-web-hummingbird.html)
 
 **Checkout the companion video:**
@@ -21,11 +29,11 @@ Please refer to previous related articles below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ###Introduction###
-In this article, I'll show you how [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1) makes developing cross-platform Flutter applications simple while maximizing code reuse. I'll be using my old Flutter-to-Fly sample app to demonstrate this transition to Flutter 1.9.
+In this article, I'll show you how [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1) makes developing cross-platform Flutter applications simple while maximizing code reuse. I'll be using [my previous](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/login-web/landingpage) Flutter-to-Fly sample app to demonstrate this transition to Flutter 1.9.
 
 ### Migrating project to Flutter 1.9 ###
 
-There are pretty good documentation on migrating existing project to Flutter 1.9 or creating a new project available on [official Flutter website](https://flutter.dev/docs/get-started/web). Basically, you would need to run these following commands in one directory up of your project directory:
+There is pretty good documentation on migrating existing project to Flutter 1.9 and / or creating a new Flutter project available on [official Flutter website](https://flutter.dev/docs/get-started/web). Basically, you would need to run these following commands in one directory level up of your project directory:
 ```
 flutter channel master
 flutter upgrade
