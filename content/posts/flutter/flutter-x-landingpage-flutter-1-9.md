@@ -140,7 +140,7 @@ Flutter-to-Fly sample app's source code is [available here](https://github.com/p
 * [Flutter-to-Fly App](https://flutter-to-fly.firebaseapp.com/#/)
 * [fb_auth plugin](https://pub.dev/packages/fb_auth)
 * [universal_html plugin](https://pub.dev/packages/universal_html)
-* [url_launcher](https://pub.dev/packages/url_launcher)
+* [url_launcher plugin](https://pub.dev/packages/url_launcher)
 * [Designing Cross platform Flutter prototype for Landing Page](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page.html)
 * [Making Cross-platform Flutter Landing Page Responsive](https://ptyagicodecamp.github.io/making-cross-platform-flutter-landing-page-responsive.html)
 * [Using Flutter Themes for Cross-platform Landing Page (Web-Hummingbird, Android, iOS)](https://ptyagicodecamp.github.io/using-flutter-themes-for-cross-platform-landing-page-web-hummingbird-android-ios.html)
