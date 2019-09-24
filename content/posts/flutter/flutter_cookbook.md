@@ -34,6 +34,7 @@ In this article, I'll show you how [Flutter 1.9 release](https://github.com/flut
 
 * Youtube video is available [here](https://youtu.be/e32YsugXa6Q)
 
+
 ---
 
 ## Using ColorFiltered widget in Flutter Apps ##
