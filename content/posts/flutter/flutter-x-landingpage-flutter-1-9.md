@@ -63,24 +63,24 @@ Above command will generate a `build` folder in the root directory. Copy its con
 
 ### Launching URL(s) ###
 
-So far, we kept web and native codebases in separate branches to manage launching URL in web and mobile environments differently. Flutter 1.9 makes it possible to be able to keep both (web and mobile/native) codebases in one branch, and pick the right implementation by detecting the platform using `dart.library.html` for web and `dart.library.io` for mobile platform.
+So far, we kept web and native codebase in separate branches to manage launching URL in web and mobile environments differently. Flutter 1.9 makes it possible to be able to keep both (web and mobile/native) codebase in one branch, and pick the right implementation by detecting the platform using `dart.library.html` for web and `dart.library.io` for mobile platform.
 
 You can organize your code base for `plugins` as below as recommended by Flutter team:
 
 ![plugins]({attach}../../images/flutter/plugins.jpg)
 
-Above image shows two plugins:
+Above screenshot shows two plugins:
 
 1. `url_launcher`: Managing launching URLs based on target platform. Refer to complete source code [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/master-x/landingpage/lib/plugins/url_launcher)
+
 2. `firetop`: Manages firebase related functionality for mobile and web platforms. We'll dive deeper into this plugin in next section. Refer to complete source code [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/master-x/landingpage/lib/plugins/firetop).
 
 **pubspec.yaml:**
 
+Following dependencies are needed for launching URLs from Flutter app.
+
 ```
 dependencies:
-  flutter:
-    sdk: flutter
-
   universal_html: ^1.1.0
   url_launcher: ^5.1.2
 
@@ -98,19 +98,21 @@ export 'unsupported.dart'
 
 ### Firebase login functionality ###
 
+Flutter team is working on [fb_auth plugin](https://pub.dev/packages/fb_auth) to provide cross-platform Firebase support.
+
 **pubspec.yaml:**
+
+Following dependency is needed for adding cross-platform support for Firebase.
 
 ```
 dependencies:
-  flutter:
-    sdk: flutter
 
   fb_auth: any
 
 ```
 
 
-Let's checkout `fire_auth_service.dart` below. Please refer to source code in Gihub repo to refer other files.
+Let's checkout `fire_auth_service.dart` below. Please refer to [source code in Gihub repo](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/master-x/landingpage/lib/plugins/firetop) to refer other files.
 
 ```
 export 'unsupported.dart'
@@ -119,10 +121,10 @@ export 'unsupported.dart'
 
 ```
 
-You would notice that `web.dart` and `mobile.dart` are very similar and use `FBAuth()`. We still need to keep them separate because not everything is available in [`fb_auth` plugin](https://pub.dev/packages/fb_auth). For example, [FireStore support is missing](https://github.com/flutter/flutter/issues/40360#issuecomment-531262594) for Flutter Web.
+You would notice that `web.dart` and `mobile.dart` are very similar and use `FBAuth()` to access Firebase functionality. We still need to keep them separate because not everything is available in [`fb_auth` plugin](https://pub.dev/packages/fb_auth). For example, [FireStore support is missing](https://github.com/flutter/flutter/issues/40360#issuecomment-531262594) for Flutter Web.
 
 ###Conclusion###
-I kept this article short to give a quick update on most important changes that are happening in Flutter Web world. We saw how we can get started merging our Flutter Web code branches into Native code, and how to target platform specific code.
+I kept this article short to give a quick update on most important changes that are happening in Flutter Web world. This article gave a peek into getting started with merging Flutter Web code branches into Native code, and how to target platform specific code. We saw how URLs can be launched for Web and Mobile apps using the same code base. Lastly, we covered integrating with Firebase from the one code base.
 
 
 Keep Fluttering !
