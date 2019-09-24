@@ -44,11 +44,6 @@ HOME_HIDE_TAGS = True
 LINKS = (
         ('Support', 'https://www.paypal.me/pritya'),
         ('Codementor', 'https://www.codementor.io/ptyagicodecamp')
-        # ('LinkedIn', 'https://www.linkedin.com/in/priyankatyagi'),
-        # ('GitHub', 'https://github.com/ptyagicodecamp'),
-        # ('Medium', 'https://medium.com/@ptyagicodecamp'),
-        # ('Twitter', 'https://twitter.com/ptyagi13'),
-        # ('YouTube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber')
 	)
 
 SOCIAL = (
@@ -58,7 +53,7 @@ SOCIAL = (
         ('twitter', 'https://twitter.com/ptyagi13'),
         ('youtube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber'),
         ('codementor', 'https://www.codementor.io/ptyagicodecamp'),
-        #('rss', '/blog/feeds/all.atom.xml'),
+        ('rss', 'feeds/all.atom.xml'),
 	)
 
 MENUITEMS = (('Archives', '/archives.html'),
