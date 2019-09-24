@@ -60,6 +60,7 @@ Deploying Web App is just a command away:
 
 Above command will generate a `build` folder in the root directory. Copy its contents into `public` directory of your hosting site.
 
+
 ### Launching URL(s) ###
 
 So far, we kept web and native codebases in separate branches to manage launching URL in web and mobile environments differently. Flutter 1.9 makes it possible to be able to keep both (web and mobile/native) codebases in one branch, and pick the right implementation by detecting the platform using `dart.library.html` for web and `dart.library.io` for mobile platform.
