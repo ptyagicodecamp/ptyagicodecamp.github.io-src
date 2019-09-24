@@ -24,6 +24,18 @@ Components covered:
 
 ---
 
+## Migrating to Flutter 1.9: Implementing Cross-platform Firebase Login in Flutter Apps  ##
+
+In this article, I'll show you how [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1) make developing cross-platform Flutter applications simple while maximizing code reuse.
+
+* Read article [here](https://ptyagicodecamp.github.io/implementing-cross-platform-firebase-login-in-flutter-apps-flutter-19.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/master-x/landingpage)
+
+* Youtube video is available [here](https://youtu.be/e32YsugXa6Q)
+
+---
+
 ## Using ColorFiltered widget in Flutter Apps ##
 Using ColorFiltered widget to update quiz card feedback screen's background color.
 

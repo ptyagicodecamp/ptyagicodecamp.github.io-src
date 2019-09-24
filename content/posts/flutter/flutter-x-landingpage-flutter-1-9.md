@@ -1,4 +1,4 @@
-Title: Implementing Cross-platform Firebase Login in Flutter Apps (Flutter 1.9)
+Title: Migrating to Flutter 1.9: Implementing Cross-platform Firebase Login in Flutter Apps
 Date: 09/23/2019
 Authors: ptyagi
 Category: Flutter
@@ -26,7 +26,7 @@ Please refer to previous related articles below:
 
 **Checkout the companion video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e32YsugXa6Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ###Introduction###
 In this article, I'll show you how [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1) makes developing cross-platform Flutter applications simple while maximizing code reuse. I'll be using [my previous](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/login-web/landingpage) Flutter-to-Fly sample app to demonstrate this transition to Flutter 1.9.
