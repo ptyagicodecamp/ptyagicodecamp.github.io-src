@@ -1,4 +1,4 @@
-Title: Implementing Cross-platform Firebase Login functionality in Flutter Apps (Flutter 1.9)
+Title: Implementing Cross-platform Firebase Login in Flutter Apps (Flutter 1.9)
 Date: 09/23/2019
 Authors: ptyagi
 Category: Flutter
