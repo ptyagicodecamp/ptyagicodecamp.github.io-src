@@ -35,12 +35,12 @@ In this article, I'll show you how [Flutter 1.9 release](https://github.com/flut
 
 There is pretty good documentation on migrating existing project to Flutter 1.9 and / or creating a new Flutter project available on [official Flutter website](https://flutter.dev/docs/get-started/web). Basically, you would need to run these following commands in one directory level up of your project directory:
 ```
-flutter channel master
-flutter upgrade
-flutter config --enable-web
-cd <into project directory>
-flutter create .
-flutter run -d chrome
+  $ flutter channel master
+  $ flutter upgrade
+  $ flutter config --enable-web
+  $ cd <into project directory>
+  $ flutter create .
+  $flutter run -d chrome
 ```
 **NOTE:** In case you run into [White screen issue](https://github.com/flutter/flutter/issues/40876#issuecomment-533506158), you may want to change your Flutter channel to `flutter channel dev`.
 
