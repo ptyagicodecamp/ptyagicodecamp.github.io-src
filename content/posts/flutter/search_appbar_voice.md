@@ -108,7 +108,7 @@ It shows user that voice recording permissions are required, and present a permi
 
 **iOS:**
 
-![Prompting iOS permissions]({attach}../../images/flutter/search_voice_perms_ios.png)
+![Prompting iOS permissions]({attach}../../images/flutter/search_voice_perms_ios.jpg)
 
 **Android:**
 
