@@ -107,7 +107,7 @@ Following dependency is needed for adding cross-platform support for Firebase.
 ```
 dependencies:
 
-  fb_auth: any
+  fb_auth: 0.0.2+1
 
 ```
 
