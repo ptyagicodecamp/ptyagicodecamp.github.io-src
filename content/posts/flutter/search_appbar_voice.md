@@ -21,18 +21,6 @@ Today, we'll use our voice to enter the search term rather typing text in search
 2. Handling permissions: Using [permission_handler plugin](https://pub.dev/packages/permission_handler) to request audio permissions from user at Android and iOS platforms.
 3. Integrating speech recognition using [SpeechRecognition Flutter plugin](https://github.com/rxlabz/speech_recognition)
 
-**Mic icons in search bar:**
-
-![Search by voice]({attach}../../images/flutter/search_voice.png)
-
-**Listening to user's voice:**
-![Search by voice]({attach}../../images/flutter/search_voice1.png)
-
-**Converting speech to text, and using text for searching in word list:**
-![Search by voice]({attach}../../images/flutter/search_voice2.png)
-
-**Displaying result:**
-![Search by voice]({attach}../../images/flutter/search_voice3.png)
 
 ![Search by voice]({attach}../../images/flutter/search_voice_small.gif)
 
@@ -56,6 +44,10 @@ dependencies:
 ```
 
 ### Adding mic icon in SearchBar ###
+
+**Mic icons in search bar:**
+
+![Search by voice]({attach}../../images/flutter/search_voice.png)
 
 First, we'll add a microphone icon in AppBar's actions. Please note the new code `_buildVoiceInput(..)` responsible for accepting voice input. Refer to [previous article](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html#implementing-search-action-in-appbar) for other details.
 ```
@@ -231,6 +223,18 @@ void onRecognitionResult(String text) {
 
 void onRecognitionComplete() => setState(() => _isListening = false);
 ```
+
+**Listening to user's voice:**
+
+![Search by voice]({attach}../../images/flutter/search_voice1.png)
+
+**Converting speech to text, and using text for searching in word list:**
+
+![Search by voice]({attach}../../images/flutter/search_voice2.png)
+
+**Displaying result:**
+
+![Search by voice]({attach}../../images/flutter/search_voice3.png)
 
 
 **Source code repo:**
