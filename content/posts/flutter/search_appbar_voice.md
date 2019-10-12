@@ -9,13 +9,13 @@ Summary: Implementing Voice input for Search action in AppBar using Flutter for 
 This recipe is second part of [Implementing Search action in AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html) tutorial.
 Today, we'll use our voice to enter the search term rather typing text in search bar.
 
-***Target Audience:*** Beginner
+**Target Audience:** Beginner
 
-***Recipe:*** Implementing Voice input for Search action in AppBar using Flutter for Android and iOS mobile apps.
+**Recipe:** Implementing Voice input for Search action in AppBar using Flutter for Android and iOS mobile apps.
 
-***Focus Flutter plugin:*** [SpeechRecognition](https://github.com/rxlabz/speech_recognition)
+**Focus Flutter plugin:** [SpeechRecognition](https://github.com/rxlabz/speech_recognition)
 
-***Goal:*** In this recipe, I'll go over following items:
+**Goal:** In this recipe, I'll go over following items:
 
 1. Adding a mic icon in SearchBar
 2. Handling permissions: Using [permission_handler plugin](https://pub.dev/packages/permission_handler) to request audio permissions from user at Android and iOS platforms.
@@ -26,7 +26,7 @@ Today, we'll use our voice to enter the search term rather typing text in search
 
 
 Checkout in action:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QzGGO5N3j6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's get started! ###
 
@@ -98,6 +98,7 @@ First, we'll add a microphone icon in AppBar's actions. Please note the new code
 ```
 
 ### Handling permissions ###
+
 Android and iOS platforms need user's consent to capture voice input.  [permission_handler plugin](https://pub.dev/packages/permission_handler) helps to request audio permissions from user at both platforms.
 
 It shows user that voice recording permissions are required, and present a permissions dialog like below:
@@ -113,6 +114,7 @@ It shows user that voice recording permissions are required, and present a permi
 **Android:**
 
  Make sure that you've following permissions in `AndroidManifest.xml`:
+
  ```
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -121,9 +123,10 @@ It shows user that voice recording permissions are required, and present a permi
 
 **iOS:**
 Add following keys in `Info.plist`. Feel free to modify text description accordingly.
-1. Key: `Privacy - Microphone Usage Description`. Value: `This application needs to access your microphone`.
 
-2. Key: `Privacy- Speech Recognition Usage Description`. Value: `This application needs the speech recognition permission`.
+* Key: `Privacy - Microphone Usage Description`. Value: `This application needs to access your microphone`.
+
+* Key: `Privacy- Speech Recognition Usage Description`. Value: `This application needs the speech recognition permission`.
 
 Once `AndroidManifest.xml` and `Info.plist` in place, next step is to ask for permissions from Flutter app, `main.dart` in our case like below:
 ```
@@ -139,6 +142,7 @@ void requestPermission() async {
 ```
 
 ### Integrating SpeechRecognition ###
+
 I'll be using [SpeechRecognition Flutter plugin](https://github.com/rxlabz/speech_recognition) to integrate capture voice input for search term.
 Speech recognizer related code needs to go inside a `Stateful` widget. In our case, it goes under `_SearchAppBarRecipeState`. `_speech` holds the reference to `SpeechRecognition` instance. `_speechRecognitionAvailable` flag gets updated based on availability of speech recognizer. `_isListening` is set to true when app is activated to listen to user input. Lastly, `transcription` is voice input transcribed int text. This is the text that will be used to run search against.
 
@@ -165,20 +169,21 @@ void initState() {
 
 Speech recognizer is activated with callbacks. Few of the important callbacks are:
 
-1. `onSpeechAvailability(bool result)`: It updates the status of the availability of speech in `_speechRecognitionAvailable` flag.
+* `onSpeechAvailability(bool result)`: It updates the status of the availability of speech in `_speechRecognitionAvailable` flag.
 
-2. `onCurrentLocale(String locale)`: Updates the SpeechRecognizer's locale for the language that it is expected to be listening to.
+* `onCurrentLocale(String locale)`: Updates the SpeechRecognizer's locale for the language that it is expected to be listening to.
 
-3. `onRecognitionStarted()`: It's called when SpeechRecognizer has been listening to user voice input actively. It updates `_isListening` flag to `true`.
+* `onRecognitionStarted()`: It's called when SpeechRecognizer has been listening to user voice input actively. It updates `_isListening` flag to `true`.
 
-4. `onRecognitionResult(String text)`: This is where the actual magic happens. Voice input is transcribed to English text. We're using only 'en_US' locale for this code recipe. Once the transcribed text is available, it's sent over to search page like below:
+* `onRecognitionResult(String text)`: This is where the actual magic happens. Voice input is transcribed to English text. We're using only 'en_US' locale for this code recipe. Once the transcribed text is available, it's sent over to search page like below:
+
 ```
 showSearchPage(context, _searchDelegate, transcription);
 ```
 
 Transcribed text gets populated in search bar. When user accepts the search word by hitting enter, search result is displayed on result page similar to how it was displayed in [previous tutorial](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html#implementing-search-action-in-appbar).
 
-5. `onRecognitionComplete()`: This callback is called when user stops talking. At this point, `_isListening` flag is set to `false`.
+* `onRecognitionComplete()`: This callback is called when user stops talking. At this point, `_isListening` flag is set to `false`.
 
 ```
 void activateSpeechRecognizer() {
@@ -243,6 +248,7 @@ Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter
 
 
 ### References: ###
+
 1. [Implementing Search action in AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html)
 2. [SpeechRecognition Plugin](https://github.com/rxlabz/speech_recognition)
 3. [Permission Handler Plugin](https://pub.dev/packages/permission_handler)
