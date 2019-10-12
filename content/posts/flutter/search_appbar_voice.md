@@ -218,6 +218,7 @@ void onRecognitionResult(String text) {
   setState(() {
     transcription = text;
     showSearchPage(context, _searchDelegate, transcription);
+    stop(); //stop listening now
   });
 }
 
