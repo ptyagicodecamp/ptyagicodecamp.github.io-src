@@ -24,6 +24,18 @@ Components covered:
 
 ---
 
+## Implementing Voice input for Search action in AppBar ##
+
+Implementing Voice input for Search action in AppBar using Flutter for Android and iOS mobile apps.
+
+* Read article [here](https://ptyagicodecamp.github.io/implementing-voice-input-for-search-action-in-appbar.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/search_voice/search_appbar/search_appbar)
+
+* Youtube video is available [here](https://youtu.be/FefiyOjHvLk)
+
+---
+
 ## Migrating to Flutter 1.9: Implementing Cross-platform Firebase Login in Flutter Apps  ##
 
 In this article, I'll show you how [Flutter 1.9 release](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1) make developing cross-platform Flutter applications simple while maximizing code reuse.
