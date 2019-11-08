@@ -5,7 +5,7 @@ Category: Flutter
 Tags: SearchDelegate, SearchAppBar, cross-platform, flutter, code-recipes, android, android Studio, iOS, development, speech_recognition, permission_handler
 Summary: Implementing Voice input for Search action in AppBar using Flutter for Android and iOS mobile apps.
 
-## Search in AppBar
+## Voice Search in AppBar
 This recipe is second part of [Implementing Search action in AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html) tutorial.
 Today, we'll use our voice to enter the search term rather typing text in search bar.
 
@@ -45,7 +45,7 @@ dependencies:
 
 ### Adding mic icon in SearchBar ###
 
-**Mic icons in search bar:**
+**Mic icon in search bar:**
 
 ![Search by voice]({attach}../../images/flutter/search_voice.png)
 
