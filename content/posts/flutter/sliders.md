@@ -215,7 +215,7 @@ child: RaisedButton(
 ***Note:*** Interface's values are being reset inside `setState(..)` function.
 
 
-![starting slider state]({attach}../../images/flutter/slider_2.jpg)
+![starting slider state]({attach}../../images/flutter/slider_5.jpg)
 
 ### Source code repo ###
 
