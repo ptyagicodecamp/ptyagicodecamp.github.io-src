@@ -135,6 +135,7 @@ class _SliderDemoState extends State<SliderDemo> {
 }
 ```
 
+![Range Slider]({attach}../../images/flutter/slider_3.jpg)
 
 ### 3. Implementing Slider widget ###
 
@@ -182,6 +183,8 @@ class _SliderDemoState extends State<SliderDemo> {
 }
 ```
 
+![Slider]({attach}../../images/flutter/slider_4.jpg)
+
 ### 4. Submit button (Resetting interface) ###
 
 I added Submit button for completeness of workflow of page. Clicking on Submit button will rest the interface, and a word will be picked randomly from the sample wordlist.
@@ -208,6 +211,8 @@ child: RaisedButton(
 
 ***Note:*** Interface's values are being reset inside `setState(..)` function.
 
+
+![starting slider state]({attach}../../images/flutter/slider_2.jpg)
 
 ### Source code repo ###
 
