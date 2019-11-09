@@ -5,10 +5,13 @@ Category: Flutter
 Tags: Slider, RangeSlider, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
 Summary: Code recipe to implement Slider and RangeSlider Flutter widgets.
 
-## Slider & RangeSlider Widgets
-Slider & RangeSlider widgets are used to select a value (Slider) or a range of values (RangeSlider) from a range of values. In this code recipe, I'll demonstrate usage of both of these widget with help of scenario that is common to elementary school teachers. In the beginning of the school year, most of the language teachers curate a word list appropriate for the Grade and based on difficulty level of the words.
-In today's code recipe, we'll make a Flutter app that'll display a random word from a given list of words. Teacher / user can choose the appropriate range of grades, and difficulty level for the given grade range. We'll make use of RangeSlider widget to select the Grade level ranges (from zero or Kindergarten to 5th grade), and Slider widget to choose difficulty level (three levels 1, 2, 3 represent Easy, Moderate and Advanced difficulty levels).
+## Introduction
 
+Slider & RangeSlider widgets are used to select a value (Slider) or a range of values (RangeSlider) from a range of values.
+
+In this code recipe, I'll demonstrate usage of both of these widget with help of scenario that is common to elementary school teachers. In the beginning of the school year, most of the language teachers curate a word list appropriate for the Grade and based on difficulty level of the words.
+
+In today's code recipe, we'll make a Flutter app that'll display a random word from a given list of words. Teacher / user can choose the appropriate range of grades, and difficulty level for the given grade range. We'll make use of RangeSlider widget to select the Grade level ranges (from zero or Kindergarten to 5th grade), and Slider widget to choose difficulty level (three levels 1, 2, 3 represent Easy, Moderate and Advanced difficulty levels).
 
 
 **Target Audience:** Beginner
