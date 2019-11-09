@@ -1,4 +1,4 @@
-Title: Implementing Slider & RangeSlider
+Title: Implementing Slider & RangeSlider Flutter Widgets
 Date: 2019-11-08
 Authors: ptyagi
 Category: Flutter
