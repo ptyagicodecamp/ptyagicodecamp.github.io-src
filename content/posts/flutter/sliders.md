@@ -13,6 +13,7 @@ In this code recipe, I'll demonstrate usage of both of these widget with help of
 
 In today's code recipe, we'll make a Flutter app that'll display a random word from a given list of words. Teacher / user can choose the appropriate range of grades, and difficulty level for the given grade range. We'll make use of RangeSlider widget to select the Grade level ranges (from zero or Kindergarten to 5th grade), and Slider widget to choose difficulty level (three levels 1, 2, 3 represent Easy, Moderate and Advanced difficulty levels).
 
+---
 
 **Target Audience:** Beginner
 
@@ -222,10 +223,13 @@ child: RaisedButton(
 
 ![starting slider state]({attach}../../images/flutter/slider_5.jpg)
 
+---
+
 ### Source code repo ###
 
 Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/sliders)
 
+---
 
 ### References: ###
 
