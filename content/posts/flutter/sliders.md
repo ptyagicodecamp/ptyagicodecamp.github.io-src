@@ -1,5 +1,5 @@
 Title: Implementing Slider & RangeSlider Flutter Widgets
-Date: 2019-11-08
+Date: 2019-11-09
 Authors: ptyagi
 Category: Flutter
 Tags: Slider, RangeSlider, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
@@ -35,9 +35,14 @@ In today's code recipe, we'll make a Flutter app that'll display a random word f
 
 ---
 
-This recipe is part of collection of my other code recipes. Starting page for recipes look like below:
+This recipe is part of collection of [my other code recipes](https://ptyagicodecamp.github.io/flutter-live-booklet-flutter-component-recipes.html#flutter-live-booklet-flutter-component-recipes). Starting page for recipes look like below:
 
 ![Code recipes home page]({attach}../../images/flutter/slider_1.jpg)
+
+---
+
+Checkout in action:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T-muHu9Ylwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 09/17/2019
+Date: 11/09/2019
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -21,6 +21,18 @@ Components covered:
 * [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.
 * [BottomAppBar](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html): Implement a BottomNavigationBar with menu, search and overflow action items.
 * [Search AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html): Implementing Search action in AppBar.
+
+---
+
+## Implementing Slider & RangeSlider Flutter Widgets ##
+
+Code recipe to implement Slider and RangeSlider Flutter widgets.
+
+* Read article [here](https://ptyagicodecamp.github.io/implementing-slider-rangeslider-flutter-widgets.html#implementing-slider-rangeslider-flutter-widgets)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/sliders)
+
+* Youtube video is available [here](https://youtu.be/T-muHu9Ylwc)
 
 ---
 
