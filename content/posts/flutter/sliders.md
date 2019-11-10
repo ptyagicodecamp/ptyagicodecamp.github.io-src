@@ -42,7 +42,8 @@ This recipe is part of collection of [my other code recipes](https://ptyagicodec
 
 ---
 
-Checkout in action:
+**Checkout YouTube video:**
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T-muHu9Ylwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
