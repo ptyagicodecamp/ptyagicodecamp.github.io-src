@@ -24,6 +24,11 @@ In this article, we'll see how `AnimatedContainer` widget is used to animate an 
 ![code recipe demo]({attach}../../media/flutter/anim_container_1.jpg)
 
 
+**AnimationCurves:**
+
+![animation curves]({attach}../../media/flutter/anim_curves.jpg)
+
+
 ### Structure of `AnimatedContainer` widget
 
 `AnimatedContainer` uses `duration` and `curve` properties to animate from previous values to new values of `width`, `height`, `color`, and `alignment`. `duration` value controls how long animation would take whereas `curve` property's value provides the type of animation [Curve](https://api.flutter.dev/flutter/animation/Curves-class.html)
