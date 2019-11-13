@@ -7,28 +7,28 @@ Summary: Navigating from one page to another using Hero animation.
 
 ## Animation Hero
 
-Hero animation is a useful transition when items are listed with small icons. Tapping on 
+Hero animation is a useful transition when items are listed with small icons. Tapping on
 icons can open in another page with enlarged icon widget.
 
-***Target Audience:*** Beginner
-***Recipe:*** Hero animation to transition a list icon into an enlarged view on another detail page.
+**Target Audience:** Beginner
+**Recipe:** Hero animation to transition a list icon into an enlarged view on another detail page.
 
-***Focus Widget:*** Hero Widget
+**Focus Widget:** Hero Widget
 ```
 Hero(
-    tag: 'hero-rectangle', 
+    tag: 'hero-rectangle',
     child: _blueDetailRectangle(),
 ),
 ```
 
-***Goal:*** Animate and enlarge list item icon using `Hero` widget. 
+**Goal:** Animate and enlarge list item icon using `Hero` widget.
 Tapping on a list item icon, opens up the item in another page with enlarged icon.
 
-![List item icon]({attach}../../media/flutter/animationHero/1.png) 
+![List item icon]({attach}../../media/flutter/animationHero/1.png)
 ![Detail page icon]({attach}../../media/flutter/animationHero/2.png)
 
 
-Checkout Hero animation: 
+Checkout Hero animation:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/InhIo7HNU-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's go! ###
@@ -57,7 +57,7 @@ Widget buildWidget(BuildContext context) {
                 child: _blueIconRectangle(),
               ),
               onTap: () => _gotoDetailsPage(context),
-            
+
         ...
   }
 ```
@@ -96,9 +96,9 @@ void _gotoDetailsPage(BuildContext context) {
   }
 ```
 Notice that `Navigator.of(context).push()` is needed to navigate to second page from first page
-using the same tag. 
+using the same tag.
 
-3. Making sure both widgets in step #1 and step #2 ***have same tag***. 
+3. Making sure both widgets in step #1 and step #2 ***have same tag***.
 Hero transitions use the same tag to identify the start and destination widgets.
 
 
@@ -203,7 +203,7 @@ class _HeroAnimationRecipeState extends State<HeroAnimationRecipe> {
 }
 
 ```
-***Source code repo:*** 
+**Source code repo:**
 Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/master/flutter_hero_animation)
 
 

@@ -9,18 +9,18 @@ Summary: AnimatedOpacity widget is used to achieve a smooth transition from one 
 
 AnimatedOpacity widget is used to achieve a smooth transition from one UI element to another.
 
-***Target Audience:*** Beginner
-***Recipe:*** Achieve a smooth animation when transitioning from one UI element to another.
+**Target Audience:** Beginner
+**Recipe:** Achieve a smooth animation when transitioning from one UI element to another.
 
-***Focus Widget:*** AnimatedOpacity
+**Focus Widget:** AnimatedOpacity
 
-***Goal:*** Fade in and out a blue rectangle on a click of button. 
+**Goal:** Fade in and out a blue rectangle on a click of button.
 Interface is super simple and will look like this:
 
 Blue Rectangle animates when button is pressed:
 ![Alt Blue Rectangle animates when button is pressed]({attach}../../media/flutter/animatedOpacity/animated_opacity.png)
 
-Checkout AnimatedOpacity animation: 
+Checkout AnimatedOpacity animation:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lKO8YTq_QcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's go! ###
@@ -34,9 +34,9 @@ We need three things to accomplish our goal of animating a blue rectangle.
         color: Colors.blue,
     );
 ```
-    
+
 2. StatefulWidget: A way to hold visibility state of rectangle.
-`StatefulWidget` has `State` object that can hold and update some data for app. 
+`StatefulWidget` has `State` object that can hold and update some data for app.
 `State` object's [`setState`](https://docs.flutter.io/flutter/widgets/State/setState.html) method helps to rebuild widget reflecting the updated state of the app data.
 
 ```
@@ -51,14 +51,14 @@ The State object will have the flag about the rectangle widget's visibility stat
 ```
 class _AnimatedOpacityRecipeState extends State<AnimatedOpacityRecipe> {
   bool _visible = true;
-  
-} 
+
+}
 ```
-    
+
 Method `animatedOpacityWidget` returns the AnimatedOpacity widget.
-`duration` property is to control the speed of animation. 
+`duration` property is to control the speed of animation.
 In this example, it takes 900 milliseconds to fade out the rectangle.
-This is important to show a smooth transition. 
+This is important to show a smooth transition.
 ```
 Widget animatedOpacityWidget() {
     return AnimatedOpacity(
@@ -175,7 +175,7 @@ class _AnimatedOpacityRecipeState extends State<AnimatedOpacityRecipe> {
   }
 }
 ```
-***Source code repo:*** 
+**Source code repo:** 
 Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/master/flutter_animated_opacity)
 
 
