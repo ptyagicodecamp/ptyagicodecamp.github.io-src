@@ -1,5 +1,5 @@
 Title: Animating using AnimatedPositioned Flutter widget
-Date: 2019-11-15 11:33PM
+Date: 2019-11-14 1:33PM
 Authors: ptyagi
 Category: Flutter
 Tags: AnimatedPositioned, cross-platform, flutter, code-recipes, android, android Studio, iOS, development

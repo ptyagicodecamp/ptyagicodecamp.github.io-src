@@ -1,5 +1,5 @@
 Title: Animating using AnimatedPadding Flutter widget
-Date: 2019-11-14 11:33PM
+Date: 2019-11-15 3:33PM
 Authors: ptyagi
 Category: Flutter
 Tags: AnimatedPadding, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
