@@ -21,12 +21,12 @@ In this article, we'll see how `AnimatedContainer` widget is used to animate an 
 **Goal:** Animate an image inside `AnimatedContainer` using various types given [AnimationCurves](https://gist.github.com/ptyagicodecamp/92f7ab72466b65a82da2c44f1c2fc262)
 
 
-![code recipe demo]({attach}../../media/flutter/anim_container_1.jpg)
+![code recipe demo]({attach}../../images/flutter/anim_container_1.jpg)
 
 
 **AnimationCurves:**
 
-![animation curves]({attach}../../media/flutter/anim_curves.jpg)
+![animation curves]({attach}../../images/flutter/anim_curves.jpg)
 
 
 ### Structure of `AnimatedContainer` widget
