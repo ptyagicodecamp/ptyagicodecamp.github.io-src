@@ -7,7 +7,7 @@ Summary: Code recipe to implement Slider and RangeSlider Flutter widgets.
 
 ## Introduction
 
-Slider & RangeSlider widgets are used to select a value (Slider) or a range of values (RangeSlider) from a range of values.
+Slider & RangeSlider widgets are used to select a value (Slider widget) or a range of values (RangeSlider widget) from a range of values.
 
 In this code recipe, I'll demonstrate usage of both of these widget with help of scenario that is common to elementary school teachers. In the beginning of the school year, most of the language teachers curate a word list appropriate for the Grade and based on difficulty level of the words.
 
