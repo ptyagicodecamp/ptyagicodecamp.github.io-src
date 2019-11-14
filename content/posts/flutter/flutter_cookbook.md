@@ -51,7 +51,7 @@ Code recipe for implementing AnimatedPositioned Flutter widget.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_positioned.dart)
 
-* Youtube video is available [here](https://youtu.be/)
+* Youtube video is available [here](https://youtu.be/NRxaBMecN9E)
 
 ---
 
@@ -63,7 +63,7 @@ Code recipe for implementing AnimatedPadding Flutter widget.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_padding.dart)
 
-* Youtube video is available [here](https://youtu.be/)
+* Youtube video is available [here](https://youtu.be/gvRQzzm6X3w)
 
 ---
 
