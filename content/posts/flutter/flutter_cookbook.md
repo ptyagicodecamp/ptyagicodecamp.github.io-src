@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 11/09/2019
+Date: 11/13/2019
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -12,15 +12,84 @@ This article contains pointers to code samples for flutter components / widgets.
 
 
 Components covered:
-### Animation
-* [AnimatedOpacity](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html): Making a rectangle fade in and out
-* [Hero Animation](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html): Navigating from one page to another using Hero animation.
 
+# Animation
 
-### Design
-* [Basic Appbar](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html): Basic AppBar with a title, actions, and an overflow dropdown menu.
-* [BottomAppBar](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html): Implement a BottomNavigationBar with menu, search and overflow action items.
-* [Search AppBar](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html): Implementing Search action in AppBar.
+## AnimatedOpacity ##
+
+Making a rectangle fade in and out.
+
+* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html)
+
+---
+
+## Hero Animation ##
+
+Navigating from one page to another using Hero animation.
+
+* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html)
+
+---
+
+## Animating using AnimatedContainer Flutter widget ##
+
+Code recipe for implementing AnimatedContainer Flutter widget.
+
+* Read article [here](https://ptyagicodecamp.github.io/animating-using-animatedcontainer-flutter-widget.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_container.dart)
+
+* Youtube video is available [here](https://youtu.be/0NVLyjtWJqc)
+
+---
+
+## Animating using AnimatedPositioned Flutter widget ##
+
+Code recipe for implementing AnimatedPositioned Flutter widget.
+
+* Read article [here](https://ptyagicodecamp.github.io/animating-using-animatedcontainer-flutter-widget.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_positioned.dart)
+
+* Youtube video is available [here](https://youtu.be/)
+
+---
+
+## Animating using AnimatedPadding Flutter widget ##
+
+Code recipe for implementing AnimatedPadding Flutter widget.
+
+* Read article [here](https://ptyagicodecamp.github.io/animating-using-animatedpadding-flutter-widget.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_padding.dart)
+
+* Youtube video is available [here](https://youtu.be/)
+
+---
+
+# Design
+
+## Basic Appbar ##
+
+Basic AppBar with a title, actions, and an overflow dropdown menu.
+
+* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-appbar-widget.html)
+
+---
+
+## BottomAppBar ##
+
+Implement a BottomNavigationBar with menu, search and overflow action items.
+
+* Read article [here](https://ptyagicodecamp.github.io/bottomnavigationbar-with-menu-search-and-overflow-action-items.html)
+
+---
+
+## Search AppBar ##
+
+Implementing Search action in AppBar.
+
+* Read article [here](https://ptyagicodecamp.github.io/implementing-search-action-in-appbar.html)
 
 ---
 

@@ -28,6 +28,13 @@ In this article, we'll see how `AnimatedPositioned` widget is used to animate an
 
 ![animation curves]({attach}../../images/flutter/anim_curves.jpg)
 
+---
+
+**Checkout YouTube video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### Structure of `AnimatedPositioned` widget
 
@@ -101,7 +108,7 @@ I encourage you to Checkout the code below, and play around with different types
 
 ### Source code repo ###
 
-1. `AnimatedPositioned` code recipe is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_padding.dart)
+1. `AnimatedPositioned` code recipe is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_positioned.dart)
 2. Source code for all other animation code recipes is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/animations/flutter_animations/flutter_animations)
 
 

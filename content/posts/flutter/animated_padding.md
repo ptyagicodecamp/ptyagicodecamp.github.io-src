@@ -28,6 +28,13 @@ In this article, we'll see how `AnimatedPadding` widget is used to animate an im
 
 ![animation curves]({attach}../../images/flutter/anim_curves.jpg)
 
+---
+
+**Checkout YouTube video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### Structure of `AnimatedPadding` widget
 

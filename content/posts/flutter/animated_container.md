@@ -28,6 +28,13 @@ In this article, we'll see how `AnimatedContainer` widget is used to animate an 
 
 ![animation curves]({attach}../../images/flutter/anim_curves.jpg)
 
+---
+
+**Checkout YouTube video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0NVLyjtWJqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ### Structure of `AnimatedContainer` widget
 
@@ -44,6 +51,8 @@ AnimatedContainer(
         child: FlutterLogo(size: 75),
       ),
 ```
+
+---
 
 ### Recipe's Code Structure ###
 
@@ -82,6 +91,8 @@ Widget playAnimation(BuildContext context) {
 }
 ```
 
+---
+
 ### Implementing `AnimatedContainer` widget ###
 
 `AnimatedContainer` is wrapped around `GestureDetector` to let user start animation by touch in addition to pressing 'Animate' button exclusively. User can choose one over another to start animation.
@@ -110,11 +121,14 @@ Widget animatedContainer(BuildContext context) {
 
 I encourage you to Checkout the code below, and play around with different types of Curve animations to pick an animation that would work best for you.
 
+---
+
 ### Source code repo ###
 
 1. `AnimatedContainer` code recipe is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/animations/anim_container.dart)
 2. Source code for all other animation code recipes is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/animations/flutter_animations/flutter_animations)
 
+---
 
 ### References: ###
 
