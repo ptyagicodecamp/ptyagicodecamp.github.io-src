@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 11/13/2019
+Date: 11/21/2019
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -10,26 +10,6 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
-
-Components covered:
-
-# Animation
-
-## AnimatedOpacity ##
-
-Making a rectangle fade in and out.
-
-* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html)
-
----
-
-## Hero Animation ##
-
-Navigating from one page to another using Hero animation.
-
-* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html)
-
----
 
 ## Animating using AnimatedContainer Flutter widget ##
 
@@ -67,9 +47,23 @@ Code recipe for implementing AnimatedPadding Flutter widget.
 
 ---
 
-# Design
+## AnimatedOpacity Animation ##
 
-## Basic Appbar ##
+Making a rectangle fade in and out.
+
+* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-animatedopacity-widget.html)
+
+---
+
+## Hero Animation ##
+
+Navigating from one page to another using Hero animation.
+
+* Read article [here](https://ptyagicodecamp.github.io/flutter-code-recipe-for-hero-animation.html)
+
+---
+
+## Basic AppBar ##
 
 Basic AppBar with a title, actions, and an overflow dropdown menu.
 
