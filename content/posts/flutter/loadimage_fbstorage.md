@@ -242,6 +242,7 @@ Checkout the source code for detailed implementation. As usual, this code recipe
 
 * Code recipe project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
 
+---
 
 ### References: ###
 
