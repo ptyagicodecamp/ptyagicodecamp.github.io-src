@@ -18,7 +18,7 @@ Code recipe to demonstrate image Loading from Firebase Storage on multiple platf
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/8xr2hZ2b2sw)
 ---
 
 ## Animating using AnimatedContainer Flutter widget ##

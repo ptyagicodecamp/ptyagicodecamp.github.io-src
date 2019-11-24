@@ -33,8 +33,9 @@ Summary: Code recipe to demonstrate image Loading from Firebase Storage on multi
 ![Flutter-Web]({attach}../../images/flutter/image_fb3_web.jpg)
 
 ---
-**Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Checkout the Youtube video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8xr2hZ2b2sw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
