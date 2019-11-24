@@ -246,6 +246,7 @@ Checkout the source code for detailed implementation. As usual, this code recipe
 
 ---
 
+
 ### References: ###
 
 1. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
