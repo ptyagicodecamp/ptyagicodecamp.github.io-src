@@ -14,7 +14,7 @@ This article contains pointers to code samples for flutter components / widgets.
 
 Code recipe to demonstrate image Loading from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter and Flutter Web.
 
-* Read article [here](https://ptyagicodecamp.github.io/animating-using-animatedcontainer-flutter-widget.html)
+* Read article [here](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
 
