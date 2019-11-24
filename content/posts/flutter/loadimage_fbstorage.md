@@ -49,6 +49,8 @@ Flutter plugin for accessing images in FirebaseStorage for Native apps:
 ```
 dependencies:
   firebase_storage: ^3.0.8
+  firebase_core: ^0.4.0+9
+  firebase_analytics: ^5.0.6
 ```
 
 Flutter plugin for accessing files in Firebase Storage for Web apps:
