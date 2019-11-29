@@ -269,6 +269,8 @@ dispose() {
 
 ### What about Flutter Web ? ###
 
+**[UPDATE Sept 23rd, 2019]** Since release of Flutter 1.9, there's no need of maintaining separate code bases for native and web Flutter implementations. Please refer to [my article about migrating to Flutter 1.9 for details](https://ptyagicodecamp.github.io/migrating-to-flutter-19-implementing-cross-platform-firebase-login-in-flutter-apps.html).
+
 **Note:** As of today Aug 7th, 2019- There's [an issue](https://github.com/flutter/flutter/issues/37761) in running Flutter Web App after upgrading to the latest version of Flutter SDK.
 
 Let's achieve the same animations on Web platform. Please refer to my [this article](https://ptyagicodecamp.github.io/designing-cross-platform-flutter-prototype-for-landing-page-web-hummingbird-android-ios.html), if you're new to Flutter-Web / Hummingbird and need help with setting up web project.
@@ -315,9 +317,9 @@ Here's screenshot of the web version:
 
 **Source code repo:**
 
-* Native (Android / iOS) recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/animations-native/flutter_widgets)
+**[UPDATE]** Native and Web codebases are merged into one codebase since release of Flutter 1.9.
 
-* Web (Hummingbird) recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/animations-web/flutter_widgets)
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/animations/flutter_animations/flutter_animations/lib/colorTween/color_tween.dart)
 
 
 ### References: ###
