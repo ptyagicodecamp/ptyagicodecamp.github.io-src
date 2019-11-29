@@ -73,7 +73,7 @@ Make sure that your Firebase project is configured for all three platforms.
 * Web: Checkout [this link](https://firebase.google.com/docs/web/setup) to configure Firebase project for Flutter Web app.
 
 
-**Images in Storage:**
+**Images in Firebase Storage Console:**
 
 I've uploaded two images in Storage as shown in screenshot below.
 

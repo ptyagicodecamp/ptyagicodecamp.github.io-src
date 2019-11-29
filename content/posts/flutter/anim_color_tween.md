@@ -13,13 +13,15 @@ Summary: This recipe demonstrates using [ColorTween](https://api.flutter.dev/flu
 
 **Goal:** Animating from one color to another for a quiz card's background based on the correct answer. We'll implement a card with picture of an animal in it, along with two choices to select from: 'Carnivorous' or 'Herbivorous'. When correct option is picked, background color of card will transition from grey to blue color in order to indicate correct selection otherwise background stays grey or turns grey from blue.
 
-<div style="width:100%;height:100%;padding-bottom:50%;position:relative;"><iframe src="https://giphy.com/embed/MCitgRspdAVS9l7geK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+![Color Tween Gif]({attach}../../media/flutter/color_tween.gif)
 
-
+---
 
 **Checkout the companion video tutorial:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6O1dini5Buc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+---
 
 ### ColorTween for Native platforms (Android & iOS) ###
 
