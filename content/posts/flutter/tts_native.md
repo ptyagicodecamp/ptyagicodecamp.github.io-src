@@ -15,7 +15,7 @@ Summary: Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
 
 ***Note:*** This recipe has been added to Flutter cookbook code recipe app as shows below.
 
-![Flutter-Cookbook-Widgets]({attach}../../images/flutter/tts_menu.png)
+![Flutter-Cookbook-Widgets]({attach}../../images/flutter/tts_menu.jpg)
 
 ---
 **Android:**
