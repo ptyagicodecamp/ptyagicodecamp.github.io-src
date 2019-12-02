@@ -131,7 +131,7 @@ void dispose() {
 
 Don't forget to stop flutter_tts plugin instance in `dispose()` method.
 
-### Speaking & Stoping ###
+### Speaking & Stopping ###
 
 Speaking and Stop speaking is pretty straight forward. All you need to call plugin's `speak(String text)` and `stop()` methods / apis.
 
