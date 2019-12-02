@@ -1,4 +1,4 @@
-Title: Implementing Flutter FactsBot using DialogFlow
+Title: Flutter FactsBot using DialogFlow
 Date: 08/20/2019
 Authors: ptyagi
 Category: Flutter
@@ -413,9 +413,11 @@ You're Done :)
 
 Keep Fluttering !
 
-**Source code is [available here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/flutter-facts-native)**
+###Source code ###
 
+Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/flutter-facts-native)
 
+---
 ### References/Credits: ###
 * [Webhooks fulfillment](https://cloud.google.com/dialogflow/docs/fulfillment-overview)
 * [DialogFlow](https://dialogflow.com/)
