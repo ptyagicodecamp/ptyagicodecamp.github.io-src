@@ -27,10 +27,10 @@ Summary: Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
 ---
 **iOS:**
 
-![Flutter-TTS-iOS]({attach}../../images/flutter/tts_ios.png)
+![Flutter-TTS-iOS]({attach}../../images/flutter/tts_ios.jpg)
 
 
-![Flutter-TTS-iOS2]({attach}../../images/flutter/tts_ios2.png)
+![Flutter-TTS-iOS2]({attach}../../images/flutter/tts_ios2.jpg)
 
 ---
 **Checkout the Youtube video:**
