@@ -10,6 +10,17 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
+## Text-to-Speech Flutter Plugin (Android & iOS) ##
+
+Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
+
+* Read article [here](TODO)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/tts)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+---
+
 ## Loading image from Firebase Storage in Flutter App (Android, iOS & Web) ##
 
 Code recipe to demonstrate image Loading from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter and Flutter Web.
