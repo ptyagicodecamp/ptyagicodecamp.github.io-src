@@ -35,7 +35,7 @@ Summary: Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
 ---
 **Checkout the Youtube video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ktsIgzhko6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 ### Lets's go! ###
@@ -192,7 +192,7 @@ _flutterTts.setVoice("en-us-x-sfg#male_1-local")
 
 ### References: ###
 
-1. [flutter_tts](https://pub.dev/packages/flutter_tts)
+1. [Plugin flutter_tts](https://pub.dev/packages/flutter_tts)
 2. [`PlatformUtil`](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/plugins/platform/platform.dart)
 
 

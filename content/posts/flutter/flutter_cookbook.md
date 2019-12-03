@@ -14,11 +14,11 @@ This article contains pointers to code samples for flutter components / widgets.
 
 Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
 
-* Read article [here](TODO)
+* Read article [here](https://ptyagicodecamp.github.io/text-to-speech-flutter-plugin-android-ios.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/tts)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/ktsIgzhko6c)
 ---
 
 ## Loading image from Firebase Storage in Flutter App (Android, iOS & Web) ##
