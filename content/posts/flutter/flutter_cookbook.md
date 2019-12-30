@@ -10,6 +10,39 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
+## Caching Flutter theme using local database (Moor plugin) ##
+
+
+* Read article [here]()
+
+* Source code is available [here]()
+
+* Youtube video is available [here]()
+
+---
+
+## Caching Flutter theme using SharedPreferences plugin ##
+
+
+* Read article [here]()
+
+* Source code is available [here]()
+
+* Youtube video is available [here]()
+
+---
+
+## Implement Flutter themes using Provider ##
+Implementing switching from light to dark theme and vice versa using [Provider plugin](https://pub.dev/packages/provider) for dependency injection and state management.
+
+* Read article [here](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/themes)
+
+* Youtube video is available [here](https://youtu.be/eJZMJFSQbgs)
+
+---
+
 ## Text-to-Speech Flutter Plugin (Android & iOS) ##
 
 Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
@@ -19,6 +52,7 @@ Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/tts)
 
 * Youtube video is available [here](https://youtu.be/ktsIgzhko6c)
+
 ---
 
 ## Loading image from Firebase Storage in Flutter App (Android, iOS & Web) ##
@@ -30,6 +64,7 @@ Code recipe to demonstrate image Loading from Firebase Storage on multiple platf
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
 
 * Youtube video is available [here](https://youtu.be/8xr2hZ2b2sw)
+
 ---
 
 ## Animating using AnimatedContainer Flutter widget ##
@@ -153,17 +188,6 @@ Using ColorFiltered widget to update quiz card feedback screen's background colo
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/quizzie)
 
 * Youtube video is available [here](https://youtu.be/PhLPbBDVtbI)
-
----
-
-## Implement Flutter themes using Provider ##
-Implementing switching from light to dark theme and vice versa using [Provider plugin](https://pub.dev/packages/provider) for dependency injection and state management.
-
-* Read article [here](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
-
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets-web/flutter_widgets/lib/themes)
-
-* Youtube video is available [here](https://youtu.be/eJZMJFSQbgs)
 
 ---
 
