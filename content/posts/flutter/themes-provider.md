@@ -7,6 +7,16 @@ Summary: Implementing switching from light to dark theme and vice versa using [P
 
 ![x-platform-themes]({attach}../../images/flutter/x-provider-themes.jpg)
 
+---
+
+**Checkout related articles:**
+
+* [Persisting theme using SharedPreferences (Android, iOS, and Web)](https://ptyagicodecamp.github.io/persisting-theme-using-sharedpreferences-android-ios-and-web.html)
+
+* [Persisting theme in LocalDatabase (Moor plugin)](https://ptyagicodecamp.github.io/persisting-theme-in-localdatabase-moor-plugin.html)
+
+---
+
 **Target Audience:** Beginner
 
 **Recipe:** Toggle Flutter themes from one type to another using Provider dependency injection and state management package.

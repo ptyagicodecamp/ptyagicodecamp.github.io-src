@@ -1,5 +1,5 @@
 Title: Persisting theme in LocalDatabase (Moor plugin)
-Date: 12/30/2019
+Date: 12/31/2019
 Authors: ptyagi
 Category: Flutter
 Tags: Caching, LocalDatabase, Moor, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
