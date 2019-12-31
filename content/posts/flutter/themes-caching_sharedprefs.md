@@ -13,6 +13,16 @@ In [this previous article](https://ptyagicodecamp.github.io/implement-flutter-th
 
 The difference between persisting data using SharedPreferences plugin vs [local database](https://ptyagicodecamp.github.io/persist-theme-setting-in-localdatabase-moor-plugin.html) is that SharedPreferences plugin can not guarantee that writes will be persisted to disk after app restarts. However, saving data to local database is more reliable.
 
+---
+
+**Checkout related articles:**
+
+* [Implement Flutter themes using Provider](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
+
+* [Persisting theme in LocalDatabase (Moor plugin)](https://ptyagicodecamp.github.io/persisting-theme-in-localdatabase-moor-plugin.html)
+
+---
+
 **Target Audience:** Beginner
 
 **Recipe:** Persisting selected theme using [SharedPreferences plugin](https://pub.dev/packages/shared_preferences).

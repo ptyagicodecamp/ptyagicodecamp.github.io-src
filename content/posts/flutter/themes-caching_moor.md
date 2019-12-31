@@ -11,6 +11,16 @@ Summary: Persisting theme setting in LocalDatabase using [Moor plugin](https://p
 
 In [this previous article](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html), we saw how to implement theme switching using Provider. In this article, we'll see how to save the selected theme in app's local database to persist the last selected theme across app restarts.
 
+---
+
+**Checkout related articles:**
+
+* [Implement Flutter themes using Provider](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
+
+* [Persisting theme using SharedPreferences (Android, iOS, and Web)](https://ptyagicodecamp.github.io/persisting-theme-using-sharedpreferences-android-ios-and-web.html)
+
+---
+
 **Target Audience:** Beginner
 
 **Recipe:** Persist selected theme in FlutterApp's local database using [Moor plugin](https://pub.dev/packages/moor).
