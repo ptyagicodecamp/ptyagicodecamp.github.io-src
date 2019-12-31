@@ -21,14 +21,15 @@ This article contains pointers to code samples for flutter components / widgets.
 
 ---
 
-## Caching Flutter theme using SharedPreferences plugin ##
+## Persisting theme using SharedPreferences (Android, iOS, and Web) ##
 
+Persisting selected theme using SharedPreferences plugin.
 
-* Read article [here]()
+* Read article [here](https://ptyagicodecamp.github.io/persisting-theme-using-sharedpreferences-android-ios-and-web.html)
 
-* Source code is available [here]()
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/themes/db)
 
-* Youtube video is available [here]()
+* Youtube video is available [here](https://youtu.be/ZHl1DVbRpBA)
 
 ---
 
