@@ -1,4 +1,4 @@
-Title: Persist theme setting in LocalDatabase (Moor plugin)
+Title: Persisting theme in LocalDatabase (Moor plugin)
 Date: 12/30/2019
 Authors: ptyagi
 Category: Flutter
@@ -171,7 +171,7 @@ class MyDatabase extends _$MyDatabase {
 
 }
 ```
-### Step #3: Sharing Database implementation across platforms ###
+### Step #3. Sharing Database implementation across platforms ###
 
 We'll be creating one file to write shared code, and two files for native and web implementation for accessing database on corresponding platforms.
 
@@ -217,6 +217,7 @@ MyDatabase constructDb({bool logStatements = false}) {
 }
 
 ```
+Checkout [this link](https://moor.simonbinder.eu/web/) to configure Moor for FlutterWeb.
 
 **Unsupported platform:** `unsupported.dart`
 
@@ -229,7 +230,7 @@ MyDatabase constructDb({bool logStatements = false}) {
 Checkout db plugin [source code here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/plugins/db).
 
 
-### Step #4: App's entry point ###
+### Step #4. App's entry point ###
 
 This code recipe is a part of the [code recipes](https://ptyagicodecamp.github.io/flutter-live-booklet-flutter-component-recipes.html#flutter-live-booklet-flutter-component-recipes) app as shown below:
 
@@ -257,7 +258,7 @@ void main() => runApp(MultiProvider(
     ));
 ```
 
-2. Code Recipe App: Use following code in [`rounter.dart`](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/router.dart) to run this code recipe as part of the code recipe app.
+2. Code Recipe App: Use following code in [`router.dart`](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/router.dart) to run this code recipe as part of the code recipe app.
 
 ```
 case THEMES_DEMO_DB:
@@ -280,9 +281,11 @@ case THEMES_DEMO_DB:
   break;
 ```
 
-### Step #5: Loading theme from database ###
+### Step #5. Loading theme from database ###
 
 Stateful widget `ThemesDBCaching` loads active theme using `Provider.of<ThemesNotifierDB>(context).loadActiveThemeData(context);`
+
+**themes_db.dart:**
 
 Here's code snippet:
 
@@ -305,6 +308,8 @@ class _ThemesDBCachingState extends State<ThemesDBCaching> {
   ...
 }  
 ```
+
+**themes_notifier_db.dart:**
 
 Fetching `theme_id` from database, loading and notifying currentTheme:
 
@@ -333,7 +338,7 @@ set currentTheme(MyThemes theme) {
 ```
 
 
-### Step #6: Switching and Saving them to database ###
+### Step #6: Switching and Saving theme to database ###
 
 Switching theme toggles previously selected theme. `oldTheme` is removed from the database using `deactivateTheme(...)`. Newly updated `currentTheme` is added to database using `activateTheme(...)`.
 
