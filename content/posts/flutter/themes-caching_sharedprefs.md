@@ -5,7 +5,7 @@ Category: Flutter
 Tags: Caching, SharedPreferences, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: Persisting theme setting using [SharedPreferences plugin](https://pub.dev/packages/shared_preferences)
 
-![x-platform-themes]({attach}../../images/flutter/x-provider-themes.jpg)
+![x-platform-themes]({attach}../../images/flutter/themes_sharedprefs.png)
 
 ### Background ###
 
