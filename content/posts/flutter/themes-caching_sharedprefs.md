@@ -1,5 +1,5 @@
 Title: Persisting theme using SharedPreferences (Android, iOS, and Web)
-Date: 12/31/2019
+Date: 12/30/2019
 Authors: ptyagi
 Category: Flutter
 Tags: Caching, SharedPreferences, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
@@ -119,12 +119,6 @@ class ThemesNotifierSharedPrefs with ChangeNotifier {
 
   ...
 
-  Future<int> getActiveThemeID(BuildContext context) {
-    return Provider.of<MyDatabase>(context)
-        .getActiveTheme()
-        .then((themePref) => themePref.theme_id);
-  }
-
   Future<void> activateTheme(MyThemes theme) async {
     var sharedPrefs = await SharedPreferences.getInstance();
     await sharedPrefs.setInt('theme_id', theme.index);
@@ -181,7 +175,7 @@ All Done !
 1. [SharedPreferences plugin](https://pub.dev/packages/shared_preferences)
 2. [Cross-platform ToDo App template](https://github.com/appleeducate/moor_shared)
 3. [Previous article: Implement Flutter themes using Provider](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
-4. [Previous article: Persisting theme in LocalDatabase (Moor plugin)](https://ptyagicodecamp.github.io/persist-theme-setting-in-localdatabase-moor-plugin.html)
+4. [Related article: Persisting theme in LocalDatabase (Moor plugin)](https://ptyagicodecamp.github.io/persist-theme-setting-in-localdatabase-moor-plugin.html)
 
 Happy cooking with Flutter :)
 

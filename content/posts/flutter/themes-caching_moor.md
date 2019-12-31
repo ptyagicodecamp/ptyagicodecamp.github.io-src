@@ -378,6 +378,7 @@ All Done !
 6. [`build_runner` plugin](https://pub.dev/packages/build_runner)
 7. [Cross-platform ToDo App template](https://github.com/appleeducate/moor_shared)
 8. [Previous article: Implement Flutter themes using Provider](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
+9. [Related article: Persisting theme using SharedPreferences (Android, iOS, and Web)](https://ptyagicodecamp.github.io/persisting-theme-using-sharedpreferences-android-ios-and-web.html)
 
 Happy cooking with Flutter :)
 
