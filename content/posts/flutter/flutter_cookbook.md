@@ -10,20 +10,21 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
-## Caching Flutter theme using local database (Moor plugin) ##
+## Persisting theme in LocalDatabase (Moor plugin) ##
 
+Persisting theme setting in LocalDatabase using [Moor plugin](https://pub.dev/packages/moor).
 
-* Read article [here]()
+* Read article [here](https://ptyagicodecamp.github.io/persisting-theme-in-localdatabase-moor-plugin.html)
 
-* Source code is available [here]()
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/themes/db)
 
-* Youtube video is available [here]()
+* Youtube video is available [here](https://youtu.be/hEZ0_jSIuUU)
 
 ---
 
 ## Persisting theme using SharedPreferences (Android, iOS, and Web) ##
 
-Persisting selected theme using SharedPreferences plugin.
+Persisting theme setting using [SharedPreferences plugin](https://pub.dev/packages/shared_preferences).
 
 * Read article [here](https://ptyagicodecamp.github.io/persisting-theme-using-sharedpreferences-android-ios-and-web.html)
 
