@@ -154,7 +154,7 @@ Checkout [this plugins](https://github.com/ptyagicodecamp/flutter_cookbook/tree/
 
 ![Flutter-Plugins]({attach}../../images/flutter/image_fb_plugin.jpg)
 
-File `file_storage_service.dart` uses `dart.library` to decide on redirecting calls to native vs web implementation for `FireStorageService`.
+File `fire_storage_service.dart` uses `dart.library` to decide on redirecting calls to native vs web implementation for `FireStorageService`.
 
 ```
 export 'unsupported_storage.dart'
@@ -243,7 +243,7 @@ Checkout the source code for detailed implementation. As usual, this code recipe
 
 * Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
 
-* Code recipe project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
+* Flutter Cookbook Project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
 
 ---
 
