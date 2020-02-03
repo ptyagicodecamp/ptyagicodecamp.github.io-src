@@ -1,47 +1,52 @@
-Title: Loading image from Firebase Storage in Flutter App (Android, iOS & Web)
-Date: 11/22/2019
+Title: Loading PDF file from Firebase Storage in Flutter App (Android, iOS & Web)
+Date: 02/03/2020
 Authors: ptyagi
 Category: Flutter
-Tags: FirebaseStorage, Flutter Web, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
-Summary: Code recipe to demonstrate image Loading from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter and Flutter Web.
+Tags: FirebaseStorage, PDF, Flutter Web, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter.
 
 **Target Audience:** Beginner
 
-**Recipe:** Implement loading image from Firebase Storage on Flutter Native and Flutter WebApp.
+**Recipe:** Load PDF file from Firebase Storage on Flutter Native and Flutter WebApp.
 
 **Goal:** In this code recipe, we'll do following:
 
-* Touch basing Firebase Project and configuration setup.
-* Touch basing availability of the two sample images in Storage using Firebase Console.
-* Fetching one of the image randomly from Firebase Storage.
-* Checkout code for loading image in native and web app.
+* Review Firebase Project and configuration setup.
+* Checkout availability of PDF file in [FirebaseStorage](https://firebase.google.com/docs/storage) using Firebase Console.
+* Fetching PDF from Firebase Storage.
+* Checkout code for loading pdf in native and web app environments.
+
+**Flutter Cookbook:**
+![Flutter-Cookbook]({attach}../../images/flutter/cookbook_index_pdf.jpg)
 
 **Android:**
 
-![Flutter-Native-Android]({attach}../../images/flutter/image_fb1.jpg)
+![Flutter-Native-Android]({attach}../../images/flutter/pdf_fire_android_1.jpg)
 
-![Flutter-Native-Android2]({attach}../../images/flutter/image_fb2.jpg)
+![Flutter-Native-Android2]({attach}../../images/flutter/pdf_fire_android_2.jpg)
 
 ---
 **iOS:**
 
-![Flutter-Native-iOS]({attach}../../images/flutter/image_fb_ios.jpg)
+![Flutter-Native-iOS]({attach}../../images/flutter/pdf_fire_ios_1.jpg)
+![Flutter-Native-iOS2]({attach}../../images/flutter/pdf_fire_ios_2.jpg)
 
 ---
 **Flutter Web:**
 
-![Flutter-Web]({attach}../../images/flutter/image_fb3_web.jpg)
+![Flutter-Web1]({attach}../../images/flutter/pdf_fire_web_1.jpg)
+![Flutter-Web2]({attach}../../images/flutter/pdf_fire_web_2.jpg)
 
 ---
 **Checkout the Youtube video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8xr2hZ2b2sw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-### Lets's go! ###
+### Introduction ###
 
-This code recipe would demonstrate image Loading from Firebase Storage in Flutter Native and Web Apps.
+This code recipe would demonstrate loading PDF file from Firebase Storage in Flutter Native and Web Apps. I'm using [my Flutter talks's](https://www.siliconvalley-codecamp.com/Presenter/2019/priyanka-tyagi-1447) slides as PDF file. I've this PDF available in Firebase Storage already.
 
 ### Step #1. `pubspec.yaml` dependencies ###
 
@@ -224,7 +229,7 @@ class FireStorageService extends ChangeNotifier {
         messagingSenderId: "728428768644");
   }
 
-  static Future<dynamic> loadFromStorage(BuildContext context, String image) async {
+  static Future<dynamic> loadImage(BuildContext context, String image) async {
     var url = await storage().ref(image).getDownloadURL();
     return url;
   }
@@ -241,19 +246,21 @@ Checkout the source code for detailed implementation. As usual, this code recipe
 
 ### Source code repo ###
 
-* Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
+* Recipe source code is available [here]()
 
-* Code recipe project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
+* Code recipe project's source code is available [here]()
 
 ---
 
 
 ### References: ###
 
-1. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
-2. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup)
-3. [Configuring Firebase project for Flutter Web app](https://firebase.google.com/docs/web/setup)
-4. [Previous article](https://ptyagicodecamp.github.io/migrating-to-flutter-19-implementing-cross-platform-firebase-login-in-flutter-apps.html) about supporting web and native app's from single source code.
+1. [Related article about loading image from FirebaseStorage]() about supporting web and native app's from single source code
+2. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
+3. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup)
+4. [Configuring Firebase project for Flutter Web app](https://firebase.google.com/docs/web/setup)
+4. .
+
 
 
 Happy cooking with Flutter :)
