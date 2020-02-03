@@ -17,12 +17,14 @@ Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on mu
 * Checkout code for loading pdf in native and web app environments.
 
 **Flutter Cookbook:**
+
 ![Flutter-Cookbook]({attach}../../images/flutter/cookbook_index_pdf.jpg)
+
+---
 
 **Android:**
 
 ![Flutter-Native-Android]({attach}../../images/flutter/pdf_fire_android_1.jpg)
-
 ![Flutter-Native-Android2]({attach}../../images/flutter/pdf_fire_android_2.jpg)
 
 ---
@@ -38,6 +40,7 @@ Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on mu
 ![Flutter-Web2]({attach}../../images/flutter/pdf_fire_web_2.jpg)
 
 ---
+
 **Checkout the Youtube video:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
