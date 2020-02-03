@@ -10,6 +10,18 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
+## Load PDF file from Firebase Storage on Flutter Native and Flutter WebApp ##
+
+Code recipe to demonstrate loading PDF file from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter.
+
+* Read article [here](https://ptyagicodecamp.github.io/loading-pdf-file-from-firebase-storage-in-flutter-app-android-ios-web.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/pdf)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
+
 ## Persisting theme in LocalDatabase (Moor plugin) ##
 
 Persisting theme setting in LocalDatabase using [Moor plugin](https://pub.dev/packages/moor).
