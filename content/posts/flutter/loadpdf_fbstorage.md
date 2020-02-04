@@ -7,7 +7,7 @@ Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on mu
 
 **Target Audience:** Beginner
 
-**Recipe:** Load PDF file from Firebase Storage on Flutter Native and Flutter WebApp.
+**Recipe:** Loading PDF file from Firebase Storage in Flutter Native & WebApp.
 
 **Goal:** In this code recipe, we'll do following:
 
@@ -15,6 +15,8 @@ Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on mu
 * Checkout availability of PDF file in [FirebaseStorage](https://firebase.google.com/docs/storage) using Firebase Console.
 * Fetching PDF from Firebase Storage.
 * Checkout code for loading pdf in native and web app environments.
+
+***Note:*** Please review [this article about Firebase Login](https://github.com/flutter/flutter/wiki/Release-Notes-Flutter-1.9.1), if you run into permissions issues accessing PDF. Android platform expects user to be logged in.
 
 **Flutter Cookbook:**
 
