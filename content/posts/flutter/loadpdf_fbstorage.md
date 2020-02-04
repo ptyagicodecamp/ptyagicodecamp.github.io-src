@@ -5,6 +5,9 @@ Category: Flutter
 Tags: FirebaseStorage, PDF, Flutter Web, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter.
 
+
+![Flutter-PDF-FirebaseStorage]({attach}../../images/flutter/firebase_pdf.png)
+
 **Target Audience:** Beginner
 
 **Recipe:** Loading PDF file from Firebase Storage in Flutter Native & WebApp.

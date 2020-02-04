@@ -10,7 +10,7 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
-## Load PDF file from Firebase Storage on Flutter Native and Flutter WebApp ##
+## Loading PDF file from Firebase Storage in Flutter App (Android, iOS & Web) ##
 
 Code recipe to demonstrate loading PDF file from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter.
 
