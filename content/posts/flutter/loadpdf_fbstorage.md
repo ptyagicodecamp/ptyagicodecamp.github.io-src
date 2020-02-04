@@ -314,14 +314,9 @@ class PDFScreen extends StatelessWidget {
 
 * `createFileFromPdfUrl(...)`: This method downloads the pdf file from FirebaseStorage to a local file at disk. This local pdf file is later opened in `PDFScreen` later.
 
+That's all you need to load a PDF file from FirebaseStorage into your Flutter application.
 
 **Note:** [Checkout my previous article](https://ptyagicodecamp.github.io/migrating-to-flutter-19-implementing-cross-platform-firebase-login-in-flutter-apps.html) about plugins directory structure in details, and supporting web and native app's from single source code.
-
-
----
-
-
-Checkout the source code for detailed implementation. As usual, this code recipe is linked from main [flutter_widgets](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/) code recipes sample app.
 
 ---
 
@@ -340,7 +335,6 @@ Checkout the source code for detailed implementation. As usual, this code recipe
 2. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
 3. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup)
 4. [Configuring Firebase project for Flutter Web app](https://firebase.google.com/docs/web/setup)
-4. .
 
 
 
