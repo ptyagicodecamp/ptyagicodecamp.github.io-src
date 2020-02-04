@@ -331,10 +331,10 @@ That's all you need to load a PDF file from FirebaseStorage into your Flutter ap
 
 ### References: ###
 
-1. [Related article about loading image from FirebaseStorage]() about supporting web and native app's from single source code
-2. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
-3. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup)
-4. [Configuring Firebase project for Flutter Web app](https://firebase.google.com/docs/web/setup)
+1. [Related article about loading image from FirebaseStorage](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html) about supporting web and native app's from single source code.
+2. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup).
+3. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup).
+4. [Configuring Firebase project for Flutter Web app](https://firebase.google.com/docs/web/setup).
 
 
 
