@@ -48,37 +48,13 @@ Summary: Code recipe to demonstrate loading PDF file from Firebase Storage on mu
 
 **Checkout the Youtube video:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rmyPnsf06Ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
 ### Introduction ###
 
 This code recipe would demonstrate loading PDF file from Firebase Storage in Flutter Native and Web Apps. I'm using [my Flutter talks's](https://www.siliconvalley-codecamp.com/Presenter/2019/priyanka-tyagi-1447) slides as PDF file. I've this PDF available in Firebase Storage already.
-
-### Step #1. `pubspec.yaml` dependencies ###
-
-Flutter plugins for accessing files from FirebaseStorage for Native apps are similar to previous article about [Loading images from Firebase Storage](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html)
-
-```
-dependencies:
-
-  #http to download PDF
-  http: ^0.12.0+4
-  #Open PDF in a viewer
-  flutter_full_pdf_viewer: ^1.0.6
-
-  #Firebase related
-  firebase_storage: ^3.0.8
-  firebase_core: ^0.4.0+9
-  firebase_analytics: ^5.0.6
-```
-
-Flutter plugin for accessing files in Firebase Storage for Web apps:
-```
-dependencies:
-  firebase: ^5.0.4
-```
 
 ---
 
@@ -102,6 +78,32 @@ I've uploaded Flutter presentation's slides as PDF in Firebase Storage as shown 
 Don't forget to tune Firebase Storage files 'Rules' depending on your usage. For demonstration purposes for this code recipe, I want to let user read images regardless of their authentication status. So, I'm making pdf bucket readable to all as shown in screenshot below:
 
 ![Flutter-Console]({attach}../../images/flutter/pdf_fb_console2.jpg)
+
+---
+
+### `pubspec.yaml` dependencies ###
+
+Flutter plugins for accessing files from FirebaseStorage for Native apps are similar to previous article about [Loading images from Firebase Storage](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html)
+
+```
+dependencies:
+
+  #http to download PDF
+  http: ^0.12.0+4
+  #Open PDF in a viewer
+  flutter_full_pdf_viewer: ^1.0.6
+
+  #Firebase related
+  firebase_storage: ^3.0.8
+  firebase_core: ^0.4.0+9
+  firebase_analytics: ^5.0.6
+```
+
+Flutter plugin for accessing files in Firebase Storage for Web apps:
+```
+dependencies:
+  firebase: ^5.0.4
+```
 
 ---
 
