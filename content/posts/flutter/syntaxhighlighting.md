@@ -14,7 +14,7 @@ Summary: This article describes how I used `syntax_highlighter` Flutter plugin t
 **Goal:** TODO
 
 **Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4WoS_WQKKV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Lets's go! ###
 
@@ -38,7 +38,7 @@ dependencies:
 
 * `animated_floatactionbuttons` plugin: This plugin is used to provide Floating Action widget to zoom in and out code snippet text.
 
-### **CodeFile:** A `StatefulWidget` to display Code snippet ###
+### CodeFileWidget: A `StatefulWidget` to display Code snippet ###
 
 Class `CodeFileWidget` is a `StatefulWidget`. It's responsible to display underlying code for a Flutter code recipe.
 
@@ -149,15 +149,16 @@ Widget build(BuildContext context) {
 
 Now, add actions like zoom_in, zoom_out, and navigating to code recipe demonstration.
 
-* **Zooming Out:**  `scaleFactorText`'s value is decreased by `0.1` every time 'Zoom out' widget is tapped. That means text is made bigger.
+* **Zooming Out:**  `scaleFactorText`'s value is decreased by `0.1` every time 'Zoom out' widget is tapped. That means text is made smaller.
 
-* **Zooming In:**  `scaleFactorText`'s value is increased by `0.1` every time 'Zoom out' widget is tapped. That means text is made smaller. You can see more text at a time.
+* **Zooming In:**  `scaleFactorText`'s value is increased by `0.1` every time 'Zoom out' widget is tapped. That means text is made bigger. You can see more text at a time.
 
 * **Navigating to Code demo:** Tapping on this action opens the code recipe demonstration screen.
 
 ```
 List<Widget> codepreviewActions() {
   return <Widget>[
+  //making text smaller
     FloatingActionButton(
       heroTag: "zoom_out",
       child: Icon(Icons.zoom_out),
@@ -166,6 +167,7 @@ List<Widget> codepreviewActions() {
         this.scaleFactorText = max(0.8, this.scaleFactorText - 0.1);
       }),
     ),
+    //making text bigger
     FloatingActionButton(
       heroTag: "zoom_in",
       child: Icon(Icons.zoom_in),
