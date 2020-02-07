@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 02/05/2020
+Date: 02/06/2020
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -9,6 +9,18 @@ Summary: This article contains pointers to code samples for flutter components /
 ## A Flutter Live Booklet: Flutter component recipes
 
 This article contains pointers to code samples for flutter components / widgets.
+
+## Loading PDF file from Firebase Storage in Flutter App (Android, iOS & Web) ##
+
+Code recipe to demonstrate loading PDF file from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter.
+
+* Read article [here](https://ptyagicodecamp.github.io/loading-pdf-file-from-firebase-storage-in-flutter-app-android-ios-web.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/pdf)
+
+* Youtube video is available [here](https://youtu.be/4WoS_WQKKV0)
+
+---
 
 ## Loading PDF file from Firebase Storage in Flutter App (Android, iOS & Web) ##
 
