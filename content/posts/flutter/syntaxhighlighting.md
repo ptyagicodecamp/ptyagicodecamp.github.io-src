@@ -240,7 +240,7 @@ Widget highlightCodeSyntax(String codeContent, BuildContext context) {
 
 * Recipe source code for `CodeFileWidget` class is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/codefile.dart)
 
-* * Flutter Cookbook project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
+* Flutter Cookbook project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
 
 
 ### References: ###

@@ -52,7 +52,7 @@ Persisting theme setting using [SharedPreferences plugin](https://pub.dev/packag
 
 * Read article [here](https://ptyagicodecamp.github.io/persisting-theme-using-sharedpreferences-android-ios-and-web.html)
 
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/themes/db)
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/themes/sharedPrefs)
 
 * Youtube video is available [here](https://youtu.be/ZHl1DVbRpBA)
 
