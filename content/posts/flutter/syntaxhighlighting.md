@@ -1,5 +1,5 @@
-Title: How I added Syntax Highlighting in 'Flutter Cookbook' App
-Date: 02/05/2020
+Title: Adding Syntax Highlighting in Flutter Cookbook App
+Date: 02/06/2020
 Authors: ptyagi
 Category: Flutter
 Tags: SyntaxHighlighting, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
@@ -244,7 +244,9 @@ Widget highlightCodeSyntax(String codeContent, BuildContext context) {
 
 
 ### References: ###
-1.
+1. [animated_floatactionbuttons plugin](https://pub.dev/packages/animated_floatactionbuttons)
+
+2. [syntax_highlighter plugin](https://pub.dev/packages/syntax_highlighter)
 
 Happy cooking with Flutter :)
 
