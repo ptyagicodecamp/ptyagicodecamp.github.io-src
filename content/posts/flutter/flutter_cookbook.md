@@ -10,13 +10,13 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
-## Loading PDF file from Firebase Storage in Flutter App (Android, iOS & Web) ##
+## Adding Syntax Highlighting in Flutter Cookbook App ##
 
-Code recipe to demonstrate loading PDF file from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter.
+ This article describes how I used `syntax_highlighter` Flutter plugin to show underlying code for Flutter Cookbook's code recipes.
 
-* Read article [here](https://ptyagicodecamp.github.io/loading-pdf-file-from-firebase-storage-in-flutter-app-android-ios-web.html)
+* Read article [here](https://ptyagicodecamp.github.io/adding-syntax-highlighting-in-flutter-cookbook-app.html)
 
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/pdf)
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/codefile.dart)
 
 * Youtube video is available [here](https://youtu.be/4WoS_WQKKV0)
 
