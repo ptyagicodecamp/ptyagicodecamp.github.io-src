@@ -1,9 +1,11 @@
-Title: How I added Syntax Highlighting in Flutter Cookbook FlutterApp
+Title: How I added Syntax Highlighting in 'Flutter Cookbook' App
 Date: 02/05/2020
 Authors: ptyagi
 Category: Flutter
 Tags: SyntaxHighlighting, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: This article describes how I used `syntax_highlighter` Flutter plugin to show underlying code for Flutter Cookbook's code recipes.
+
+![Syntax highlighting]({attach}../../images/flutter/syntax.jpg)
 
 **Target Audience:** Beginner
 
@@ -11,7 +13,6 @@ Summary: This article describes how I used `syntax_highlighter` Flutter plugin t
 
 **Focus Widget:** [`syntax_highlighter` plugin](https://pub.dev/packages/syntax_highlighter)
 
-**Goal:** TODO
 
 **Checkout the companion video tutorial:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4WoS_WQKKV0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
