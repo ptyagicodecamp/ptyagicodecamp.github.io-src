@@ -418,6 +418,10 @@ Keep Fluttering !
 Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-landingpage/tree/flutter-facts-native)
 
 ---
+[Update] Code has been tested on Flutter stable channel `1.12.13+hotfix.8`, and Dart version `Dart 2.7.0`
+
+
+---
 ### References/Credits: ###
 * [Webhooks fulfillment](https://cloud.google.com/dialogflow/docs/fulfillment-overview)
 * [DialogFlow](https://dialogflow.com/)
