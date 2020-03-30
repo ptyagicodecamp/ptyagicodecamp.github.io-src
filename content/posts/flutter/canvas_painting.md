@@ -213,7 +213,7 @@ This property is used to update the moving coordinates. For example, user is dra
 
  This point describes the end of the screen contact with finger. So `null` is added to `points` list because there's no `TouchPoints` to be recorded.
 
- ```
+```
  onPanEnd: (details) {
   setState(() {
     points.add(null);
