@@ -1,0 +1,41 @@
+Title: Bloc Pattern- Movie listing Flutter App
+Date: 02/19/2019
+Authors: ptyagi
+Category: Flutter
+Tags: Bloc-Pattern, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Summary: In this code recipe, I'll use The Movie DB API to fetch and display popular movies for three years: 2020, 2019 & 2018.
+
+**Target Audience:** Beginner
+
+**Recipe:**
+
+**Focus Widget:** TODO
+
+**Goal:** TODO
+
+**Checkout the companion video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Lets's go! ###
+
+Step #1. TODO
+
+![Sorted Wordlist]({attach}../../media/flutter/search_appbar/wordlist.png)
+
+####Complete example code ####
+TODO
+
+***Source code repo:***
+Recipe source code is available [TODO](https://github.com/ptyagicodecamp/flutter_cookbook/tree/master/flutter_animated_opacity)
+
+
+### References: ###
+1.
+
+Happy cooking with Flutter :)
+
+_Liked the article ?
+Couldn't find a topic of your interest ? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
+
+Follow me at [twitter](https://twitter.com/ptyagi13)

@@ -49,14 +49,14 @@ void main() {
 ```
 
 #### Error Handling (try/catch block) ####
-When an exception is thrown in try block, catch block executes it's code. Error handling for asynchronous and synchronous code is handled similar way.
+When an exception is thrown in the `try` block, the `catch` block executes its code. Error handling for asynchronous and synchronous code is handled similar way.
 Let's add the try/catch block in previous code, and see how it'll look like now. I'm throwing an `Exception` on purpose in `try` block to demonstrate the point here.
 ```
 import 'dart:async';
 
 const data = "I'm expansive data";
 
-//Asynchronous funtion that makes the expensive
+//Asynchronous function that makes the expensive
 //data call
 Future<void> makeDataCall() async {
   try {
@@ -243,8 +243,9 @@ main() async {
 ```
 
 ### References: ###
-1. [Dart Futures](https://dart.dev/tutorials/language/futures)
-2. [Dart Streams](https://dart.dev/tutorials/language/streams)
+1. [Dart Futures Code Lab](https://dart.dev/tutorials/language/futures)
+2. [Dart Future](https://dart.dev/guides/libraries/library-tour#future)
+3. [Dart Streams](https://dart.dev/tutorials/language/streams)
 
 Happy cooking with Dart and Flutter :)
 
