@@ -1,5 +1,5 @@
-Title: Canvas Painting Using Flutter
-Date: 03/29/2020
+Title: Building Cross-Platform Finger Painting App in Flutter
+Date: 03/31/2020
 Authors: ptyagi
 Category: Flutter
 Tags: Canvas, Painting, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
@@ -7,7 +7,7 @@ Summary: This code recipe focuses on building a cross-platform finger painting a
 
 **Target Audience:** Beginner
 
-**Recipe:** In this code recipe, you'll learn to build a Finger Painting Flutter App.
+**Recipe:** In this code recipe, you'll use canvas painting to build a Finger Painting App in Flutter.
 
 **Focus Widget(s):** [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html), [CustomPaint](https://api.flutter.dev/flutter/widgets/CustomPaint-class.html)
 
@@ -25,14 +25,15 @@ Summary: This code recipe focuses on building a cross-platform finger painting a
 
 **Flutter Cookbook:**
 
-This code recipe is added to [Flutter Cookbook]() as well:
+This code recipe is added to [Flutter Cookbook](https://ptyagicodecamp.github.io/flutter-live-booklet-flutter-component-recipes.html) as well:
+
 
 ![Canvas-Painting]({attach}../../images/flutter/paint_canvas_1.jpg)
 
 ---
 
 **Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bgLiVIIu3bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -69,6 +70,8 @@ class _CanvasPaintingState extends State<CanvasPainting> {
  ...
 }
 ```
+
+**Detecting gestures:**
 
 We need a way to capture the user's tap. The [`GestureDetector`](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) widget is used to detect gestures. This widget is assigned to `Scaffold` widget's `body` property.
 
@@ -115,8 +118,7 @@ class TouchPoints {
 
 **`MyPainter` class:**
 
-The `MyPainter` class extends `CustomPainter`. It tells system how and when the screen will be painted.
-When two consecutive points are available, a line is detected otherwise a point is drawn.
+The `MyPainter` class extends `CustomPainter`. It tells system how and when the screen will be painted. When two consecutive points are available, a line is detected otherwise a point is drawn.
 
 ```
 class MyPainter extends CustomPainter {
@@ -159,9 +161,12 @@ At this point, our canvas is ready to process the touched points on the screen. 
 
  * **The `onPanStart` property:**
 
+This property records the initial touched points. It requires `paint` property to provide information how touched points would be rendered on the screen. It extracts the position of touched points using [`RenderBox`](https://api.flutter.dev/flutter/rendering/RenderBox-class.html) widget. A `RenderBox` is a render object in a 2D Cartesian coordinate system.
+
+Here's description of this property from its class:
+
 > A pointer has contacted the screen with a primary button and has begun to move.
 
-This property records the initial touched points. It requires `paint` property to provide information how touched points would be rendered on the screen. It extracts the position of touched points using [`RenderBox`](https://api.flutter.dev/flutter/rendering/RenderBox-class.html) widget. A `RenderBox` is a render object in a 2D Cartesian coordinate system.
 ```
  onPanStart: (details) {
   setState(() {
@@ -188,9 +193,11 @@ Let's define default properties for `Paint()` object as below:
 
  * **The `onPanUpdate` property:**
 
- > A pointer that is in contact with the screen with a primary button and moving has moved again.
+This property is used to update the moving coordinates. For example, user is drawing a line without lifting off their finger.
 
-This property is used to update the moving coordinates. For example, user is drawing a line without lifting their finger.
+Here's description of this property from its class:
+
+> A pointer that is in contact with the screen with a primary button and moving has moved again.
 
  ```
  onPanUpdate: (details) {
@@ -209,9 +216,11 @@ This property is used to update the moving coordinates. For example, user is dra
 
  * **The `onPanEnd` property:**
 
- > A pointer that was previously in contact with the screen with a primary button and moving is no longer in contact with the screen and was moving at a specific velocity when it stopped contacting the screen.
-
  This point describes the end of the screen contact with finger. So `null` is added to `points` list because there's no `TouchPoints` to be recorded.
+
+Here's description of this property from its class:
+
+ > A pointer that was previously in contact with the screen with a primary button and moving is no longer in contact with the screen and was moving at a specific velocity when it stopped contacting the screen.
 
 ```
  onPanEnd: (details) {
@@ -225,7 +234,8 @@ This property is used to update the moving coordinates. For example, user is dra
 
 ## Action Items ##
 
-There are following 7 action items:
+There are following 7 action items that we want to add our toolkit.
+
  - Brush Stroke Picker
  - Opacity Picker
  - Resetting Screen
@@ -234,26 +244,50 @@ There are following 7 action items:
  - Pink Color Picker
  - Blue Color Picker
 
+
 ### Add FAB menu
 
 The FAB menu is implemented using `AnimatedFloatingActionButton` widget. This widget provides nice and smooth animation for menu open and close actions. It's assigned to `Scaffold` widget using `floatingActionButton` property.
 
-### `pubspec.yaml` Configuration
+#### `pubspec.yaml` Configuration
 
 The `AnimatedFloatingActionButton` widget is provided by a Flutter plugin. Add plugin `animated_floatactionbuttons: ^0.1.0` to `pubspec.yaml`
 
 **Note:** Don't forget to fetch the flutter packages after adding dependency.
 
 
-### Animation Colors
+#### Animating FAB
 
 When FAB menu is clicked, it shows swift animation. We provide colors for starting and ending animation.
 
 The `Colors.blue` is used as starting animation color. This can be assigned using `colorStartAnimation` property. The property `colorEndAnimation` is used to assign ending animation color, `Colors.cyan`.
 
-When the menu opens, it changes it's icon to close icons using `animatedIconData` property.
+When FAB menu open and closes, its icon(s) is changed using `animatedIconData` property.
 
-Checkout the code below:
+This is how different colors can be assigned to `AnimatedFloatingActionButton` widget:
+
+```
+floatingActionButton: AnimatedFloatingActionButton(
+  //Creating menu items
+  fabButtons: fabOption(),
+
+  //Color shown when animation starts
+  colorStartAnimation: Colors.blue,
+
+  //Color shown when animation ends
+  colorEndAnimation: Colors.cyan,
+
+  //Icon for FAB. 'X' icon is shown when menu is open.
+  animatedIconData: AnimatedIcons.menu_close,
+),
+```
+
+#### Adding the buttons to FAB
+
+The `fabButtons` property takes the buttons to be added to the `AnimatedFloatingActionButton` widget.
+We'll create `fabOption()` to return list of widgets to be shown as menu items.
+
+Checkout the full code below:
 
 ```
 //Optional app's entry point
@@ -295,6 +329,9 @@ class _CanvasPaintingState extends State<CanvasPainting> {
  ...
 }
 ```
+Let's checkout the `fabOption()` method next.
+
+---
 
 ### The `fabOption()` method
 
@@ -383,10 +420,108 @@ List<Widget> fabOption() {
 
 ```
 
-### Brush Stroke Picker
+---
+
+### Opacity Picker
+
+The [Opacity](https://api.flutter.dev/flutter/widgets/Opacity-class.html) widget makes its child partially transparent. We want to support three values in our toolkit to pick from: 0.1, 0.5, and 1.0. The `0.1` is most transparent while `1.0` not at all. These options are shown in a alert dialog like below:
+
 
 ![Canvas-Painting]({attach}../../images/flutter/paint_canvas_4.jpg)
+
+
+This is how your stroke look for opacity value of `0.1`:
+
+
 ![Canvas-Painting]({attach}../../images/flutter/paint_canvas_6.jpg)
+
+**Implementing `_opacity()` method:**
+
+The `_opacity()` method implements selection of opacity as show in the screenshot.
+
+We're providing three different values for opacity. The `opacity = 1.0` is the maximum opacity. All options are displayed in `AlertDialog` widget. Selecting one option closes the dialog.
+
+We'll use [`barrierDismissible`](https://api.flutter.dev/flutter/widgets/ModalRoute/barrierDismissible.html) to enable user to tap anywhere on the screen to close this dialog box.
+
+[`ClipOval`](https://api.flutter.dev/flutter/widgets/ClipOval-class.html) widget is used to create an oval shape clip of its child. You would notice slightly rounded corners for `AlertDialog` child.
+
+```
+Future<void> _opacity() async {
+  //Shows AlertDialog
+  return showDialog<void>(
+    context: context,
+
+    //Dismiss alert dialog when set true
+    barrierDismissible: true,
+
+    builder: (BuildContext context) {
+
+      //Clips its child in a oval shape
+      return ClipOval(
+        child: AlertDialog(
+
+          //Creates three buttons to pick opacity value.
+          actions: <Widget>[
+            FlatButton(
+              child: Icon(
+                Icons.opacity,
+                size: 24,
+              ),
+              onPressed: () {
+                //most transparent
+                opacity = 0.1;
+                Navigator.of(context).pop();
+              },
+            ),
+            FlatButton(
+              child: Icon(
+                Icons.opacity,
+                size: 40,
+              ),
+              onPressed: () {
+                opacity = 0.5;
+                Navigator.of(context).pop();
+              },
+            ),
+            FlatButton(
+              child: Icon(
+                Icons.opacity,
+                size: 60,
+              ),
+              onPressed: () {
+                //not transparent at all.
+                opacity = 1.0;
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        ),
+      );
+    },
+  );
+}
+```
+
+---
+
+### Brush Stroke Picker
+
+
+The [`strokeWidth`](https://api.flutter.dev/flutter/dart-ui/Paint/strokeWidth.html) property sets the width of the stroke. .
+
+These options are shown in the alert dialog like below. The 'X' is for resetting the stroke to its default value. The other three values are `10.0`(thicker than default), `30.0`, and `50.0` (thickest stroke).  
+
+
+![Canvas-Painting]({attach}../../images/flutter/paint_canvas_5.jpg)
+
+
+The following screenshot shows all three options marked as 1, 2, and 3, where 1 is `10.0`, 2 is `30.0`, and 3 is `50.0`.
+
+
+![Canvas-Painting]({attach}../../images/flutter/paint_canvas_7.jpg)
+
+
+**Implementing `_pickStroke()` method:**
 
 The `_pickStroke()` method implements selection of the stroke.
 
@@ -395,13 +530,23 @@ We're providing four different width of strokes. All options are displayed in th
 
 ```
 Future<void> _pickStroke() async {
+
+  //Shows AlertDialog
   return showDialog<void>(
     context: context,
+
+    //Dismiss alert dialog when set true
     barrierDismissible: true, // user must tap button!
     builder: (BuildContext context) {
+
+      //Clips its child in a oval shape
       return ClipOval(
         child: AlertDialog(
+
+          //Creates three buttons to pick stroke value.
           actions: <Widget>[
+
+            //Resetting to default stroke value
             FlatButton(
               child: Icon(
                 Icons.clear,
@@ -450,63 +595,7 @@ Future<void> _pickStroke() async {
 
 ```
 
-### Opacity Picker
-
-
-![Canvas-Painting]({attach}../../images/flutter/paint_canvas_5.jpg)
-![Canvas-Painting]({attach}../../images/flutter/paint_canvas_7.jpg)
-
-The `_opacity()` method implements selection of opacity as show in the screenshot.
-
-We're providing three different values for opacity. The `opacity = 1.0` is the maximum opacity. All options are displayed in the
-`AlertDialog` widget. Selecting one option closes the dialog.
-
-```
-Future<void> _opacity() async {
-  return showDialog<void>(
-    context: context,
-    barrierDismissible: true, // user must tap button!
-    builder: (BuildContext context) {
-      return ClipOval(
-        child: AlertDialog(
-          actions: <Widget>[
-            FlatButton(
-              child: Icon(
-                Icons.opacity,
-                size: 24,
-              ),
-              onPressed: () {
-                opacity = 0.1;
-                Navigator.of(context).pop();
-              },
-            ),
-            FlatButton(
-              child: Icon(
-                Icons.opacity,
-                size: 40,
-              ),
-              onPressed: () {
-                opacity = 0.5;
-                Navigator.of(context).pop();
-              },
-            ),
-            FlatButton(
-              child: Icon(
-                Icons.opacity,
-                size: 60,
-              ),
-              onPressed: () {
-                opacity = 1.0;
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        ),
-      );
-    },
-  );
-}
-```
+---
 
 ### Resetting Screen
 
@@ -516,9 +605,11 @@ Resetting screen clears all the recorded points:
 points.clear();
 ```
 
+---
+
 ### Red, Green, Pink & Blue Color Picker(s)
 
-The `colorMenuItem(Color color)` method provides the icon for the given color. Tapping on that icon makes the color selection. `ClipOval` widget is used to give smooth round shape to colored icon.
+The `colorMenuItem(Color color)` method provides the icon(s) for the given color(s). Tapping on that icon makes the color selection. `ClipOval` widget is used to give smooth round shape to colored icon.
 
 ```
 Widget colorMenuItem(Color color) {
@@ -540,13 +631,23 @@ Widget colorMenuItem(Color color) {
 }
 ```
 
+The above `colorMenuItem(...)` method is used to create oval menu items for all the four colors.
+
+That's all for this article. Hope you've your own finger painting app on your finger tips :)
+
+---
 
 ### Source code repo ###
-Recipe source code is available [TODO]()
 
+* Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
+
+* Code recipe project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
 
 ### References: ###
-1.
+
+1. [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
+2. [CustomPaint](https://api.flutter.dev/flutter/widgets/CustomPaint-class.html)
+
 
 Happy cooking with Flutter :)
 
