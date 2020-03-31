@@ -46,7 +46,8 @@ We'll be using ['StatefulWidget']() to implement the app. This is because we nee
 **Note:** You can either choose to run this sample from `main()` method or invoke it from Flutter Cookbook app as mentioned above.
 
 ```
-//Optional app's entry point
+//Optional app's entry point. Uncomment if running only this file.
+//Note: Following line should be commented out when running Flutter Cookbook App on Web platform
 void main() => runApp(CanvasPainting());
 
 //StatefulWidget
