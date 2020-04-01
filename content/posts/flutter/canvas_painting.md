@@ -5,6 +5,8 @@ Category: Flutter
 Tags: Canvas, Painting, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: This code recipe focuses on building a cross-platform finger painting app using Flutter.
 
+![Canvas-Painting]({attach}../../images/flutter/canvas_header.jpg)
+
 **Target Audience:** Beginner
 
 **Recipe:** In this code recipe, you'll use canvas painting to build a Finger Painting App in Flutter.
@@ -636,6 +638,8 @@ The above `colorMenuItem(...)` method is used to create oval menu items for all 
 
 That's all for this article. Hope you've your own finger painting app on your finger tips :)
 
+---
+**NOTE:** At the time of writing this article, Flutter's master
 ---
 
 ### Source code repo ###
