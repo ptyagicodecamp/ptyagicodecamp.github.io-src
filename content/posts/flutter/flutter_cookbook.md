@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 02/06/2020
+Date: 03/31/2020
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -9,6 +9,18 @@ Summary: This article contains pointers to code samples for flutter components /
 ## A Flutter Live Booklet: Flutter component recipes
 
 This article contains pointers to code samples for flutter components / widgets.
+
+## Building Cross-Platform Finger Painting App in Flutter ##
+
+ In this code recipe, you'll use canvas painting to build a Finger Painting App in Flutter.
+
+* Read article [here](https://ptyagicodecamp.github.io/building-cross-platform-finger-painting-app-in-flutter.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
 
 ## Adding Syntax Highlighting in Flutter Cookbook App ##
 
