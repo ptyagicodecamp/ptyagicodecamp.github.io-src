@@ -202,7 +202,7 @@ Here's description of this property from its class:
 
 > A pointer that is in contact with the screen with a primary button and moving has moved again.
 
- ```
+```
  onPanUpdate: (details) {
    setState(() {
      RenderBox renderBox = context.findRenderObject();
@@ -215,7 +215,7 @@ Here's description of this property from its class:
            ..strokeWidth = strokeWidth));
    });
  },
- ```
+```
 
  * **The `onPanEnd` property:**
 
@@ -256,6 +256,10 @@ The FAB menu is implemented using `AnimatedFloatingActionButton` widget. This wi
 
 The `AnimatedFloatingActionButton` widget is provided by a Flutter plugin. Add plugin `animated_floatactionbuttons: ^0.1.0` to `pubspec.yaml`
 
+```
+  animated_floatactionbuttons: ^0.1.0
+```
+
 **Note:** Don't forget to fetch the flutter packages after adding dependency.
 
 
@@ -271,8 +275,6 @@ This is how different colors can be assigned to `AnimatedFloatingActionButton` w
 
 ```
 floatingActionButton: AnimatedFloatingActionButton(
-  //Creating menu items
-  fabButtons: fabOption(),
 
   //Color shown when animation starts
   colorStartAnimation: Colors.blue,
@@ -314,6 +316,7 @@ class _CanvasPaintingState extends State<CanvasPainting> {
         //FAB to implement expandable menu
         //needs plugin: `animated_floatactionbuttons`
         floatingActionButton: AnimatedFloatingActionButton(
+
           //Creating menu items
           fabButtons: fabOption(),
 
@@ -343,6 +346,8 @@ The method `fabOption()` returns the list of all menu items in the FAB menu. Ass
 ```
 List<Widget> fabOption() {
   return <Widget>[
+
+    //FAB for choosing stroke
     FloatingActionButton(
       heroTag: "paint_stroke",
       child: Icon(Icons.brush),
@@ -354,6 +359,8 @@ List<Widget> fabOption() {
         });
       },
     ),
+
+    //FAB for choosing opacity
     FloatingActionButton(
       heroTag: "paint_opacity",
       child: Icon(Icons.opacity),
@@ -365,6 +372,8 @@ List<Widget> fabOption() {
         });
       },
     ),
+
+    //FAB for resetting screen
     FloatingActionButton(
         heroTag: "erase",
         child: Icon(Icons.clear),
@@ -374,6 +383,8 @@ List<Widget> fabOption() {
             points.clear();
           });
         }),
+
+    //FAB for picking red color    
     FloatingActionButton(
       backgroundColor: Colors.white,
       heroTag: "color_red",
@@ -385,6 +396,8 @@ List<Widget> fabOption() {
         });
       },
     ),
+
+    //FAB for picking green color
     FloatingActionButton(
       backgroundColor: Colors.white,
       heroTag: "color_green",
@@ -396,6 +409,8 @@ List<Widget> fabOption() {
         });
       },
     ),
+
+    //FAB for picking pink color
     FloatingActionButton(
       backgroundColor: Colors.white,
       heroTag: "color_pink",
@@ -407,6 +422,8 @@ List<Widget> fabOption() {
         });
       },
     ),
+
+    //FAB for picking blue color 
     FloatingActionButton(
       backgroundColor: Colors.white,
       heroTag: "color_blue",
