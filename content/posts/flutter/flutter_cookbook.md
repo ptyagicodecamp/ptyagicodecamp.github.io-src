@@ -18,7 +18,7 @@ This article contains pointers to code samples for flutter components / widgets.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/44o5EShxBoM)
 
 ---
 

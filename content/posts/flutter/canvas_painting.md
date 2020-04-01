@@ -13,7 +13,7 @@ Summary: This code recipe focuses on building a cross-platform finger painting a
 
 **Focus Widget(s):** [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html), [CustomPaint](https://api.flutter.dev/flutter/widgets/CustomPaint-class.html)
 
-**Goal:** We'll implement following items in this Finger Painting Flutter App :
+**Goal:** We'll implement the following items in this Finger Painting Flutter App :
 
 * **Drawing / Painting Area:** This is the main area of the screen where an image can be displayed to color or draw more details to it.
 
@@ -35,7 +35,7 @@ This code recipe is added to [Flutter Cookbook](https://ptyagicodecamp.github.io
 ---
 
 **Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/44o5EShxBoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -78,7 +78,7 @@ class _CanvasPaintingState extends State<CanvasPainting> {
 
 We need a way to capture the user's tap. The [`GestureDetector`](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) widget is used to detect gestures. This widget is assigned to `Scaffold` widget's `body` property.
 
-Since we want to paint on the given hut image. Feel free to use another image if you would like. However, don't forget to add this image to `assets/images` folder. Put this image in the center of the screen using `Center` widget. We want to draw on top of this image, so put this widget inside a `Stack` widget. Add `CustomPaint` as another children to this `Stack` widget.
+Since we want to paint on the given hut image. Feel free to use another image if you would like. However, don't forget to add this image to `assets/images` folder. Put this image in the center of the screen using `Center` widget. We want to draw on top of this image, so put this widget inside a `Stack` widget. Add `CustomPaint` as another child to this `Stack` widget.
 
 `CustomPaint` widget takes two attributes. First, size of the canvas to be considered for drawing. Assign `Size.infinite` to `size` property because we want flexibility to be able draw anywhere on the screen.
 
@@ -423,7 +423,7 @@ List<Widget> fabOption() {
       },
     ),
 
-    //FAB for picking blue color 
+    //FAB for picking blue color
     FloatingActionButton(
       backgroundColor: Colors.white,
       heroTag: "color_blue",
