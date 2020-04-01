@@ -639,7 +639,16 @@ The above `colorMenuItem(...)` method is used to create oval menu items for all 
 That's all for this article. Hope you've your own finger painting app on your finger tips :)
 
 ---
-**NOTE:** At the time of writing this article, Flutter's master
+
+**NOTE:** This code has been developed in following dev environment:
+
+```
+Flutter 1.15.17 • channel beta • https://github.com/flutter/flutter.git
+Framework • revision 2294d75bfa (4 weeks ago) • 2020-03-07 00:28:38 +0900
+Engine • revision 5aff311948
+Tools • Dart 2.8.0 (build 2.8.0-dev.12.0 9983424a3c)
+
+```
 ---
 
 ### Source code repo ###
