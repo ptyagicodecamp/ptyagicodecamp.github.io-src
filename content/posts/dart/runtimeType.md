@@ -1,9 +1,9 @@
 Title: The `runtimeType` Property
-Date: 04/01/2020
+Date: 04/02/2020
 Authors: ptyagi
 Category: Dart
 Tags: runtimeType, dart, cross-platform, flutter, code-recipes, development
-Summary: TODO
+Summary: This article describes what `runtimeType` property means in Dart's world.
 
 # What is `runtimeType` Property ?
 
