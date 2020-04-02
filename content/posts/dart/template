@@ -1,0 +1,40 @@
+Title: TODO
+Date: 04/01/2020
+Authors: ptyagi
+Category: Dart
+Tags: TODO, dart, cross-platform, flutter, code-recipes, development
+Summary: TODO
+
+# What is `runtimeType` Property ?
+
+The `runtimeType` property is used to find out the runtime type of the object.
+
+---
+
+# Usage
+
+---
+
+# Companion Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# Source Code
+
+Please checkout the source code at Github [here]()
+
+---
+
+# References
+1. [runtimeType](https://api.dart.dev/stable/2.7.2/dart-core/Object/runtimeType.html)
+
+Happy Darting :)
+
+_Liked the article ?
+Couldn't find a topic of your interest ? Please leave a comment or reach out at [twitter](https://twitter.com/ptyagi13) about the topics you would like me to share !
+
+[BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
+
+Follow me at [Medium](https://medium.com/@ptyagicodecamp)
