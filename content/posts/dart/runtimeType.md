@@ -14,7 +14,7 @@ The `runtimeType` property is used to find out the runtime type of the object. T
 
 Let's see a few examples of using `runtimeType` property below. You can execute code samples in [DartPad](https://dartpad.dev/) online.
 
-1. **`int`:** Find the type of the variable storing an integer value. An integer in dart is represented using [`int`](https://api.flutter.dev/flutter/dart-core/int-class.html) class.
+  * **`int`:** Find the type of the variable storing an integer value. An integer in dart is represented using [`int`](https://api.flutter.dev/flutter/dart-core/int-class.html) class.
 
 In this examples, variable `myNumber` is storing an integer. The keyword `var` in Dart lets a variable store any type of data. Calling `runtimeType` on the variable will return the data type of the variable.
 
@@ -31,7 +31,9 @@ print("Type of myNumber: ${myNumber.runtimeType}");
 Type of myNumber: int
 ```
 
-2. **`String`:** Find the type of the variable storing a string value.
+---
+
+ * **`String`:** Find the type of the variable storing a string value.
 
 In this examples, variable `myString` is storing a string. The keyword `var` in Dart lets a variable store any type of data. Calling `runtimeType` on the variable will return the data type of the variable.
 
@@ -48,7 +50,9 @@ print("Type of myString: ${myString.runtimeType}");
 Type of myString: String
 ```
 
-3. **`double`:** Find the type of the variable storing a double value.
+---
+
+  * **`double`:** Find the type of the variable storing a double value.
 
 In this examples, variable `myDouble` is storing a double. The keyword `var` in Dart lets a variable store any type of data. Calling `runtimeType` on the variable will return the data type of the variable.
 
@@ -65,7 +69,7 @@ print("Type of myDouble: ${myDouble.runtimeType}");
 Type of myDouble: double
 ```
 
-4. **`List<int>`:** Find the type of the variable storing a list of integers.
+  * **`List<int>`:** Find the type of the variable storing a list of integers.
 
 In this examples, variable `myList` is storing a list of integers. The keyword `var` in Dart lets a variable store any type of data. Calling `runtimeType` on the variable will return the data type of the variable.
 
@@ -82,14 +86,19 @@ print("Type of myList: ${myList.runtimeType}");
 Type of myList: List<int>
 ```
 
+---
+
 # Companion Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 # Source Code
 
 Please checkout the source code at Github [here]()
 
+---
 
 # References: ###
 1. [runtimeType](https://api.dart.dev/stable/2.7.2/dart-core/Object/runtimeType.html)
