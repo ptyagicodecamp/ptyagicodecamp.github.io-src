@@ -105,7 +105,8 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 
 ---
 
-# References: ###
+# References
+
 1. [Official Documentation for `runtimeType`](https://api.dart.dev/stable/2.7.2/dart-core/Object/runtimeType.html)
 2. [DartPad](https://dartpad.dev/dart)
 
