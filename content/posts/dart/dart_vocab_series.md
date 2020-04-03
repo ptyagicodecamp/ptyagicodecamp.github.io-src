@@ -24,7 +24,7 @@ The `runtimeType` property is used to find out the runtime type of the object.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/runtimeType.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/2Oa5mJU3KUY)
 
 
 ---
