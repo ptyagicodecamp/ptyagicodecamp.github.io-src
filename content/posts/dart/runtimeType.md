@@ -72,6 +72,8 @@ print("Type of myDouble: ${myDouble.runtimeType}");
 Type of myDouble: double
 ```
 
+---
+
   * **`List<int>`:** Find the type of the variable storing a list of integers.
 
 In this examples, variable `myList` is storing a list of integers. The keyword `var` in Dart lets a variable store any type of data. Calling `runtimeType` on the variable will return the data type of the variable.
