@@ -5,6 +5,9 @@ Category: Dart
 Tags: runtimeType, dart, cross-platform, flutter, code-recipes, development
 Summary: This article describes what `runtimeType` property means in Dart's world.
 
+
+![runtimeType]({attach}../../images/dart/runtime.png)
+
 # What is `runtimeType` Property ?
 
 The `runtimeType` property is used to find out the runtime type of the object. The keyword `var` in Dart language lets a variable store any type of data. The `runtimeType` property helps to find what kind of data is stored in the variable using `var` keyword. In the next section, we'll explore usage of this property in for different type of data.
