@@ -5,8 +5,10 @@ Category: Dart
 Tags: Runes, dart, cross-platform, flutter, code-recipes, development
 Summary: TODO
 
+The Unicode Standard provides three distinct encoding forms for Unicode characters: UTF-8 (using 8-bit), UTF-16 (16-bit), and UTF-32 (32-bit units). In Dart, a String is represented using sequence of UTF-16 code units. A code unit is the number of bytes used by the given encoding.
+
 # What is `Runes` ?
-A code unit is the number of bits an encoding uses. ... A code point is a character and this is represented by one or more code units depending on the encoding
+A code unit is the number of bits an encoding uses. A code point is a character and this is represented by one or more code units depending on the encoding
 
 In Dart, a String is sequence of UTF-16 code units. The `runes` is the integer representation for unicode code points of a String.
 
@@ -19,15 +21,15 @@ The [String Class](https://api.dart.dev/stable/2.7.2/dart-core/String-class.html
 
 ## The [`codeUnitAt`](https://api.dart.dev/stable/2.7.2/dart-core/String/codeUnitAt.html) Method
 
-This method returns the 16-bit UTF-16 code unit at the given index for the String.
+This method returns the UTF-16 (16-bit) _code unit_ at the given index for the String.
 
 ## The [`codeUnits`](https://api.dart.dev/stable/2.7.2/dart-core/String/codeUnits.html) Property
 
-Returns an unmodifiable list of the UTF-16 code units of this string.
+This property provides an unmodifiable list of the UTF-16 _code unit(s)_ of this string.
 
 ## The [`runes`](https://api.dart.dev/stable/2.7.2/dart-core/String/runes.html) Property
 
-This property returns the list of Unicode UTF-16 code points for the given string.
+This property returns the list of Unicode UTF-16 _code point(s)_ for the given string.
 ---
 
 # Usage
