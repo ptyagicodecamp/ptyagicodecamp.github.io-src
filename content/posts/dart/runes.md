@@ -5,6 +5,8 @@ Category: Dart
 Tags: runes, Runes, dart, cross-platform, flutter, code-recipes, development
 Summary: This article describes what `runes` property means in Dart's world.
 
+![runtimeType]({attach}../../images/dart/runes.png)
+
 # Background
 
 In the digital world, all characters, numbers or symbols are represented using a unique numeric value, known as Unicode. The Unicode standard provides three distinct encoding forms for Unicode characters: UTF-8 (using 8-bit), UTF-16 (16-bit), and UTF-32 (32-bit units). Data is converted in one of these encoding during data transfer.
