@@ -18,6 +18,7 @@ In Dart, a string is represented using sequence of UTF-16 known as code units. A
 
 **Code Point:** A character in a string is represented by one or more code point(s). One code point is represented by one or more code units.
 
+
 **Code Unit:** A code unit is the number of bits used by an encoding. For UTF-16 encoding, it uses two bytes.
 
 The `runes` property returns an iterable of Unicode code-points of this string of `Runes` type. The [`Runes`](https://api.dart.dev/stable/2.7.2/dart-core/Runes-class.html) is the integer representation for unicode code points of a String.
