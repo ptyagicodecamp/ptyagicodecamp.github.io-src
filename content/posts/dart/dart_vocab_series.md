@@ -16,6 +16,19 @@ Medium: @ptyagicodecamp
 
 ---
 
+## The `runes` Property
+
+In this article, we'll explore Dart language's one of the String class property known as `runes` to retrieve UTF-16 unicodes.
+
+* Read article [here](https://ptyagicodecamp.github.io/the-runes-property.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/runes.dart)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+
+---
+
 ## The `runtimeType` Property
 
 The `runtimeType` property is used to find out the runtime type of the object.

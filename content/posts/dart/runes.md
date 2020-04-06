@@ -3,7 +3,7 @@ Date: 04/05/2020
 Authors: ptyagi
 Category: Dart
 Tags: runes, Runes, dart, cross-platform, flutter, code-recipes, development
-Summary: This article describes what `runes` property means in Dart's world.
+Summary: This article describes what `runes` property means in Dart's language.
 
 ![runtimeType]({attach}../../images/dart/runes.png)
 
