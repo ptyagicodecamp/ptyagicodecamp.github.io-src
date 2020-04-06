@@ -1,5 +1,5 @@
 Title: A Dart/Flutter Vocabulary Series
-Date: 04/01/2020
+Date: 04/05/2020
 Authors: ptyagi
 Category: Development, Dart, Cross-platform, Flutter
 Tags: dart, flutter
@@ -24,8 +24,7 @@ In this article, we'll explore Dart language's one of the String class property 
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/runes.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
-
+* Youtube video is available [here](https://youtu.be/y9QpGpWpCbE)
 
 ---
 
