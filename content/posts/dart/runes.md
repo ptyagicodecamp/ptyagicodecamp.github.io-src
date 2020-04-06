@@ -149,6 +149,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 3. [String Class `runes` property](https://api.dart.dev/stable/2.7.2/dart-core/String/runes.html)
 4. [Mask Face UTF-16](https://www.fileformat.info/info/unicode/char/1f637/index.htm)
 5. [Character List for UTF-16](http://www.fileformat.info/info/charset/UTF-16/list.htm)
+6. [Decimal to Hexadecimal converter](https://www.rapidtables.com/convert/number/decimal-to-hex.html)
 
 Happy Darting :)
 
