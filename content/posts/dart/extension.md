@@ -1,5 +1,5 @@
-Title: Dart vocab Word: `extension`
-Date: 04/06/2020
+Title: Dart Extensions
+Date: 04/07/2020
 Authors: ptyagi
 Category: Dart
 Tags: extension, dart, cross-platform, flutter, code-recipes, development

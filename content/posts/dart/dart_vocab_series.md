@@ -1,5 +1,5 @@
 Title: A Dart/Flutter Vocabulary Series
-Date: 04/05/2020
+Date: 04/07/2020
 Authors: ptyagi
 Category: Development, Dart, Cross-platform, Flutter
 Tags: dart, flutter
@@ -13,6 +13,18 @@ Code recipes explaining Dart language usage and terminologies.
 
 Follow me at twitter: @ptyagi13
 Medium: @ptyagicodecamp
+
+---
+
+## Dart Extensions
+
+This article explains what extension methods, operators, and properties are, and how to use them.
+
+* Read article [here]()
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/extensions.dart)
+
+* Youtube video is available [here](https://youtu.be/TODO)
 
 ---
 
