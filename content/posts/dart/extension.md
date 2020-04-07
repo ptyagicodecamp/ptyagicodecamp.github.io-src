@@ -5,6 +5,9 @@ Category: Dart
 Tags: extension, dart, cross-platform, flutter, code-recipes, development
 Summary: This article explains what extension methods, operators, and properties are, and how to use them.
 
+
+![runtimeType]({attach}../../images/dart/extensions.png)
+
 # Introduction
 
 Dart Extensions were first introduced in Dart 2.6 as preview. Later on, they have been released in Dart 2.7 officially. The extensions feature is the way to add functionality to existing libraries.
