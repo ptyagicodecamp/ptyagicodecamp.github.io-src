@@ -15,6 +15,17 @@ Follow me at twitter: @ptyagi13
 Medium: @ptyagicodecamp
 
 ---
+## Dart Enums
+
+This article explains Dart Enums and when and how to use them.
+
+* Read article [here]()
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/enums.dart)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
 
 ## Dart Extensions
 

@@ -162,7 +162,7 @@ Weather.RAINY
 
 # Enums extension
 
-Enumerated types are support extensions. Let's add an extension method `console()` to print index of enum and a custom message `about` along with it.
+Enumerated types are supported by extensions. Check out my previous article on Dart Extensions [here](https://ptyagicodecamp.github.io/dart-extensions.html#dart-extensions). Let's add an extension method `console()` to print index of enum and a custom message `about` along with it.
 
 ```
 extension WeatherExt on Weather {
@@ -217,7 +217,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 # References
 
 1. [Enumerated Types](https://dart.dev/guides/language/language-tour#enumerated-types)
-2. [Dart Extensions]()
+2. [Dart Extensions](https://ptyagicodecamp.github.io/dart-extensions.html#dart-extensions)
 
 
 Happy Darting :)
