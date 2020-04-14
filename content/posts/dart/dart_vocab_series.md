@@ -20,11 +20,11 @@ Medium: @ptyagicodecamp
 
 This article explains what extension methods, operators, and properties are, and how to use them.
 
-* Read article [here]()
+* Read article [here](https://ptyagicodecamp.github.io/dart-extensions.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/extensions.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/NYahXrWoepo)
 
 ---
 

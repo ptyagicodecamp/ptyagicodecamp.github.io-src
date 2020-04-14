@@ -6,7 +6,7 @@ Tags: extension, dart, cross-platform, flutter, code-recipes, development
 Summary: This article explains what extension methods, operators, and properties are, and how to use them.
 
 
-![runtimeType]({attach}../../images/dart/extensions.png)
+![extensions]({attach}../../images/dart/extensions.png)
 
 # Introduction
 
@@ -257,7 +257,7 @@ Number of total price tags
 
 # Companion Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NYahXrWoepo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
