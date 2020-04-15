@@ -200,14 +200,20 @@ void mainExtension() {
 2 Will be raining today
 ```
 
-That's it for this article. I'll see you in the next [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) article.
+---
+
+# Summary
+
+In this article, we saw how enums can be a better choice over constants. We also learned iterating over enums and using extensions for enumerated types.
+
+That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
 
 ---
 
 
-# Companion Video
+# Check out Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A0M3iXZQjyo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
