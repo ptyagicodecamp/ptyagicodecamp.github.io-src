@@ -43,7 +43,7 @@ In the following section, let's explore the cases where using Enums make more se
 
 # Switch
 
-When using `switch` block, constants behave differently than enums.
+In `switch` block, constants behave differently than enums.
 
 ### Using Constants
 
@@ -113,7 +113,7 @@ void mainSwitchEnums() {
 Sunny weather today!
 ```
 
-Check out the `switch` block when there's only `default` block is available. It prints the value of the current enum passed.
+Check out the `switch` block when there's only `default` block is available. It prints the value of the current enum `weather`.
 
 ```
 //Only default case. No compilation issue
@@ -200,7 +200,10 @@ void mainExtension() {
 2 Will be raining today
 ```
 
+That's it for this article. I'll see you in the next [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) article.
+
 ---
+
 
 # Companion Video
 
