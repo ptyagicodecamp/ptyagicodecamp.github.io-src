@@ -1,5 +1,5 @@
 Title: A Dart/Flutter Vocabulary Series
-Date: 04/07/2020
+Date: 04/20/2020
 Authors: ptyagi
 Category: Development, Dart, Cross-platform, Flutter
 Tags: dart, flutter
