@@ -1,21 +1,37 @@
-Title: TODO
-Date: 04/01/2020
+Title: Dart Mixins
+Date: 04/20/2020
 Authors: ptyagi
 Category: Dart
-Tags: TODO, dart, cross-platform, flutter, code-recipes, development
-Summary: TODO
+Tags: mixins, dart, cross-platform, flutter, code-recipes, development
+Summary: This article explains Dart Mixins and when and how to use them.
 
-# What is `runtimeType` Property ?
 
-The `runtimeType` property is used to find out the runtime type of the object.
+![enums]({attach}../../images/dart/mixins.png)
+
+# Introduction
+
+
+## Using Constants
+
+
+
 
 ---
 
-# Usage
+
 
 ---
 
-# Companion Video
+# Summary
+
+In this article, we saw how
+
+That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
+
+---
+
+
+# Check out YouTube Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -23,12 +39,14 @@ The `runtimeType` property is used to find out the runtime type of the object.
 
 # Source Code
 
-Please checkout the source code at Github [here]()
+Please checkout the source code at Github [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/mixins.dart)
 
 ---
 
 # References
-1. [runtimeType](https://api.dart.dev/stable/2.7.2/dart-core/Object/runtimeType.html)
+
+1.
+
 
 Happy Darting :)
 

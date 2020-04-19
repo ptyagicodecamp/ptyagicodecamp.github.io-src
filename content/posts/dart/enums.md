@@ -10,7 +10,7 @@ Summary: This article explains Dart Enums and when and how to use them.
 
 # Introduction
 
-Enums (a.k.a Enumerated Types) were added as an experimental feature in [Dart 1.8 release](https://news.dartlang.org/2014/11/dart-18-library-improvements-and.html). Enums are like a class that represent a fixed number of constant values.
+Enums (a.k.a Enumerated Types) was added as an experimental feature in [Dart 1.8 release](https://news.dartlang.org/2014/11/dart-18-library-improvements-and.html). Enums are like a class that represents a fixed number of constant values.
 
 Imagine that you're working on a weather application, and you need a way to represent different states for weather. For example, weather can be sunny, cloudy or rainy. Now, you have two ways to represent these states in your code.
 
@@ -204,7 +204,7 @@ void mainExtension() {
 
 # Summary
 
-In this article, we saw how enums can be a better choice over constants. We also learned iterating over enums and using extensions for enumerated types.
+In this article, we saw how enums can be a better choice over constants. We also learned to iterate over enums and using extensions for enumerated types.
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
 
