@@ -47,6 +47,11 @@ abstract class Person {
 
 As we see from above that artist does sketching. Engineer does sketching as well as reading. Doctor does reading and exercise. The athlete does exercise. However boxer-a type of athlete, also does boxing.
 
+Let's see a visual representation in diagram below:
+
+![enums]({attach}../../images/dart/mixins0.png)
+
+
 Such overlapping common behaviors can be extracted into mixins. Let's create mixins next.
 
 ---

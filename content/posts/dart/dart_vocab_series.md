@@ -15,6 +15,19 @@ Follow me at twitter: @ptyagi13
 Medium: @ptyagicodecamp
 
 ---
+
+## Dart Mixins
+
+This article explains Dart Mixins and when and how to use them.
+
+* Read article [here](https://ptyagicodecamp.github.io/dart-enums.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/enums.dart)
+
+* Youtube video is available [here](https://youtu.be/A0M3iXZQjyo)
+
+---
+
 ## Dart Enums
 
 This article explains Dart Enums and when and how to use them.
