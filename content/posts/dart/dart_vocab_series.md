@@ -20,11 +20,11 @@ Medium: @ptyagicodecamp
 
 This article explains Dart Mixins and when and how to use them.
 
-* Read article [here](https://ptyagicodecamp.github.io/dart-enums.html)
+* Read article [here](https://ptyagicodecamp.github.io/dart-mixins.html)
 
-* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/enums.dart)
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/mixins.dart)
 
-* Youtube video is available [here](https://youtu.be/A0M3iXZQjyo)
+* Youtube video is available [here](https://youtu.be/TODO)
 
 ---
 
