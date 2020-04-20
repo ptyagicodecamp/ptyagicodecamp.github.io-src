@@ -17,7 +17,7 @@ A mixin class contains methods to be used by other classes without being their p
 Mixins are declared using keyword `mixin` like below:
 
 ```
-mixin CommonBehavior {
+mixin SharedBehavior {
 
 }
 ```
