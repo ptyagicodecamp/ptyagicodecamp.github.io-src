@@ -257,7 +257,7 @@ Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartfl
 
 # Check out YouTube Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r9rIEqDAZcc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -269,7 +269,8 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 
 # References
 
-1.
+1. [DartPad: Online Dart Editor](https://dartpad.dev/)
+2. [Mixins](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
 
 
 Happy Darting :)

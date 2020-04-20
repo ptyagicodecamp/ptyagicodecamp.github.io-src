@@ -24,7 +24,7 @@ This article explains Dart Mixins and when and how to use them.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/mixins.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/r9rIEqDAZcc)
 
 ---
 
