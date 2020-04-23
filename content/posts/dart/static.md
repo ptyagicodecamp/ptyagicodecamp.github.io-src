@@ -6,7 +6,7 @@ Tags: static, class-variables, class-methods, dart, cross-platform, flutter, cod
 Summary: This article demonstrates using `static` keyword in Dart.
 
 
-![enums]({attach}../../images/dart/static.png)
+![enums]({attach}../../images/dart/static_keyword.png)
 
 # Introduction
 
