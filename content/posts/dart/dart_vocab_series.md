@@ -1,5 +1,5 @@
 Title: A Dart/Flutter Vocabulary Series
-Date: 04/20/2020
+Date: 04/22/2020
 Authors: ptyagi
 Category: Development, Dart, Cross-platform, Flutter
 Tags: dart, flutter
@@ -13,6 +13,18 @@ Code recipes explaining Dart language usage and terminologies.
 
 Follow me at twitter: @ptyagi13
 Medium: @ptyagicodecamp
+
+---
+
+##  Dart Static keyword
+
+This article demonstrates using `static` keyword in Dart.
+
+* Read article [here](https://ptyagicodecamp.github.io/dart-static-keyword.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/static.dart)
+
+* Youtube video is available [here](https://youtu.be/TODO)
 
 ---
 

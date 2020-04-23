@@ -1,5 +1,5 @@
 Title: Dart Static keyword
-Date: 04/20/2020
+Date: 04/22/2020
 Authors: ptyagi
 Category: Dart
 Tags: static, class-variables, class-methods, dart, cross-platform, flutter, code-recipes, development
