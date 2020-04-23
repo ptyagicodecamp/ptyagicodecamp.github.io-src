@@ -96,7 +96,9 @@ trad ho
 # Tip
 
 Dart supports top-level variables, constants, and methods.
-Usually utility methods are put together in a class of static methods. In Dart, if such utility methods are not logically related, then they shouldn't be put inside a class. Such Methods can be put at top-level in a dart file.
+Usually utility methods are put together in a class of static methods.
+
+In Dart, if such utility methods are not logically related, then they shouldn't be put inside a class. Such Methods can be put at top-level in a dart file.
 
 The above static utility variable / methods can be moved to top-level. You don't need a class for namespace purposes. Consider creating a library instead for grouping methods as per namespaces.
 
@@ -125,6 +127,8 @@ void main() {
 trad ho
 ```
 
+**Note:** Avoid classes with only static members in it as per [this lint rule](https://dart-lang.github.io/linter/lints/avoid_classes_with_only_static_members.html).
+
 ---
 
 # Summary
@@ -151,7 +155,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 # References
 
 1. [DartPad: Online Dart Editor](https://dartpad.dev/)
-2. [Mixins](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
+2. [](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
 
 
 Happy Darting :)
