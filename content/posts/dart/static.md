@@ -10,7 +10,7 @@ Summary: This article demonstrates using `static` keyword in Dart.
 
 # Introduction
 
-In Dart language, the `static` keyword is used to declare class level variables and methods. A class level variable is useful to declare constants and hold the class state.
+In Dart language, the `static` keyword is used to declare class level variables and methods. A class level variable is useful to declare constants and implement the class-wide state.
 
 The class methods can be called from other classes using class name they are defined in.
 
