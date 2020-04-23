@@ -1,4 +1,4 @@
-Title: Dart Static keyword
+Title: Dart `static` keyword
 Date: 04/22/2020
 Authors: ptyagi
 Category: Dart
