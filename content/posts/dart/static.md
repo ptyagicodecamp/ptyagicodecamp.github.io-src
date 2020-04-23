@@ -155,7 +155,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 # References
 
 1. [DartPad: Online Dart Editor](https://dartpad.dev/)
-2. [](https://dart.dev/guides/language/language-tour#adding-features-to-a-class-mixins)
+2. [Language Tour](https://dart.dev/guides/language/language-tour#class-variables-and-methods)
 
 
 Happy Darting :)
