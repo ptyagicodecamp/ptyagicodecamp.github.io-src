@@ -100,7 +100,7 @@ Usually utility methods are put together in a class of static methods.
 
 In Dart, if such utility methods are not logically related, then they shouldn't be put inside a class. Such Methods can be put at top-level in a dart file.
 
-The above static utility variable / methods can be moved to top-level. You don't need a class for namespace purposes. Consider creating a library instead for grouping methods as per namespaces.
+The above static utility variable / methods can be moved to top-level. You don't need a class for namespace purposes. It's recommended to create a library instead for grouping methods according to namespaces.
 
 ```
 //Utility method at top-level
