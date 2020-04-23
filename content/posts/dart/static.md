@@ -133,7 +133,7 @@ trad ho
 
 # Summary
 
-In this article, you learned how to use `static` keyword in Dart language. You learned facts about class variables and methods, and alternate implementaion for utitility classes without using `static` keywords.
+In this article, you learned how to use `static` keyword in Dart language. You learned facts about class variables and methods, and alternate implementations for utility classes without using `static` keywords.
 
 Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
 
@@ -142,7 +142,7 @@ Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartfl
 
 # Check out YouTube Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Du81OvbtA3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

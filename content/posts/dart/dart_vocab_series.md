@@ -16,7 +16,7 @@ Medium: @ptyagicodecamp
 
 ---
 
-##  Dart Static keyword
+##  Dart static keyword
 
 This article demonstrates using `static` keyword in Dart.
 
@@ -24,7 +24,7 @@ This article demonstrates using `static` keyword in Dart.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/static.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/Du81OvbtA3Y)
 
 ---
 
