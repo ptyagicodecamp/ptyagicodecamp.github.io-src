@@ -420,6 +420,11 @@ Source code is available [here](https://github.com/ptyagicodecamp/x-flutter-land
 ---
 [Update] Code has been tested on Flutter stable channel `1.12.13+hotfix.8`, and Dart version `Dart 2.7.0`
 
+[Update #2 - 04/20/20]
+
+In case you're running into null response from DialogFlow, you may want to make sure that you've [correct setup](https://dialogflow.com/docs/reference/v2-auth-setup).
+
+You can also try to create new credentials in google cloud with role as : Dialogflow ->Dialogflow api admin
 
 ---
 ### References/Credits: ###
