@@ -6,7 +6,7 @@ Tags: generics, dart, cross-platform, flutter, code-recipes, development
 Summary: This article explains Dart Generics and how to use them.
 
 
-![enums]({attach}../../images/dart/generics.png)
+![generics]({attach}../../images/dart/generics.png)
 
 ***In Progress article***
 
