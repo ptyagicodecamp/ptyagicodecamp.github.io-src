@@ -8,9 +8,9 @@ Summary: This article explains Dart Generics and how to use them.
 
 ![generics]({attach}../../images/dart/generics.png)
 
-***In Progress article***
-
 # Introduction
+
+***In Progress article***
 
 Dart's collection can hold different data types in one collection. It's optional in Dart to mention data type for a value. Usually, its data type is inferred automatically. For example, `var myVar = 5;` will infer `myVar`'s dataType as `int`.
 
