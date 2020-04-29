@@ -3,7 +3,7 @@ Date: 04/24/2020
 Authors: ptyagi
 Category: Dart
 Tags: generics, dart, cross-platform, flutter, code-recipes, development
-Summary: This article explains Dart Generics and when and how to use them.
+Summary: This article explains Dart Generics and how to use them.
 
 
 ![enums]({attach}../../images/dart/generics.png)
@@ -181,9 +181,6 @@ mainGenericClass() {
 //  print(spinach.toString());
 }
 ```
-
-
-
 
 ---
 
