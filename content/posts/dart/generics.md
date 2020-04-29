@@ -21,7 +21,7 @@ Generics are used to enforce a collection to contain values of same type of data
 
 ## Declaring Type-safe collections
 
-The angular brackets (<data type>) with data type enclosed, is used to declare the collection of given data type to ensure type-safety.
+The angular brackets `<>`, with data type enclosed, is used to declare the collection of given data type to ensure type-safety.
 
 **Syntax:**
 
@@ -107,17 +107,89 @@ In this section, let's checkout the type-safe implementations for some of the Da
 
 # List
 
+```
+void mainList() {
+  List<int> myNumList = List<int>();
+  myNumList.add(1);
+  myNumList.add(2);
+
+  //This line will throw compile time error
+  //myNumList.add(3.0);
+
+  //iterate over list and print all items
+  print("Printing items in Dart List");
+  for (int item in myNumList) {
+    print(item);
+  }
+}
+```
+
 ---
 
 # Set
 
+```
+void mainSet() {
+  Set<int> myNumSet = Set<int>();
+  myNumSet.add(1);
+  myNumSet.add(2);
+
+  //This line will throw compile time error
+  //myNumSet.add(3.0);
+
+  print("Printing items in Dart Set");
+  //iterate over set and print all items
+  for (int item in myNumSet) {
+    print(item);
+  }
+}
+```
 ---
 
 # Map
 
+```
+void mainMap() {
+  Map<int, String> myNumMap = {1: 'Dart'};
+  myNumMap[2] = 'Flutter';
+
+  //This line will throw compile time error
+  //myNumMap[3] = 3;
+
+  print("Printing values in Dart Map");
+  //iterate over map and print all values
+  for (String item in myNumMap.values) {
+    print(item);
+  }
+
+  print("Printing key:value pairs in Dart Map");
+  //iterate over map and print all values
+  for (MapEntry mapEntry in myNumMap.entries) {
+    print("${mapEntry.key} : ${mapEntry.value}");
+  }
+}
+```
+
 ---
 
 # Queue
+
+```
+void mainQueue() {
+  Queue<int> myNumQueue = Queue<int>();
+  myNumQueue.add(1);
+  myNumQueue.add(2);
+
+  //This line will throw compile time error
+  //myNumQueue.add(3.0);
+
+  print("Printing items in Dart Queue");
+  //iterate over queue and print all items
+  for (int item in myNumQueue) {
+    print(item);
+  }
+}
+```
 
 ---
 
