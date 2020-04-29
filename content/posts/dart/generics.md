@@ -295,7 +295,8 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 
 # References
 
-1. [How do Generics SubTypes work](https://dzone.com/articles/how-do-generic-subtypes-work)
+1. [DartPad](https://dartpad.dev/)
+2. [Dart Generics](https://dart.dev/guides/language/language-tour#generics)
 
 
 Happy Darting :)
