@@ -1,5 +1,5 @@
 Title: Dart Generics
-Date: 04/24/2020
+Date: 04/28/2020
 Authors: ptyagi
 Category: Dart
 Tags: generics, dart, cross-platform, flutter, code-recipes, development
