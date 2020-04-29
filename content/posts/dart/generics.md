@@ -51,8 +51,14 @@ class Product {
   final int id;
   final double price;
   final String title;
+  final Inventory _inventory;
+  Product(this.id, this.price, this.title, this._inventory);
 
-  Product(this.id, this.price, this.title);
+  @override
+  String toString() {
+    return "Price of ${this.title} is ${this.price}. "
+        "Inventory has ${_inventory.amount} items in it.";
+  }
 }
 
 class Inventory {
@@ -66,8 +72,12 @@ class Store<P, I> {
   final HashMap<P, I> catalog = HashMap<P, I>();
 
   List<P> get products => catalog.keys.toList();
-  void addInventory(P product, I inventory) {
+  void updateInventory(P product, I inventory) {
     catalog[product] = inventory;
+  }
+
+  void printProducts() {
+    catalog.keys.forEach((product) => print("Product: $product"));
   }
 }
 
@@ -78,22 +88,28 @@ class MyStore<MyProduct, MyInventory> {
 
   List<MyProduct> get products => catalog.keys;
 
-  void addInventory(MyProduct product, MyInventory inventory) {
+  void updateInventory(MyProduct product, MyInventory inventory) {
     catalog[product] = inventory;
+  }
+
+  void printProducts() {
+    catalog.keys.forEach((product) => print("Product: $product"));
   }
 }
 
-void mainParams() {
-  Product milk = Product(1, 5.99, "Milk");
-  Product bread = Product(2, 4.50, "Bread");
+void mainCustomParams() {
+  Product milk = Product(1, 5.99, "Milk", Inventory(2));
+  Product bread = Product(2, 4.50, "Bread", Inventory(3));
 
   Store<Product, Inventory> store1 = Store<Product, Inventory>();
-  store1.addInventory(milk, Inventory(20));
-  store1.addInventory(bread, Inventory(15));
+  store1.updateInventory(milk, Inventory(20));
+  store1.updateInventory(bread, Inventory(15));
+  store1.printProducts();
 
-  Store<Product, Inventory> store2 = Store<Product, Inventory>();
-  store2.addInventory(milk, Inventory(10));
-  store2.addInventory(bread, Inventory(12));
+  MyStore<Product, Inventory> store2 = MyStore<Product, Inventory>();
+  store2.updateInventory(milk, Inventory(10));
+  store2.updateInventory(bread, Inventory(12));
+  store2.printProducts();
 }
 ```
 ---
