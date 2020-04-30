@@ -10,14 +10,26 @@ Summary: This article explains Dart Generics and how to use them.
 
 # Introduction
 
-Generics are used to implement type-safety. For collections, type-safety is enforced by holding same type of data. Generics are used to apply stronger type checks at compile time. Also, it helps classes and functions to work on different data types without re-writing classes/functions for each.
-
-Generics in Dart similar to [Java's generics](https://en.wikipedia.org/wiki/Generics_in_Java) and [C++'s templates](https://en.wikipedia.org/wiki/Template_C%2B%2B).
-
-Dart's collection can hold different data types in one collection. It's optional in Dart to mention data type for a value. Usually, the variable's data type is inferred automatically. For example, `var myVar = 5;` will infer `myVar`'s dataType as `int`.
+Generics are used to apply stronger type checks at compile time. They enforce type-safety in code. For example, in collections the type-safety is enforced by holding same type of data. Generics help write reusable classes, methods/functions for different data types.
 
 **Type Safety:** Programming concept that allows a memory block to contain only one type of data.
 
+The concept of Generics in Dart, is similar to [Java's generics](https://en.wikipedia.org/wiki/Generics_in_Java) and [C++'s templates](https://en.wikipedia.org/wiki/Template_C%2B%2B).
+
+Dart's collection can hold different data types in one collection. It's optional in Dart to mention data type for a value. Usually, the variable's data type is inferred automatically. For example, `var myVar = 5;` will infer `myVar`'s dataType as `int`. The following code is valid in Dart:
+
+```
+void main() {
+  List items = [1, "Empty", 1.0];
+  print(items);
+}
+```
+
+**Ouput:**
+
+```
+[1, Empty, 1.0]
+```
 
 # Declaring Type-safe Collections
 
