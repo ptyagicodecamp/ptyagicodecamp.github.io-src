@@ -25,7 +25,7 @@ void main() {
 }
 ```
 
-**Ouput:**
+**Output:**
 
 ```
 [1, Empty, 1.0]
@@ -160,7 +160,7 @@ Let's define a method `lastItem()` which take the list of products, and returns 
 In this method, parameter `T` is returned, a list of type `T` elements is passed to method, and `T` type is stored in variable `last`.
 
 In `mainGenericMethods()` method, there are two different data types are using `lastItem()` method to retrieve last item in their respective lists. First list is made up of `Product` items. Second list is made up of `int` data type. The `T lastItem<T>(List<T> products)` method using generic `T` parameter to support
-multiple data types using the same method. This is one execllent example of writing reusable functions/class methods.
+multiple data types using the same method. This is one excellent example of writing reusable functions/class methods.
 
 ```
 //Example #2: Generics methods
@@ -287,7 +287,7 @@ Printing items in Dart List
 
 # Queue
 
-In this example, a queue of `double` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the queue. Adding a differnt dataType `String` will throw a compile time error.
+In this example, a queue of `double` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the queue. Adding a different dataType `String` will throw a compile time error.
 
 ```
 void mainQueue() {
@@ -320,7 +320,7 @@ Printing items in Dart Queue
 
 # Set
 
-In this example, a set of `String` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the set. Adding a differnt dataType `int` will throw a compile time error.
+In this example, a set of `String` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the set. Adding a different dataType `int` will throw a compile time error.
 
 ```
 void mainSet() {
@@ -354,7 +354,7 @@ Printing items in Dart Set
 
 # Map
 
-In this example, a set of `String` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the set. Adding a differnt dataType `int` will throw a compile time error.
+In this example, a set of `String` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the set. Adding a different dataType `int` will throw a compile time error.
 
 
 ```
@@ -384,7 +384,7 @@ Printing key:value pairs in Dart Map
 
 # Summary
 
-In this article, we learned how to use generics in Dart. We saw how generics can be useful in writing type-safe and re-usable code.
+In this article, we learned how to use generics in Dart. We saw how generics can be useful in writing type-safe and reusable code.
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
 
