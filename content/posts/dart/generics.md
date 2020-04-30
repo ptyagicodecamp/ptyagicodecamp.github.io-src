@@ -10,11 +10,13 @@ Summary: This article explains Dart Generics and how to use them.
 
 # Introduction
 
-***In Progress article***
+Generics are useful for stronger type checks at compile time. Also, it helps classes and functions to work on different data types without re-writing classes/functions for each.
+
+Generics in Dart similar to [Java's generics](https://en.wikipedia.org/wiki/Generics_in_Java) and [C++'s templates](https://en.wikipedia.org/wiki/Template_(C%2B%2B).
 
 Dart's collection can hold different data types in one collection. It's optional in Dart to mention data type for a value. Usually, its data type is inferred automatically. For example, `var myVar = 5;` will infer `myVar`'s dataType as `int`.
 
-Generics are used to enforce a collection to contain values of same type of data, and hence implement type-safety.
+Generics are used to enforce a collection to contain values of same type of data, and hence to implement type-safety.
 
 **Type Safety:** Programming concept that allows a memory block to contain only one type of data.
 
@@ -44,27 +46,32 @@ Generics are parameterized and use type variables notations to restrict the type
 
 You can also use a single letter of your choice or a descriptive word for parameter names / generics. Let's explore these two options in the following example.
 
-
 ```
-//Example #1: Demonstrating use of single letter and descriptive words for generics
+///Example #1: Demonstrating use of single letter and descriptive words for generics
+
+//A class for grocery product
 class Product {
   final int id;
   final double price;
   final String title;
-  final Inventory _inventory;
-  Product(this.id, this.price, this.title, this._inventory);
+  Product(this.id, this.price, this.title);
 
   @override
   String toString() {
-    return "Price of ${this.title} is ${this.price}. "
-        "Inventory has ${_inventory.amount} items in it.";
+    return "Price of ${this.title} is \$${this.price}";
   }
 }
 
+//A class for product's inventory
 class Inventory {
   final int amount;
 
   Inventory(this.amount);
+
+  @override
+  String toString() {
+    return "Inventory amount: $amount";
+  }
 }
 
 //Custom type variables- Single letter
@@ -72,12 +79,15 @@ class Store<P, I> {
   final HashMap<P, I> catalog = HashMap<P, I>();
 
   List<P> get products => catalog.keys.toList();
+
   void updateInventory(P product, I inventory) {
     catalog[product] = inventory;
   }
 
   void printProducts() {
-    catalog.keys.forEach((product) => print("Product: $product"));
+    catalog.keys.forEach(
+      (product) => print("Product: $product, " + catalog[product].toString()),
+    );
   }
 }
 
@@ -93,26 +103,110 @@ class MyStore<MyProduct, MyInventory> {
   }
 
   void printProducts() {
-    catalog.keys.forEach((product) => print("Product: $product"));
+    catalog.keys.forEach(
+      (product) => print("Product: $product, " + catalog[product].toString()),
+    );
   }
 }
 
+//Demonstrating single letter vs descriptive names for generics.
+//Both variations have the same results.
 void mainCustomParams() {
-  Product milk = Product(1, 5.99, "Milk", Inventory(2));
-  Product bread = Product(2, 4.50, "Bread", Inventory(3));
+  Product milk = Product(1, 5.99, "Milk");
+  Product bread = Product(2, 4.50, "Bread");
 
+  //Using single letter names for Generics
   Store<Product, Inventory> store1 = Store<Product, Inventory>();
   store1.updateInventory(milk, Inventory(20));
   store1.updateInventory(bread, Inventory(15));
   store1.printProducts();
 
+  //Using descriptive names for Generics
   MyStore<Product, Inventory> store2 = MyStore<Product, Inventory>();
-  store2.updateInventory(milk, Inventory(10));
-  store2.updateInventory(bread, Inventory(12));
+  store2.updateInventory(milk, Inventory(20));
+  store2.updateInventory(bread, Inventory(15));
   store2.printProducts();
 }
 ```
+
+**Output:**
+
+```
+Product: Price of Bread is $4.5, Inventory amount: 15
+Product: Price of Milk is $5.99, Inventory amount: 20
+Product: Price of Bread is $4.5, Inventory amount: 15
+Product: Price of Milk is $5.99, Inventory amount: 20
+```
 ---
+
+
+
+---
+
+Another reason for using Generics is for code reuse. Generics for classes and methods help to be able to reuse same code for different implementations of data types.
+
+Let's explore the details below.
+
+
+---
+
+# Generics Methods / Functions
+
+```
+//Example #2: Generics methods
+
+//Function's return type (T).
+//Function's argument (List<T>).
+//Function's local variable (T last).
+T lastProduct<T>(List<T> products) {
+  T last = products.last;
+  print("Retrieving last product: ");
+  return last;
+}
+
+mainGenericMethods() {
+  Store<Product, Inventory> store = Store<Product, Inventory>();
+  Product milk = Product(1, 5.99, "Milk", Inventory(20));
+  Product bread = Product(2, 4.50, "Bread", Inventory(15));
+  store.updateInventory(milk, Inventory(20));
+  store.updateInventory(bread, Inventory(15));
+
+  Product product = lastProduct(store.products);
+  print(product.title);
+}
+```
+
+---
+
+# Generics Classes
+
+Restricting the type of values that can be supplied to the class. These supplied values are known as generic arguments.
+
+```
+//Example #3: Using Generics for classes
+
+//Restricting the type of values that can be supplied to the class
+class FreshProduce<T extends Product> {
+  FreshProduce(int i, double d, String s);
+
+  String toString() {
+    return "Instance of Type: ${T}";
+  }
+}
+
+mainGenericClass() {
+  FreshProduce<Product> spinach = FreshProduce<Product>(3, 3.99, "Spinach");
+  print(spinach.toString());
+
+  //This code will give compile time error complaining that String is not of type Product
+//  FreshProduce<String> spinach2 = FreshProduce<String>(3, 3.99, "Spinach");
+//  print(spinach.toString());
+}
+```
+
+---
+
+# Generic collections
 
 In this section, let's checkout the type-safe implementations for some of the Dart's collection data structures:
 
@@ -204,69 +298,6 @@ void mainQueue() {
   for (int item in myNumQueue) {
     print(item);
   }
-}
-```
-
----
-
-Another reason for using Generics is for code reuse. Generics for classes and methods help to be able to reuse same code for different implementations of data types.
-
-Let's explore the details below.
-
-
----
-
-# Generics Methods / Functions
-
-```
-//Example #2: Generics methods
-
-//Function's return type (T).
-//Function's argument (List<T>).
-//Function's local variable (T last).
-T lastProduct<T>(List<T> products) {
-  T last = products.last;
-  print("Retrieving last product: ");
-  return last;
-}
-
-mainGenericMethods() {
-  Store<Product, Inventory> store = Store<Product, Inventory>();
-  Product milk = Product(1, 5.99, "Milk", Inventory(20));
-  Product bread = Product(2, 4.50, "Bread", Inventory(15));
-  store.updateInventory(milk, Inventory(20));
-  store.updateInventory(bread, Inventory(15));
-
-  Product product = lastProduct(store.products);
-  print(product.title);
-}
-```
-
----
-
-# Generics Classes
-
-Restricting the type of values that can be supplied to the class. These supplied values are known as generic arguments.
-
-```
-//Example #3: Using Generics for classes
-
-//Restricting the type of values that can be supplied to the class
-class FreshProduce<T extends Product> {
-  FreshProduce(int i, double d, String s);
-
-  String toString() {
-    return "Instance of Type: ${T}";
-  }
-}
-
-mainGenericClass() {
-  FreshProduce<Product> spinach = FreshProduce<Product>(3, 3.99, "Spinach");
-  print(spinach.toString());
-
-  //This code will give compile time error complaining that String is not of type Product
-//  FreshProduce<String> spinach2 = FreshProduce<String>(3, 3.99, "Spinach");
-//  print(spinach.toString());
 }
 ```
 
