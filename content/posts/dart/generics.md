@@ -1,5 +1,5 @@
 Title: Dart Generics
-Date: 04/28/2020
+Date: 04/30/2020
 Authors: ptyagi
 Category: Dart
 Tags: generics, dart, cross-platform, flutter, code-recipes, development
@@ -44,7 +44,7 @@ CollectionType <dataType> identifier = CollectionType <dataType>();
 **Example:**
 
 ```
-List<Int> numbers = List<Int>();
+List<int> numbers = List<int>();
 ```
 
 Generics are parameterized and use type variables notations to restrict the type of data. These type variables are represented using single letter names. A few typically used single letter names are:
