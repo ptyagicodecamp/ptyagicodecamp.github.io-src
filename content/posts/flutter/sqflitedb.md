@@ -10,7 +10,6 @@ Summary: This article demonstrates persisting data in local database in Flutter 
 
 **Recipe:** Persisting products data in local database using `sqflite` Flutter plugin.
 
-
 **Focus Widget:** Flutter plugin [sqflite](https://pub.dev/packages/sqflite).
 
 
