@@ -39,7 +39,7 @@ AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
 
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
-HOME_HIDE_TAGS = False
+HOME_HIDE_TAGS = True
 
 LINKS = (
         ('Support', 'https://www.paypal.me/pritya'),
@@ -58,7 +58,7 @@ SOCIAL = (
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),)
-             #('Tags', '/tags.html'),)
+             ('Tags', '/tags.html'),)
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
