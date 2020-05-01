@@ -39,7 +39,7 @@ AUTHOR_FEED_RSS = 'feeds/{slug}.rss.xml'
 
 USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
-HOME_HIDE_TAGS = True
+HOME_HIDE_TAGS = False
 
 LINKS = (
         ('Support', 'https://www.paypal.me/pritya'),
