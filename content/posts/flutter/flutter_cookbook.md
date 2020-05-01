@@ -12,6 +12,18 @@ This article contains pointers to code samples for flutter components / widgets.
 
 ---
 
+## Persisting Data in Local Database for Flutter (Android & iOS)
+
+This article demonstrates persisting data in local database in Flutter App.
+
+* Read article [here]()
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/persistence)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
+
 ## Building Cross-Platform Finger Painting App in Flutter
 
  In this code recipe, you'll use canvas painting to build a Finger Painting App in Flutter.
