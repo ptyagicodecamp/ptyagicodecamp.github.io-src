@@ -36,9 +36,9 @@ I need few assets to be used as FAB submenu icons.
 I used Android Studio’s built-in tool to generate Vector Assets.
 You can access this tool right clicking on `app` module → Click `New` → Click on `Vector Assets`
 
-![asset](./images/create-vector-asset-1.png)
-![asset](./images/create-vector-asset-2.png)
-![asset](./images/create-vector-asset-3.png)
+![asset1](./images/create-vector-asset-1.png)
+![asset2](./images/create-vector-asset-2.png)
+![asset3](./images/create-vector-asset-3.png)
 
 
 ***Step#2:***  Configuration:
@@ -46,14 +46,14 @@ I’ll be using cardView component to display description for sub menu items.
 Here’s how you can add it as a dependency in your `build.gradle`:
 `compile 'com.android.support:cardview-v7:25.1.0'`
 
-![](./images/cardview-dep-gradle.png)
+![Cardview](./images/cardview-dep-gradle.png)
 
 #### XML Layout ###
 ***Step#1:*** Create a new layout file to contains FAB and its sub menu items.
 
-![](./images/create-submenu-layout-1.png)
+![Layout1](./images/create-submenu-layout-1.png)
 
-![](./images/create-submenu-layout-2.png)
+![Layout2](./images/create-submenu-layout-2.png)
 
 I named it as `layout_fab_submenu.xml`. It’s a `FrameLayout`.
 
