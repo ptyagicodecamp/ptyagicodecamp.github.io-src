@@ -1,5 +1,5 @@
 Title: Persisting Data in Local Database for Flutter (Android & iOS)
-Date: 05/01/2020
+Date: 05/02/2020
 Authors: ptyagi
 Category: Flutter
 Tags: sqflite, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
@@ -190,7 +190,7 @@ class Product {
 
 ## Inserting Product
 
-Inserting data into a table is an anchronous operation as well. First get a reference to database and then pick a conflictAlgorithm. Its like a rule that needs to be followed when a conflict arise. We want to replace old content with new content if record is already present. Hence, it makes sense to pick `ConflictAlgorithm.replace` conflictAlgorithm.
+Inserting data into a table is an asynchronous operation as well. First get a reference to database and then pick a conflictAlgorithm. It is a rule to resolve conflicts. We want to replace old content with new content if record is already present. Hence, it makes sense to pick `ConflictAlgorithm.replace` conflictAlgorithm.
 
 ```
 Future<void> insertProduct(Product product) async {
