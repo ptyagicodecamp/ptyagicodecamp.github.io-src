@@ -15,11 +15,13 @@ Summary: This article demonstrates persisting data in local database in Flutter 
 **Goal:** In this recipe, we'll create, save, and retrieve two objects of custom data type, `Product` in the local sqlite database. We'll create two files for this recipe:
 
 * **User Interface** -[`ecom.dart`](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/persistence/ecom.dart) : User interface to load data from local database.
+
 * **Database** -[`ecom_db.dart`](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/persistence/ecom_db.dart): This file contains all code related to sqlite database.
 
 The user interface will load two demo products in a `ListView` as shown in this screenshot:
 
 ![products_db]({attach}../../images/flutter/localdb_products.jpg)
+
 
 ---
 
