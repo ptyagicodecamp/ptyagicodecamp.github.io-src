@@ -18,7 +18,7 @@ Summary: This article demonstrates persisting data in local database in Flutter 
 
 The user interface will load two demo products in a `ListView` as shown in this screenshot:
 
-![Products from LocalDatabase]({attach}../../images/flutter/localdb_products.jpg)
+![ProductsFromLocalDatabase]({attach}../../images/flutter/localdb_products.jpg)
 
 ---
 
@@ -26,7 +26,7 @@ The user interface will load two demo products in a `ListView` as shown in this 
 
 This code recipe is added in the Flutter Cookbook app.
 
-![LocalDB Cookbook]({attach}../../images/flutter/localdb_cookbook.jpg)
+![LocalDBCookbook]({attach}../../images/flutter/localdb_cookbook.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ In this code recipe, there're only two products are used to demonstration purpos
 
 The UI is composed of widgets as shown below:
 
-![LocalDatabase Interface]({attach}../../images/flutter/localdb_products_lined.jpg)
+![LocalDatabaseInterface]({attach}../../images/flutter/localdb_products_lined.jpg)
 
 The custom widget composed by `positionedBlock()` is in a Column in the `ListView` widget.
 
