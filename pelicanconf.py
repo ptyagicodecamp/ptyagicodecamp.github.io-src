@@ -57,7 +57,7 @@ SOCIAL = (
 	)
 
 MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),)
+             ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
 CC_LICENSE = {
