@@ -1,43 +1,59 @@
 Title: TODO
-Date: 07/18/2019
+Date: 02/06/2020
 Authors: ptyagi
-Category: Flutter
-Tags: TODO, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Category: TODO
+Tags: TODO, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
 Summary: TODO
+
+![TODO]({attach}../../images/flutter/TODO.jpg)
 
 **Target Audience:** Beginner
 
-**Recipe:** TODO.
+**Recipe:** TODO
 
 **Focus Widget:** TODO
 
-**Goal:** TODO
+---
 
 **Checkout the companion video tutorial:**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bgLiVIIu3bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### Lets's go! ###
+---
 
-Step #1. TODO
+# `pubspec.yaml` dependency
 
-![Sorted Wordlist]({attach}../../media/flutter/search_appbar/wordlist.png)
+Add `TODO` plugin dependency as below:
 
-####Complete example code ####
-TODO
+```
+dependencies:
+  flutter:
+    sdk: flutter
 
-***Source code repo:***
-Recipe source code is available [TODO](https://github.com/ptyagicodecamp/flutter_cookbook/tree/master/flutter_animated_opacity)
+```
 
 
-### References: ###
-1. [TapGestureRecognizer](https://api.flutter.dev/flutter/gestures/TapGestureRecognizer-class.html)
-2. [Expanded widget](https://api.flutter.dev/flutter/widgets/Expanded-class.html)
+--
+
+# HEADLINE
+
+
+
+---
+
+# Source Code Repo
+
+* Recipe source code for `TODO` class is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/todo.dart)
+
+* Flutter Cookbook project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
+
+
+# References
+1.
 
 Happy cooking with Flutter :)
 
-_Liked the article ?
-Couldn't find a topic of your interest ? Please leave a comment or reach out at [twitter](https://twitter.com/ptyagi13) about the topics you would like me to share !
-
+_Liked the article?
+Couldn't find a topic of your interest? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write!
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
 
-Follow me at [Medium](https://medium.com/@ptyagicodecamp)
+Follow me at [twitter](https://twitter.com/ptyagi13)

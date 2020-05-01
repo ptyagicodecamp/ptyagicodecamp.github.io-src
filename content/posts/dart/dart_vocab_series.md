@@ -1,8 +1,8 @@
 Title: A Dart/Flutter Vocabulary Series
 Date: 04/30/2020
 Authors: ptyagi
-Category: Development, Dart, Cross-platform, Flutter
-Tags: dart, flutter
+Category: Dart
+Tags: dart, flutter, cross-platform, development
 Summary: This article contains the list of Dart language related articles.
 
 
@@ -23,7 +23,7 @@ This article explains Dart Generics and how to use them.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/generics.dart)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/Qm2SkRpleO0)
 
 ---
 

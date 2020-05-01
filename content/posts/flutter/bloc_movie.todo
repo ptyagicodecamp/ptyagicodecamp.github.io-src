@@ -2,7 +2,7 @@ Title: Bloc Pattern- Movie listing Flutter App
 Date: 02/19/2019
 Authors: ptyagi
 Category: Flutter
-Tags: Bloc-Pattern, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
+Tags: Bloc-Pattern, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
 Summary: In this code recipe, I'll use The Movie DB API to fetch and display popular movies for three years: 2020, 2019 & 2018.
 
 **Target Audience:** Beginner
