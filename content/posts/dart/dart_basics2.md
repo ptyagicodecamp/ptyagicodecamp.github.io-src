@@ -1,4 +1,4 @@
-Title: Dart Basics (Part-2: Streams)
+Title: Dart Streams
 Date: 06/08/2019
 Authors: ptyagi
 Category: Dart

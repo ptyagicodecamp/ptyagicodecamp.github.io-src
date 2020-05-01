@@ -1,4 +1,4 @@
-Title: Dart Basics (Part-1: Futures)
+Title: Dart Futures
 Date: 06/08/2019
 Authors: ptyagi
 Category: Dart
