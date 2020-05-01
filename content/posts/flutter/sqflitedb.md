@@ -26,7 +26,7 @@ The user interface will load two demo products in a `ListView` as shown in this 
 
 This code recipe is added in the Flutter Cookbook app.
 
-![Products from LocalDatabase]({attach}../../images/flutter/localdb_cookbook.jpg)
+![LocalDB Cookbook]({attach}../../images/flutter/localdb_cookbook.jpg)
 
 ---
 
@@ -60,7 +60,7 @@ In this code recipe, there're only two products are used to demonstration purpos
 
 The UI is composed of widgets as shown below:
 
-![Products from LocalDatabase]({attach}../../images/flutter/localdb_products_lined.jpg)
+![LocalDatabase Interface]({attach}../../images/flutter/localdb_products_lined.jpg)
 
 The custom widget composed by `positionedBlock()` is in a Column in the `ListView` widget.
 
