@@ -310,6 +310,9 @@ void initDB() async {
 
 That's all ! In this code recipe, we added two products in local database, and displayed both product entries in Flutter App.
 
+**Note:**
+The `sqflite` plugin provides the lower level implementation for creating and accessing database on Android and iOS platforms. However, the `moor` plugin provides database access across Android, iOS and Web platforms. Please check out [my article](https://ptyagicodecamp.github.io/persisting-theme-in-localdatabase-moor-plugin.html) about persisting data using `moor` plugin.
+
 ---
 
 # Source Code Repo
