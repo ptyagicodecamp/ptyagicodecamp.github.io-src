@@ -16,9 +16,9 @@ This article contains pointers to code samples for flutter components / widgets.
 
 This article demonstrates persisting data in local database in Flutter App.
 
-* Read article [here](https://ptyagicodecamp.github.io/persisting-data-in-local-database-for-flutter-android-ios.html)
+* Read article [here](https://ptyagicodecamp.github.io/persisting-data-in-local-db-for-flutter-android-ios.html)
 
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/persistence)
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/persistence)
 
 * Youtube video is available [here](https://youtu.be/JX2BHjHKnuc)
 

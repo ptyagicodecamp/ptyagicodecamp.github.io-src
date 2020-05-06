@@ -322,7 +322,7 @@ The `sqflite` plugin provides the lower level implementation for creating and ac
 
 # Source Code Repo
 
-* Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/persistence)
+* Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/persistence)
 
 * Flutter Cookbook project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
 
