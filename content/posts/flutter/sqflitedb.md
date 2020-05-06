@@ -6,6 +6,8 @@ Tags: sqflite, cross-platform, flutter, code-recipes, android, android Studio, i
 Summary: This article demonstrates persisting data in local database in Flutter App.
 
 
+![products_db]({attach}../../images/flutter/localdb_cover.png)
+
 **Target Audience:** Beginner
 
 **Recipe:** Persisting products data in local database using `sqflite` Flutter plugin.
