@@ -20,7 +20,7 @@ This article demonstrates persisting data in local database in Flutter App.
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets-code/flutter_widgets/lib/persistence)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/JX2BHjHKnuc)
 
 ---
 

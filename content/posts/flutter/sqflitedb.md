@@ -35,6 +35,9 @@ This code recipe is added in the [Flutter Cookbook](https://ptyagicodecamp.githu
 
 ---
 
+**Checkout the YouTube video:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JX2BHjHKnuc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 # `pubspec.yaml` dependency
