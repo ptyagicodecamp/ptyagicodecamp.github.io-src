@@ -1,5 +1,5 @@
 Title: Persisting Data in Local DB for Flutter (Android & iOS)
-Date: 05/02/2020
+Date: 05/06/2020
 Authors: ptyagi
 Category: Flutter
 Tags: sqflite, cross-platform, flutter, code-recipes, android, android Studio, iOS, development
