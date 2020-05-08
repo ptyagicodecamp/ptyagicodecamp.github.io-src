@@ -1,14 +1,17 @@
-Title: Dart Libraries
+Title: Dart Libraries (Part1)
 Date: 05/07/2020
 Authors: ptyagi
 Category: Dart
-Tags: export, libraries, dart, cross-platform, flutter, code-recipes, development
-Summary: This article is a quick introduction for using libraries in Dart/Flutter.
+Tags: export, part, import, libraries, dart, cross-platform, flutter, code-recipes, development
+Summary: This article is a quick introduction for using libraries in Dart/Flutter. It covers `part`, `library`, and `export` directives.
 
 
 ![enums]({attach}../../images/dart/libraries.png)
 
 # Introduction
+
+This article is a quick introduction for using libraries in Dart/Flutter. It covers `part`, `library`, and `export` directives. Checkout the Part-2, to learn few ways libraries are used in Dart.
+
 
 A library is a reusable module of frequently used programs/code. It helps to write modular code base. In Dart, each app is a library.  
 
