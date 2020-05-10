@@ -6,7 +6,7 @@ Tags: export, part, import, libraries, dart, cross-platform, flutter, code-recip
 Summary: This article is the Part-2 of introduction to using libraries in Dart/Flutter.
 
 
-![Libraries-part2]({attach}../../images/dart/libraries2.png)
+![libraries-part2]({attach}../../images/dart/libraries2.png)
 
 # Introduction
 
