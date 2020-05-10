@@ -5,19 +5,19 @@ Category: Dart
 Tags: export, import, part, libraries, dart, cross-platform, flutter, code-recipes, development
 Summary: This article is the Part-1 of introduction to using libraries in Dart/Flutter.
 
-![enums]({attach}../../images/dart/libraries.png)
+![Libraries-part1]({attach}../../images/dart/libraries.png)
 
 # Introduction
 
 This article is an introduction to using libraries in Dart/Flutter. A library is a reusable module for frequently used programs/code. It helps to write modular code base. In Dart, each app is a library. This article is divided into two parts.
 
-**Part-1:** This part covers how to use Dart libraries.
+**Part-1:** This part covers how to use Dart libraries including following:
 
 * Using Prefix for library
 * Importing specific APIs
 * Defer/delay loading library
 
-**Part-2:** This part covers understanding following directives.
+**Part-2:** The second part covers understanding following directives:
 
 * The `part` directive
 * The `library` directive
@@ -37,7 +37,7 @@ This library has APIs to calculate sum and difference of two integers.
 
 * Subtraction API: The `int subtraction(int a, int b)` calculates difference of two given integers and returns an integer.
 
-* `int _add(int a, int b)`: It is an internal function/method that does perform the real addition. This method is used by addition api.
+* `int _add(int a, int b)`: It is an internal function/method that does perform the real addition. This method is used by addition api. Identifiers with underscore (\_) prefix are only available inside library.
 
 **SourceCode:** Please refer to [`lib1.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/lib1.dart)
 
@@ -200,7 +200,7 @@ Sum of 5 and 2 is 7
 
 # Summary
 
-In this article, we saw few ways to use Dart libraries. We learned how to use prefix to refer to libraries in import statements, importing only specific libraries, and delaying loading libraries until they are needed. 
+In this article, we saw few ways to use Dart libraries. We learned how to use prefix to refer to libraries in import statements, importing only specific libraries, and delaying loading libraries until they are needed.
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
 
@@ -221,7 +221,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 
 # References
 
-1.
+* [Official Dart Language Tour](https://dart.dev/guides/language/language-tour)
 
 
 Happy Darting :)
