@@ -20,11 +20,11 @@ Medium: @ptyagicodecamp
 
 This article is the Part-1 of introduction to using libraries in Dart/Flutter.
 
-* Read article [here](https://ptyagicodecamp.github.io/dart-libraries-part1.html#dart-libraries-part1)
+* Read article [here](https://ptyagicodecamp.github.io/dart-libraries-part1.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/CSQnfff18X8)
 
 ---
 
@@ -32,11 +32,11 @@ This article is the Part-1 of introduction to using libraries in Dart/Flutter.
 
 This article is the Part-2 of introduction to using libraries in Dart/Flutter.
 
-* Read article [here](https://ptyagicodecamp.github.io/dart-libraries-part2.html#dart-libraries-part2)
+* Read article [here](https://ptyagicodecamp.github.io/dart-libraries-part2.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/aHf1ENZWmzY)
 
 ---
 

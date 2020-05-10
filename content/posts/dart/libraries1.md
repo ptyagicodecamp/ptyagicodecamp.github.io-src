@@ -25,6 +25,12 @@ This article is an introduction to using libraries in Dart/Flutter. A library is
 
 ---
 
+# Check out YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CSQnfff18X8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 # Setup
 
 Let's create two libraries `lib1` and `lib2` for demonstration.
@@ -241,13 +247,6 @@ Sum of 5 and 2 is 7
 In this article, we saw few ways to use Dart libraries. We learned how to use prefix to refer to libraries in import statements, importing only specific libraries, and delaying loading libraries until they are needed.
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
-
----
-
-
-# Check out YouTube Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

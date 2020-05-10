@@ -15,6 +15,13 @@ In addition to introducing above directives, we'll also be learning to restrict 
 
 ---
 
+
+# Check out YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aHf1ENZWmzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 # Revisiting Setup
 
 Let's revisit the sample libraries `lib1` and `lib2`created in [Part-1](https://ptyagicodecamp.github.io/dart-libraries-part1.html#dart-libraries-part1) for demonstration.
@@ -248,13 +255,6 @@ That's it for this article. Check out the [Dart Vocabulary Series](https://ptyag
 
 ---
 
-
-# Check out YouTube Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
 # Source Code
 
 Please checkout the source code at Github [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries)
@@ -269,7 +269,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 Happy Darting :)
 
 _Liked the article ?
-Couldn't find a topic of your interest ? Please leave a comment or reach out at [twitter](https://twitter.com/ptyagi13) about the topics you would like me to share !
+Couldn't find a topic of your interest? Please leave a comment or reach out at [twitter](https://twitter.com/ptyagi13) about the topics you would like me to share!
 
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
 
