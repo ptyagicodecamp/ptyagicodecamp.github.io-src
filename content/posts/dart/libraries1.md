@@ -64,6 +64,9 @@ This library has APIs to check if the given number is even or odd.
 
   bool isNumberEven(int num) => num.isEven;
 
+  //Added to demonstrate handle conflicting name in two different libraries
+  int addition(int a, int b) => a + b + 2;
+
 ```
 
 ---
@@ -97,6 +100,34 @@ void main() {
 ```
 Sum of 5 and 2 is 7
 is number even? true
+```
+
+## Handling Conflicts
+
+Using prefix will only call method from respective library when more than one libraries have similar named apis.
+
+```
+import 'lib1.dart';
+import 'lib2.dart' as check;
+
+void main() {
+  int num1 = 5;
+  int num2 = 2;
+
+  int sum = addition(num1, num2);
+  print("Sum of $num1 and $num2 is $sum");
+
+  //Calls addition() from lib2
+  sum = check.addition(num1, num2);
+  print("Sum of $num1 and $num2 is $sum");
+}
+```
+
+**Output:**
+
+```
+Sum of 5 and 2 is 7
+Sum of 5 and 2 is 9
 ```
 
 ---
@@ -140,6 +171,7 @@ Difference of 5 and 2 is 3
 The `hide` is used when everything but a specific API is made accessible/visible.
 
 The `lib_hide.dart`:
+
 **SourceCode:** Please refer to [`lib_hide.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/lib_hide.dart)
 
 ```
@@ -171,6 +203,7 @@ Sum of 5 and 2 is 7
 A deferred library is loaded when it's actually used/needed. It's declared using `deferred as <name>` in import statement. The library uses `loadLibrary()` method to invoke itself. The `loadLibrary()` method returns a `Future`. That's why library invocation needs to be done in a `async` block.
 
 The `lib_deferred.dart`:
+
 **SourceCode:** Please refer to [`lib_deferred.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/lib_deferred.dart)
 
 ```
@@ -185,7 +218,8 @@ void main() {
 
 Future delayedInvocation(int num1, int num2) async {
   //Loads lib1 here
-  int sum = await lib1.addition(num1, num2);
+  await lib1.loadLibrary();
+  int sum = lib1.addition(num1, num2);
   print("Sum of $num1 and $num2 is $sum");
 }
 ```
