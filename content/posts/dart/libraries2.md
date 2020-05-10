@@ -1,5 +1,5 @@
 Title: Dart Libraries (Part2)
-Date: 05/07/2020
+Date: 05/10/2020
 Authors: ptyagi
 Category: Dart
 Tags: export, part, import, libraries, dart, cross-platform, flutter, code-recipes, development
@@ -17,7 +17,7 @@ In addition to introducing above directives, we'll also be learning to restrict 
 
 # Revisiting Setup
 
-Let's create two libraries `lib1` and `lib2` for demonstration.
+Let's revisit the sample libraries `lib1` and `lib2`created in [Part-1](https://ptyagicodecamp.github.io/dart-libraries-part1.html#dart-libraries-part1) for demonstration.
 
 # `lib1`
 

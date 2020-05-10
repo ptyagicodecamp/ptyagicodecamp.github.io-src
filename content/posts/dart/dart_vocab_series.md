@@ -15,6 +15,32 @@ Follow me at twitter: @ptyagi13
 Medium: @ptyagicodecamp
 
 ---
+
+##  Dart Libraries (Part-1)
+
+This article is the Part-1 of introduction to using libraries in Dart/Flutter.
+
+* Read article [here](https://ptyagicodecamp.github.io/dart-libraries-part1.html#dart-libraries-part1)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
+
+##  Dart Libraries (Part-2)
+
+This article is the Part-2 of introduction to using libraries in Dart/Flutter.
+
+* Read article [here](https://ptyagicodecamp.github.io/dart-libraries-part2.html#dart-libraries-part2)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
+
+
 ##  Dart Generics
 
 This article explains Dart Generics and how to use them.
