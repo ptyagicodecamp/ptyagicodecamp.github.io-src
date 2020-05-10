@@ -1,19 +1,24 @@
 Title: Dart Libraries (Part2)
-Date: 05/08/2020
+Date: 05/07/2020
 Authors: ptyagi
 Category: Dart
-Tags: export, import, part, libraries, dart, cross-platform, flutter, code-recipes, development
-Summary: This article is a quick introduction for using libraries in Dart/Flutter.
+Tags: export, part, import, libraries, dart, cross-platform, flutter, code-recipes, development
+Summary: This article is the Part-2 of introduction to using libraries in Dart/Flutter.
 
 
 ![enums]({attach}../../images/dart/libraries.png)
 
 # Introduction
 
-This article is a quick introduction for using libraries in Dart/Flutter. It covers how to use Dart libraries. Checkout the Part-1, to learn about `part`, `library`, and `export` directives.
+This article is a quick introduction for using libraries in Dart/Flutter. It covers `part`, `library`, and `export` directives. Checkout the Part-2, to learn few ways libraries are used in Dart.
 
 
-# Using Prefix for library
+A library is a reusable module of frequently used programs/code. It helps to write modular code base. In Dart, each app is a library.  
+
+Purpose of a library is twofold:
+
+1. Providing APIs
+2. Restricting variable's visibility. Identifiers with underscore (\_) prefix are only available inside library.
 
 Let's create two libraries `lib1` and `lib2` for demonstration.
 
@@ -37,13 +42,80 @@ Let's create two libraries `lib1` and `lib2` for demonstration.
 
 ```
 
-Let's use `lib1.dart` to find addition of two numbers 5 and 2, and use `lib2.dart` to check if number 5 is even or odd. For `lib2.dart`, a prefix `check` is used. All `lib2`'s API's can be accessed using `check` alias.
+# Privacy
 
-The `lib_prefix.dart`:
+Let's import `lib1.dart` to use `addition(..)` method. Please note trying to `_add(...)` method will show a compile time error since it's private and available for use inside `lib1.dart` only
 
 ```
-iimport 'lib1.dart';
-import 'lib2.dart' as check; //Using prefix for lib2
+import 'lib1.dart';
+
+void main() {
+  int num1 = 5;
+  int num2 = 2;
+
+  int sum = addition(num1, num2);
+  print("Sum of $num1 and $num2 is $sum");
+}
+```
+
+**Output:**
+
+```
+Sum of 5 and 2 is 7
+```
+
+However, calling an api form `lib2.dart` will give compile-time error.
+
+```
+import 'lib1.dart';
+
+void main() {
+  int num1 = 5;
+  int num2 = 2;
+
+  //Compile-time error because api is not available
+  print("is number even? ${isNumberEven(num2)}");
+}
+
+```
+
+# Using `part` directive
+
+The use of `part` directive is most common in auto-generated code. Traditionally, `part` directive is a glue between two tightly coupled libraries.
+
+**Note:** Related code is available in its own folder `libraries/maths_part`.
+
+For example, assume `lib1.dart` and `lib2.dart` are two huge libraries that were spilt into two. In normal circumstances, I would add both libraries in `import` statements at the top of `maths_part/part_main.dart` in order to access APIs from both libraries. In such scenarios, `part` directive could come handy.
+
+The `lib1.dart` file:
+
+```
+//importing lib1 brings-in all apis from lib2 as well
+part 'lib2.dart';
+
+int addition(int a, int b) => _add(a, b);
+
+int subtraction(int a, int b) => a - b;
+
+int _add(int a, int b) => a + b;
+
+```
+
+The `lib2.dart` file:
+
+```
+part of 'lib1.dart';
+
+bool isNumberOdd(int num) => num.isOdd;
+
+bool isNumberEven(int num) => num.isEven;
+
+```
+
+The `part_main.dart` file:
+
+```
+import 'lib1.dart';
 
 void main() {
   int num1 = 5;
@@ -52,8 +124,7 @@ void main() {
   int sum = addition(num1, num2);
   print("Sum of $num1 and $num2 is $sum");
 
-  //Using check to access the API
-  print("is number even? ${check.isNumberEven(num2)}");
+  print("is number even? ${isNumberEven(num2)}");
 }
 ```
 
@@ -64,39 +135,60 @@ Sum of 5 and 2 is 7
 is number even? true
 ```
 
+# `library` directive
 
-# Importing specific APIs
+The `library` directive is used to [auto-generate documentation(https://dart.dev/guides/libraries/create-library-packages#documenting-a-library) for library using [`dartdoc`](https://github.com/dart-lang/dartdoc#dartdoc) tool.
 
-Dart libraries allow to import only specific apis using `show` and `hide` keywords.
+# Generating documentation
 
-The `show` is used when a specific API needs to be made visible/accessible.
-
-For example, in `lib1.dart`, I want to access only `subtraction(...)` API.
-
-The `lib_show.dart`:
+1. Add `library` directive at the top of `lib1.dart`:
 
 ```
-import 'lib1.dart' show subtraction;
-
-void main() {
-  int num1 = 5;
-  int num2 = 2;
-
-  //Compile-time error because addition is no longer visible
-  //int sum = addition(num1, num2);
-
-  int differnce = subtraction(num1, num2);
-  print("Differnce of $num1 and $num2 is $differnce");
-}
-
+library math_lib1;
 ```
 
-The `hide` is used when everything but a specific API is made accessible.
+2. Create a directory `math_lib1`, and move `lib1.dart` under it.  
 
-The `lib_hide.dart`:
+3. Add `pubspec.yaml` under `math_lib1` directory:
 
 ```
-import 'lib1.dart' hide subtraction;
+name: math_lib1
+description: Math operations library
+version: 0.0.1
+```
+
+4. Use `dartdoc` tool to create documentation:
+
+```
+  $ cd math_lib1
+
+  # Generates documentation
+  $ dartdoc
+
+  # Documentation available at `http://localhost:8080/`
+  $ dhttpd --path doc/api
+```
+
+
+
+# Using `export` directive
+
+This directive is used to export only public apis.
+
+**Note:** Related code is available in its own folder `libraries/maths_export`.
+
+The `lib1.dart` and `lib2.dart` files are available under `lib/src/` folder. The files under `lib/src/` directory are hidden. The `lib/maths_export.dart` file use `export` directive to make `lib1.dart` public.
+
+The `lib/maths_export.dart`:
+
+```
+export 'src/lib1.dart';
+```
+
+An external file `lib_export.dart` imports `maths_export.dart` like below:
+
+```
+import 'math_export/lib/maths_export.dart';
 
 void main() {
   int num1 = 5;
@@ -105,33 +197,10 @@ void main() {
   int sum = addition(num1, num2);
   print("Sum of $num1 and $num2 is $sum");
 
-  //Compile-time error because subtraction() API is hidden
-  //int differnce = subtraction(num1, num2);
-  //print("Differnce of $num1 and $num2 is $differnce");
-}
-```
-
-# Deferred-Loading
-
-A deferred library is loaded when it's actually used/needed. It's declared deferred in import statement using `deferred as <name>`. The library use `loadLibrary()` method to invoke itself. The `loadLibrary()` method returns a `Future`. library invocation needs to be done in a `async` block.
-
-The `lib_deferred.dart`:
-
-```
-import 'lib1.dart' deferred as lib1;
-
-void main() {
-  int num1 = 5;
-  int num2 = 2;
-
-  delayedInvocation(num1, num2);
+  //Compile-time error because lib2.dart is not exported
+  //print("is number even? ${isNumberEven(num2)}");
 }
 
-Future delayedInvocation(int num1, int num2) async {
-  //Loads lib1 here
-  int sum = await lib1.addition(num1, num2);
-  print("Sum of $num1 and $num2 is $sum");
-}
 ```
 
 **Output:**
@@ -144,7 +213,7 @@ Sum of 5 and 2 is 7
 
 # Summary
 
-In this article, we saw learned few ways to use Dart libraries.
+In this article, we saw how
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
 
