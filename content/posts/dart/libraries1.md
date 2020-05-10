@@ -106,6 +106,10 @@ is number even? true
 
 Using prefix will only call method from respective library when more than one libraries have similar named apis.
 
+The `lib_conflict.dart`:
+
+**SourceCode:** Please refer to [`lib_conflict.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/lib_conflict.dart)
+
 ```
 import 'lib1.dart';
 import 'lib2.dart' as check;
