@@ -65,6 +65,7 @@ It's possible to restrict variables'/APIs visibility in Dart libraries. Identifi
 Let's import `lib1.dart` to use `addition(..)` method. Please note that trying to call `_add(...)` method will show a compile time error since it's private and is available to `lib1.dart` only.
 
 The `lib_main.dart`:
+
 **SourceCode:** Please refer to [`lib_main.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/lib_main.dart)
 
 ```
@@ -99,6 +100,7 @@ The use of `part` directive is most common in auto-generated code. Traditionally
 For example, lets that assume [`lib1.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/maths_part/lib1.dart) and [`lib2.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/maths_part/lib2.dart) are two huge libraries that were spilt into two. In normal circumstances, I would add both libraries in `import` statements at the top of [`maths_part/part_main.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/maths_part/part_main.dart) in order to access APIs from both libraries. In such scenarios, `part` directive could come handy to avoid multiple import statements.
 
 The `lib1.dart` file: The `part` directive at the top mentions that all `lib2` belongs to `lib1`, and bring-in all `lib2`'s apis into `lib1`. Only importing `lib1.dart` will give access to both libraries' apis.
+
 **SourceCode:** Please refer to [`lib1.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/maths_part/lib1.dart)
 
 ```
@@ -114,6 +116,7 @@ int _add(int a, int b) => a + b;
 ```
 
 The `lib2.dart` file: This library is marked as part of `lib1.dart` by using `part of` directive as `part of 'lib1.dart';`.
+
 **SourceCode:** Please refer to [`lib2.dart`](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/maths_part/lib2.dart)
 
 ```
@@ -200,6 +203,7 @@ This directive is used to export only public apis. In other words, it makes apis
 The `lib1.dart` and `lib2.dart` files are available under `lib/src/` folder. The files under `lib/src/` directory are hidden. The `lib/maths_export.dart` file use `export` directive to make `lib1.dart` public.
 
 The `lib/maths_export.dart`:
+
 **SourceCode:** Please refer to [maths_export.dart](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/math_export/lib/maths_export.dart)
 
 ```
@@ -209,6 +213,7 @@ export 'src/lib1.dart';
 An external file `lib_export.dart` imports `maths_export.dart` like below:
 
 The `lib_export.dart`:
+
 **SourceCode:** Please refer to [lib_export.dart](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/libraries/lib_export.dart)
 
 ```
