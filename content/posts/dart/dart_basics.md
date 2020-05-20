@@ -1,5 +1,5 @@
-Title: Dart Basics (Part1- Futures)
-Date: 06/08/2019
+Title: Futures: Asynchronous Programming with Dart
+Date: 05/20/2020
 Authors: ptyagi
 Category: Dart
 Tags: Dart, Flutter
@@ -8,12 +8,14 @@ Summary: Learn basics of Dart programming language. Flutter uses Dart to build a
 ***Target Audience:*** Beginner
 
 #Introduction
-Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications. In this tutorial, I'll be covering two of the Dart language features below:
+
+Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications. In this article, I'll try to scratch surface of two of the Dart language features:
 
 * **Part-1 (Current)** Futures: Asynchronous Programming with Dart
 * [Part-2](https://ptyagicodecamp.github.io/dart-basics-part-2-streams.html) Streams: Asynchronous Programming with Dart
 
-#Futures: Asynchronous Programming with Dart
+#Futures
+
 "Futures" are Future objects that represent the results of asynchronous operations. Asynchronous operations don't block the thread and their processing finishes at a later time. Asynchronous operations results are returned as `Futures`. Functions that do expensive work should use asynchronous model for executing their work. Future object is represented as `Future<T>`, where T is the type of results returned from the expensive operation.
 
 Asynchronous operations in Dart can be achieved in two ways:
