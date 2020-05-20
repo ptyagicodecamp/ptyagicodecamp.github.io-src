@@ -12,7 +12,7 @@ Summary: Learn basics of Dart programming language. Flutter uses Dart to build a
 Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications. In this article, I'll try to scratch surface of two of the Dart language features:
 
 * **Part-1 (Current)** Futures: Asynchronous Programming with Dart
-* [Part-2](https://ptyagicodecamp.github.io/dart-basics-part-2-streams.html) Streams: Asynchronous Programming with Dart
+* [Part-2](https://ptyagicodecamp.github.io/streams-asynchronous-programming-with-dart.html) Streams: Asynchronous Programming with Dart
 
 #Futures
 
@@ -24,6 +24,7 @@ Asynchronous operations in Dart can be achieved in two ways:
 2. Using `Future` API.
 
 ## `await` and `async`
+
 `await` and `async` keywords are used together. The function that supposed to be doing the expensive work will be marked with keyword `async`. Inside function, the expensive call is prefixed by keyword `await`. Program suspends when `await` is called or function return or reaches at the end of the function.
 
 Let's see in following code snippet how `async` and `await` keywords are used. `await` can only be called in function which is marked/declared as `async`. `Future` keyword before the function `makeDataCall()` means that this function will be executing  asynchronously and will be suspended when come across `await`.
@@ -52,6 +53,7 @@ void main() {
 ```
 
 ## Error Handling (try/catch block)
+
 When an exception is thrown in the `try` block, the `catch` block executes its code. Error handling for asynchronous and synchronous code is handled similar way.
 Let's add the try/catch block in previous code, and see how it'll look like now. I'm throwing an `Exception` on purpose in `try` block to demonstrate the point here.
 ```

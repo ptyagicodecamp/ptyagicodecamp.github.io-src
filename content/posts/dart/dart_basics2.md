@@ -10,7 +10,7 @@ Summary: Learn basics of Dart programming language. Flutter uses Dart to build a
 ### Introduction ###
 Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications. In this tutorial, I'll be covering two of the Dart language features below:
 
-* [Part-1](https://ptyagicodecamp.github.io/dart-basics-part-1-futures.html) Futures: Asynchronous Programming with Dart
+* [Part-1](https://ptyagicodecamp.github.io/futures-asynchronous-programming-with-dart.html) Futures: Asynchronous Programming with Dart
 * **Part-2 (Current)** Streams: Asynchronous Programming with Dart
 
 
