@@ -16,9 +16,21 @@ Medium: @ptyagicodecamp
 
 ---
 
-##  Streams: Asynchronous Programming with Dart
+##  Futures: Asynchronous Programming with Dart (Part1)
 
-This article is the Part-1 of introduction to using libraries in Dart/Flutter.
+This article is the first part of introduction to asynchronous programming with Dart.
+
+* Read article [here](https://ptyagicodecamp.github.io/futures-asynchronous-programming-with-dart.html)
+
+* Source code is available [here]()
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
+
+##  Streams: Asynchronous Programming with Dart (Part2)
+
+This article is the second part of introduction to asynchronous programming with Dart.
 
 * Read article [here](https://ptyagicodecamp.github.io/streams-asynchronous-programming-with-dart.html)
 
@@ -28,11 +40,11 @@ This article is the Part-1 of introduction to using libraries in Dart/Flutter.
 
 ---
 
-##  Futures: Asynchronous Programming with Dart
+##  Types of Streams: Asynchronous Programming with Dart (Part3)
 
-This article is the Part-1 of introduction to using libraries in Dart/Flutter.
+This article is the third and last part of introduction to asynchronous programming with Dart.
 
-* Read article [here](https://ptyagicodecamp.github.io/futures-asynchronous-programming-with-dart.html)
+* Read article [here](https://ptyagicodecamp.github.io/types-of-streams-asynchronous-programming-with-dart.html)
 
 * Source code is available [here]()
 
