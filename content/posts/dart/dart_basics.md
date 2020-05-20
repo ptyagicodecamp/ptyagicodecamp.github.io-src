@@ -13,6 +13,7 @@ Learn basics of Dart programming language. Flutter uses Dart to build awesome cr
 
 * **Part-1 (Current)** Futures: Asynchronous Programming with Dart
 * [Part-2](https://ptyagicodecamp.github.io/streams-asynchronous-programming-with-dart.html) Streams: Asynchronous Programming with Dart
+* [Part-3]() Types of Streams: Asynchronous Programming with Dart
 
 #Futures
 
