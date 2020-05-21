@@ -31,42 +31,99 @@ A Stream is a sequence of asynchronous events. Streams are useful in providing a
 
 **async:** Functions with `await` keyword needs to be marked as `async` keyword. Functions marked with `async` keywords doesn't suspend immediately, but execute synchronously until first `await` or `return` is called.
 
+---
+
 # Creating Stream
 
-Let's see how to generate a stream of events consists of numbers in code below:
+In this section, we'll learn to generate a stream of events consists of numbers using two different methods.
 
-* Using ***for-loop*** and `yield` keyword
+1. Using [`for`](https://dart.dev/guides/language/language-tour#for-loops) loop and `yield` keyword. The `yield` keywords is helpful in delivering values. The `async*` is an asynchronous [generator](https://dart.dev/guides/language/language-tour#generators) that returns a Stream object.
 
-* Using `fromIterable()` method
-
+**Example:**
 ```
-import 'dart:async';
+//Example#1. Creating Stream (of numbers) using asynchronous Generators
+//Using yield, async*
 
-//this will return a reference to the stream
+//This will return a reference to the stream
 Stream<int> createNumberStream(int last) async* {
-  for (int i=0; i< last; i++) {
+  for (int i = 1; i <= last; i++) {
     yield i; //to be able to send spaced out events
   }
 }
 
+//Printing numbers/events of Stream (Listening to Stream)
 printStream(Stream stream) {
   stream.listen((s) => print(s));
 }
-main() async {
-  //Using `yield` keyword
+
+void createStreamUsingGenerators() async {
+  //Using `yield`, async* keywords
   var stream = createNumberStream(5);
   printStream(stream);
+}
+//----END----//
 
-  //Using fromIterable method
-  var numbers = [1,2,3,4,5];
-  stream = new Stream.fromIterable(numbers);
-  printStream(stream);
+//Entry point function
+void main() {
+  //Run Example#1.
+  createStreamUsingGenerators();
 }
 ```
 
+**Output:**
+
+```
+1
+2
+3
+4
+5
+```
+
+**Source Code** is available [here- Example#1](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/streams/streams.dart).
+
 ---
 
-# Retrieving events from stream
+2. [`Stream.fromIterable()`](https://api.flutter.dev/flutter/dart-async/Stream/Stream.fromIterable.html) method
+
+**Example:**
+```
+//Example#2. Creating Stream of numbers using  `Stream.fromIterable()` method
+
+void createStreamFromIterable() {
+  var numbers = [1, 2, 3, 4, 5];
+  Stream stream = new Stream.fromIterable(numbers);
+  printStream(stream);
+}
+
+//Printing numbers/events of Stream (Listening to Stream)
+printStream(Stream stream) {
+  stream.listen((s) => print(s));
+}
+//----END----//
+
+//Entry point function
+void main() {
+  //Run Example#2.
+  createStreamFromIterable();
+}
+```
+
+**Output:**
+
+```
+1
+2
+3
+4
+5
+```
+
+**Source Code** is available [here- Example#2](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/streams/streams.dart).
+
+---
+
+# Retrieving Events From Stream
 
 Streams are iterated in a `await for` asynchronous for-loop. Streams are notified when there's last event arrives and `await for-loop` stops.
 Let's see an example that takes the events from the stream generated above and print those numbers in events.
@@ -122,7 +179,7 @@ main() async {
 
 ---
 
-# Responding to errors using Streams
+# Handling Errors in Streams
 
 When error(s) occurred, a Stream can notifies it as error event just like data event. Stream can notify error in one of these three ways:
 
@@ -169,7 +226,7 @@ main() async {
 
 ---
 
-# Handling errors using `listen()` method
+# Handling Errors using `listen()` method
 
 This is the better way to handle errors when you want to handle multiple errors without exiting code at the encounter of first error.
 

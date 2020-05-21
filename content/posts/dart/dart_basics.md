@@ -375,7 +375,7 @@ void main() {
 
 #Summary
 
-In this article, we saw how to use Futures to perform asynchronous operations in Dart. We explored `await`/`async` and Future API approaches to do so. Futures are like promises, which return results whenever they are complete. However, there's another approach to access asynchronous events using Streams. Streams provide results as they come until processing is finished. We'll explore Streams in next article.
+In this article, we saw how to use Futures to perform asynchronous operations in Dart. We explored `await`/`async` and Future API approaches to do so. Futures are like promises, which return results whenever they are complete. However, there's another approach to access asynchronous events using Streams. Streams provide results as they come until processing is finished. We'll explore Streams in the next article.
 
 # References
 
