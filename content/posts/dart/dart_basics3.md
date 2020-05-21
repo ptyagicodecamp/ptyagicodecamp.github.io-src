@@ -3,19 +3,20 @@ Date: 05/21/2020
 Authors: ptyagi
 Category: Dart
 Tags: Dart, Flutter
-Summary: Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications.
+Summary: This article is the third and last part of introduction to asynchronous programming with Dart, and covers types of Streams in Dart.
 
 ***Target Audience:*** Beginner
 
 #Introduction
-Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications. In this tutorial, I'll be covering two of the Dart language features below:
+
+This article is a part of three part series focused on asynchronous Programming with Dart. This article covers types of Streams in Dart to execute program asynchronously.
 
 * [Part-1](https://ptyagicodecamp.github.io/futures-asynchronous-programming-with-dart.html) Futures: Asynchronous Programming with Dart
 * [Part-2](https://ptyagicodecamp.github.io/streams-asynchronous-programming-with-dart.html) Streams: Asynchronous Programming with Dart
 * **Part-3 (Current)** Types of Streams: Asynchronous Programming with Dart
 
 
-#Types of Streams: Asynchronous Programming with Dart
+#Types of Streams
 
 1. Single subscription
 
@@ -27,9 +28,12 @@ Broadcast streams are intended to deliver events to their subscribers. Any subsc
 
 Note: A Single Subscription stream can be converted into broadcast streams by using `asBroadcastStream()` method.
 
-#### Two ways to subscribe to streams ####
+---
 
-##### Using `listen()` #####
+# Subscribing To Stream
+
+
+## Using `listen()`
 
 ```
 import 'dart:async';
@@ -69,7 +73,10 @@ main() async {
 }
 ```
 
-##### Using subscription's handler #####
+---
+
+## Using Subscription's Handler
+
 ```
 import 'dart:async';
 
@@ -107,11 +114,14 @@ main() async {
 }
 ```
 
-### Single Subscription Stream Operations ###
+---
+
+# Single Subscription Stream Operations
 
 In this section, I'll be discussing usage of Stream's methods with help of examples.
 
-#### Using `where()` method ####
+## Using `where()` Method
+
 Let's see an example to find and print a number greater than 3 in number stream in example above. In this example `listen()` method subscribes to stream and acts like a callback. Every time, a number meeting the criteria is found, its sent over to callback to take further action on it.
 
 ```
@@ -132,7 +142,10 @@ main() async {
 }
 ```
 
-#### Using Stream's properties ####
+---
+
+## Using Stream's Properties
+
 * `first`: Retrieves the first event of the stream.
 * `last`: Retrieves the last event of the stream.
 * `length`: Retrieves length of the stream.
@@ -183,7 +196,10 @@ main() async {
 }
 ```
 
-#### Broadcast Streams Operations ####
+---
+
+# Broadcast Streams Operations
+
 Let's convert single subscription stream in previous example to broadcast stream using `asBroadcastStream()` method and re-examine all properties again. This time we don't need to create a fresh stream for each operation. Broadcast streams can have multiple subscribers or can be listened multiple times.
 ```
 import 'dart:async';
@@ -230,16 +246,20 @@ main() async {
 ```
 Let's see few methods that extract part of the data stream and create sub-streams of data. Listeners listen to these output sub-streams.
 
-#### Using `take()` method ####
+## Using `take()` Method
+
 Creates the sub-stream for 'given number' of first events of original stream. Listener listens to this sub-stream and print all elements.
 
-#### Using `skip()` method ####
+## Using `skip()` Method
+
 Creates sub-stream of original stream after skipping first 'given number' of events from original stream. Listener listens to this sub-stream and print all elements.
 
-#### Using `takeWhile()` method ####
+## Using `takeWhile()` Method
+
 `takeWhile()` method does the same thing as `take()` when a condition is full-filled. Let's add condition that pick/take first elements when number is positive but less than 3. There are two such numbers in [1, 2, 3, 4, 5], which is 1 and 2. `takeWhile()` will check the condition and will print these 2 numbers on console.
 
-#### Using `skipWhile()` method ####
+## Using `skipWhile()` method
+
 `skipWhile()` method is similar to `skip()` in addition to honoring the condition.
 
 ```
@@ -275,8 +295,12 @@ main() async {
 }
 ```
 
-### Modifying the Stream: `transform()` method ###
+---
+
+# Modifying Stream: `transform()` Method
+
 `transform()` method
+
 ```
 import 'dart:async';
 
@@ -303,6 +327,8 @@ main() async {
     );
 }
 ```
+
+---
 
 # References
 

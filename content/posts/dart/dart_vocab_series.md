@@ -18,7 +18,7 @@ Medium: @ptyagicodecamp
 
 ##  Futures: Asynchronous Programming with Dart (Part1)
 
-This article is the first part of introduction to asynchronous programming with Dart.
+This article is the first part of introduction to asynchronous programming with Dart, and covers Futures in Dart.
 
 * Read article [here](https://ptyagicodecamp.github.io/futures-asynchronous-programming-with-dart.html)
 
@@ -30,7 +30,7 @@ This article is the first part of introduction to asynchronous programming with 
 
 ##  Streams: Asynchronous Programming with Dart (Part2)
 
-This article is the second part of introduction to asynchronous programming with Dart.
+This article is the second part of introduction to asynchronous programming with Dart, and covers Streams in Dart.
 
 * Read article [here](https://ptyagicodecamp.github.io/streams-asynchronous-programming-with-dart.html)
 
@@ -42,7 +42,7 @@ This article is the second part of introduction to asynchronous programming with
 
 ##  Types of Streams: Asynchronous Programming with Dart (Part3)
 
-This article is the third and last part of introduction to asynchronous programming with Dart.
+This article is the third and last part of introduction to asynchronous programming with Dart, and covers types of Streams in Dart.
 
 * Read article [here](https://ptyagicodecamp.github.io/types-of-streams-asynchronous-programming-with-dart.html)
 

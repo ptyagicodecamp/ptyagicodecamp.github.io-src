@@ -3,13 +3,13 @@ Date: 05/20/2020
 Authors: ptyagi
 Category: Dart
 Tags: Dart, Flutter
-Summary: Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications.
+Summary: This article is the first part of introduction to asynchronous programming with Dart, and covers Futures in Dart.
 
 ***Target Audience:*** Beginner
 
 #Introduction
 
-This article is a part of three part series focused on asynchronous Programming with Dart. In this article, I'll discuss Dart's Futures to execute program asynchronously.
+This article is a part of three part series focused on asynchronous Programming with Dart. This article covers Futures in Dart to execute program asynchronously.
 
 * **Part-1 (Current)** Futures: Asynchronous Programming with Dart
 * [Part-2](https://ptyagicodecamp.github.io/streams-asynchronous-programming-with-dart.html) Streams: Asynchronous Programming with Dart
@@ -273,11 +273,11 @@ There's nothing to be printed here. Work is already done.
 `Future` API uses chaining to handle exceptions. Error is caught and handled in `catchError()` block. The `catchError()` is chained with `then()` method.
 
 ```
-//Example#6. Future API - Error Handling
+// Example#6. Future API - Error Handling
 
-//Future with String data is being returned.
-//This function returns the instance of
-//Future and not the actual data.
+// Future with String data is being returned.
+// This function returns the instance of
+// Future and not the actual data.
 Future<String> makeDataCallFutureAPIError() async {
   var data = await getExpansiveData();
   throw Exception("Error occurred in making data call: $data");
@@ -300,7 +300,7 @@ void mainWithFutureAPIError() {
 }
 //----END----//
 
-//Entry point function
+// Entry point function
 void main() {
   //Run Example#6.
   mainWithFutureAPIError();
@@ -375,7 +375,7 @@ void main() {
 
 #Summary
 
-In this article, we saw how to use Futures to perform asynchronous operations in Dart. We explored `await`/`async` and Future API approaches to do so. Futures are like promises, which return results whenever they are complete. However, there's another approach to access asynchronous events using Streams. Streams provide results as they come until processing is finished. We'll explore Streams in next article. 
+In this article, we saw how to use Futures to perform asynchronous operations in Dart. We explored `await`/`async` and Future API approaches to do so. Futures are like promises, which return results whenever they are complete. However, there's another approach to access asynchronous events using Streams. Streams provide results as they come until processing is finished. We'll explore Streams in next article.
 
 # References
 

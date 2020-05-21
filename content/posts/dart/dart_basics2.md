@@ -3,21 +3,25 @@ Date: 05/20/2020
 Authors: ptyagi
 Category: Dart
 Tags: Dart, Flutter
-Summary: Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications.
+Summary: This article is the second part of introduction to asynchronous programming with Dart, and covers Streams in Dart.
+
 
 ***Target Audience:*** Beginner
 
-### Introduction ###
-Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile and web applications. In this tutorial, I'll be covering two of the Dart language features below:
+# Introduction
+
+This article is a part of three part series focused on asynchronous Programming with Dart. This article covers Streams in Dart to execute program asynchronously.
 
 * [Part-1](https://ptyagicodecamp.github.io/futures-asynchronous-programming-with-dart.html) Futures: Asynchronous Programming with Dart
 * **Part-2 (Current)** Streams: Asynchronous Programming with Dart
 * [Part-3](https://ptyagicodecamp.github.io/types-of-streams-asynchronous-programming-with-dart.html) Types of Streams: Asynchronous Programming with Dart
 
 
-# Streams: Asynchronous Programming with Dart
+---
 
-Why Streams? A Stream is a sequence of asynchronous events. Streams are useful in providing an asynchronous sequence of data.
+# Streams
+
+A Stream is a sequence of asynchronous events. Streams are useful in providing an asynchronous sequence of data.
 
 # Key Terms
 
@@ -27,10 +31,12 @@ Why Streams? A Stream is a sequence of asynchronous events. Streams are useful i
 
 **async:** Functions with `await` keyword needs to be marked as `async` keyword. Functions marked with `async` keywords doesn't suspend immediately, but execute synchronously until first `await` or `return` is called.
 
-# Creating a stream
+# Creating Stream
 
 Let's see how to generate a stream of events consists of numbers in code below:
-* Using for-loop and `yield` keyword
+
+* Using ***for-loop*** and `yield` keyword
+
 * Using `fromIterable()` method
 
 ```
@@ -57,6 +63,8 @@ main() async {
   printStream(stream);
 }
 ```
+
+---
 
 # Retrieving events from stream
 
@@ -112,6 +120,8 @@ main() async {
 }
 ```
 
+---
+
 # Responding to errors using Streams
 
 When error(s) occurred, a Stream can notifies it as error event just like data event. Stream can notify error in one of these three ways:
@@ -157,6 +167,8 @@ main() async {
 }
 ```
 
+---
+
 # Handling errors using `listen()` method
 
 This is the better way to handle errors when you want to handle multiple errors without exiting code at the encounter of first error.
@@ -199,15 +211,17 @@ main() async {
 }
 ```
 
-#### Type of Streams
+---
 
 
-### References: ###
+# References
+
 1. [Dart Futures](https://dart.dev/tutorials/language/futures)
 2. [Dart Streams](https://dart.dev/tutorials/language/streams)
 
 Happy cooking with Dart and Flutter :)
 
-_Liked the article ?
-Couldn't find a topic of your interest ? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
+
+_Liked the article?
+Couldn't find a topic of your interest? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write!
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
