@@ -6,9 +6,9 @@ Tags: dart, flutter, cross-platform, development
 Summary: This article contains the list of Dart language related articles.
 
 
-## A Dart & Flutter Vocabulary Series
+# The Dart & Flutter Vocabulary Series
 
-Code recipes explaining Dart language usage and terminologies.
+Learn basics of Dart programming language. Flutter uses Dart to build awesome cross-platform mobile, web, and desktop applications. This series uses code recipes to explain Dart/Flutter usage and terminologies.
 
 
 Follow me at twitter: @ptyagi13

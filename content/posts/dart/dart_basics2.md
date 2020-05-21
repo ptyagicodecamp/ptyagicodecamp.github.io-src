@@ -16,7 +16,8 @@ Learn basics of Dart programming language. Flutter uses Dart to build awesome cr
 
 
 # Streams: Asynchronous Programming with Dart
-Why Streams ? A Stream is a sequence of asynchronous events. Streams are useful in providing an asynchronous sequence of data.
+
+Why Streams? A Stream is a sequence of asynchronous events. Streams are useful in providing an asynchronous sequence of data.
 
 # Key Terms
 
@@ -24,7 +25,7 @@ Why Streams ? A Stream is a sequence of asynchronous events. Streams are useful 
 
 **Data Sequence:** A Data sequence is made up of either user-generated event or data read from files.
 
-**async:** functions with `await` keyword needs to be marked as `async` keyword. Functions marked with `async` keywords doesn't suspend immediately, but execute synchronously until first `await` or `return` is called.
+**async:** Functions with `await` keyword needs to be marked as `async` keyword. Functions marked with `async` keywords doesn't suspend immediately, but execute synchronously until first `await` or `return` is called.
 
 # Creating a stream
 
