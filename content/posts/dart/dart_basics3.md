@@ -19,6 +19,11 @@ This article is a part of three part series focused on asynchronous Programming 
 
 ---
 
+**Checkout the YouTube video:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CuZKdr6Jark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 # Types of Streams
 
 1. **Single subscription**
