@@ -446,6 +446,7 @@ take() : 2
 ```
 
 **Source Code** is available [here- Example#9](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/streams/streams_types.dart).
+
 ---
 
 ## Using `skip()` Method
