@@ -87,7 +87,7 @@ void main() {
 
 ---
 
-2. Using `Stream.fromIterable()`
+## Using `Stream.fromIterable()`
 
 In this approach, [`Stream.fromIterable()`](https://api.flutter.dev/flutter/dart-async/Stream/Stream.fromIterable.html) takes an array of numbers as argument, and create a `Stream` of numbers delivering one event/number at a time.
 

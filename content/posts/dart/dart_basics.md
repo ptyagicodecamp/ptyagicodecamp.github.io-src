@@ -233,14 +233,14 @@ Let's look at another example of `Future` API. In this example, `Future` doesn't
 ```
 //Example#5. Using Future API (Future is returning void type)
 
-//Future doesn't return anything
-Future<void> makeDataCallFutureVoid() async {
-  await getExpansiveData();
-}
-
 // Assume this function takes long time to return in real-world.
 String getExpansiveData() {
   return "I'm expansive data";
+}
+
+//Future doesn't return anything
+Future<void> makeDataCallFutureVoid() async {
+  await getExpansiveData();
 }
 
 void mainWithFutureAPIVoid() {
@@ -277,17 +277,17 @@ There's nothing to be printed here. Work is already done.
 ```
 // Example#6. Future API - Error Handling
 
+// Assume this function takes long time to return in real-world.
+String getExpansiveData() {
+  return "I'm expansive data";
+}
+
 // Future with String data is being returned.
 // This function returns the instance of
 // Future and not the actual data.
 Future<String> makeDataCallFutureAPIError() async {
   var data = await getExpansiveData();
   throw Exception("Error occurred in making data call: $data");
-}
-
-// Assume this function takes long time to return in real-world.
-String getExpansiveData() {
-  return "I'm expansive data";
 }
 
 void mainWithFutureAPIError() {
