@@ -5,6 +5,7 @@ Category: Dart
 Tags: Dart, Flutter
 Summary: This article is the second part of introduction to asynchronous programming with Dart, and covers Streams in Dart.
 
+![streams]({attach}../../images/dart/streams.jpg)
 
 ***Target Audience:*** Beginner
 

@@ -5,6 +5,8 @@ Category: Dart
 Tags: Dart, Flutter
 Summary: This article is the first part of introduction to asynchronous programming with Dart, and covers Futures in Dart.
 
+![futures]({attach}../../images/dart/futures.jpg)
+
 ***Target Audience:*** Beginner
 
 #Introduction

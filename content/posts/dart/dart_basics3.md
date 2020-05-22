@@ -5,6 +5,8 @@ Category: Dart
 Tags: Dart, Flutter
 Summary: This article is the third and last part of introduction to asynchronous programming with Dart, and covers types of Streams in Dart.
 
+![types_of_streams]({attach}../../images/dart/types_of_streams.jpg)
+
 ***Target Audience:*** Beginner
 
 #Introduction
