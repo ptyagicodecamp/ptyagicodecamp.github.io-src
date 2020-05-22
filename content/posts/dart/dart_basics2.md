@@ -21,6 +21,7 @@ This article is a part of three part series focused on asynchronous Programming 
 ---
 
 **Checkout the YouTube video:**
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/b4c_bEguNqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
