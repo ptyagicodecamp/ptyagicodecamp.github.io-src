@@ -429,7 +429,6 @@ void broadcastStreamTake() {
 
 //Entry point function
 void main() {
-
   //Run Example#9.
   broadcastStreamTake();
 
@@ -446,6 +445,7 @@ take() : 2
 ```
 
 **Source Code** is available [here- Example#9](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/streams/streams_types.dart).
+
 
 ---
 
