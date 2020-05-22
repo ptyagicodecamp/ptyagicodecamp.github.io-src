@@ -382,6 +382,7 @@ In this article, we saw how to use Futures to perform asynchronous operations in
 1. [Dart Futures Code Lab](https://dart.dev/tutorials/language/futures)
 2. [Dart Future](https://dart.dev/guides/libraries/library-tour#future)
 3. [Dart Streams](https://dart.dev/tutorials/language/streams)
+4. [Official Flutter Channel](https://www.youtube.com/watch?v=vl_AaCgudcY&list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2&index=14)
 
 Happy cooking with Dart and Flutter :)
 

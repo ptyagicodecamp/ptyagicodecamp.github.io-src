@@ -37,7 +37,9 @@ A Stream is a sequence of asynchronous events. Streams are useful in providing a
 
 In this section, we'll learn to generate a stream of events consists of numbers using two different ways.
 
-1. Using [`for`](https://dart.dev/guides/language/language-tour#for-loops) loop and `yield` keyword. The `yield` keywords is helpful in delivering values. The `async*` is an asynchronous [generator](https://dart.dev/guides/language/language-tour#generators) that returns a Stream object.
+## Using Generator Function
+
+One way to create stream by using [generator function](https://dart.dev/guides/language/language-tour#generators). It helps to produce lazily a sequence of values. In this example, we'll create stream using [`for`](https://dart.dev/guides/language/language-tour#for-loops) loop and `yield` keyword. The `yield` keywords is helpful in delivering values. The `async*` is an asynchronous [generator](https://dart.dev/guides/language/language-tour#generators) that returns a Stream object.
 
 **Example#1:**
 ```
@@ -386,6 +388,7 @@ In this article, we learned about the Dart Streams. Streams are useful when we w
 
 1. [Dart Futures](https://dart.dev/tutorials/language/futures)
 2. [Dart Streams](https://dart.dev/tutorials/language/streams)
+3. [Official Flutter Channel](https://www.youtube.com/watch?v=vl_AaCgudcY&list=PLjxrf2q8roU2HdJQDjJzOeO6J3FoFLWr2&index=14)
 
 
 Happy cooking with Dart and Flutter :)
