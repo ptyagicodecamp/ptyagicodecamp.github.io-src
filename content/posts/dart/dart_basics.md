@@ -68,7 +68,7 @@ I'm expansive data
 
 ***Note:*** You can run this code in [DartPad](https://dartpad.dev/) by copy and pasting above code as is.
 
-**Source Code** is available [here- Example#1](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#1](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 ---
 
@@ -111,7 +111,7 @@ void main() {
 Exception: Error occurred in fetching data
 ```
 
-**Source Code** is available [here- Example#2](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#2](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 ---
 
@@ -164,7 +164,7 @@ dataB
 dataC
 ```
 
-**Source Code** is available [here- Example#3](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#3](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 
 ---
@@ -222,7 +222,7 @@ void main() {
 I'm expansive data
 ```
 
-**Source Code** is available [here- Example#4](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#4](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 ---
 
@@ -266,7 +266,7 @@ void main() {
 There's nothing to be printed here. Work is already done.
 ```
 
-**Source Code** is available [here- Example#5](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#5](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 ---
 
@@ -315,14 +315,14 @@ void main() {
 Exception: Error occurred in making data call: I'm expansive data
 ```
 
-**Source Code** is available [here- Example#6](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#6](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 ---
 
 # Usage of `Future.wait()`
 
 The [`Future.wait()`](https://api.dart.dev/stable/2.8.2/dart-async/Future/wait.html) is used when multiple asynchronous functions needs to be executed before calling another function. This could be useful when data from multiple sources/functions is needed to be able to take next step.
-In another version, we're using Future API to accomplish what we did using `async` & `await` in ['Example#3'](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart) above.
+In another version, we're using Future API to accomplish what we did using `async` & `await` in ['Example#3'](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart) above.
 
 ```
 //Example#7. Using `Future.wait()`
@@ -371,7 +371,7 @@ void main() {
 [dataA, dataB, dataC]
 ```
 
-**Source Code** is available [here- Example#7](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures_await.dart).
+**Source Code** is available [here- Example#7](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/futures/futures.dart).
 
 ---
 
