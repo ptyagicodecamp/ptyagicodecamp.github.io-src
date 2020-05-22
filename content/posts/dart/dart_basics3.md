@@ -21,11 +21,11 @@ This article is a part of three part series focused on asynchronous Programming 
 
 1. **Single subscription**
 
-Single subscription streams are meant to deliver events in order. This type of stream is used when order of events received matters like reading a file. Such type of Streams can be listened only once. Attempting to listening them again will throw an exception.
+    Single subscription streams are meant to deliver events in order. This type of stream is used when order of events received matters like reading a file. Such type of Streams can be listened only once. Attempting to listening them again will throw an exception.
 
 2. **Broadcast (Multiple subscribers)**
 
-Broadcast streams are intended to deliver events to their subscribers. Any subscriber can start listening to events as soon as they subscribe to it. A Broadcast stream can be listened multiple times.
+    Broadcast streams are intended to deliver events to their subscribers. Any subscriber can start listening to events as soon as they subscribe to it. A Broadcast stream can be listened multiple times.
 
 **Note:** A Single Subscription stream can be converted into broadcast streams by using `asBroadcastStream()` method.
 
