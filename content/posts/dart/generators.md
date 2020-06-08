@@ -6,7 +6,7 @@ Tags: generators, dart, cross-platform, flutter, code-recipes, development
 Summary: This article explains usage of Dart Generator functions to generate sequence of values on-demand.
 
 
-![enums]({attach}../../images/dart/todo.png)
+![enums]({attach}../../images/dart/generators.png)
 
 # Introduction
 
@@ -214,6 +214,7 @@ Please checkout the source code at Github [here](https://github.com/ptyagicodeca
 
 1. [Dart language tour](https://dart.dev/guides/language/language-tour#generators)
 2. [Beyond Async](http://dartdoc.takyam.com/articles/beyond-async/)
+3. [Generators-Flutter in Focus](https://www.youtube.com/watch?v=TF-TBsgIErY)
 
 
 Happy Darting :)
