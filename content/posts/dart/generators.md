@@ -16,9 +16,15 @@ Dart generator functions are used to generate sequence of values on-demand lazil
 
 > Iterable: A collection of values, or "elements", that can be accessed sequentially.
 
-* Asynchronous Generator: Asynchronous generator function returns a [Stream](https://api.dart.dev/stable/2.8.4/dart-async/Stream-class.html) object. The sequence of values are generated on demand as they become available.
+* Asynchronous Generator: Asynchronous generator function returns a [Stream](https://api.dart.dev/stable/2.8.4/dart-async/Stream-class.html) object. The sequence of values is generated on demand as they become available.
 
 > Stream: A source of asynchronous data events.
+
+---
+
+# Check out YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hbaCIwAzooM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -150,7 +156,7 @@ DONE
 
 # Using `async* + yield*` - Recursive Asynchronous Generator
 
-This is an example of the using asynchronous generator function recursively. It also have the same output as its non-recursive counter-part.
+This is an example of using an asynchronous generator function recursively. It also has the same output as its non-recursive counter-part.
 
 ```
 void main4() {
@@ -191,16 +197,9 @@ DONE
 
 # Summary
 
-In this article, we saw how to use Dart's generator function to produce a on-demand sequence of values synchronously and asynchronously in iterative and recursive manner.
+In this article, we saw how to use Dart's generator function to produce an on-demand sequence of values synchronously and asynchronously in an iterative and recursive manner.
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
-
----
-
-
-# Check out YouTube Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
