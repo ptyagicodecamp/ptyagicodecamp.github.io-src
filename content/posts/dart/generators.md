@@ -10,19 +10,25 @@ Summary: This article explains usage of Dart Generator functions to generate seq
 
 # Introduction
 
-Dart generator functions are used to generate sequence of values on-demand and lazily. Such value sequence can be generated either synchronously or asynchronously.
+Dart generator functions are used to generate sequence of values on-demand lazily. Such value sequence can be generated either synchronously or asynchronously. There are two types of built-in generator functions available to support both scenarios:
 
-There are two types of generator functions to support both ways:
+* Synchronous Generator: Synchronous generator function returns an [Iterable](https://api.dart.dev/stable/2.8.4/dart-core/Iterable-class.html) object. That means first the values are generated and then returned lazily on-demand by the function.
 
-* Synchronous Generator: Synchronous generator function returns an [Iterable]() object. That means first the values are generated and then returned lazily on-demand by the function.
-* Asynchronous Generator: Asynchronous generator function returns a [Stream]() object. The sequence values are generated on demand as they become available.
+> Iterable: A collection of values, or "elements", that can be accessed sequentially.
 
+* Asynchronous Generator: Asynchronous generator function returns a [Stream](https://api.dart.dev/stable/2.8.4/dart-async/Stream-class.html) object. The sequence of values are generated on demand as they become available.
 
-Let's use an example to generate numbers starting from a given number say 5, until 0. We'll observe both ways (asynchronous and synchronous generators) to create this number sequence.
+> Stream: A source of asynchronous data events.
+
+---
+
+Let's understand generator functions with help of an example. We'll generate numbers starting from a given number say 5 until 0, using generator functions. We'll observe both ways (asynchronous and synchronous generators) to create this number sequence.
 
 # Using `sync*` - Synchronous Generator
 
-The synchronous generator function is marked with `sync*`. The values are returned using `yield` keyword.
+The function `Iterable<int> countDownFromSync(int num) sync*` takes a number as `num`, and sends out all numbers starting from `num` until 0. The synchronous generator function is marked with `sync*`. The values are returned using `yield` keyword. The iterable `sequence` receives the number sequence and print each number using `for` loop. This number sequence actually is not generated until it has been accessed by `for` loop.
+
+**main1():**
 
 ```
 void main1() {
@@ -47,6 +53,8 @@ Iterable<int> countDownFromSync(int num) sync* {
 
 **Output:**
 
+The `sync*` helps to generate values in a synchronous manner. Note that `Starting...` message is printed before for loop's execution. The `DONE` message is executed at last as well.
+
 ```
 Getting CountDown Iterable [sync* + yield]
 Starting...
@@ -60,7 +68,9 @@ DONE
 
 # Using `async*` - Asynchronous Generator
 
-The asynchronous generator function is marked with `async*`. The values are returned using `yield` keyword.
+The function `Stream<int> countDownFromAsync(int num) async*` takes a number as `num`, and deliver number sequence starting from `num` until 0. The asynchronous generator function is marked with `async*`. The values are returned using `yield` keyword. The stream `sequence` receives the number sequence. Its values can be accessed as soon as it got started listening upon.
+
+**main2()**:
 
 ```
 void main2() {
@@ -85,6 +95,8 @@ Stream<int> countDownFromAsync(int num) async* {
 
 **Output:**
 
+The `async*` helps to generate values in an asynchronous manner. Note that `Starting...` and `DONE` messages/setup are printed before actual stream's values are printed. The values are printed as they become available after the setup code.
+
 ```
 Getting CountDown Stream [async* + yield]
 Starting...
@@ -98,7 +110,7 @@ DONE
 
 # Using `sync* + yield*` - Recursive Synchronous Generator
 
-When generator functions are used recursively, `yield*` is used to mark such recursive function calls.
+When generator functions are used recursively, `yield*` is used to mark such recursive function calls. This example shows how to use generator functions recursively. You'll notice the same output as for the non-recursive implementation. The keyword `yield*` is used for the function that's called recursively.
 
 ```
 void main3() {
@@ -138,6 +150,7 @@ DONE
 
 # Using `async* + yield*` - Recursive Asynchronous Generator
 
+This is an example of the using asynchronous generator function recursively. It also have the same output as its non-recursive counter-part.
 
 ```
 void main4() {
