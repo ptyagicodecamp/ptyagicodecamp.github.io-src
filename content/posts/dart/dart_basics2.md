@@ -140,7 +140,7 @@ We'll see two ways to print the events/numbers for the stream(s) created above.
 
 ## Using `listen`
 
-In the above two examples, we printed events of a `Stream` using [`listen`](https://api.dart.dev/stable/1.24.3/dart-async/Stream/listen.html) by adding subscription to the given stream. Let's print messages before starting and after stream is finshed.
+In the above two examples, we printed events of a `Stream` using [`listen`](https://api.dart.dev/stable/1.24.3/dart-async/Stream/listen.html) by adding subscription to the given stream. Let's print messages before starting and after stream is finished.
 
 **Example#3.**
 
