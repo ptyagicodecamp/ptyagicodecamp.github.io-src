@@ -3,7 +3,7 @@ Date: 06/07/2020
 Authors: ptyagi
 Category: Dart
 Tags: generators, dart, cross-platform, flutter, code-recipes, development
-Summary: This article explains Dart Generator functions.
+Summary: This article explains usage of Dart Generator functions to generate sequence of values on-demand.
 
 
 ![enums]({attach}../../images/dart/todo.png)
