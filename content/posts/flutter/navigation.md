@@ -1,4 +1,4 @@
-Title: Navigation & Routing in Flutter App
+Title: Navigation and Routing in Flutter App
 Date: 06/12/2020
 Authors: ptyagi
 Category: Navigation
