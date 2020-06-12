@@ -20,10 +20,9 @@ Summary: In this article, we'll learn about navigation and routing in a Flutter 
 * **Interface:**: Create a listing consisting of three items. Another page to display details for each item. Clicking on each item will open the detailed view for that item.
 
 * **Navigation:** Implement navigation from home page to detail page using three different ways:
-
-  * Un-named Routing
-  * Named routing using MaterialApp's `routes` property
-  * Named routing using MaterialApp's `onGenerateRoute` property.
+  - Un-named Routing
+  - Named routing using MaterialApp's `routes` property
+  - Named routing using MaterialApp's `onGenerateRoute` property.
 
 ---
 
@@ -65,6 +64,10 @@ This option is great when there is no logic around the routes. For example, auth
 
 The MaterialApp and WidgetApp provides the `onGenerateRoute` property. It lets you specify a function returning a route. It can let the data pass using `settings`. Any verification logic can be easily be applied before showing the target page. There's always an option to default "not found" page when route or match is not found.
 
+
+### Passing Data to Second Screen - `PageDetails`
+
+### Receiving Data from Second Screen - `PageDetails`
 
 ---
 
