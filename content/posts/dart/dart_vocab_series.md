@@ -16,6 +16,18 @@ Medium: @ptyagicodecamp
 
 ---
 
+##  Dart's Callable Classes
+
+This article introduce the Callable Class feature of Dart language.
+
+* Read article [here](https://ptyagicodecamp.github.io/dart-callable-classes.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/callable_class.dart)
+
+* Youtube video is available [here](https://youtu.be/Xx3AySX1R0U)
+
+---
+
 ##  Dart Generators
 
 This article explains usage of Dart Generator functions to generate sequence of values on-demand.

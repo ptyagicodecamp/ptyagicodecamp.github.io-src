@@ -1,9 +1,9 @@
-Title: Dart Callable Classes
+Title: Dart's Callable Classes
 Date: 06/14/2020
 Authors: ptyagi
 Category: Dart
 Tags: callable-classes, dart, cross-platform, flutter, code-recipes, development
-Summary: This article introduce the Callable Classes feature of Dart language.
+Summary: This article introduce the Callable Class feature of Dart language.
 
 ![enums]({attach}../../images/dart/callable.jpg)
 
@@ -13,6 +13,13 @@ In Dart, functions are objects too. It's an object of type [`Function`](https://
 
 A Callable class allows its instance to be called as function. This feature of Dart language is useful in making named-functions.
 
+---
+
+# Check out YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xx3AySX1R0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 # Implementing Callable Class
 
@@ -56,16 +63,9 @@ That's it for this article. Check out the [Dart Vocabulary Series](https://ptyag
 
 ---
 
-
-# Check out YouTube Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
----
-
 # Source Code
 
-Please checkout the source code at Github [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/callable_class.dart )
+Please checkout the source code at Github [here](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/callable_class.dart)
 
 ---
 
