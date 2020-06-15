@@ -18,7 +18,7 @@ Medium: @ptyagicodecamp
 
 ##  Dart's Callable Classes
 
-This article introduce the Callable Class feature of Dart language.
+This article introduces the Callable Class feature of the Dart language.
 
 * Read article [here](https://ptyagicodecamp.github.io/dart-callable-classes.html)
 

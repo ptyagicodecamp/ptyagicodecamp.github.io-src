@@ -3,7 +3,7 @@ Date: 06/14/2020
 Authors: ptyagi
 Category: Dart
 Tags: callable-classes, dart, cross-platform, flutter, code-recipes, development
-Summary: This article introduce the Callable Class feature of Dart language.
+Summary: This article introduces the Callable Class feature of the Dart language.
 
 ![enums]({attach}../../images/dart/callable.jpg)
 
