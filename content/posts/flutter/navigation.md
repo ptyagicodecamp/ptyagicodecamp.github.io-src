@@ -67,6 +67,8 @@ The MaterialApp and WidgetApp provides the `onGenerateRoute` property. It lets y
 
 ### Passing Data to Second Screen - `PageDetails`
 
+
+
 ### Receiving Data from Second Screen - `PageDetails`
 
 ---
