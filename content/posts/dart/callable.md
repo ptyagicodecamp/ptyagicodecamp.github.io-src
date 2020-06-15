@@ -5,7 +5,7 @@ Category: Dart
 Tags: callable-classes, dart, cross-platform, flutter, code-recipes, development
 Summary: This article introduce the Callable Classes feature of Dart language.
 
-![enums]({attach}../../images/dart/callable.png)
+![enums]({attach}../../images/dart/callable.jpg)
 
 # Introduction
 
