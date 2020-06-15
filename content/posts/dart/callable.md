@@ -9,7 +9,7 @@ Summary: This article introduce the Callable Classes feature of Dart language.
 
 # Introduction
 
-In Dart, functions are objects too. It's an object of type `[Function](https://api.dart.dev/stable/2.8.4/dart-core/Function-class.html)`. Similar to other objects, functions can be passed as arguments to other functions, and can be assigned to variables as well.
+In Dart, functions are objects too. It's an object of type [`Function`](https://api.dart.dev/stable/2.8.4/dart-core/Function-class.html). Similar to other objects, functions can be passed as arguments to other functions, and can be assigned to variables as well.
 
 A Callable class allows its instance to be called as function. This feature of Dart language is useful in making named-functions.
 

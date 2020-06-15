@@ -17,7 +17,7 @@ Summary: In this article, we'll learn about navigation and routing in a Flutter 
 
 **Goals:** We'll implement navigation from homepage's list item to its detailed view. In this recipe, we'll do two things:
 
-* **Interface:**: Create a listing consisting of three items. Another page to display details for each item. Clicking on each item will open the detailed view for that item.
+* **User Interface:**: Create a listing consisting of three items. Another page to display details for each item. Clicking on each item will open the detailed view for that item.
 
 * **Navigation:** Implement navigation from home page to detail page using three different ways:
   - Un-named Routing
