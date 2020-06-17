@@ -269,7 +269,7 @@ In this application, there are two ways to assign the initial page, `PageListing
 void main() => runApp(
       MaterialApp(
         debugShowCheckedModeBanner: false,
-//        home: PageListing(),
+        //home: PageListing(),
         //Part#2. Named route using Map
         routes: <String, WidgetBuilder>{
           '/': (BuildContext context) => PageListing(),
@@ -311,18 +311,23 @@ The `Navigator.push` returns a `Future` that completes after calling `Navigator.
 This is similar to what we discussed earlier except `Navigator.pushNamed` is used for pushing the routes on the stack.
 
 ```
-//Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
-_navigateToPageDetails(BuildContext context, Item item) async {
+class PageListing extends StatelessWidget {
 
-  //Navigation implementations are different for each part.
-  //Part#2. Named route with Maps
-  final result = await Navigator.pushNamed(context, '/details');
+  ...
 
-  //snackbars is used to display the result returned from another page.
-  //Hide any previous snackbars and show the new resultFromPageDetails.
-  Scaffold.of(context)
-    ..removeCurrentSnackBar()
-    ..showSnackBar(SnackBar(content: Text("$result")));
+  //Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
+  _navigateToPageDetails(BuildContext context, Item item) async {
+
+    //Navigation implementations are different for each part.
+    //Part#2. Named route with Maps
+    final result = await Navigator.pushNamed(context, '/details');
+
+    //snackbars is used to display the result returned from another page.
+    //Hide any previous snackbars and show the new resultFromPageDetails.
+    Scaffold.of(context)
+      ..removeCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text("$result")));
+  }
 }
 ```
 
@@ -412,21 +417,26 @@ The `Navigator.push` returns a `Future` that completes after calling `Navigator.
 This is similar to what we discussed earlier except `Navigator.pushNamed` is used to pass the data along in addition to pushing the named routes on the stack.
 
 ```
-//Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
-_navigateToPageDetails(BuildContext context, Item item) async {
-  //Navigation implementations are different for each part.
-  //Part#3. Named route using callback function
-  final result = await Navigator.pushNamed(
-    context,
-    '/details',
-    arguments: item,
-  );
+class PageListing extends StatelessWidget {
 
-  //snackbars is used to display the result returned from another page.
-  //Hide any previous snackbars and show the new resultFromPageDetails.
-  Scaffold.of(context)
-    ..removeCurrentSnackBar()
-    ..showSnackBar(SnackBar(content: Text("$result")));
+  ...
+  
+  //Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
+  _navigateToPageDetails(BuildContext context, Item item) async {
+    //Navigation implementations are different for each part.
+    //Part#3. Named route using callback function
+    final result = await Navigator.pushNamed(
+      context,
+      '/details',
+      arguments: item,
+    );
+
+    //snackbars is used to display the result returned from another page.
+    //Hide any previous snackbars and show the new resultFromPageDetails.
+    Scaffold.of(context)
+      ..removeCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text("$result")));
+  }
 }
 ```
 **PageNotFound:**
