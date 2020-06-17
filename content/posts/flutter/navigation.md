@@ -222,25 +222,30 @@ The `Navigator.push` returns a `Future` that completes after calling `Navigator.
 The `_navigateToPageDetails(...)` is called on tapping a list item. The `PageDetails` route is pushed on the `Navigator`. The `Navigator.push` returns a `Future` which contains the data sent back from `Navigator.pop` in PageDetails widget. This data is stored in `resultFromPageDetails` variable, and displayed in a [`SnackBar` widget](https://api.flutter.dev/flutter/material/SnackBar-class.html)
 
 ```
-//Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
-_navigateToPageDetails(BuildContext context, Item item) async {
+class PageListing extends StatelessWidget {
 
-  //Navigation implementations are different for each part.
-  //Part#1. Un-named
-  final resultFromPageDetails = await Navigator.push(
-    context,
-    MaterialPageRoute(
-      builder: (context) => PageDetails(
-        item: item,
+  ...
+
+  //Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
+  _navigateToPageDetails(BuildContext context, Item item) async {
+
+    //Navigation implementations are different for each part.
+    //Part#1. Un-named
+    final resultFromPageDetails = await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => PageDetails(
+          item: item,
+        ),
       ),
-    ),
-  );
+    );
 
-  //snackbars is used to display the result returned from another page.
-  //Hide any previous snackbars and show the new resultFromPageDetails.
-  Scaffold.of(context)
-    ..removeCurrentSnackBar()
-    ..showSnackBar(SnackBar(content: Text("$resultFromPageDetails")));
+    //snackbars is used to display the result returned from another page.
+    //Hide any previous snackbars and show the new resultFromPageDetails.
+    Scaffold.of(context)
+      ..removeCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text("$resultFromPageDetails")));
+  }
 }
 ```
 
