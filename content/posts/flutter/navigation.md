@@ -1,11 +1,11 @@
 Title: Navigation and Routing in Flutter App
-Date: 06/12/2020
+Date: 06/17/2020
 Authors: ptyagi
 Category: Navigation
 Tags: Navigation, Routing, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
 Summary: In this article, we'll learn about navigation and routing in a Flutter app.
 
-![TODO]({attach}../../images/flutter/navigation_routing.jpg)
+![NavigationRouting]({attach}../../images/flutter/navigation_routing.jpg)
 
 **Target Audience:** Beginner
 
