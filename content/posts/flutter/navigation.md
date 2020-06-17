@@ -5,7 +5,7 @@ Category: Navigation
 Tags: Navigation, Routing, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
 Summary: In this article, we'll learn about navigation and routing in a Flutter app.
 
-![TODO]({attach}../../images/flutter/TODO.jpg)
+![TODO]({attach}../../images/flutter/navigation_routing.jpg)
 
 **Target Audience:** Beginner
 
@@ -420,7 +420,7 @@ This is similar to what we discussed earlier except `Navigator.pushNamed` is use
 class PageListing extends StatelessWidget {
 
   ...
-  
+
   //Launches PageDetails and awaits the results from Navigator.pop() called from PageDetails.
   _navigateToPageDetails(BuildContext context, Item item) async {
     //Navigation implementations are different for each part.
