@@ -19,9 +19,14 @@ Summary: In this article, we'll learn about navigation and routing in a Flutter 
 
 * **Navigation:** Implement navigation from PageListing (homepage) to PageDetails (details page) in three different ways.
 
-* **Send data:** Sending data from PageListing to PageDetails page. The `Item` object is passed along to target page.
+* **Sending data:** Sending data from PageListing to PageDetails page. The `Item` object is passed along to target page.
 
-* **Receive data:** Receiving data from PageDetails page. `Navigator.pop()` is used to send text from PageDetails to PageListing page.
+* **Receiving data:** Receiving data from PageDetails page. `Navigator.pop()` is used to send text from PageDetails to PageListing page.
+
+---
+
+**Checkout the YouTube video tutorial:**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UvcbDJtk1UQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -145,6 +150,8 @@ class PageDetails extends StatelessWidget {
   }
 }
 ```
+
+---
 
 ## `Item`
 
@@ -327,6 +334,8 @@ class PageListing extends StatelessWidget {
   }
 }
 ```
+
+---
 
 ## Dynamic Navigation
 
