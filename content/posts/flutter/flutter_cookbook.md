@@ -11,6 +11,21 @@ Summary: This article contains pointers to code samples for flutter components /
 This article contains pointers to code samples for flutter components / widgets.
 
 ---
+## Navigation and Routing in Flutter App
+
+In this article, we'll learn about navigation and routing in a Flutter app.
+
+* Read article [here](https://ptyagicodecamp.github.io/navigation-and-routing-in-flutter-app.html)
+
+* Source code for Direct Navigation (Un-Named Routing) is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/navigation/page_list_1.dart)
+
+* Source code for Static Navigation (Named Routing with Map) is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/navigation/page_list_2.dart)
+
+* Source code for Dynamic Navigation (Named Routing with callback function) is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/navigation/page_list_3.dart)
+
+* Youtube video is available [here](https://youtu.be/TODO)
+
+---
 
 ## Persisting Data in Local Database for Flutter (Android & iOS)
 
