@@ -31,6 +31,15 @@ void main() {
 [1, Empty, 1.0]
 ```
 
+---
+
+
+# Check out YouTube Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qm2SkRpleO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
 # Declaring Type-safe Collections
 
 The angular brackets `<>`, with data type enclosed, is used to declare the collection of given data type to ensure type-safety.
@@ -387,13 +396,6 @@ Printing key:value pairs in Dart Map
 In this article, we learned how to use generics in Dart. We saw how generics can be useful in writing type-safe and reusable code.
 
 That's it for this article. Check out the [Dart Vocabulary Series](https://ptyagicodecamp.github.io/a-dartflutter-vocabulary-series.html) for other Dart stuff.
-
----
-
-
-# Check out YouTube Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
