@@ -10,7 +10,7 @@ Summary: This article explains Dart Enums and when and how to use them.
 
 # Introduction
 
-Enums (a.k.a Enumerated Types) was added as an experimental feature in [Dart 1.8 release](https://news.dartlang.org/2014/11/dart-18-library-improvements-and.html). Enums are like a class that represents a fixed number of constant values.
+Enumerated Types (a.k.a Enums) were added as an experimental feature in [Dart 1.8 release](https://news.dartlang.org/2014/11/dart-18-library-improvements-and.html). Enums are like a class that represents a fixed number of constant values.
 
 Imagine that you're working on a weather application, and you need a way to represent different states for weather. For example, weather can be sunny, cloudy or rainy. Now, you have two ways to represent these states in your code.
 
@@ -30,12 +30,15 @@ Another way to represent the same information is to use enumerated types using t
 
 ```
 enum Weather {
-  SUNNY,
-  CLOUDY,
-  RAINY,
+  sunny,
+  cloudy,
+  rainy,
 }
 ```
 
+> Use [UpperCamelCase](https://dart.dev/guides/language/effective-dart/style#do-name-types-using-uppercamelcase) for enums like `Weather`.
+
+> Use [lowerCamelCase](https://dart.dev/guides/language/effective-dart/style#prefer-using-lowercamelcase-for-constant-names) for enum values. For example: `sunny`, `cloudy`, and `rainy`.
 
 In the following section, let's explore the cases where using Enums make more sense.
 
@@ -49,7 +52,7 @@ In `switch` block, constants behave differently than enums.
 
 When different type of weather state is represented using `const`, it's okay with
 `switch` block to declare `case` block for one constant. `default` block is optional as well.
-There's no compilation error when only one case block for `SUNNY` is declared, without `default` block.
+There's no compilation error when only one case block for `sunny` is declared, without `default` block.
 
 ```
 //Using constants to display weather information
@@ -88,19 +91,19 @@ Here's `switch` block with case blocks for all enum members:
 ```
 //Using Enums to display weather information
 void mainSwitchEnums() {
-  var weather = Weather.SUNNY;
+  var weather = Weather.sunny;
 
   //Following code will complain about
   // not including other types of weather
   //OR use default
   switch (weather) {
-    case Weather.SUNNY:
+    case Weather.sunny:
       print("Sunny weather today!");
       break;
-    case Weather.CLOUDY:
+    case Weather.cloudy:
       print("Cloudy today!");
       break;
-    case Weather.RAINY:
+    case Weather.rainy:
       print("Rainy and gloomy weather.");
       break;
   }
@@ -118,7 +121,7 @@ Check out the `switch` block when there's only `default` block is available. It 
 ```
 //Only default case. No compilation issue
 void mainSwitchEnumsDefault() {
-  var weather = Weather.SUNNY;
+  var weather = Weather.sunny;
 
   switch (weather) {
     default:
@@ -130,7 +133,7 @@ void mainSwitchEnumsDefault() {
 **Output:**
 
 ```
-Current weather:Weather.SUNNY
+Current weather:Weather.sunny
 ```
 
 ---
@@ -152,9 +155,9 @@ void mainIterating() {
 **Output:**
 
 ```
-Weather.SUNNY
-Weather.CLOUDY
-Weather.RAINY
+Weather.sunny
+Weather.cloudy
+Weather.rainy
 ```
 
 ---
@@ -168,9 +171,9 @@ Enumerated types are supported by extensions. Check out my previous article on D
 extension WeatherExt on Weather {
   //custom message for each weather type
   static const weatherMap = {
-    Weather.SUNNY: "What a lovely weather",
-    Weather.CLOUDY: "Scattered showers predicted",
-    Weather.RAINY: "Will be raining today",
+    Weather.sunny: "What a lovely weather",
+    Weather.cloudy: "Scattered showers predicted",
+    Weather.rainy: "Will be raining today",
   };
 
   //prints enum index and custom message
