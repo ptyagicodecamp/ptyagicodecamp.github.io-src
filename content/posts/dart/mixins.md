@@ -22,7 +22,7 @@ mixin SharedBehavior {
 }
 ```
 
-Let's understand this with help of the example of different people with different occupations: artist, engineer, doctor, and sportsman. Let's think in terms of OOP manner, represent people in their classes.
+Let's understand this with help of the example of different people with different occupations: artist, engineer, doctor, and sportsman. Let's think in terms of OOP manner, representing people in their classes.
 
 * `Person` class: The most common properties could be abstracted in class `Person` that other classes would extend from. Common properties (like age , name etc) and common behaviors (like eat and sleep) can go in here.
 
@@ -45,7 +45,7 @@ abstract class Person {
 
 * `Boxer` class: The boxer  ***is a*** type of Athlete. Athlete ***is a*** Person. Boxer does routine exercises as well practices punches.
 
-As we see from above that artist does sketching. Engineer does sketching as well as reading. Doctor does reading and exercise. The athlete does exercise. However boxer-a type of athlete, also does boxing.
+As we see from above that artist does sketching. Engineer does sketching as well as reading. Doctor does reading and exercise. The athlete does exercise. The boxer-a type of athlete, also does boxing.
 
 Let's see a visual representation in diagram below:
 

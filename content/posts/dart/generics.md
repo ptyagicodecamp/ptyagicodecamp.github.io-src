@@ -363,7 +363,7 @@ Printing items in Dart Set
 
 # Map
 
-In this example, a set of `String` datatype is constructed using parameterized constructor - another example of using generics. Additionally, two more items are added to the set. Adding a different dataType `int` will throw a compile time error.
+In this example, a Map of `String` datatype is constructed using parameterized constructor - another example of using generics. One more item is added to the Map. Adding a different dataType `int` will throw a compile time error.
 
 
 ```
