@@ -77,6 +77,7 @@ dependencies:
 * [`moor` plugin](https://pub.dev/packages/moor) : Persistence library built on top of sqlite for Dart and Flutter. It works on Android, iOS and Web platforms for persisting data in local databases.
 
 * [`moor_ffi` plugin](https://pub.dev/packages/moor_ffi) : This Flutter plugin generates Dart bindings to sqlite by using [`dart:ffi`](https://api.dart.dev/stable/2.7.0/dart-ffi/dart-ffi-library.html). `ffi` stands for `Foreign Function Interface`. This plugin can be used with Flutter and/or Dart VM applications and supports all platforms where sqlite3 is installed: iOS, Android (Flutter), macOS, Linux and Windows.
+**NOTE:** This plugin is being phased out, and recommended to [migrate to newer implementation](https://github.com/simolus3/moor/issues/691). 
 
 * [`path_provider` plugin](https://pub.dev/packages/path_provider) : This Flutter plugin is used for accessing filesystem on Android and iOS platforms.
 

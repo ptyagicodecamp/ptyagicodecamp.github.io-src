@@ -221,13 +221,13 @@ Stream Finished
 
 **Source Code** is available [here- Example#4](https://github.com/ptyagicodecamp/dart_vocab/blob/master/src/streams/streams.dart).
 
-The difference between `listen` and `await for` is that in `listen` approach, code related with setting up stream executed first, and then events are printed. In the `await for` approach, events are printed as they come. This approach is works better when there are finite number of events in a stream, and stream does finish.
+The difference between `listen` and `await for` is that in `listen` approach, code related to creating stream executed first, and then events are printed. In the `await for` approach, events are printed as they come. This approach is works better when there are finite number of events in a stream, and stream does finish.
 
 ---
 
 # Processing Stream Events
 
-In this example, let add the numbers delivered by stream and return the total. Let's call this new function `addEvents(...)`. Events from Stream is accessed using `await for`, and added one by one. The `addEvents(...)` function needs to be marked with `async` because it uses `await` inside the function. This method returns `Future<int>`. This future is accessed from `addNumbersInStream()` function using `await` and prints the total on console.
+In this example, let's add the numbers delivered by stream and return the total. Let's call this new function `addEvents(...)`. Events from Stream is accessed using `await for`, and added one by one. The `addEvents(...)` function needs to be marked with `async` because it uses `await` inside the function. This method returns `Future<int>`. This future is accessed from `addNumbersInStream()` function using `await` and prints the total on console.
 
 **Example#5.**
 

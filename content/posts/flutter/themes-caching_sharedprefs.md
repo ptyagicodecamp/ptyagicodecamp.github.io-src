@@ -11,7 +11,7 @@ Summary: Persisting theme setting using [SharedPreferences plugin](https://pub.d
 
 In [this previous article](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html), we saw how to implement theme switching using Provider. In this article, we'll see how to persist the selected theme using SharedPreferences Flutter plugin. iOS platform uses `NSUserDefaults` and Android platform uses `SharedPreferences` implementations to store simple data to disk asynchronously.
 
-The difference between persisting data using SharedPreferences plugin vs [local database](https://ptyagicodecamp.github.io/persist-theme-setting-in-localdatabase-moor-plugin.html) is that SharedPreferences plugin can not guarantee that writes will be persisted to disk after app restarts. However, saving data to local database is more reliable.
+The difference between persisting data using SharedPreferences plugin vs [local database](https://ptyagicodecamp.github.io/persisting-theme-in-localdatabase-moor-plugin.html) is that SharedPreferences plugin can not guarantee that writes will be persisted to disk after app restarts. However, saving data to local database is more reliable.
 
 ---
 
@@ -185,7 +185,7 @@ All Done !
 1. [SharedPreferences plugin](https://pub.dev/packages/shared_preferences)
 2. [Cross-platform ToDo App template](https://github.com/appleeducate/moor_shared)
 3. [Previous article: Implement Flutter themes using Provider](https://ptyagicodecamp.github.io/implement-flutter-themes-using-provider.html)
-4. [Related article: Persisting theme in LocalDatabase (Moor plugin)](https://ptyagicodecamp.github.io/persist-theme-setting-in-localdatabase-moor-plugin.html)
+4. [Related article: Persisting theme in LocalDatabase (Moor plugin)](https://ptyagicodecamp.github.io/persisting-theme-in-localdatabase-moor-plugin.html)
 
 Happy cooking with Flutter :)
 
