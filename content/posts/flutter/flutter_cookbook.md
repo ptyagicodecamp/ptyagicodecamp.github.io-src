@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 05/06/2020
+Date: 08/16/2020
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -14,7 +14,7 @@ This article contains pointers to code samples for flutter components / widgets.
 
 Code recipe to demonstrating image uploading to Firebase Storage in FlutterApp.
 
-* Read article [here]()
+* Read article [here](https://ptyagicodecamp.github.io/uploading-image-to-firebase-storage-in-flutter-app-android-ios.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/images/upload_image.dart)
 
