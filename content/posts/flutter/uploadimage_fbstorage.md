@@ -51,6 +51,7 @@ dependencies:
 ```
 
 ***Note:*** This code recipe should work on Flutter Web and/or Desktop to upload image as far as it's able to get reference to the `File` on device. The `image_picker` plugin to select an image is only supported on Android and iOS platforms.
+
 ---
 
 # Step #2. Firebase Project review
