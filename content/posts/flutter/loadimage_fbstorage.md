@@ -241,7 +241,7 @@ Checkout the source code for detailed implementation. As usual, this code recipe
 
 ### Source code repo ###
 
-* Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
+* Recipe source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/images/load_image.dart)
 
 * Flutter Cookbook Project's source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/)
 

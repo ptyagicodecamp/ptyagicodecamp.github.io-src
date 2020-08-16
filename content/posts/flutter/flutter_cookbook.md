@@ -10,6 +10,28 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
+## Uploading Image to Firebase Storage in Flutter App (Android & iOS)
+
+Code recipe to demonstrating image uploading to Firebase Storage in FlutterApp.
+
+* Read article [here]()
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/images/upload_image.dart)
+
+* Youtube video is available [here](https://youtu.be/nfrr5zdINSQ)
+
+---
+
+## Loading image from Firebase Storage in Flutter App (Android, iOS & Web) ##
+
+Code recipe to demonstrate image Loading from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter and Flutter Web.
+
+* Read article [here](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/images/load_image.dart)
+
+* Youtube video is available [here](https://youtu.be/8xr2hZ2b2sw)
+
 ---
 ## Navigation and Routing in Flutter App
 
@@ -131,18 +153,6 @@ Code recipe to demonstrate Text-To-Speech Flutter plugin in action.
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/tts)
 
 * Youtube video is available [here](https://youtu.be/ktsIgzhko6c)
-
----
-
-## Loading image from Firebase Storage in Flutter App (Android, iOS & Web) ##
-
-Code recipe to demonstrate image Loading from Firebase Storage on multiple platforms (Android, iOS, and Web) using Flutter and Flutter Web.
-
-* Read article [here](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html)
-
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/tree/widgets/flutter_widgets/lib/images)
-
-* Youtube video is available [here](https://youtu.be/8xr2hZ2b2sw)
 
 ---
 
