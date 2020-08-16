@@ -11,7 +11,7 @@ Summary: Code recipe to demonstrate image uploading from Flutter app to Firebase
 
 **Recipe:** Implement uploading image to Firebase Storage on Flutter Native.
 
-**Goal:** In this code recipe, we'll pick an image from from device camera or gallery and upload it to the Firebase Storage.
+**Goal:** In this code recipe, we'll pick an image from device camera or gallery and upload it to the Firebase Storage.
 ***Note:*** I'll be using Android emulator to demonstrate this code recipe. The camera functionality doesn't work in iOS simulator. You need an iOS device to use camera.
 
 **Pick Image**
@@ -146,16 +146,18 @@ Don't forget to add camera related permissions to `Info.plist`.
 
 ### References: ###
 
-1. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
-2. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup)
-3. [Configuring Firebase project for Flutter Web app](https://firebase.google.com/docs/web/setup)
-4. [Previous article](https://ptyagicodecamp.github.io/migrating-to-flutter-19-implementing-cross-platform-firebase-login-in-flutter-apps.html) about supporting web and native app's from single source code.
+1. [Loading image from Firebase Storage in Flutter App (Android, iOS & Web)](https://ptyagicodecamp.github.io/loading-image-from-firebase-storage-in-flutter-app-android-ios-web.html)
+2. [Configure Firebase project for Flutter Native Android app](https://firebase.google.com/docs/android/setup)
+3. [Configure Firebase project for Flutter Native iOS app](https://firebase.google.com/docs/ios/setup)
+
 
 
 Happy cooking with Flutter :)
 
-_Liked the article ?
-Couldn't find a topic of your interest ? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
+_Liked the article?Liked the article? Let me know with 👏👏👏
+
+Couldn't find a topic of interest? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
 
+Follow me at [Medium](https://medium.com/@ptyagicodecamp)
 Follow me at [twitter](https://twitter.com/ptyagi13)
