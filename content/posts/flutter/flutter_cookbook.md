@@ -14,11 +14,11 @@ This article contains pointers to code samples for flutter components / widgets.
 
  This code recipe focuses on saving your finger painted image in device's image gallery.
 
-* Read article [here](https://ptyagicodecamp.github.io/saving-image-in-finger-painting-app-in-flutter.html)
+* Read article [here](https://ptyagicodecamp.github.io/saving-image-in-finger-painting-flutter-app.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
 
-* Youtube video is available [here](https://youtu.be/)
+* Youtube video is available [here](https://youtu.be/GFS-6XhX-oc)
 
 ---
 
@@ -32,7 +32,7 @@ This article contains pointers to code samples for flutter components / widgets.
 
 * Youtube video is available [here](https://youtu.be/44o5EShxBoM)
 
-* Part #2 is available [here](https://ptyagicodecamp.github.io/saving-image-in-finger-painting-app-in-flutter.html)
+* Part #2 is available [here](https://ptyagicodecamp.github.io/saving-image-in-finger-painting-flutter-app.html)
 
 ---
 
