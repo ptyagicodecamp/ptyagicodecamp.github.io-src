@@ -1,11 +1,11 @@
-Title: Saving Image in Finger Painting App in Flutter
+Title: Saving Image in Finger Painting Flutter App
 Date: 08/16/2020
 Authors: ptyagi
 Category: Flutter
 Tags: Canvas, Painting, Cross-platform, Flutter, Code-recipes, Android, Android Studio, iOS, development
 Summary: This code recipe focuses on saving your finger painted image in device's image gallery.
 
-![Canvas-Painting]({attach}../../images/flutter/canvas_header.jpg)
+![Canvas-Painting]({attach}../../images/flutter/canvas2.jpg)
 
 **Target Audience:** Beginner
 
@@ -132,7 +132,7 @@ Future<void> _save() async {
 
 ### References: ###
 
-1. Building Cross-Platform Finger Painting App in Flutter](https://ptyagicodecamp.github.io/building-cross-platform-finger-painting-app-in-flutter.html)
+1. [Building Cross-Platform Finger Painting App in Flutter](https://ptyagicodecamp.github.io/building-cross-platform-finger-painting-app-in-flutter.html)
 2. [The image_gallery_saver Plugin](https://pub.dev/packages/image_gallery_saver)
 
 

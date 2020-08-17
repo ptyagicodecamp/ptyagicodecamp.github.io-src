@@ -10,6 +10,32 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
+## Saving Image in Finger Painting Flutter App
+
+ This code recipe focuses on saving your finger painted image in device's image gallery.
+
+* Read article [here](https://ptyagicodecamp.github.io/saving-image-in-finger-painting-app-in-flutter.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
+
+* Youtube video is available [here](https://youtu.be/)
+
+---
+
+## Building Cross-Platform Finger Painting App in Flutter
+
+ In this code recipe, you'll use canvas painting to build a Finger Painting App in Flutter.
+
+* Read article [here](https://ptyagicodecamp.github.io/building-cross-platform-finger-painting-app-in-flutter.html)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
+
+* Youtube video is available [here](https://youtu.be/44o5EShxBoM)
+
+* Part #2 is available [here](https://ptyagicodecamp.github.io/saving-image-in-finger-painting-app-in-flutter.html)
+
+---
+
 ## Uploading Image to Firebase Storage in Flutter App (Android & iOS)
 
 Code recipe to demonstrating image uploading to Firebase Storage in FlutterApp.
@@ -58,18 +84,6 @@ This article demonstrates persisting data in local database in Flutter App.
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/persistence)
 
 * Youtube video is available [here](https://youtu.be/JX2BHjHKnuc)
-
----
-
-## Building Cross-Platform Finger Painting App in Flutter
-
- In this code recipe, you'll use canvas painting to build a Finger Painting App in Flutter.
-
-* Read article [here](https://ptyagicodecamp.github.io/building-cross-platform-finger-painting-app-in-flutter.html)
-
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook/blob/widgets/flutter_widgets/lib/canvas/painting.dart)
-
-* Youtube video is available [here](https://youtu.be/44o5EShxBoM)
 
 ---
 
