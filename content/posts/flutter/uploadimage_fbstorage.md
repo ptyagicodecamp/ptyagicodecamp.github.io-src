@@ -154,7 +154,7 @@ Don't forget to add camera related permissions to `Info.plist`.
 
 Happy cooking with Flutter :)
 
-_Liked the article?Liked the article? Let me know with 👏👏👏
+_Liked the article? Let me know with 👏👏👏
 
 Couldn't find a topic of interest? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
