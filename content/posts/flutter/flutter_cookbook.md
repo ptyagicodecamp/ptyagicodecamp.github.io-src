@@ -10,6 +10,16 @@ Summary: This article contains pointers to code samples for flutter components /
 
 This article contains pointers to code samples for flutter components / widgets.
 
+## Responsive Flutter layout with FittedBox widget
+
+This article shows how to use FittedBox widget to create responsive layout.
+
+* Read article [here](TODO)
+
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook2/blob/master/lib/responsive_widgets/fitted_box.dart#L80:L84)
+
+* Youtube video is available [here](https://youtu.be/xU5ZGOoBI08)
+
 ## Saving Image in Finger Painting Flutter App
 
  This code recipe focuses on saving your finger painted image in device's image gallery.
