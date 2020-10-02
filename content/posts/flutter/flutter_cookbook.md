@@ -14,7 +14,7 @@ This article contains pointers to code samples for flutter components / widgets.
 
 This article shows how to use FittedBox widget to create responsive layout.
 
-* Read article [here](TODO)
+* Read article [here](https://ptyagicodecamp.github.io/responsive-flutter-layout-with-fittedbox-widget.html)
 
 * Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook2/blob/master/lib/responsive_widgets/fitted_box.dart#L80:L84)
 
