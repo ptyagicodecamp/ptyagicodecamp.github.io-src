@@ -1,5 +1,5 @@
 Title: Responsive Flutter layout with FittedBox widget
-Date: 01/10/2020
+Date: 10/01/2020
 Authors: ptyagi
 Category: FlutterLayouts
 Tags: FlutterLayouts, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
