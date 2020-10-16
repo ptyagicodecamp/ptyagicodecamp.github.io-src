@@ -2,7 +2,7 @@ Title: Responsive Flutter layout with FittedBox widget
 Date: 10/01/2020
 Authors: ptyagi
 Category: FlutterLayouts
-Tags: FlutterLayouts, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
+Tags: FlutterLayouts, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development, responsive
 Summary: This article shows how to use FittedBox widget to create responsive layout.
 
 ![FittedBox]({attach}../../images/flutter/fitted_box.jpg)
