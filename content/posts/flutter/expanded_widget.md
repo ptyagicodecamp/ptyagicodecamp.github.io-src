@@ -44,7 +44,7 @@ Row(
 
 ---
 
-# Using ExpanDed widget (flex Property)
+# Using `Expanded` widget (flex Property)
 
 ```Dart
 Row(
