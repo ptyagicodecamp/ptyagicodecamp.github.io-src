@@ -1,4 +1,4 @@
-Title: Disabling Flutter Buttons
+Title: Disabled Buttons in Flutter
 Date: 11/11/2020
 Authors: ptyagi
 Category: Widgets
