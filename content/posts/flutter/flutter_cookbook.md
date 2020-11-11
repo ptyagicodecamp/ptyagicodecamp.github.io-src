@@ -1,5 +1,5 @@
 Title: Flutter Live Booklet: Flutter component recipes
-Date: 10/02/2020
+Date: 11/11/2020
 Authors: ptyagi
 Category: Development, Flutter, Cross-platform
 Tags: flutter, code-recipes, android, android Studio, iOS
@@ -9,6 +9,17 @@ Summary: This article contains pointers to code samples for flutter components /
 ## A Flutter Live Booklet: Flutter component recipes
 
 This article contains pointers to code samples for flutter components / widgets.
+
+---
+## Disabled Buttons in Flutter
+
+This micro article gives pointers to disable buttons in Flutter applications.
+
+* Read article [here]()
+
+* Source code is available [here]()
+
+* Youtube video is available [here]()
 
 ---
 
