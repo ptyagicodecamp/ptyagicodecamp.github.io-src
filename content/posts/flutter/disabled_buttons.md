@@ -10,11 +10,11 @@ Summary: This micro article gives pointers to disable buttons in Flutter applica
 
 This micro article shows how to disable the RaisedButton and FlatButton widgets in Flutter applications.
 
-The `RaisedButton` and/or `FlatButton` widget(s) can be disabled by assigning `onPressed` property to `null`. They can be disabled when `onPressed` property is not used at all. In order to make these widgets clickable, a function needs to be assigned to the `onPressed` property.
+The `RaisedButton` / `FlatButton` / `TextButton` widget(s) can be disabled by assigning `onPressed` property to `null`. They can be disabled when `onPressed` property is not used at all. In order to make these widgets clickable, a function needs to be assigned to the `onPressed` property.
 
 **Checkout the companion video tutorial:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TODO" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m1hN2fzk738" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -42,6 +42,17 @@ FlatButton(
   onPressed: null,
   disabledColor: Colors.black12,
   disabledTextColor: Colors.blueGrey,
+),
+```
+
+---
+
+# Disabling `TextButton` Widget
+
+```Dart
+TextButton(
+  child: Text("Disabled Button"),
+  onPressed: null,
 ),
 ```
 

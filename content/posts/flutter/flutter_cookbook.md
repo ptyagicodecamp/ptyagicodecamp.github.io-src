@@ -15,11 +15,11 @@ This article contains pointers to code samples for flutter components / widgets.
 
 This micro article gives pointers to disable buttons in Flutter applications.
 
-* Read article [here]()
+* Read article [here](https://ptyagicodecamp.github.io/disabled-buttons-in-flutter.html#disabled-buttons-in-flutter)
 
-* Source code is available [here]()
+* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook2/blob/master/lib/buttons/disabled_buttons.dart)
 
-* Youtube video is available [here]()
+* Youtube video is available [here](https://youtu.be/m1hN2fzk738)
 
 ---
 
