@@ -15,7 +15,6 @@ This article contains pointers to code samples for flutter components / widgets.
 
 This article describes the process of publishing Flutter applications on Android and iOS platforms in development and production environments.
 
-
 * Read article [here]()
 
 * Source code is available [here]()
