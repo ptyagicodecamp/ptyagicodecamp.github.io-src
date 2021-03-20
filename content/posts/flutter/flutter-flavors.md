@@ -163,6 +163,8 @@ echo "Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTIN
 cp "${GOOGLESERVICE_INFO_FILE}" "${PLIST_DESTINATION}"
 ```
 
+_Note: I borrowed this script from [this great article](https://medium.com/@animeshjain/build-flavors-in-flutter-android-and-ios-with-different-firebase-projects-per-flavor-27c5c5dac10b)._
+
 # Custom Schemes
 You need to create two schemes for two different environments: `dev` & `prod`. Follow the directions below:
 
