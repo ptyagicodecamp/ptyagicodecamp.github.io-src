@@ -229,7 +229,9 @@ Could not build the precompiled application for the device.
 
 
 # References
-1.
+1.[Flavoring Flutter](https://medium.com/@salvatoregiordanoo/flavoring-flutter-392aaa875f36)
+2. [Creating Flavors](https://flutter.dev/docs/deployment/flavors)
+3. [Build flavors in Flutter (Android and iOS) with different Firebase projects per flavor](https://medium.com/@animeshjain/build-flavors-in-flutter-android-and-ios-with-different-firebase-projects-per-flavor-27c5c5dac10b)
 
 
 Happy cooking with Flutter :)
