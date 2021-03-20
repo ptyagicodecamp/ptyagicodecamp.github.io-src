@@ -11,13 +11,14 @@ Summary: This article contains pointers to code samples for flutter components /
 This article contains pointers to code samples for flutter components / widgets.
 
 ---
-## Beginning Flutter
+## Flavoring Flutter Applications (Android & iOS)
 
-This article contains the pointers to resources for learners beginning developing applications in Flutter.
+This article describes the process of publishing Flutter applications on Android and iOS platforms in development and production environments.
+
 
 * Read article [here]()
 
-* Source code is available [here](https://github.com/ptyagicodecamp/flutter_cookbook2/blob/master/lib/beginning_flutter/)
+* Source code is available [here]()
 
 * Youtube video is available [here](https://youtu.be/TODO)
 
