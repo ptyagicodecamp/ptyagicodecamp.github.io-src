@@ -5,7 +5,7 @@ Category: publishing-apps
 Tags: flavors, publishing, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
 Summary: This article describes the process of publishing Flutter applications on Android and iOS platforms in development and production environments.
 
-![TODO]({attach}../../images/flutter/TODO.jpg)
+![header-flutter-flavors]({attach}../../images/flutter/header_flutter_flavors.jpg)
 
 **Target Audience:** Beginner
 
@@ -81,6 +81,9 @@ flutter build apk -t lib/main_dev.dart  --flavor=dev
 Replace `dev` with `prod` to run and build app for production environment.
 
 --
+
+![flutter-flavors]({attach}../../images/flutter/flutter_flavors.jpg)
+
 # Android
 Let's configure environment variants (a.k.a Flavors) at Android platform. At this point you should have two Firebase projects setup dedicated for `dev` and `prod` environment/flavor each.
 
@@ -191,7 +194,9 @@ You need to create two schemes for two different environments: `dev` & `prod`. F
 Remember to assign correct bundle identifier for each scheme as described below.
 
 * Targets -> Runner -> Build Settings -> Product Bundle Identifier
-Assign the correct bundle identifier for each item as shown in image[product_bundle_identifiers].
+Assign the correct bundle identifier for each item as shown in screenshot below.
+
+![iOS-Product-bundle-indentifier]({attach}../../images/flutter/product_bundle_identifiers.jpg)
 
 At this point, if you run `flutter run -t lib/main_dev.dart --flavor dev` in CLI, you will see information to complete the custom scheme. Finish the custom scheme setup as directed.
 ```
