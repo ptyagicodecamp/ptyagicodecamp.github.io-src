@@ -61,25 +61,6 @@ void main() async {
 }
 ```
 
-# Running App
-I find following commands handy on CLI to run app for specific flavors:
-
-```
-#Run app in `dev` environment
-flutter run -t lib/main_dev.dart  --flavor=dev
-
-
-flutter run —release -t lib/main_dev.dart  --flavor=dev
-
-#Create appBundle for Android platform
-flutter build appbundle -t lib/main_dev.dart  --flavor=dev
-
-#Create APK for dev flavor
-flutter build apk -t lib/main_dev.dart  --flavor=dev
-```
-
-Replace `dev` with `prod` to run and build app for production environment.
-
 --
 
 ![flutter-flavors]({attach}../../images/flutter/flutter_flavors.jpg)
@@ -179,9 +160,6 @@ echo "Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTIN
 cp "${GOOGLESERVICE_INFO_FILE}" "${PLIST_DESTINATION}"
 ```
 
-
-[TODO: Add recording of creating dev scheme]
-
 # Custom Schemes
 You need to create two schemes for two different environments: `dev` & `prod`. Follow the directions below:
 
@@ -220,16 +198,39 @@ Open Xcode to fix the problem:
 Could not build the precompiled application for the device.
 ```
 
+---
 
+# Running App
+I find following commands handy on CLI to run app for specific flavors:
+
+```
+#Run app in `dev` environment
+flutter run -t lib/main_dev.dart  --flavor=dev
+
+# Run app in debug mode (Picks up debug signing config)
+flutter run -t lib/main_dev.dart  --debug --flavor=dev
+
+# Run app in release mode (Picks up release signing config)
+flutter run -t lib/main_dev.dart  --release --flavor=dev
+
+# Create appBundle for Android platform. Runs in release mode by default.
+flutter build appbundle -t lib/main_dev.dart  --flavor=dev
+
+# Create APK for dev flavor. Runs in release mode by default.
+flutter build apk -t lib/main_dev.dart  --flavor=dev
+```
+
+Replace `dev` with `prod` to run and build app for production environment.
+---
 
 # Source Code Repo
 
-* Recipe source code for `TODO` class is available [here]()
+* Recipe source code for this example is available [here](https://github.com/ptyagicodecamp/counterapp_flavors)
 
 
 
 # References
-1.[Flavoring Flutter](https://medium.com/@salvatoregiordanoo/flavoring-flutter-392aaa875f36)
+1. [Flavoring Flutter](https://medium.com/@salvatoregiordanoo/flavoring-flutter-392aaa875f36)
 2. [Creating Flavors](https://flutter.dev/docs/deployment/flavors)
 3. [Build flavors in Flutter (Android and iOS) with different Firebase projects per flavor](https://medium.com/@animeshjain/build-flavors-in-flutter-android-and-ios-with-different-firebase-projects-per-flavor-27c5c5dac10b)
 
