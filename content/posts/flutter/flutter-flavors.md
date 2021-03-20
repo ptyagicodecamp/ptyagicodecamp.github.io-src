@@ -170,15 +170,6 @@ You need to create two schemes for two different environments: `dev` & `prod`. F
 * Rename existing Runner default scheme to prod.
 * Manage scheme -> Assign correct configuration to its corresponding scheme.
 
-
-# Scheme specific Product bundle identifier
-Remember to assign correct bundle identifier for each scheme as described below.
-
-* Targets -> Runner -> Build Settings -> Product Bundle Identifier
-Assign the correct bundle identifier for each item as shown in screenshot below.
-
-![iOS-Product-bundle-indentifier]({attach}../../images/flutter/product_bundle_identifiers.jpg)
-
 At this point, if you run `flutter run -t lib/main_dev.dart --flavor dev` in CLI, you will see information to complete the custom scheme. Finish the custom scheme setup as directed.
 ```
 The Xcode project defines build configurations: Debug, Release, Profile
@@ -200,6 +191,16 @@ Open Xcode to fix the problem:
 4. If you are not using completely custom build configurations, name the newly created configuration debug.
 Could not build the precompiled application for the device.
 ```
+
+---
+
+# Scheme specific Product bundle identifier
+Remember to assign correct bundle identifier for each scheme as described below.
+
+* Targets -> Runner -> Build Settings -> Product Bundle Identifier
+Assign the correct bundle identifier for each item as shown in screenshot below.
+
+![iOS-Product-bundle-indentifier]({attach}../../images/flutter/product_bundle_identifiers.jpg)
 
 ---
 
