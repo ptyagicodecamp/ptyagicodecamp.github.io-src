@@ -241,7 +241,7 @@ Replace `dev` with `prod` to run and build app for production environment.
 
 Happy cooking with Flutter :)
 
-_Liked the article?Liked the article? Let me know with 👏👏👏
+_Liked the article?Liked the article? Let me know with 👏👏👏_
 
 Couldn't find a topic of interest? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write !
 [BTW I love cupcakes and coffee both :)](https://www.paypal.me/pritya)_
