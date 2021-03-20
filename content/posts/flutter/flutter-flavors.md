@@ -1,5 +1,5 @@
 Title: Flavoring Flutter Applications (Android & iOS)
-Date: 02/21/2021
+Date: 03/20/2021
 Authors: ptyagi
 Category: publishing-apps
 Tags: flavors, publishing, cross-platform, Flutter, code-recipes, Android, Android Studio, iOS, development
