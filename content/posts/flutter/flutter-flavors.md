@@ -43,7 +43,7 @@ class AppConfig {
 ```
 
 ## Entry point for `dev` flavor
-Create a file `lib/main_dev.dart` to run app in `dev` flavor. This is where you assing the flavor type and specific name for App based on that flavor.
+Create a file `lib/main_dev.dart` to run app in `dev` flavor. This is where you assign the flavor type and specific name for App based on that flavor.
 ```
 void main() async {
   AppConfig devAppConfig = AppConfig(appName: 'CounterApp Dev', flavor: 'dev');
