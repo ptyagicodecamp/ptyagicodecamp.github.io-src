@@ -17,9 +17,9 @@ This article describes the process of publishing Flutter applications on Android
 
 * Read article [here](https://ptyagicodecamp.github.io/flavoring-flutter-applications-android-ios.html)
 
-* Source code is available [here]()
+* Source code is available [here](https://github.com/ptyagicodecamp/counterapp_flavors)
 
-* Youtube video is available [here](https://youtu.be/TODO)
+* Youtube video is available [here](https://youtu.be/Suv8-w-SiXw)
 
 ---
 
