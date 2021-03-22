@@ -71,7 +71,7 @@ void main() async {
 Let's configure environment variants (a.k.a Flavors) at Android platform. At this point you should have two Firebase projects setup dedicated for `dev` and `prod` environment/flavor each.
 
 # Firebase Configuration Files
-First step is to download `google-services.json` file(s) from each Firebase project to a temporary location at your machine. Next, create two folders `android/app/src/dev` and `android/app/src/prod` for each flavor. The Firebase configuration files go under in their flavor folders under `android/app/src/` folder..Copy the respective `google-services.json` files into their flavor folders respectively.
+First step is to download `google-services.json` file(s) from each Firebase project to a temporary location at your machine. Next, create two folders `android/app/src/dev` and `android/app/src/prod` for each flavor. The Firebase configuration files go under their flavor folders under `android/app/src/` folder..Copy the respective `google-services.json` files into their flavor folders respectively.
 * dev flavor: `android/app/src/dev/google-services.json`
 * prod flavor: `android/app/src/prod/google-services.json`
 
@@ -112,7 +112,7 @@ android {
 }
 ```
 
-That is all you need to enable flavors at Android side.
+That is all you need to enable flavors on Android side.
 
 ---
 
@@ -120,11 +120,11 @@ That is all you need to enable flavors at Android side.
 
 Let's create `dev` and `prod` environments(a.k.a Schemes) at iOS platform. We need to setup custom schemes at iOS  side to support multiple variants.
 
-# Firebase Config files
+# Firebase Configuration files
 * Copy GooglePlayServices files under `config/dev` and `config/prod`.
 * Copy the `config` folder into the Xcode (drag and drop under Runner project)
 * Targets -> Runner -> Build Phase: Add script to copy correct GooglePlaySerivce file for the correct scheme.
-Move the script right after
+Move the script right after `Link Binary with Libraries` item.
 
 ```
 environment="default"
