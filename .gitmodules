@@ -1,3 +1,4 @@
 [submodule "output"]
 	path = output
-	url = https://github.com/ptyagicodecamp/ptyagicodecamp.github.io.git
+	#url = https://github.com/ptyagicodecamp/ptyagicodecamp.github.io.git
+	url = git@github.com:ptyagicodecamp/ptyagicodecamp.github.io-src.git
