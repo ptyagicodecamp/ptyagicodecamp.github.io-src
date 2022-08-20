@@ -3,8 +3,8 @@
 from datetime import datetime
 
 AUTHOR = 'Priyanka Tyagi'
-SITENAME = 'techLog'
-SITETITLE = 'techLog'
+SITENAME = 'tech&Life'
+SITETITLE = 'tech&Life'
 SITEURL = 'https://ptyagicodecamp.github.io'
 SITESUBTITLE ='Explore | Android | Flutter | Software Engineering'
 SITEDESCRIPTION = "Mobile engineering tech logger."
