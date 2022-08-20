@@ -29,13 +29,14 @@ The above command will print the current version of Vim editor as below:
 VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Nov 13 2021 05:05:08)
 macOS version - arm64
 ```
+
 ## Opening Vim editor
 
 You can start opening the editor by using `vim` followed by the file name as below:
-
 ```
 vim test_file
 ```
+The above command will open the `test_file` in vim editor. Press `i` to change to insert mode to start writing into file.
 
 # References
 
