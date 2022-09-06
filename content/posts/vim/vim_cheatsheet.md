@@ -2,12 +2,10 @@ Title: Vim Editor References
 Date: 08/20/2022
 Authors: ptyagi
 Category: DevOps
-Tags: DevOps, CLI
+Tags: dev_ops, cli
 Summary: A quick guide to Vim editor commands. I'm using macOS Terminal to run vim editor.
 
 
-
-**Note** This article is in progress.
 
 This article is a quick getting started guide to Vim editor commands. Vim editor is an improved version of classic `Vi` editor, hence named 'Vi Improved' or `Vim` in short.
 
@@ -48,6 +46,11 @@ The above command will open the `test_file` in vim editor. Press `i` to change t
 
 1. [Installing Homebrew](https://formulae.brew.sh/formula/vim)
 
+
+---
+## NOTE
+This article is in progress.
+---
 
 Follow me at [Medium](https://medium.com/@ptyagicodecamp)
 Follow me at [twitter](https://twitter.com/ptyagi13)
