@@ -1,8 +1,8 @@
 Title: Vim Editor References Test
-Date: 08/20/2022
+Date: 09/06/2022
 Authors: ptyagi
 Category: DevOps
-Tags: dev_ops, cli
+Tags: devops, cli
 Summary: A quick guide to Vim editor commands. I'm using macOS Terminal to run vim editor.
 
 
