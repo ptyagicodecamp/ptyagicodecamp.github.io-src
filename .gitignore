@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Pelican config
+pelicanconf.py
+
 # IntelliJ related
 *.iml
 *.ipr
