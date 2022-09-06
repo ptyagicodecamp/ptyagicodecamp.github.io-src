@@ -1,1 +1,1 @@
-/Users/ptyagi/Developer/ptyagicodecamp/android-recipes/NavDrawerDynamicMenu/README.md
+/Users/priyanka.tyagi/explore/techlog/android-recipes/NavDrawerDynamicMenu/README.md

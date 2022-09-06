@@ -1,1 +1,1 @@
-/Users/ptyagi/Developer/ptyagicodecamp/android-recipes/CopyGalleryPic/README.md
+/Users/priyanka.tyagi/explore/techlog/android-recipes/CopyGalleryPic/README.md

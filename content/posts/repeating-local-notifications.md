@@ -1,1 +1,1 @@
-/Users/ptyagi/Developer/ptyagicodecamp/RepeatingLocalNotifications/README.md
+/Users/priyanka.tyagi/explore/techlog/RepeatingLocalNotifications/README.md

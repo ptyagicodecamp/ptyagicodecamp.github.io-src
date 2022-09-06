@@ -1,1 +1,1 @@
-/Users/ptyagi/Developer/ptyagicodecamp/android-recipes/Flavors/README.md
+/Users/priyanka.tyagi/explore/techlog/android-recipes/Flavors/README.md

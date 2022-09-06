@@ -1,1 +1,1 @@
-/Users/ptyagi/Developer/ptyagicodecamp/android-architecture/lifecycle/android-arch-lifecycle-viewmodel.md
+/Users/priyanka.tyagi/explore/techlog/android-architecture/lifecycle/android-arch-lifecycle-viewmodel.md
