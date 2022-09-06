@@ -14,16 +14,19 @@ __*Note*__: I'm using macOS Terminal to run vim editor.
 ## Installing Vim Editor (macOS)
 
 You can download Vim editor on macOS using Homebrew package manager.
+
 ```
 brew install vim
 ```
 
 Verify the installation of Vim editor by checking its version as below:
+
 ```
 vim --version
 ```
 
 The above command will print the current version of Vim editor as below:
+
 ```
 % vim --version
 VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Nov 13 2021 05:05:08)
@@ -33,6 +36,7 @@ macOS version - arm64
 ## Opening Vim editor
 
 You can start opening the editor by using `vim` followed by the file name as below:
+
 ```
 vim test_file
 ```
