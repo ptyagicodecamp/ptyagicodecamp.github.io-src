@@ -16,7 +16,8 @@ PYGMENTS_STYLE = 'monokai'
 
 ROBOTS = 'index, follow'
 
-THEME = '/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/Flex'
+THEME = '/Users/priyanka.tyagi/explore/techlog/pelican-themes/Flex'
+#THEME = '/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/Flex'
 #THEME = '/Users/ptyagi/Developer/ptyagicodecamp/pelican-themes/elegant'
 PATH = 'content/'
 OUTPUT_PATH = 'blog/'
