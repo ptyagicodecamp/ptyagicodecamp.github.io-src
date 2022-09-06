@@ -5,6 +5,8 @@ Category: DevOps
 Tags: DevOps, CLI
 Summary: A quick guide to Vim editor commands. I'm using macOS Terminal to run vim editor.
 
+
+
 **Note** This article is in progress.
 
 This article is a quick getting started guide to Vim editor commands. Vim editor is an improved version of classic `Vi` editor, hence named 'Vi Improved' or `Vim` in short.
