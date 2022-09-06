@@ -1,5 +1,5 @@
-Title: Vim Editor References Test
-Date: 09/06/2022
+Title: Vim Quick References
+Date: 09/07/2022
 Authors: ptyagi
 Category: DevOps
 Tags: devops, cli
