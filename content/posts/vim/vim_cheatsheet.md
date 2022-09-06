@@ -1,5 +1,5 @@
 Title: Vim Quick References
-Date: 08/20/2022
+Date: 09/06/2022
 Authors: ptyagi
 Category: DevOps
 Tags: DevOps, CLI
