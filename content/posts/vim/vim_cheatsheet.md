@@ -45,9 +45,10 @@ The above command will open the `test_file` in vim editor. Press `i` to change t
 ## Modes of Vim
 
 There are mainly three modes in Vim editor:
-1. ***Normal mode:*** This is the mode `Vim` editor opens in. If you try to type in this mode, you would not be able to. That may leave you in bit confusion on how to edit this file. You would need to change into `Insert` mode discussed next.
 
-2. ***Insert Mode:*** In order to write/edit the file, you will need to press `i`. This enables the editing mode for Vim. You will need to hit `escape` key to return back to Normal mode.
+1. **Normal mode:** This is the mode `Vim` editor opens in. If you try to type in this mode, you would not be able to. That may leave you in bit confusion on how to edit this file. You would need to change into `Insert` mode discussed next.
+
+2. **Insert Mode:** In order to write/edit the file, you will need to press `i`. This enables the editing mode for Vim. You will need to hit `escape` key to return back to Normal mode.
 
 3. **Line Mode:** This mode is activated by hitting `escape` key when in Insert mode followed by colon `:`. This is used to perform operation on the file like saving and closing the file or just discarding the edits. 
     - `:w!`: This command is used to save the contents without closing the file.
