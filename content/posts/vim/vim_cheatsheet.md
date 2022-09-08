@@ -59,7 +59,7 @@ There are mainly three modes in Vim editor:
 
 ## Basic File operations
 
-***Creating file:** You can create a file using one of the option below:
+**Creating file:** You can create a file using one of the option below:
 
 ***Option 1#***
 ```
@@ -76,7 +76,7 @@ vi test.txt
 touch test.txt
 ```
 
-***Opening a file:** In `vim` you can open a file using `vim` followed by the file name.
+**Opening a file:** In `vim` you can open a file using `vim` followed by the file name.
 
 
 
