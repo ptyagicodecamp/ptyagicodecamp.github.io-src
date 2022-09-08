@@ -55,6 +55,31 @@ There are mainly three modes in Vim editor:
     - `:wq!`: This command is for saving + closing the file.
     - `:q!`: This command is used for quiting out of file without saving any changes. Be careful using this command, since it will discard any changes to file that you might have made.
 
+    **Note:** You will need to hit enter to execute the above commands.
+
+## Basic File operations
+
+***Creating file:** You can create a file using one of the option below:
+
+***Option 1#***
+```
+vim test.txt
+```
+
+***Option 2#***
+```
+vi test.txt
+```
+
+***Option 3#***
+```
+touch test.txt
+```
+
+***Opening a file:** In `vim` you can open a file using `vim` followed by the file name.
+
+
+
 # References
 
 1. [Installing Homebrew](https://formulae.brew.sh/formula/vim)
