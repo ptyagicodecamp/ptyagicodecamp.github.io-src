@@ -75,4 +75,4 @@ __Liked the article? Let me know with 👏👏👏
 Couldn't find a topic of interest? Please leave comments or [email me](mailto:ptyagicodecamp@gmail.com) about topics you would like me to write!
 
 Follow me at [Medium](https://medium.com/@ptyagicodecamp)
-Follow me at [twitter](https://twitter.com/ptyagi13)
+Follow me at [LinkedIn](https://www.linkedin.com/in/priyankatyagi)
