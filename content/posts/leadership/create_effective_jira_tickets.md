@@ -75,6 +75,7 @@ Example: "The user profile page will enhance the user experience by allowing use
 Outline how the task might be done or suggest solutions. Providing a high-level plan or approach can guide the assignee and ensure alignment with the project’s goals.
 
 Example:
+
 * Design the user interface for the profile page.
 * Develop the backend API to fetch and update user information.
 * Integrate the frontend with the backend API.
@@ -85,6 +86,7 @@ Example:
 Define what successful completion looks like. Clear acceptance criteria set the standards for when a task can be considered done and help prevent misunderstandings.
 
 Example:
+
 * Users can view their personal information (name, email, profile picture, etc.).
 * Users can edit their personal information and save changes.
 * Input validation is enforced (e.g., valid email format, mandatory fields).
@@ -114,13 +116,16 @@ Below is the example of a poorly written vs Effectively written Epic ticket. Usu
 The title and description of this Epic doesn't contain much information about what is being created and why is it needed. The acceptance criteria is very loose since it doesn't provide what's expected from this page. The verification criteria doesn't give details for assignee to verify the completeness and correctness either.
 
 **Title:** Profile Page
+
 **Description:** Make a profile page.
 
 **Acceptance Criteria:** 
+
 * Page is created.
 * Users can use it.
 
 **Verification and Testing:** 
+
 * Check the page.
 
 
@@ -138,27 +143,35 @@ In this example of Epic, the description contains the background context of what
 ***How:*** Design the UI, develop the backend API, implement the frontend, conduct QA testing, and create documentation.
 
 **Acceptance Criteria:**
+
 * Users can view and edit their personal information.
 * Users can change their passwords.
 * Users can manage account settings.
 * All features are fully tested and documented.
 
 **Verification and Testing:**
+
 * Verify that the profile page meets design specifications.
 * Test all functionalities to ensure they work as expected.
 * Review documentation for completeness and accuracy.
 
 
 ### [Example 2] Task: Develop Frontend for Profile Page
+
 Below is the example of a Task type of ticket. This Task could further be split into many other Tasks. However, to spare the implementation level details this ticket assumes that developing the Profile page UI in one ticket. The acceptance criteria helps to guide the adherence of the end to end functionality whereas verification and testing ensures the correctness and accuracy achieved.
 
 ***Poorly Written Task Ticket:***
+
 **Title:** Frontend Profile Page
+
 **Description:** Make the frontend for the profile page.
+
 **Acceptance Criteria:** N/A
+
 **Verification and Testing:** N/A
 
 ***Effectively written Task Ticket***
+
 **Title:** Implement Frontend for Profile Page
 
 **Description:**
@@ -170,11 +183,13 @@ Below is the example of a Task type of ticket. This Task could further be split 
 ***How:*** Use React to build the components, ensure responsiveness, and integrate with the backend API.
 
 **Acceptance Criteria:**
+
 * Frontend components are implemented according to the design.
 * The profile page is responsive and works on various devices.
 * The frontend successfully communicates with the backend API.
 
 **Verification and Testing:**
+
 * Verify the layout and styling match the design.
 * Test the profile page on different devices and screen sizes.
 * Confirm data is correctly fetched from and sent to the backend API.
@@ -185,7 +200,9 @@ Below is the example of a Task type of ticket. This Task could further be split 
 Let's checkout an example of poorly written vs effective bug ticket.   
 
 **Poorly written Bug Ticket**
+
 This ticket doesn't have descriptive title. It's hard to know from title and description about the issue let alone to fix it. Assignee likely will spend extra time to understand what's being asked to fix and where is the error occurring. They will rely on enormous Slack messages exhanges or 1-on-1 conversations just to gather the information on what error is being observed. Even after they fix it, they will likely to remain confused about whether they fixed the originally reported issue. 
+
 **Title:** Error
 **Description:** There is an error.
 **Acceptance Criteria:** N/A
@@ -207,17 +224,20 @@ Title for the ticket is self-explainatory. Assignee immediately knowns which par
 ***How:*** Investigate the error, identify the root cause, and implement a fix to ensure changes can be saved successfully.
 
 **Acceptance Criteria:**
+
 * The "500 Internal Server Error" is resolved.
 * Users can successfully save changes to their profile information without errors.
 * The fix is tested and verified.
 
 **Verification and Testing:**
+
 * Reproduce the error by following the steps provided. ***Note***: Add steps to recreate error
 * Implement the fix and verify the error is resolved. ***Note***: The fix can be verified against a pre-existing testplan, if any.
 * Test saving profile information under various conditions to ensure reliability. ***Note***: Various conditions can involve development, sandbox and production environment or load/scale testing.
 
 
 # References
+
 1. [Jira Issue Types](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-types/)
 2. [Trello Card](https://trello.com/guide/trello-101)
 
