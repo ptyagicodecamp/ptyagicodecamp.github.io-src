@@ -27,13 +27,15 @@ An **Epic** ticket is the one that contains the one slice of functionality towar
 
 A **Task** ticket is the smallest actionable unit of work that contributes towards the completion of Epic. 
 
-A **Bug** is self-explanatory. They could the gaps in the expected functionality. There may not be any bugs when starting to build a new feature. However, as soon as it either goes through the testing phase or in end-user hands, its quite normal to discover few expected or un-expected behaviors that needed to be worked on.
+A **Bug** is self-explanatory. They could the gaps in the expected functionality. There may not be any bugs when starting to build a new feature. However, as soon as a new feature either goes through the testing phase or in end-user hands, its quite normal to discover few expected or un-expected behaviors that needs to be worked on.
 
 Let's take a sample feature of building profile page for account management in a Jira-like web application, to guide the discussion of this article. 
 
-This feature "Profile page for account management" can be split into multiple Epics. There's different types of expertise required on different aspect of this feature. First, a profile page user-interface design is needed. Second, a functional user-interface that user can interact with. Third, a backend component and API (application-programming-interface) integration to store the user information for later retrieval. Fourth, quality assurance and testing. Fifth, user documentation and internal documention, etc..etc.   
+This feature "Profile page for account management" can be split into multiple Epics. First, a profile page user-interface design is needed. Second, a functional user-interface that user can interact with. Third, a backend component and API (Application Programming Interface) integration to store the user information for later retrieval. Fourth, quality assurance and testing. Fifth, user documentation and internal documention, etc..etc. There's a good chance that different technical expertise may be needed to execute each of the Epic. For example, designing the Profile page would require UX designing skills, front-end skills like React for implementing the page and backend skills for developing APIs.
 
-To keep it simple, let's take the first three pieces and create an Epic for each:
+Okay, let's go back to identifying top three Epics. For example, these first three Epic could focus on designing progile page and implementing page and developing APIs to make this page functional.
+
+Example Epics could look like below:
 
 1. Epic #1: Design profile page UI
 2. Epic #2: Develop backend API for profile management
@@ -42,7 +44,7 @@ To keep it simple, let's take the first three pieces and create an Epic for each
 
 ## Attributes of an Effective Ticket 
 
-An effective ticket is critical for clear communication and successful task completion. Based on my observations, the following four attributes contribute to a well-written ticket that is easily consumable by an assignee and has a high success rate of on-time completion:
+An effective ticket is critical for clear communication and successful task completion. Based on my observations, the following four attributes contribute to a well-written ticket that is easily consumable by an assignee and has a high success rate of on-time completion. The following attributes can be used across the Epic, Task and Bug types.
 
 * Summary or Title
 * Description
@@ -103,10 +105,10 @@ Example:
 
 ## Examples of Poorly vs Effectively written Jira Tickets
 
-Before I close, it will be worthwhile to see few examples of each type of ticket discussed so far, comparing poorly writtern vs well-written
+Before I close, it will be worthwhile to see few examples of each type of ticket discussed so far, comparing poorly written vs well-written
 
 ### [Example 1] Epic: Develop Profile Page for Account Management
-Below is the example of a poorly writtern vs Effectively writtern Epic ticket. Usually, poorly written tickets don't have enough information to make the ticket actionable. They don't have clear acceptance criteria or don't have them at all.
+Below is the example of a poorly written vs Effectively written Epic ticket. Usually, poorly written tickets don't have enough information to make the ticket actionable. They don't have clear acceptance criteria or don't have them at all.
 
 ***Poorly Written Epic Ticket***
 The title and description of this Epic doesn't contain much information about what is being created and why is it needed. The acceptance criteria is very loose since it doesn't provide what's expected from this page. The verification criteria doesn't give details for assignee to verify the completeness and correctness either.
@@ -126,9 +128,13 @@ The title and description of this Epic doesn't contain much information about wh
 In this example of Epic, the description contains the background context of what is being asked for and its justification from end-user perspective. The 'How' part is the overall scope of the feature that needs to be taken into consideration when doing granual level planning and splitting work further into Task type tickets.
 
 **Title:** Develop Profile Page for Account Management
+
 **Description:**
+
 ***What:*** Create a comprehensive profile page that allows users to view and edit their personal information, change their passwords, and manage other account settings.
+
 ***Why:*** Enhance user experience by providing a centralized place for managing account details.
+
 ***How:*** Design the UI, develop the backend API, implement the frontend, conduct QA testing, and create documentation.
 
 **Acceptance Criteria:**
@@ -152,11 +158,15 @@ Below is the example of a Task type of ticket. This Task could further be split 
 **Acceptance Criteria:** N/A
 **Verification and Testing:** N/A
 
-***Effectively writtern Task Ticket***
+***Effectively written Task Ticket***
 **Title:** Implement Frontend for Profile Page
+
 **Description:**
+
 ***What:*** Implement the frontend components for the profile page based on the approved design. ***Note*** Add link to approved design or attach screenshot alongwith details on each UI component.
+
 ***Why:*** To allow users to interact with the profile page and manage their account information.
+
 ***How:*** Use React to build the components, ensure responsiveness, and integrate with the backend API.
 
 **Acceptance Criteria:**
@@ -182,13 +192,18 @@ This ticket doesn't have descriptive title. It's hard to know from title and des
 **Verification and Testing:** N/A
 
 
-***Effectively writtern Bug Ticket***
+***Effectively written Bug Ticket***
+
 Title for the ticket is self-explainatory. Assignee immediately knowns which part of the codebase they would like to start on. The description clearly mentions details on error and the severity of issue and its impact on customers. The 'how' piece explicitly sets the expectations for assingee on the action plan. Once issue has been resolved there is a check-list in the form of acceptance criteria before moving this ticket into done column. There are verification and testing steps provided to ensure that the fix has been tested reliably.  
 
 **Title:** Error Saving Profile Information
+
 **Description:**
+
 ***What:*** When attempting to save changes to the profile information, users receive a "500 Internal Server Error" message.
+
 ***Why:*** This prevents users from updating their profile information, which impacts user experience and functionality.
+
 ***How:*** Investigate the error, identify the root cause, and implement a fix to ensure changes can be saved successfully.
 
 **Acceptance Criteria:**
