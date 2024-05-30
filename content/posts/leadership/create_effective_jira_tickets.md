@@ -7,10 +7,10 @@ Summary: Creating Effective Tickets to get work done
 
 # Creating Effective Tickets
 
-These days most of the organizations either small or large rely on Jira, Trello, Monday.com, Asasna or similar tools to plan a feature and track its progress to deliver the value to their end users. The different tools refers a 'ticket' with different names. For example, in Jira a ticket is known as 'Issue' whereas a ticket is referred as 'Card' in Trello tool. 
-To keep things simple, I'll use the word 'ticket' to keep this focus of this article on discussing effectively planning a feature and its execution without getting lost in the tooling specific vocabulary. I would use the term 'Creating Ticket' as a tool to break-down a feature into smaller actionable work-items that will eventually lead to feature completion and hence delivering value to our customers or end-users.
+These days most of the organizations either small or large rely on Jira, Trello, Asasna or similar tools to plan a features and track their progress to deliver the value to the customers. The various tools refers a 'ticket' with different names. For example, in Jira a ticket is known as 'Issue' whereas a ticket is referred as 'Card' in Trello tool. 
+To keep things simple, I'll use the word 'ticket' to keep this article focused on planning a feature without getting lost in the tooling specific vocabulary. I would use the term 'Creating Ticket' as a tool to break-down a feature into smaller actionable work-items that eventually lead to feature completion and hence delivering value to customers or end-users.
 
-In this article, I'll share my understanding of an creating effective ticket, discuss the common ticket types and main attributes that makes a ticket effective.
+In this article, I'll share my understanding of creating effective ticket, discuss the common ticket types and their main attributes that make a ticket effective.
  
 
 ## What is an Effective Ticket?
@@ -18,14 +18,14 @@ In this article, I'll share my understanding of an creating effective ticket, di
 To put simply, an effective ticket is the one that clearly communicates the necessary information to ensure that the underlying work can be understood and completed efficiently by the assignee.
 
 ## Types of Ticket
-In my experience when planning a feature, there are three types of tickets that can be used to keep things simple while creating just right amount of abstraction when splitting bigger work items into single actionable units. I frequently use following three types of tickets (Issue types in Jira tool): 
+In my experience when planning a feature, there are three types of tickets that can be used to keep things simple while creating just right amount of abstraction when breaking down bigger work items into single actionable units. I frequently use following three types of tickets (or Issue types in Jira tool): 
 1. Epic (or User Story)
 2. Task
 3. Bug
 
-An **Epic** ticket is the one that contains the one slice of functionality towards the big picture feature. Depending on how big a feature is, it can be sliced into a multiple Epics. Consider an Epic as the 'brick wall' or 'window' of a lego house. I tend to use Epic and User Story interchangeably based on the size of a feature. Epic is a collection of multiple User Stories. I've used User Story and Sub-Task structure in several projects. However, I found it effective to use Epic to hold a slice of feature and underlying Tasks contributing towards it.
+An **Epic** ticket is the one that contains the one slice of functionality towards the big picture feature. Depending on how big a feature is, it can be sliced into multiple Epics. Consider an Epic as the 'brick wall' or 'window' of a lego house. I tend to use Epic and User Story interchangeably based on the size of a feature. Epic is a collection of multiple User Stories. I've used User Story and Sub-Task structure in several projects. However, I found it effective to use Epic to describe a slice of feature and underlying Tasks contributing towards it.
 
-A **Task** ticket is the smallest and actionable unit of work that contributes towards the completion of Epic. 
+A **Task** ticket is the smallest actionable unit of work that contributes towards the completion of Epic. 
 
 A **Bug** is self-explanatory. They could the gaps in the expected functionality. There may not be any bugs when starting to build a new feature. However, as soon as it either goes through the testing phase or in end-user hands, its quite normal to discover few expected or un-expected behaviors that needed to be worked on.
 
