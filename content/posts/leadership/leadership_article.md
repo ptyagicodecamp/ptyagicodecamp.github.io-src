@@ -67,7 +67,9 @@ Now that you've identified potential burnout, let's talk about addressing it and
 
 - **Confidence in Your Skills:** Remind yourself of your capabilities and why you were chosen for this role. Trust in your skill set and your ability to grow and succeed as a manager.
 
+
 By incorporating these strategies into your daily routine, you can mitigate the risk of burnout and create a more fulfilling work-life experience.
+
 ----
 
 __Liked the article? Let me know with 👏👏👏
