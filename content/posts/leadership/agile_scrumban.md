@@ -5,6 +5,7 @@ Category: Engineering Management
 Tags: Leadership, Engineering Management, New Manager, Agile development
 Summary: Scrumban: The Best of the Scrum and Kanban Agile frameworks
 
+<script type="module"> import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true }); </script>
 
 # What is Scrumban
 
@@ -22,7 +23,7 @@ Let's take example of the team that is developing a financial software. This tea
 
 **Sample Scrum Workflow:**
 
-```mermaid
+<pre class="mermaid">
 graph TD;
     A[Product Backlog] --> B[Sprint Planning];
     B --> C[Sprint Backlog];
@@ -32,7 +33,7 @@ graph TD;
     F --> G[Product Increment];
     G --> H[Sprint Retrospective];
     H --> B;
-```
+</pre>
 
 ## What is Kanban?
 
@@ -44,14 +45,14 @@ Let's take another example of a team developing a customer support application u
 
 **Sample Kanban workflow:**
 
-```mermaid
+<pre class="mermaid">
 graph TD;
     A[Backlog] --> B[To Do];
     B --> C[In Progress];
     C --> D[Code Review];
     D --> E[Testing];
     E --> F[Done];
-```
+</pre>
 
 ## What is Scrumban?
 
@@ -64,7 +65,7 @@ Let's take example of a software engineering team working on an e-commerce platf
 **Sample Scrumban Workflow:**
 
 
-```mermaid
+<pre class="mermaid">
 graph TD;
     A[Product Backlog] --> B[Sprint Planning];
     B --> C[Sprint Backlog];
@@ -77,7 +78,7 @@ graph TD;
     I --> J[Product Increment];
     J --> K[Sprint Retrospective];
     K --> B;
-```
+</pre>
 
 ## Why Scrumban is Better
 
