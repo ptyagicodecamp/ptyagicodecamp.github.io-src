@@ -5,8 +5,6 @@ Category: Engineering Management
 Tags: Leadership, Engineering Management, New Manager, Agile development
 Summary: Scrumban: The Best of the Scrum and Kanban Agile frameworks
 
-<script type="module"> import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true }); </script>
-
 # What is Scrumban
 
 Agile methodologies have revolutionized software development by promoting flexibility, continuous improvement, and collaboration. Among the many Agile frameworks, Scrum and Kanban are two of the most widely used agile frameworks. Scrum is known for its structured approach and defined roles, while Kanban emphasizes visualizing workflow and limiting work in progress (WIP). However, a hybrid approach known as _Scrumban_ blends the strengths of both Scrum and Kanban.
