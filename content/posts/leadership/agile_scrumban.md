@@ -23,6 +23,7 @@ Let's take example of the team that is developing a financial software. This tea
 
 **Sample Scrum Workflow:**
 
+<script type="module"> import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true }); </script>
 <pre class="mermaid">
 graph TD;
     A[Product Backlog] --> B[Sprint Planning];
