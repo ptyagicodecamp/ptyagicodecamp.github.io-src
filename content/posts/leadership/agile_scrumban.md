@@ -5,7 +5,7 @@ Category: Engineering Management
 Tags: Leadership, Engineering Management, New Manager, Agile development
 Summary: Scrumban: The Best of the Scrum and Kanban Agile frameworks
 
-<script type="module"> import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true }); </script>
+<!-- <script type="module"> import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs'; mermaid.initialize({ startOnLoad: true }); </script> -->
 
 # What is Scrumban
 
