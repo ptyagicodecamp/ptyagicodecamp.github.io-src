@@ -63,6 +63,7 @@ Let's take example of a software engineering team working on an e-commerce platf
 
 **Sample Scrumban Workflow:**
 
+
 ```mermaid
 graph TD;
     A[Product Backlog] --> B[Sprint Planning];
