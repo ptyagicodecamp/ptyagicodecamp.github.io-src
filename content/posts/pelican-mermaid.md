@@ -1,4 +1,11 @@
-How to embed Mermaid Diagrams in Pelican generated Blog Post
+Title: How to embed Mermaid Diagrams in Pelican generated Blog Post
+Date: 06/04/2024
+Authors: ptyagi
+Category: Development
+Tags: pelican, github, githubpages, python, web, dev
+Summary: This post shows how to embed Mermaid Diagrams in Pelican generated Blog Post.
+
+# How to embed Mermaid Diagrams in Pelican generated Blog Post
 
 Recently, I've come across the need to embed Mermaid diagram in one of my blog post. In this blog post, I wanted to use [Mermaid diagram to show various Agile methodologies workflows](https://ptyagicodecamp.github.io/what-makes-scrumban-an-effective-agile-framework.html). 
 I prefer writing my blog posts in Markdown. In case, you are intereseted in learning to setup your own Pelican generated blog that can be hosted using Github pages, checkout [my this blog post](https://ptyagicodecamp.github.io/my-take-on-pelican-and-github-pages-from-a-beginners-perspective.html).
