@@ -9,8 +9,8 @@ git commit -m "publishing new content"
 git push origin master
 echo "pushing generated website to github"
 cd output
-# echo "Deleting pre-generated html files"
-# git rm *.html
+echo "Deleting pre-generated html files"
+git rm *.html
 echo "Adding new html files"
 git add .
 git commit -m "publishing output html"
