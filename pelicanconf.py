@@ -50,9 +50,9 @@ LINKS = (
 	)
 
 SOCIAL = (
-        ('linkedin', 'https://www.linkedin.com/in/priyankatyagi'),
+        ('linkedin', 'https://www.linkedin.com/in/ptyagi13'),
         ('github', 'https://github.com/ptyagicodecamp'),
-        ('medium', 'https://medium.com/@ptyagicodecamp'),
+        ('medium', 'https://medium.com/@ptyagi13'),
         ('twitter', 'https://twitter.com/ptyagi13'),
         ('youtube', 'https://www.youtube.com/channel/UCO3_dbHasEnA2dr_U0EhMAA?view_as=subscriber'),
         ('codementor', 'https://www.codementor.io/ptyagicodecamp'),
