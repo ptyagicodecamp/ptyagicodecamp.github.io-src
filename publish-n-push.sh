@@ -6,7 +6,7 @@ make html && make publish
 echo "pushing code to source repo..."
 git add .
 git commit -m "publishing new content"
-git push origin master
+git push origin HEAD:master
 echo "pushing generated website to github"
 cd output
 echo "Deleting pre-generated html files"
@@ -19,4 +19,4 @@ cd ..
 echo "updating submodule"
 git add .
 git commit -m "updating submodule info"
-git push origin master
+git push origin HEAD:master
