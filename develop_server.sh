@@ -2,11 +2,12 @@
 ##
 # This section should match your Makefile
 ##
-PY=${PY:-python}
-PELICAN=${PELICAN:-pelican}
+BASEDIR=$(pwd)
+VENV_BINDIR=$BASEDIR/.venv/bin
+PY=${PY:-$VENV_BINDIR/python}
+PELICAN=${PELICAN:-$VENV_BINDIR/pelican}
 PELICANOPTS=
 
-BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
 OUTPUTDIR=$BASEDIR/output
 CONFFILE=$BASEDIR/pelicanconf.py

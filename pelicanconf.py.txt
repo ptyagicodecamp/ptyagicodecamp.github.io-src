@@ -74,6 +74,19 @@ DISQUS_SITENAME = "https-ptyagicodecamp-github-io"
 ADD_THIS_ID = 'ra-5cf387135c8761da'
 
 STATIC_PATHS = ['images', 'media']
+IGNORE_FILES = [
+    '**/.*',
+    '**/NavDrawerDynamicMenu.md',
+    '**/android-arch-lifecycle-viewmodel.md',
+    '**/android-mvp-design-pattern.md',
+    '**/android_flavors.md',
+    '**/android_fonts.md',
+    '**/androidapp_launcher_screen.m',
+    '**/androidapp_launcher_screen.md',
+    '**/fileprovider-demo.md',
+    '**/repeating-local-notifications.md',
+    '**/request_runtimepermission_audio.md',
+]
 
 CUSTOM_CSS = 'static/custom.css'
 

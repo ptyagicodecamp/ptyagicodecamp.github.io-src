@@ -1,1 +1,0 @@
-/Users/priyanka.tyagi/explore/techlog/android-recipes/FileProvider/README.md

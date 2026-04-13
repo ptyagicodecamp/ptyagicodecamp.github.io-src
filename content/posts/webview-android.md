@@ -67,6 +67,3 @@ public void loadUrl(View view) {
 ```
 
 Source code is available [here](https://github.com/ptyagicodecamp/webview-android)
-
-
-

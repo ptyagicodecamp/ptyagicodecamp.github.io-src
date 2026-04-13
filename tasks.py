@@ -13,6 +13,10 @@ from invoke import task
 from invoke.util import cd
 from pelican.server import ComplexHTTPRequestHandler
 
+REPO_ROOT = os.path.dirname(os.path.abspath(__file__))
+VENV_BIN = os.path.join(REPO_ROOT, '.venv', 'bin')
+PELICAN = os.path.join(VENV_BIN, 'pelican') if os.path.exists(os.path.join(VENV_BIN, 'pelican')) else 'pelican'
+
 CONFIG = {
     # Local path configuration (can be absolute or relative to tasks.py)
     'deploy_path': 'output',
@@ -33,17 +37,17 @@ def clean(c):
 @task
 def build(c):
     """Build local version of site"""
-    c.run('pelican -s pelicanconf.py')
+    c.run(f'{PELICAN} -s pelicanconf.py')
 
 @task
 def rebuild(c):
     """`build` with the delete switch"""
-    c.run('pelican -d -s pelicanconf.py')
+    c.run(f'{PELICAN} -d -s pelicanconf.py')
 
 @task
 def regenerate(c):
     """Automatically regenerate site upon file modification"""
-    c.run('pelican -r -s pelicanconf.py')
+    c.run(f'{PELICAN} -r -s pelicanconf.py')
 
 @task
 def serve(c):
@@ -69,13 +73,13 @@ def reserve(c):
 @task
 def preview(c):
     """Build production version of site"""
-    c.run('pelican -s publishconf.py')
+    c.run(f'{PELICAN} -s publishconf.py')
 
 
 @task
 def publish(c):
     """Publish to production via rsync"""
-    c.run('pelican -s publishconf.py')
+    c.run(f'{PELICAN} -s publishconf.py')
     c.run(
         'rsync --delete --exclude ".DS_Store" -pthrvz -c '
         '{} {production}:{dest_path}'.format(

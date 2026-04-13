@@ -7,6 +7,10 @@ import SocketServer
 
 from pelican.server import ComplexHTTPRequestHandler
 
+BASEDIR = os.path.dirname(os.path.abspath(__file__))
+VENV_BIN = os.path.join(BASEDIR, '.venv', 'bin')
+PELICAN = os.path.join(VENV_BIN, 'pelican') if os.path.exists(os.path.join(VENV_BIN, 'pelican')) else 'pelican'
+
 # Local path configuration (can be absolute or relative to fabfile)
 env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
@@ -34,7 +38,7 @@ def clean():
 
 def build():
     """Build local version of site"""
-    local('pelican -s pelicanconf.py')
+    local('{pelican} -s pelicanconf.py'.format(pelican=PELICAN))
 
 def rebuild():
     """`clean` then `build`"""
@@ -43,7 +47,7 @@ def rebuild():
 
 def regenerate():
     """Automatically regenerate site upon file modification"""
-    local('pelican -r -s pelicanconf.py')
+    local('{pelican} -r -s pelicanconf.py'.format(pelican=PELICAN))
 
 def serve():
     """Serve site at http://localhost:8000/"""
@@ -64,7 +68,7 @@ def reserve():
 
 def preview():
     """Build production version of site"""
-    local('pelican -s publishconf.py')
+    local('{pelican} -s publishconf.py'.format(pelican=PELICAN))
 
 def cf_upload():
     """Publish to Rackspace Cloud Files"""
@@ -78,7 +82,7 @@ def cf_upload():
 @hosts(production)
 def publish():
     """Publish to production via rsync"""
-    local('pelican -s publishconf.py')
+    local('{pelican} -s publishconf.py'.format(pelican=PELICAN))
     project.rsync_project(
         remote_dir=dest_path,
         exclude=".DS_Store",
