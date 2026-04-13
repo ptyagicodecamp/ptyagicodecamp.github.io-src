@@ -14,7 +14,7 @@ git rm *.html
 echo "Adding new html files"
 git add .
 git commit -m "publishing output html"
-git push origin master
+git push origin HEAD:master
 cd ..
 echo "updating submodule"
 git add .
